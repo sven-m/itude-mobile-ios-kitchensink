@@ -3,6 +3,8 @@
         <Wiring>
             
 			<!-- ********************* Initial outcomes ********************* -->
+            
+            
             <Outcome origin="Controller" name="init" action="FireInitialOutcomes" noBackgroundProcessing="TRUE"/>
             
             <!-- ********************* Generic outcomes ********************* -->
@@ -17,11 +19,9 @@
             
             <!-- ********************* Custom outcomes ********************* -->
             
-            <!-- Landing (Home) tab outcomes -->
-            <Outcome origin="*" name="OUTCOME-tab_home" action="PAGE-home"/>
-         
-            <!-- Info tab outcomes -->
-			<Outcome origin="*" name="OUTCOME-tab_info" action="PAGE-info"/>
+            <Outcome origin="*" name="OUTCOME-tab-catalog" action="PAGE-catalog"/>
+            <Outcome origin="*" name="OUTCOME-plant-detail" action="PAGE-plant-detail" transferDocument="TRUE"/>
+			<Outcome origin="*" name="OUTCOME-tab-info" action="PAGE-info"/>
             
             <!-- Temporary outcomes -->
             <Outcome origin="*" name="TODO" action="PPTemporaryAction"/>

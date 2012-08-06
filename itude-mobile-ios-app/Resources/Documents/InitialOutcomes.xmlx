@@ -1,4 +1,4 @@
 <InitialOutcomes>
-    <Outcome action="OUTCOME-tab_home" dialog="DIALOG-tab_home"/>
-    <Outcome action="OUTCOME-tab_info" dialog="DIALOG-tab_info"/>
+    <Outcome action="OUTCOME-tab-catalog" dialog="DIALOG-tab-catalog"/>
+    <Outcome action="OUTCOME-tab-info" dialog="DIALOG-tab-info"/>
 </InitialOutcomes>
