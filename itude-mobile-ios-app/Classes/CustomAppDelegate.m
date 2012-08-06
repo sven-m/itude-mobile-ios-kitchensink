@@ -80,7 +80,7 @@
 	[self.splashScreen hide];
 
     // For now...
-    //[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
+    [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
 }
 
 -(void)initializeApplicationProperties {
