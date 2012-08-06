@@ -35,7 +35,28 @@
                 </Element>
             </Document>
 
-            
+            <Document name="CATALOG" dataManager="MBFileDataHandler">
+                <Element name="PLANT">
+                    <Element name="COMMON">
+                        <Attribute name="text()" type="string" />
+                    </Element>
+                    <Element name="BOTANICAL">
+                        <Attribute name="text()" type="string" />
+                    </Element>
+                    <Element name="ZONE">
+                        <Attribute name="text()" type="string" />
+                    </Element>
+                    <Element name="LIGHT">
+                        <Attribute name="text()" type="string" />
+                    </Element>
+                    <Element name="PRICE">
+                        <Attribute name="text()" type="string" />
+                    </Element>
+                    <Element name="AVAILABILITY">
+                        <Attribute name="text()" type="string" />
+                    </Element>
+                </Element>
+            </Document>
             
         </Documents>
     </Model>
