@@ -46,9 +46,58 @@
         <!-- Info page (example) -->
         <Page name="PAGE-info" document="MBEmptyDoc" title="Info">
             <Panel type="LIST">
-                <Panel type="SECTION" title="InfoTitle1">
+            <Panel type="ROW">
+                        <Field type="TEXT" label="Info text"/>
+                    </Panel>
+            </Panel>
+        </Page>
+        
+        <Page name="PAGE-home" document="MBEmptyDoc" title="MOBBL Examples">
+            <Panel type="LIST">
+                <Panel type="SECTION" title="Model examples">
                     <Panel type="ROW">
-                        <Field type="TEXT" label="InfoText1"/>
+                        <Field type="LABEL" label="Simple list with detail screen"/>
+                    </Panel>
+                    <Panel type="ROW">
+                        <Field type="LABEL" label="Form fields"/>
+                    </Panel>
+                    <Panel type="ROW">
+                        <Field type="LABEL" label="Form fields with internal dependency"/>
+                    </Panel>
+                </Panel>
+                <Panel type="SECTION" title="Controller examples">
+                    <Panel type="ROW">
+                        <Field type="LABEL" label="Outcome routed to a page"/>
+                    </Panel>
+                    <Panel type="ROW">
+                        <Field type="LABEL" label="Outcome routed to a custom Action"/>
+                    </Panel>
+                    <Panel type="ROW">
+                        <Field type="LABEL" label="Page transition on main thread"/>
+                        <Field type="BUTTON" style="NAVIGATION" outcome="OUTCOME-catalog-foreground" />
+                    </Panel>
+                </Panel>
+                <Panel type="SECTION" title="View layer examples">
+                    <Panel type="ROW">
+                        <Field type="LABEL" label="Simple list with detail screen"/>
+                        <Field type="BUTTON" style="NAVIGATION" outcome="OUTCOME-catalog" />
+                    </Panel>
+                    <Panel type="ROW">
+                        <Field type="LABEL" label="Form fields"/>
+                    </Panel>
+                    <Panel type="ROW">
+                        <Field type="LABEL" label="Form fields with internal dependency"/>
+                    </Panel>
+                </Panel>
+                <Panel type="SECTION" title="Error handling">
+                    <Panel type="ROW">
+                        <Field type="LABEL" label="Simple list with detail screen"/>
+                    </Panel>
+                    <Panel type="ROW">
+                        <Field type="LABEL" label="Form fields"/>
+                    </Panel>
+                    <Panel type="ROW">
+                        <Field type="LABEL" label="Form fields with internal dependency"/>
                     </Panel>
                 </Panel>
             </Panel>
@@ -79,8 +128,8 @@
                         <Field type="SUBLABEL" label="Botanical name"/>
                     </Panel>
                     <Panel type="ROW">
-                        <Field type="LABEL" path="LIGHT[0]/@text()"/>
-                        <Field type="SUBLABEL" label="Light"/>
+                        <Field type="DROPDOWNLIST" path="LIGHT[0]/@text()"/>
+                        <Field type="LABEL" label="Light"/>
                     </Panel>
                 </Panel>
             </Panel>

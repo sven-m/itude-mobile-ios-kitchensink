@@ -47,7 +47,7 @@
                         <Attribute name="text()" type="string" />
                     </Element>
                     <Element name="LIGHT">
-                        <Attribute name="text()" type="string" />
+                        <Attribute name="text()" type="Plant-Light"/>
                     </Element>
                     <Element name="PRICE">
                         <Attribute name="text()" type="string" />

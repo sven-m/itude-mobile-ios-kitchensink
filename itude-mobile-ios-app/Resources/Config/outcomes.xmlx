@@ -19,7 +19,9 @@
             
             <!-- ********************* Custom outcomes ********************* -->
             
-            <Outcome origin="*" name="OUTCOME-tab-catalog" action="PAGE-catalog"/>
+            <Outcome origin="*" name="OUTCOME-tab-catalog" action="PAGE-home"/>
+            <Outcome origin="*" name="OUTCOME-catalog" action="PAGE-catalog" />
+            <Outcome origin="*" name="OUTCOME-catalog-foreground" action="PAGE-catalog" noBackgroundProcessing="TRUE"/>
             <Outcome origin="*" name="OUTCOME-plant-detail" action="PAGE-plant-detail" transferDocument="TRUE"/>
 			<Outcome origin="*" name="OUTCOME-tab-info" action="PAGE-info"/>
             
