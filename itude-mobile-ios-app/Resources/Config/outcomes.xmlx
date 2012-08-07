@@ -21,7 +21,11 @@
             
             <Outcome origin="*" name="OUTCOME-tab-catalog" action="PAGE-home"/>
             <Outcome origin="*" name="OUTCOME-catalog" action="PAGE-catalog" />
+            
+            <!-- noBackgroundProcessing=TRUE causes transitions to occur on the main thread and prevents a loader / spinner from being displayed -->
             <Outcome origin="*" name="OUTCOME-catalog-foreground" action="PAGE-catalog" noBackgroundProcessing="TRUE"/>
+            
+            <!-- transferDocument=TRUE causes the document in the master page to be transferred -->
             <Outcome origin="*" name="OUTCOME-plant-detail" action="PAGE-plant-detail" transferDocument="TRUE"/>
 			<Outcome origin="*" name="OUTCOME-tab-info" action="PAGE-info"/>
             

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00AD651915D01B620076AC6A /* CATALOG.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00AD651815D01B620076AC6A /* CATALOG.xmlx */; };
+		00AD651A15D01B620076AC6A /* CATALOG.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00AD651815D01B620076AC6A /* CATALOG.xmlx */; };
+		00AD651B15D01B620076AC6A /* CATALOG.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00AD651815D01B620076AC6A /* CATALOG.xmlx */; };
+		00AD651C15D01B620076AC6A /* CATALOG.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00AD651815D01B620076AC6A /* CATALOG.xmlx */; };
 		036F804F13C700D40082D901 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F239B513C6FFFB00E9BD32 /* UIKit.framework */; };
 		036F805013C700D40082D901 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F239B713C6FFFB00E9BD32 /* Foundation.framework */; };
 		036F805113C700D40082D901 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F239B913C6FFFB00E9BD32 /* CoreGraphics.framework */; };
@@ -722,6 +726,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00AD651815D01B620076AC6A /* CATALOG.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CATALOG.xmlx; sourceTree = "<group>"; };
 		036F805913C700D40082D901 /* itude-mobile-ios-app (Simulator).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "itude-mobile-ios-app (Simulator).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AE33DA13CB4C59004E2F95 /* MGSplitCornersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSplitCornersView.h; sourceTree = "<group>"; };
 		03AE33DB13CB4C59004E2F95 /* MGSplitCornersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSplitCornersView.m; sourceTree = "<group>"; };
@@ -1755,6 +1760,7 @@
 		BD0817B0146936B6006F0AA0 /* Documents */ = {
 			isa = PBXGroup;
 			children = (
+				00AD651815D01B620076AC6A /* CATALOG.xmlx */,
 				BD0817B1146936B6006F0AA0 /* applicationproperties.xmlx */,
 				BD0817B2146936B6006F0AA0 /* endpoints.xmlx */,
 				BD0817B3146936B6006F0AA0 /* InitialOutcomes.xmlx */,
@@ -2028,6 +2034,7 @@
 				1C0CC9961505081F00766A49 /* FontUp_Icon.png in Resources */,
 				1C0CC99A1505081F00766A49 /* MBDatePicker.xib in Resources */,
 				1C0CC99E1505081F00766A49 /* MBPicker.xib in Resources */,
+				00AD651B15D01B620076AC6A /* CATALOG.xmlx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2075,6 +2082,7 @@
 				1C0CC9971505081F00766A49 /* FontUp_Icon.png in Resources */,
 				1C0CC99B1505081F00766A49 /* MBDatePicker.xib in Resources */,
 				1C0CC99F1505081F00766A49 /* MBPicker.xib in Resources */,
+				00AD651C15D01B620076AC6A /* CATALOG.xmlx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2122,6 +2130,7 @@
 				1C0CC9941505081F00766A49 /* FontUp_Icon.png in Resources */,
 				1C0CC9981505081F00766A49 /* MBDatePicker.xib in Resources */,
 				1C0CC99C1505081F00766A49 /* MBPicker.xib in Resources */,
+				00AD651915D01B620076AC6A /* CATALOG.xmlx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2171,6 +2180,7 @@
 				1C0CC9951505081F00766A49 /* FontUp_Icon.png in Resources */,
 				1C0CC9991505081F00766A49 /* MBDatePicker.xib in Resources */,
 				1C0CC99D1505081F00766A49 /* MBPicker.xib in Resources */,
+				00AD651A15D01B620076AC6A /* CATALOG.xmlx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
