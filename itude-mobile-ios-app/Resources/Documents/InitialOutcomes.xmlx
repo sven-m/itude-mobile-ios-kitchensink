@@ -1,4 +1,4 @@
 <InitialOutcomes>
     <Outcome action="OUTCOME-tab-catalog" dialog="DIALOG-tab-catalog"/>
-    <Outcome action="OUTCOME-tab-info" dialog="DIALOG-tab-info"/>
+    <!--Outcome action="OUTCOME-tab-info" dialog="DIALOG-tab-info"/-->
 </InitialOutcomes>
