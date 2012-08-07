@@ -7,18 +7,10 @@
 //
 
 #import "MBApplicationController.h"
-#import "CustomSplashScreen.h"
 
 @interface CustomAppDelegate : MBApplicationController <UIApplicationDelegate, UIAlertViewDelegate> {
-    
-	UIWindow *_window;
-    CustomSplashScreen *_splashScreen;
     BOOL _handlingNotification;
-    
 }
-
-@property (nonatomic, retain) UIWindow *window;
-@property (nonatomic, retain) CustomSplashScreen *splashScreen;
 
 -(void)initializeApplicationProperties;
 
