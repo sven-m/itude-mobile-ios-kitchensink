@@ -34,10 +34,6 @@
 
 @implementation CustomAppDelegate
 
-
-@synthesize window = _window;
-@synthesize splashScreen = _splashScreen;
-
 -(void) startController {
 	
 	NSAutoreleasePool *pool = [NSAutoreleasePool new];
@@ -60,13 +56,12 @@
 	// Delete any cached documents at startup
 	[MBCacheManager expireAllDocuments];
 	
-    CustomApplicationFactory *pilserviceFactory = [[CustomApplicationFactory alloc] init];
-    
-    [MBApplicationFactory setSharedInstance:pilserviceFactory];
+    CustomApplicationFactory *applicationFactory = [[[CustomApplicationFactory alloc] init] autorelease];
+    [MBApplicationFactory setSharedInstance:applicationFactory];
     
     [self initializeApplicationProperties];
     
-	[self performSelectorOnMainThread:@selector(startApplication:) withObject:pilserviceFactory waitUntilDone:YES];
+	[self performSelectorOnMainThread:@selector(startApplication:) withObject:applicationFactory waitUntilDone:YES];
     
 	[pool drain];
     
@@ -75,34 +70,32 @@
 - (void)startApplication:(MBApplicationFactory *)_applicationFactory {
     // Start the application
     [super startApplication:_applicationFactory];
-    
-    // We want to remove the splash-screen image, because it takes up memory and we don't need it anymore
-	[self.splashScreen hide];
-
-    // For now...
-    [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
 }
 
--(void)initializeApplicationProperties {
-    MBDocument *_applicationStateDoc = [[MBDataManagerService sharedInstance] loadDocument: @"ApplicationState"];
-    if ([[_applicationStateDoc valueForPath:@"/Device[0]/@deviceID"] length] < 1) {
-        NSString *identifier = [[UIDevice currentDevice] uniqueIdentifier];
 
-        //remove all notifications
-        [[UIApplication sharedApplication] cancelAllLocalNotifications];
-        
+-(void)initializeApplicationProperties {
+    MBDocument *applicationStateDoc = [[MBDataManagerService sharedInstance] loadDocument: @"ApplicationState"];
+    
+    // set the device identifier
+    if ([[applicationStateDoc valueForPath:@"/Device[0]/@deviceID"] length] < 1) {
+        [applicationStateDoc setValue:[[UIDevice currentDevice] uniqueIdentifier] forPath:@"/Device[0]/@deviceID"];
+    
+        // Set a different identifier for the simulator because the default uses special characters
 #if TARGET_IPHONE_SIMULATOR
-        identifier = @"iPhone_simulator"; 
-        //identifier = @"legegebruiker2"; 
+        [applicationStateDoc setValue:@"iPhone_simulator" forPath:@"/Device[0]/@deviceID"];
 #endif
       
-        [_applicationStateDoc setValue:identifier forPath:@"/Device[0]/@deviceID"];
+        //remove all notifications
+        [[UIApplication sharedApplication] cancelAllLocalNotifications];
 
     }
-    if ([[_applicationStateDoc valueForPath:@"/Device[0]/@deviceType"] length] < 1) {
-        [_applicationStateDoc setValue:@"1" forPath:@"/Device[0]/@deviceType"];
+    
+    // set the device type
+    if ([[applicationStateDoc valueForPath:@"/Device[0]/@deviceType"] length] < 1) {
+        [applicationStateDoc setValue:@"1" forPath:@"/Device[0]/@deviceType"];
     }
-    [[MBDataManagerService sharedInstance] storeDocument:_applicationStateDoc];
+    
+    [[MBDataManagerService sharedInstance] storeDocument:applicationStateDoc];
 }
 
 // support 3.x
@@ -113,40 +106,16 @@
 // for 4.x
 - (BOOL) application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    
-    // start startup sequence in background 
-	[self performSelectorInBackground:@selector(startController) withObject:nil];
-	//[self startController];
-    
-	self.window = [[[UIWindow alloc] initWithFrame: [[UIScreen mainScreen]bounds]] autorelease];
-	
-    // Add a backgroundImage, so that when the app is waiting for something, there is a proper background to be displayed
-	NSString *backgroundImageName = [CustomStyleConstants getFilenameForItem:@"Background"];
-	UIImageView *bgImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:backgroundImageName]];
-	bgImage.opaque = YES;
-	[self.window addSubview:bgImage];
-	[self.window sendSubviewToBack:bgImage];
-    
-    [bgImage release];
-    
-    // Show something on screen so user doesnt think the app is dead if the network takes a long time.
-	self.splashScreen = [[[CustomSplashScreen alloc] initWithFrame:self.window.frame] autorelease];
-	[self.window addSubview:self.splashScreen];
-	[self.splashScreen show];
-    
+    // Startup sequence in foreground. ONLY do this in background if you need a long time to load (e.g. a network operation). 
+    [self startController];
+        
     // Hide the networkActivitiyIndicator, in case it's still running
-	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
-	[self.window makeKeyAndVisible];
-	
+	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
+
 	return YES;
 }
 
 
 
-- (void)dealloc
-{
-    [_window release];
-    [super dealloc];
-}
 
 @end

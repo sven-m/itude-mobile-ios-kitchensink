@@ -537,10 +537,6 @@
 		BD081800146936B6006F0AA0 /* CustomBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08179C146936B6006F0AA0 /* CustomBasicViewController.m */; };
 		BD081801146936B6006F0AA0 /* CustomBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08179C146936B6006F0AA0 /* CustomBasicViewController.m */; };
 		BD081802146936B6006F0AA0 /* CustomBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08179C146936B6006F0AA0 /* CustomBasicViewController.m */; };
-		BD081803146936B6006F0AA0 /* CustomSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08179F146936B6006F0AA0 /* CustomSplashScreen.m */; };
-		BD081804146936B6006F0AA0 /* CustomSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08179F146936B6006F0AA0 /* CustomSplashScreen.m */; };
-		BD081805146936B6006F0AA0 /* CustomSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08179F146936B6006F0AA0 /* CustomSplashScreen.m */; };
-		BD081806146936B6006F0AA0 /* CustomSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08179F146936B6006F0AA0 /* CustomSplashScreen.m */; };
 		BD081807146936B6006F0AA0 /* CustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0817A2146936B6006F0AA0 /* CustomColor.m */; };
 		BD081808146936B6006F0AA0 /* CustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0817A2146936B6006F0AA0 /* CustomColor.m */; };
 		BD081809146936B6006F0AA0 /* CustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0817A2146936B6006F0AA0 /* CustomColor.m */; };
@@ -1011,8 +1007,6 @@
 		BD081799146936B6006F0AA0 /* CustomPanelViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPanelViewBuilder.m; sourceTree = "<group>"; };
 		BD08179B146936B6006F0AA0 /* CustomBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBasicViewController.h; sourceTree = "<group>"; };
 		BD08179C146936B6006F0AA0 /* CustomBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBasicViewController.m; sourceTree = "<group>"; };
-		BD08179E146936B6006F0AA0 /* CustomSplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSplashScreen.h; sourceTree = "<group>"; };
-		BD08179F146936B6006F0AA0 /* CustomSplashScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSplashScreen.m; sourceTree = "<group>"; };
 		BD0817A1146936B6006F0AA0 /* CustomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomColor.h; sourceTree = "<group>"; };
 		BD0817A2146936B6006F0AA0 /* CustomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomColor.m; sourceTree = "<group>"; };
 		BD0817A3146936B6006F0AA0 /* CustomStyleConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomStyleConstants.h; sourceTree = "<group>"; };
@@ -1712,8 +1706,6 @@
 		BD08179D146936B6006F0AA0 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				BD08179E146936B6006F0AA0 /* CustomSplashScreen.h */,
-				BD08179F146936B6006F0AA0 /* CustomSplashScreen.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -2217,7 +2209,6 @@
 				BD0817F9146936B6006F0AA0 /* CustomFieldViewBuilder.m in Sources */,
 				BD0817FD146936B6006F0AA0 /* CustomPanelViewBuilder.m in Sources */,
 				BD081801146936B6006F0AA0 /* CustomBasicViewController.m in Sources */,
-				BD081805146936B6006F0AA0 /* CustomSplashScreen.m in Sources */,
 				BD081809146936B6006F0AA0 /* CustomColor.m in Sources */,
 				BD08180D146936B6006F0AA0 /* CustomStyleConstants.m in Sources */,
 				BD081811146936B6006F0AA0 /* CustomStyleHandler.m in Sources */,
@@ -2357,7 +2348,6 @@
 				BD0817FA146936B6006F0AA0 /* CustomFieldViewBuilder.m in Sources */,
 				BD0817FE146936B6006F0AA0 /* CustomPanelViewBuilder.m in Sources */,
 				BD081802146936B6006F0AA0 /* CustomBasicViewController.m in Sources */,
-				BD081806146936B6006F0AA0 /* CustomSplashScreen.m in Sources */,
 				BD08180A146936B6006F0AA0 /* CustomColor.m in Sources */,
 				BD08180E146936B6006F0AA0 /* CustomStyleConstants.m in Sources */,
 				BD081812146936B6006F0AA0 /* CustomStyleHandler.m in Sources */,
@@ -2491,7 +2481,6 @@
 				BD0817F7146936B6006F0AA0 /* CustomFieldViewBuilder.m in Sources */,
 				BD0817FB146936B6006F0AA0 /* CustomPanelViewBuilder.m in Sources */,
 				BD0817FF146936B6006F0AA0 /* CustomBasicViewController.m in Sources */,
-				BD081803146936B6006F0AA0 /* CustomSplashScreen.m in Sources */,
 				BD081807146936B6006F0AA0 /* CustomColor.m in Sources */,
 				BD08180B146936B6006F0AA0 /* CustomStyleConstants.m in Sources */,
 				BD08180F146936B6006F0AA0 /* CustomStyleHandler.m in Sources */,
@@ -2628,7 +2617,6 @@
 				BD0817F8146936B6006F0AA0 /* CustomFieldViewBuilder.m in Sources */,
 				BD0817FC146936B6006F0AA0 /* CustomPanelViewBuilder.m in Sources */,
 				BD081800146936B6006F0AA0 /* CustomBasicViewController.m in Sources */,
-				BD081804146936B6006F0AA0 /* CustomSplashScreen.m in Sources */,
 				BD081808146936B6006F0AA0 /* CustomColor.m in Sources */,
 				BD08180C146936B6006F0AA0 /* CustomStyleConstants.m in Sources */,
 				BD081810146936B6006F0AA0 /* CustomStyleHandler.m in Sources */,
