@@ -8,6 +8,12 @@
 
 #import "ExceptionExampleAction.h"
 
+
 @implementation ExceptionExampleAction
+
+-(MBOutcome*) execute:(MBDocument *)document withPath:(NSString *)path {
+    // Throw an exception so we can see the exception handling working
+    @throw [NSException exceptionWithName:@"Demo" reason:@"Deliberately caused exception" userInfo: nil];
+}
 
 @end

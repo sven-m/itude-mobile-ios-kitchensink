@@ -11,6 +11,14 @@
 		00AD651A15D01B620076AC6A /* CATALOG.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00AD651815D01B620076AC6A /* CATALOG.xmlx */; };
 		00AD651B15D01B620076AC6A /* CATALOG.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00AD651815D01B620076AC6A /* CATALOG.xmlx */; };
 		00AD651C15D01B620076AC6A /* CATALOG.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00AD651815D01B620076AC6A /* CATALOG.xmlx */; };
+		00CB68ED15D152B0004F3697 /* CustomAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB68EC15D152B0004F3697 /* CustomAction.m */; };
+		00CB68EE15D152B0004F3697 /* CustomAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB68EC15D152B0004F3697 /* CustomAction.m */; };
+		00CB68EF15D152B0004F3697 /* CustomAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB68EC15D152B0004F3697 /* CustomAction.m */; };
+		00CB68F015D152B0004F3697 /* CustomAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB68EC15D152B0004F3697 /* CustomAction.m */; };
+		00CB68F415D152CF004F3697 /* ExceptionExampleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB68F315D152CF004F3697 /* ExceptionExampleAction.m */; };
+		00CB68F515D152CF004F3697 /* ExceptionExampleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB68F315D152CF004F3697 /* ExceptionExampleAction.m */; };
+		00CB68F615D152CF004F3697 /* ExceptionExampleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB68F315D152CF004F3697 /* ExceptionExampleAction.m */; };
+		00CB68F715D152CF004F3697 /* ExceptionExampleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB68F315D152CF004F3697 /* ExceptionExampleAction.m */; };
 		036F804F13C700D40082D901 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F239B513C6FFFB00E9BD32 /* UIKit.framework */; };
 		036F805013C700D40082D901 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F239B713C6FFFB00E9BD32 /* Foundation.framework */; };
 		036F805113C700D40082D901 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F239B913C6FFFB00E9BD32 /* CoreGraphics.framework */; };
@@ -727,6 +735,10 @@
 
 /* Begin PBXFileReference section */
 		00AD651815D01B620076AC6A /* CATALOG.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CATALOG.xmlx; sourceTree = "<group>"; };
+		00CB68EB15D152B0004F3697 /* CustomAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAction.h; sourceTree = "<group>"; };
+		00CB68EC15D152B0004F3697 /* CustomAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAction.m; sourceTree = "<group>"; };
+		00CB68F215D152CF004F3697 /* ExceptionExampleAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExceptionExampleAction.h; sourceTree = "<group>"; };
+		00CB68F315D152CF004F3697 /* ExceptionExampleAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExceptionExampleAction.m; sourceTree = "<group>"; };
 		036F805913C700D40082D901 /* itude-mobile-ios-app (Simulator).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "itude-mobile-ios-app (Simulator).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AE33DA13CB4C59004E2F95 /* MGSplitCornersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSplitCornersView.h; sourceTree = "<group>"; };
 		03AE33DB13CB4C59004E2F95 /* MGSplitCornersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSplitCornersView.m; sourceTree = "<group>"; };
@@ -1639,6 +1651,10 @@
 				BD081783146936B6006F0AA0 /* GenericAction.h */,
 				BD081784146936B6006F0AA0 /* GenericAction.m */,
 				BD081785146936B6006F0AA0 /* Temporary */,
+				00CB68EB15D152B0004F3697 /* CustomAction.h */,
+				00CB68EC15D152B0004F3697 /* CustomAction.m */,
+				00CB68F215D152CF004F3697 /* ExceptionExampleAction.h */,
+				00CB68F315D152CF004F3697 /* ExceptionExampleAction.m */,
 			);
 			path = Actions;
 			sourceTree = "<group>";
@@ -2337,6 +2353,8 @@
 				1C0CCA9A1505082000766A49 /* MBPanel.m in Sources */,
 				1C0CCA9E1505082000766A49 /* MBRow.m in Sources */,
 				1C0CCAA21505082000766A49 /* MBTableViewController.m in Sources */,
+				00CB68EF15D152B0004F3697 /* CustomAction.m in Sources */,
+				00CB68F615D152CF004F3697 /* ExceptionExampleAction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2474,6 +2492,8 @@
 				1C0CCA9B1505082000766A49 /* MBPanel.m in Sources */,
 				1C0CCA9F1505082000766A49 /* MBRow.m in Sources */,
 				1C0CCAA31505082000766A49 /* MBTableViewController.m in Sources */,
+				00CB68F015D152B0004F3697 /* CustomAction.m in Sources */,
+				00CB68F715D152CF004F3697 /* ExceptionExampleAction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2611,6 +2631,8 @@
 				1C0CCA981505082000766A49 /* MBPanel.m in Sources */,
 				1C0CCA9C1505082000766A49 /* MBRow.m in Sources */,
 				1C0CCAA01505082000766A49 /* MBTableViewController.m in Sources */,
+				00CB68ED15D152B0004F3697 /* CustomAction.m in Sources */,
+				00CB68F415D152CF004F3697 /* ExceptionExampleAction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2749,6 +2771,8 @@
 				1C0CCA991505082000766A49 /* MBPanel.m in Sources */,
 				1C0CCA9D1505082000766A49 /* MBRow.m in Sources */,
 				1C0CCAA11505082000766A49 /* MBTableViewController.m in Sources */,
+				00CB68EE15D152B0004F3697 /* CustomAction.m in Sources */,
+				00CB68F515D152CF004F3697 /* ExceptionExampleAction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

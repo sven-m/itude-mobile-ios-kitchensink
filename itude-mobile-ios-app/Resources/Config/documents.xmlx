@@ -35,6 +35,8 @@
                 </Element>
             </Document>
 
+            <!-- App specific documents -->
+
             <Document name="CATALOG" dataManager="MBFileDataHandler">
                 <Element name="PLANT">
                     <Element name="COMMON">
@@ -57,6 +59,25 @@
                     </Element>
                 </Element>
             </Document>
+            
+            <!-- created by application when first requested -->
+            <Document name="FieldTypes" dataManager="MBFileDataHandler" autoCreate="TRUE">
+                <Element name="Form" minOccurs="1">
+                    <Attribute name="title" type="string" defaultValue="Default title" />
+                    <Attribute name="date" type="string" />
+                    <Attribute name="time" type="string" />
+                    <Attribute name="user" type="string" />
+                    <Attribute name="email" type="string" />
+                    <Attribute name="password" type="string" />
+                    <Attribute name="gender" type="list_gender" /> <!-- Note the domain reference: see domains.xmlx -->
+                    <Attribute name="" type="string" />
+                    <Element name="Comment" minOccurs="1">
+                        <Attribute name="text()" type="string"/>
+                    </Element>
+                </Element>
+            </Document>
+            
+            
             
         </Documents>
     </Model>

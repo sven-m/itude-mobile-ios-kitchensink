@@ -17,8 +17,8 @@
 
 // Actions
 #import "FireInitialOutcomes.h"
-#import "CustomTemporaryAction.h"
-
+#import "ExceptionExampleAction.h"
+#import "CustomAction.h"
 
 @implementation CustomApplicationFactory
 
@@ -30,9 +30,11 @@
 	if ([actionClassName isEqualToString:@"FireInitialOutcomes"]) {
 		return [[FireInitialOutcomes new] autorelease];
 	}
-    
-    else if ([actionClassName isEqualToString:@"CustomTemporaryAction"]) {
-        return [[CustomTemporaryAction new] autorelease];
+    else if ([actionClassName isEqualToString:@"CustomAction"]) {
+        return [[CustomAction new] autorelease];
+    }
+    else if ([actionClassName isEqualToString:@"ExceptionExampleAction"]) {
+        return [[ExceptionExampleAction new] autorelease];
     }
     
 	return nil;

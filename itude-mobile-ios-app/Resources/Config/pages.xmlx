@@ -39,9 +39,6 @@
             </Panel>
         </Page>
         
-        <!-- Home page (landing) -->
-        <Page name="PAGE-home" document="ApplicationState" title="Welcome">            
-        </Page>
     
         <!-- Info page (example) -->
         <Page name="PAGE-info" document="MBEmptyDoc" title="Info">
@@ -52,41 +49,49 @@
             </Panel>
         </Page>
         
+        <Page name="PAGE-device-info" document="ApplicationState" title="Device Info">
+            <Panel type="LIST">
+            <Panel type="ROW">
+                        <Field type="TEXT" path="Device[0]/@deviceType"/>
+                    </Panel>
+            </Panel>
+        </Page>
+        
         <Page name="PAGE-home" document="MBEmptyDoc" title="MOBBL Examples">
             <Panel type="LIST">
-                <Panel type="SECTION" title="Model examples">
-                    <Panel type="ROW">
-                        <Field type="LABEL" label="Simple list with detail screen"/>
-                    </Panel>
-                    <Panel type="ROW">
-                        <Field type="LABEL" label="Form fields"/>
-                    </Panel>
-                    <Panel type="ROW">
-                        <Field type="LABEL" label="Form fields with internal dependency"/>
-                    </Panel>
-                </Panel>
                 <Panel type="SECTION" title="Controller examples">
                     <Panel type="ROW">
-                        <Field type="LABEL" label="Outcome routed to a page"/>
+                        <Field type="LABEL" label="Page navigation"/>
+                        <Field type="BUTTON" style="NAVIGATION" outcome="OUTCOME-empty-screen" />
                     </Panel>
                     <Panel type="ROW">
-                        <Field type="LABEL" label="Outcome routed to a custom Action"/>
+                        <Field type="LABEL" label="Navigation via an action"/>
+                        <Field type="SUBLABEL" label="Objc class name is CustomAction"/>
+                        <Field type="BUTTON" style="NAVIGATION" outcome="OUTCOME-retrieve-device-info" />
                     </Panel>
                     <Panel type="ROW">
                         <Field type="LABEL" label="Page transition on main thread"/>
+                        <Field type="SUBLABEL" label="No spinner or greyed out view"/>
                         <Field type="BUTTON" style="NAVIGATION" outcome="OUTCOME-catalog-foreground" />
                     </Panel>
                 </Panel>
                 <Panel type="SECTION" title="View layer examples">
                     <Panel type="ROW">
-                        <Field type="LABEL" label="Simple list with detail screen"/>
+                        <Field type="LABEL" label="List to detail screen"/>
+                        <Field type="SUBLABEL" label="Newsheader to newsdetail style"/>
                         <Field type="BUTTON" style="NAVIGATION" outcome="OUTCOME-catalog" />
                     </Panel>
                     <Panel type="ROW">
                         <Field type="LABEL" label="Form fields"/>
+                        <Field type="BUTTON" style="NAVIGATION" outcome="OUTCOME-field-types" />
                     </Panel>
                     <Panel type="ROW">
-                        <Field type="LABEL" label="Form fields with internal dependency"/>
+                        <Field type="LABEL" label="Modal screen"/>
+                        <Field type="BUTTON" style="NAVIGATION" outcome="OUTCOME-modal" />
+                    </Panel>
+                    <Panel type="ROW">
+                        <Field type="LABEL" label="List demo's"/>
+                        <Field type="BUTTON" style="NAVIGATION" outcome="OUTCOME-lists" />
                     </Panel>
                 </Panel>
                 <Panel type="SECTION" title="Error handling">
@@ -106,6 +111,7 @@
         <Page name="PAGE-catalog" document="CATALOG" title="Catalog">
             <Panel type="LIST">
                 <Panel type="SECTION" title="Plants">
+                    <!-- the ForEach element creates a new for each element of type PLANT -->
                     <ForEach value="/PLANT" suppressRowComponent="TRUE">
                         <Panel type="ROW">
                             <Field type="LABEL" path="COMMON[0]/@text()"/>
@@ -136,6 +142,97 @@
 
         </Page>
         
+        <Page name="PAGE-lists" document="MBEmptyDoc" title="List layout">
+            <Panel type="LIST">
+                <Panel type="SECTION" title="Row types">
+                    <Panel type="ROW">
+                        <Field type="LABEL" label="Regular"/>
+                    </Panel>
+                    <Panel type="ROW">
+                        <Field type="LABEL" label="Title and "/>
+                        <Field type="SUBLABEL" label="Subtitle"/>
+                    </Panel>
+                    <Panel type="ROW">
+                        <Field type="TEXT" label="&lt;html&gt;Webview with &lt;b&gt;html&lt;/b&gt; markup and a whole bunch of text&lt;/html&gt;"/>
+                    </Panel>
+                    <Panel type="ROW">
+                        <Field type="TEXT" label="Text label with multiline text. Text label with multiline text. Text label with multiline text. Text label with multiline text."/>
+                    </Panel>
+                </Panel>
+                <Panel type="SECTION" title="Buttons">
+                    <Panel type="ROW">
+                        <Field type="LABEL" label="Navigation style row"/>
+                        <Field type="BUTTON" style="NAVIGATION" outcome="OUTCOME-empty-screen"/>
+                    </Panel>
+                    <Panel type="ROW">
+                        <Field type="LABEL" label="Button style row"/>
+                        <Field type="BUTTON" label="Press me" style="NETWORK" outcome="OUTCOME-empty-screen"/>
+                    </Panel>
+                    <Panel type="ROW">
+                        <Field type="SUBLABEL" label="Two buttons"/>
+                        <Field type="BUTTON" label="Button1" style="NETWORK" outcome="OUTCOME-empty-screen"/>
+                        <Field type="BUTTON" label="Button2" style="NETWORK" outcome="OUTCOME-empty-screen"/>
+                    </Panel>
+                </Panel>
+            </Panel>
+        </Page>
         
+        <Page name="PAGE-empty-screen" document="MBEmptyDoc" title="Hello World">
+            <Panel type="LIST">
+                <Panel type="ROW">
+                    <Field type="LABEL" label="Hello MOBBL" />
+                </Panel>
+            </Panel>
+        </Page>
+
+        <Page name="PAGE-field-types" document="FieldTypes" title="Field types">
+            <Panel type="LIST">
+                <Panel type="ROW">
+                    <Field type="LABEL" label="Fields in a panel (type=LIST)" />
+                    <Field type="SUBLABEL" label="Best implementation of fields" />
+                </Panel>
+                <Panel type="ROW">
+                    <Field type="LABEL" path="Form[0]/@title" />
+                    <Field type="SUBLABEL" label="type=LABEL" />
+                </Panel>
+                <Panel type="ROW">
+                    <Field type="INPUTFIELD" path="Form[0]/@user" />
+                    <Field type="SUBLABEL" label="type=INPUTFIELD" />
+                </Panel>
+                <Panel type="ROW">
+                    <Field type="USERNAMEFIELD" path="Form[0]/@user" />
+                    <Field type="SUBLABEL" label="type=USERNAMEFIELD" />
+                </Panel>
+                <Panel type="ROW">
+                    <Field type="PASSWORDFIELD" path="Form[0]/@password" />
+                    <Field type="SUBLABEL" label="type=PASSWORDFIELD" />
+                </Panel>
+                <Panel type="ROW">
+                    <Field type="DROPDOWNLIST" path="Form[0]/@gender" />
+                    <Field type="LABEL" label="type=DROPDOWNLIST" />
+                </Panel>
+                <Panel type="ROW">
+                    <Field type="CHECKBOX" path="Form[0]/@gender" />
+                    <Field type="LABEL" label="type=CHECKBOX" />
+                </Panel>
+                <Panel type="ROW">
+                    <Field type="DATESELECTOR" path="Form[0]/@date" />
+                    <Field type="LABEL" label="type=DATESELECTOR" />
+                </Panel>
+                <Panel type="ROW">
+                    <Field type="TIMESELECTOR" path="Form[0]/@time" />
+                    <Field type="LABEL" label="type=TIMESELECTOR" />
+                </Panel>
+                <Panel type="ROW">
+                    <Field type="DATETIMESELECTOR" path="Form[0]/@time" />
+                    <Field type="LABEL" label="type=DATETIMESELECTOR" />
+                </Panel>
+                <Panel type="ROW">
+                    <Field type="BIRTHDATE" path="Form[0]/@date" />
+                    <Field type="LABEL" label="type=BIRTHDATE" />
+                </Panel>
+            </Panel>
+        </Page>
+
     </View>
 </Configuration>

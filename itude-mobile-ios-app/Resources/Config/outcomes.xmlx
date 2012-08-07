@@ -2,9 +2,9 @@
 	<Controller>
         <Wiring>
             
-			<!-- ********************* Initial outcomes ********************* -->
-            
-            
+			<!-- ********************* Startup sequence - Initial outcomes ********************* -->
+            <!-- The init Outcome with origin=Controller is special. It defines whether to create a tabbar and starts the FireInitialOutcomes Action.
+            The FireInitialOutcomes actions reads the InitialOutcomes.xmlx document. This layering allows the startup sequence and first pages to be dynamically changed by the application. Most apps do not use this functionality. -->
             <Outcome origin="Controller" name="init" action="FireInitialOutcomes" noBackgroundProcessing="TRUE"/>
             
             <!-- ********************* Generic outcomes ********************* -->
@@ -17,9 +17,12 @@
             <Outcome origin="*" name="NetworkException" action="NetworkException"/>
 
             
-            <!-- ********************* Custom outcomes ********************* -->
+            <!-- ********************* Regular navigation ********************* -->
             
+            <!-- The InitialOutcomes.xmlx document points to this Outcome for the first page -->
             <Outcome origin="*" name="OUTCOME-tab-catalog" action="PAGE-home"/>
+
+            <!-- navigation to the PAGE-catalog page -->
             <Outcome origin="*" name="OUTCOME-catalog" action="PAGE-catalog" />
             
             <!-- noBackgroundProcessing=TRUE causes transitions to occur on the main thread and prevents a loader / spinner from being displayed -->
@@ -27,11 +30,23 @@
             
             <!-- transferDocument=TRUE causes the document in the master page to be transferred -->
             <Outcome origin="*" name="OUTCOME-plant-detail" action="PAGE-plant-detail" transferDocument="TRUE"/>
-			<Outcome origin="*" name="OUTCOME-tab-info" action="PAGE-info"/>
-            
-            <!-- Temporary outcomes -->
-            <Outcome origin="*" name="TODO" action="PPTemporaryAction"/>
- 
+
+            <Outcome origin="*" name="OUTCOME-lists" action="PAGE-lists" />
+            <Outcome origin="*" name="OUTCOME-empty-screen" action="PAGE-empty-screen"/>
+
+            <!-- Modal screen types are displayMode = MODAL|MODALWITHCLOSEBUTTON
+            for iPad: MODALFORMSHEET|MODALFORMSHEETWITHCLOSEBUTTON|MODALPAGESHEET|MODALPAGESHEETWITHCLOSEBUTTON|MODALFULLSCREEN|MODALFULLSCREENWITHCLOSEBUTTON|MODALCURRENTCONTEXT|MODALCURRENTCONTEXTWITHCLOSEBUTTON
+            -->
+            <Outcome origin="*" name="OUTCOME-modal" action="PAGE-empty-screen" displayMode="MODALWITHCLOSEBUTTON"/>
+
+            <!-- Note the transferDocument=TRUE attribute: this causes the document from the calling Action to be passed to the page
+                 If you omit the transferDocument attribute the default behaviour is to create a new Document as specified in the Page definition 
+            -->
+            <Outcome origin="*" name="OUTCOME-display-device-info" transferDocument="TRUE" action="PAGE-device-info"/>
+            <Outcome origin="*" name="OUTCOME-retrieve-device-info" action="CustomAction"/>
+            <Outcome origin="*" name="OUTCOME-field-types" action="PAGE-field-types" noBackgroundProcessing="TRUE"/>
+
+
         </Wiring>
     </Controller>
 </Configuration>

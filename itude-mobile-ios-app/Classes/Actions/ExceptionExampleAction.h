@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MBAction.h"
 
-@interface ExceptionExampleAction : NSObject
+@interface ExceptionExampleAction : NSObject <MBAction>
+
+
 
 @end

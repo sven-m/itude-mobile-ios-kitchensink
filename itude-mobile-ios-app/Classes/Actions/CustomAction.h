@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MBAction.h"
 
-@interface CustomAction : NSObject
+@interface CustomAction : NSObject <MBAction>
 
 @end
