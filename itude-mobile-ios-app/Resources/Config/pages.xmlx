@@ -66,6 +66,7 @@
 
         <Include name="PAGE-customized-view-logic"/>
         <Include name="PAGE-customized-layout"/>
+        <Include name="PAGE-customized-components"/>
         <Include name="PAGE-page-with-xib"/>
         <Include name="PAGE-field-types"/>
         <Include name="PAGE-lists"/>

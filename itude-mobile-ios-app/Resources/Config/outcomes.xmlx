@@ -52,30 +52,10 @@
             <!-- customization examples -->
             <Outcome origin="*" name="OUTCOME-customized-view-logic" action="PAGE-customized-view-logic" noBackgroundProcessing="TRUE"/>
             <Outcome origin="*" name="OUTCOME-customized-layout" action="PAGE-customized-layout" noBackgroundProcessing="TRUE"/>
+            <Outcome origin="*" name="OUTCOME-customized-components" action="PAGE-customized-components" noBackgroundProcessing="TRUE"/>
             <Outcome origin="*" name="OUTCOME-customized-list" action="PAGE-customized-list" noBackgroundProcessing="TRUE"/>
             <Outcome origin="*" name="OUTCOME-page-with-xib" action="PAGE-page-with-xib" noBackgroundProcessing="TRUE"/>
-            
-            
-            
-                
-    if([@"PAGE-customized-view-logic" isEqualToString:definition.name]) {
-		CustomizedViewLogic *myViewController = [[[CustomizedViewLogic alloc] init] autorelease];
-		MBPage *page = [[[MBPage alloc] initWithDefinition:definition withViewController:myViewController document:document rootPath:rootPath viewState: viewState]autorelease];
-		return page;
-	}
 
-    if([@"PAGE-customized-list" isEqualToString:definition.name]) {
-		CustomizedList *myViewController = [[[CustomizedList alloc] init] autorelease];
-		MBPage *page = [[[MBPage alloc] initWithDefinition:definition withViewController:myViewController document:document rootPath:rootPath viewState: viewState]autorelease];
-		return page;
-	}
-
-    if([@"PAGE-customized-layout" isEqualToString:definition.name]) {
-		CustomizedLayout *myViewController = [[[CustomizedLayout alloc] init] autorelease];
-		MBPage *page = [[[MBPage alloc] initWithDefinition:definition withViewController:myViewController document:document rootPath:rootPath viewState: viewState]autorelease];
-		return page;
-	}
-            
             
             <Outcome origin="*" name="OUTCOME-throw-exception" action="ExceptionExampleAction" noBackgroundProcessing="TRUE" />
 

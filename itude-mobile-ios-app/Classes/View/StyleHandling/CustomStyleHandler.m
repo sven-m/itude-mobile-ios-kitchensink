@@ -19,6 +19,23 @@
 - (void) applyStyle:(UIView *)contentView page:(MBPage *)page viewState:(MBViewState)viewState {
     
 }
+-(void)styleLabel:(UIView *)view component:(MBField *)field{
+    if ([@"style2" isEqualToString:field.style ]){
+        view.backgroundColor = [UIColor redColor];
+    }
+    if ([@"style3" isEqualToString:field.style ]){
+        view.backgroundColor = [UIColor purpleColor];
+    }
+    
+}
+
+-(void)styleTableView:(UITableView *)tableView panel:(MBPanel *)panel viewState:(MBViewState)viewState{
+    if ([@"style1" isEqualToString:panel.style ]){
+        tableView.backgroundColor = [UIColor greenColor];
+        tableView.contentInset = UIEdgeInsetsMake(60.0f, 0.0f, 0.0f, 60.0f);
+        tableView.bounces = NO;
+    }
+}
 
 - (void) styleNavigationBar:(UINavigationBar *)bar {
 	bar.tintColor = [CustomStyleConstants getColor:CUSTOMNAVIGATIONBARCOLOR];

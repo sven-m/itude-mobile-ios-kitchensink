@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0041AD3E15D2F8A700381ED2 /* PAGE-customized-components.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 0041AD3D15D2F8A700381ED2 /* PAGE-customized-components.xmlx */; };
+		0041AD3F15D2F8A700381ED2 /* PAGE-customized-components.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 0041AD3D15D2F8A700381ED2 /* PAGE-customized-components.xmlx */; };
+		0041AD4015D2F8A700381ED2 /* PAGE-customized-components.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 0041AD3D15D2F8A700381ED2 /* PAGE-customized-components.xmlx */; };
+		0041AD4115D2F8A700381ED2 /* PAGE-customized-components.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 0041AD3D15D2F8A700381ED2 /* PAGE-customized-components.xmlx */; };
 		00AD651915D01B620076AC6A /* CATALOG.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00AD651815D01B620076AC6A /* CATALOG.xmlx */; };
 		00AD651A15D01B620076AC6A /* CATALOG.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00AD651815D01B620076AC6A /* CATALOG.xmlx */; };
 		00AD651B15D01B620076AC6A /* CATALOG.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00AD651815D01B620076AC6A /* CATALOG.xmlx */; };
@@ -778,6 +782,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0041AD3D15D2F8A700381ED2 /* PAGE-customized-components.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-customized-components.xmlx"; path = "Pages/PAGE-customized-components.xmlx"; sourceTree = "<group>"; };
 		00AD651815D01B620076AC6A /* CATALOG.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CATALOG.xmlx; sourceTree = "<group>"; };
 		00CB68EB15D152B0004F3697 /* CustomAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAction.h; sourceTree = "<group>"; };
 		00CB68EC15D152B0004F3697 /* CustomAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAction.m; sourceTree = "<group>"; };
@@ -1189,6 +1194,7 @@
 			children = (
 				00CB6A0015D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx */,
 				00F495AE15D2B7C000277DA1 /* PAGE-customized-layout.xmlx */,
+				0041AD3D15D2F8A700381ED2 /* PAGE-customized-components.xmlx */,
 				00F495F515D2BE4600277DA1 /* PAGE-page-with-xib.xmlx */,
 				00F4959415D2B3F300277DA1 /* PAGE-field-types.xmlx */,
 				00F4959A15D2B43B00277DA1 /* PAGE-lists.xmlx */,
@@ -2138,6 +2144,7 @@
 				00F495AC15D2B4E600277DA1 /* PAGE-catalog.xmlx in Resources */,
 				00F495B115D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */,
 				00F495F815D2BE4700277DA1 /* PAGE-page-with-xib.xmlx in Resources */,
+				0041AD4015D2F8A700381ED2 /* PAGE-customized-components.xmlx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2195,6 +2202,7 @@
 				00F495AD15D2B4E600277DA1 /* PAGE-catalog.xmlx in Resources */,
 				00F495B215D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */,
 				00F495F915D2BE4700277DA1 /* PAGE-page-with-xib.xmlx in Resources */,
+				0041AD4115D2F8A700381ED2 /* PAGE-customized-components.xmlx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2252,6 +2260,7 @@
 				00F495AA15D2B4E600277DA1 /* PAGE-catalog.xmlx in Resources */,
 				00F495AF15D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */,
 				00F495F615D2BE4700277DA1 /* PAGE-page-with-xib.xmlx in Resources */,
+				0041AD3E15D2F8A700381ED2 /* PAGE-customized-components.xmlx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2311,6 +2320,7 @@
 				00F495AB15D2B4E600277DA1 /* PAGE-catalog.xmlx in Resources */,
 				00F495B015D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */,
 				00F495F715D2BE4700277DA1 /* PAGE-page-with-xib.xmlx in Resources */,
+				0041AD3F15D2F8A700381ED2 /* PAGE-customized-components.xmlx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
