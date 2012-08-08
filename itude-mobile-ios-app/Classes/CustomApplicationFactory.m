@@ -12,8 +12,10 @@
 #import "MBPage.h"
 
 // Controllers
-//#import "ExampleViewController.h"
-
+#import "CustomizedViewLogic.h"
+#import "CustomizedList.h"
+#import "CustomizedLayout.h"
+#import "PageWithXibFileViewController.h"
 
 // Actions
 #import "FireInitialOutcomes.h"
@@ -46,14 +48,29 @@
 			 viewState:(MBViewState) viewState 
 		 withMaxBounds:(CGRect) bounds {
     
-
-    // Home page (example)
-    if([@"PAGE-home" isEqualToString:definition.name]) {
-//		ExampleViewController *myViewController = [[[ExampleViewController alloc] init] autorelease];
-//		MBPage *page = [[[MBPage alloc] initWithDefinition:definition withViewController:myViewController document:document rootPath:rootPath viewState: viewState]autorelease];
-//		return page;
+    if([@"PAGE-customized-view-logic" isEqualToString:definition.name]) {
+        CustomizedViewLogic *myViewController = [[[CustomizedViewLogic alloc] init] autorelease];
+		MBPage *page = [[[MBPage alloc] initWithDefinition:definition withViewController:myViewController document:document rootPath:rootPath viewState: viewState]autorelease];
+		return page;
 	}
-     
+
+    if([@"PAGE-customized-list" isEqualToString:definition.name]) {
+		CustomizedList *myViewController = [[[CustomizedList alloc] init] autorelease];
+		MBPage *page = [[[MBPage alloc] initWithDefinition:definition withViewController:myViewController document:document rootPath:rootPath viewState: viewState]autorelease];
+		return page;
+	}
+
+    if([@"PAGE-customized-layout" isEqualToString:definition.name]) {
+		CustomizedLayout *myViewController = [[[CustomizedLayout alloc] init] autorelease];
+		MBPage *page = [[[MBPage alloc] initWithDefinition:definition withViewController:myViewController document:document rootPath:rootPath viewState: viewState]autorelease];
+		return page;
+	}
+    if([@"PAGE-page-with-xib" isEqualToString:definition.name]) {
+		PageWithXibFileViewController *myViewController = [[[PageWithXibFileViewController alloc] init] autorelease];
+		MBPage *page = [[[MBPage alloc] initWithDefinition:definition withViewController:myViewController document:document rootPath:rootPath viewState: viewState]autorelease];
+		return page;
+	}
+
     
     return [super createPage:definition document:document rootPath:rootPath viewState: viewState withMaxBounds: bounds];
 }

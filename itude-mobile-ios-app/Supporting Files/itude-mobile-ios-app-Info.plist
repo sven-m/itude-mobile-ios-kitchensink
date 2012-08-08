@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Whitelabel</string>
+	<string>Kitchen sink</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFiles</key>
@@ -16,7 +16,7 @@
 		<string>iTunesArtwork.png</string>
 	</array>
 	<key>CFBundleIdentifier</key>
-	<string>com.itude.mobile.*</string>
+	<string>com.itude.mobile.mobbl.kitchensink</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

@@ -7,6 +7,9 @@
 //
 
 #import "PageWithXibFileViewController.h"
+#import "MBPage.h"
+#import "MBField.h"
+#import "MBDataManagerService.h"
 
 @interface PageWithXibFileViewController ()
 
@@ -26,7 +29,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    // get the field and button definitions from the page (ensures localization and data parsing is handled by the framework).
+    _myField = [self.page firstDescendantOfKind:[MBField class] filterUsingSelector:@selector(name) havingValue:@"inputfield"];
+    _myButton = [self.page firstDescendantOfKind:[MBField class] filterUsingSelector:@selector(name) havingValue:@"button"];
+    
+    // copy the values from the page into the interface builder objects
+    _label.text = [_myField label];
+    _textField.text = [_myField value];
+    [_button setTitle:_myButton.label forState:UIControlStateNormal];
+    [_button.titleLabel setNeedsLayout];
 }
 
 - (void)viewDidUnload
@@ -40,5 +51,12 @@
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
+
+-(IBAction) buttonPressed{
+    [_myField setValue:_textField.text];
+    [[MBDataManagerService sharedInstance] storeDocument:self.page.document];
+    
+}
+
 
 @end

@@ -25,5 +25,7 @@
             <Include name="dialogs"/>
         </Dialogs>
 		<Include name="pages"/>
+        
+       
     </View>
 </Configuration>

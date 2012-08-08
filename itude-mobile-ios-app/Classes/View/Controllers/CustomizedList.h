@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MBBasicViewController.h" 
 
-@interface CustomizedList : NSObject
+@interface CustomizedList : MBBasicViewController
 
 @end

@@ -1,25 +1,16 @@
 <Configuration>
     <View>
-       <Page name="PAGE-customized-layout" document="FieldTypes" title="Custom view logic">
-            <Panel name="myPanel" type="LIST">
-                <!-- Panels can have preConditions which are evaluated with (limited) javascript logic 
-                    First the expression is parsed and path references evaluated by MOBBL. 
-                    Then the expression is evaluated with javascript logic. AND and OR are not supported by the parser.
-                    Legal operators are !, ==, !=, &lt;, &gt;
-                    For example ${Form[0]/@error}=='Formatting Error' will only show the Panel if the error attribute of the 
-                    first Form element contains the text 'Formatting Error'}
-                -->
+       <Page name="PAGE-page-with-xib" document="FieldTypes" title="Custom view logic">
+            <!-- the panels below are used to define the localized texts in the xib. -->
+            <Panel type="LIST">
                 <Panel type="ROW">
-                    <Field type="TEXT" label="&lt;html&gt;This controller uses a named panel to retrieve the definition from the Page and automatically create a View.&lt;/html&gt;" />
+                    <Field type="INPUTFIELD" label="comment" path="Form[0]/@comment" name="inputfield"/>
                 </Panel>
                 <Panel type="ROW">
-                    <Field type="BUTTON" label="Do stuff!" style="NAVIGATION" outcome="OUTCOME-empty-screen"/>
-                </Panel>
-                <Panel type="ROW">
-                    <Field type="DROPDOWNLIST" path="Form[0]/@gender" />
-                    <Field type="LABEL" label="Gender" />
+                    <Field type="BUTTON" label="Save changes" style="NETWORK" name="button"/>
                 </Panel>
             </Panel>
+
         </Page>
     </View>
 </Configuration>

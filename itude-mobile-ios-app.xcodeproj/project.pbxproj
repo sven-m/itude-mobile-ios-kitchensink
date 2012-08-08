@@ -19,6 +19,58 @@
 		00CB68F515D152CF004F3697 /* ExceptionExampleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB68F315D152CF004F3697 /* ExceptionExampleAction.m */; };
 		00CB68F615D152CF004F3697 /* ExceptionExampleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB68F315D152CF004F3697 /* ExceptionExampleAction.m */; };
 		00CB68F715D152CF004F3697 /* ExceptionExampleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB68F315D152CF004F3697 /* ExceptionExampleAction.m */; };
+		00CB69A315D28D72004F3697 /* CustomizedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB69A215D28D72004F3697 /* CustomizedLayout.m */; };
+		00CB69A415D28D72004F3697 /* CustomizedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB69A215D28D72004F3697 /* CustomizedLayout.m */; };
+		00CB69A515D28D72004F3697 /* CustomizedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB69A215D28D72004F3697 /* CustomizedLayout.m */; };
+		00CB69A615D28D72004F3697 /* CustomizedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB69A215D28D72004F3697 /* CustomizedLayout.m */; };
+		00CB69A915D28D90004F3697 /* CustomizedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB69A815D28D90004F3697 /* CustomizedList.m */; };
+		00CB69AA15D28D90004F3697 /* CustomizedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB69A815D28D90004F3697 /* CustomizedList.m */; };
+		00CB69AB15D28D90004F3697 /* CustomizedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB69A815D28D90004F3697 /* CustomizedList.m */; };
+		00CB69AC15D28D90004F3697 /* CustomizedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB69A815D28D90004F3697 /* CustomizedList.m */; };
+		00CB69AF15D28DBF004F3697 /* CustomizedViewLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB69AE15D28DBF004F3697 /* CustomizedViewLogic.m */; };
+		00CB69B015D28DBF004F3697 /* CustomizedViewLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB69AE15D28DBF004F3697 /* CustomizedViewLogic.m */; };
+		00CB69B115D28DBF004F3697 /* CustomizedViewLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB69AE15D28DBF004F3697 /* CustomizedViewLogic.m */; };
+		00CB69B215D28DBF004F3697 /* CustomizedViewLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB69AE15D28DBF004F3697 /* CustomizedViewLogic.m */; };
+		00CB69B615D28DF7004F3697 /* PageWithXibFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB69B415D28DF7004F3697 /* PageWithXibFileViewController.m */; };
+		00CB69B715D28DF7004F3697 /* PageWithXibFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB69B415D28DF7004F3697 /* PageWithXibFileViewController.m */; };
+		00CB69B815D28DF7004F3697 /* PageWithXibFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB69B415D28DF7004F3697 /* PageWithXibFileViewController.m */; };
+		00CB69B915D28DF7004F3697 /* PageWithXibFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB69B415D28DF7004F3697 /* PageWithXibFileViewController.m */; };
+		00CB69BA15D28DF7004F3697 /* PageWithXibFileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00CB69B515D28DF7004F3697 /* PageWithXibFileViewController.xib */; };
+		00CB69BB15D28DF7004F3697 /* PageWithXibFileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00CB69B515D28DF7004F3697 /* PageWithXibFileViewController.xib */; };
+		00CB69BC15D28DF7004F3697 /* PageWithXibFileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00CB69B515D28DF7004F3697 /* PageWithXibFileViewController.xib */; };
+		00CB69BD15D28DF7004F3697 /* PageWithXibFileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00CB69B515D28DF7004F3697 /* PageWithXibFileViewController.xib */; };
+		00CB6A0115D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00CB6A0015D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx */; };
+		00CB6A0215D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00CB6A0015D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx */; };
+		00CB6A0315D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00CB6A0015D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx */; };
+		00CB6A0415D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00CB6A0015D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx */; };
+		00F4959515D2B3F300277DA1 /* PAGE-field-types.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F4959415D2B3F300277DA1 /* PAGE-field-types.xmlx */; };
+		00F4959615D2B3F300277DA1 /* PAGE-field-types.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F4959415D2B3F300277DA1 /* PAGE-field-types.xmlx */; };
+		00F4959715D2B3F300277DA1 /* PAGE-field-types.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F4959415D2B3F300277DA1 /* PAGE-field-types.xmlx */; };
+		00F4959815D2B3F300277DA1 /* PAGE-field-types.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F4959415D2B3F300277DA1 /* PAGE-field-types.xmlx */; };
+		00F4959B15D2B43C00277DA1 /* PAGE-lists.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F4959A15D2B43B00277DA1 /* PAGE-lists.xmlx */; };
+		00F4959C15D2B43C00277DA1 /* PAGE-lists.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F4959A15D2B43B00277DA1 /* PAGE-lists.xmlx */; };
+		00F4959D15D2B43C00277DA1 /* PAGE-lists.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F4959A15D2B43B00277DA1 /* PAGE-lists.xmlx */; };
+		00F4959E15D2B43C00277DA1 /* PAGE-lists.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F4959A15D2B43B00277DA1 /* PAGE-lists.xmlx */; };
+		00F495A015D2B47900277DA1 /* PAGE-home.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F4959F15D2B47900277DA1 /* PAGE-home.xmlx */; };
+		00F495A115D2B47900277DA1 /* PAGE-home.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F4959F15D2B47900277DA1 /* PAGE-home.xmlx */; };
+		00F495A215D2B47900277DA1 /* PAGE-home.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F4959F15D2B47900277DA1 /* PAGE-home.xmlx */; };
+		00F495A315D2B47900277DA1 /* PAGE-home.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F4959F15D2B47900277DA1 /* PAGE-home.xmlx */; };
+		00F495A515D2B4B900277DA1 /* PAGE-plant-detail.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495A415D2B4B900277DA1 /* PAGE-plant-detail.xmlx */; };
+		00F495A615D2B4B900277DA1 /* PAGE-plant-detail.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495A415D2B4B900277DA1 /* PAGE-plant-detail.xmlx */; };
+		00F495A715D2B4B900277DA1 /* PAGE-plant-detail.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495A415D2B4B900277DA1 /* PAGE-plant-detail.xmlx */; };
+		00F495A815D2B4B900277DA1 /* PAGE-plant-detail.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495A415D2B4B900277DA1 /* PAGE-plant-detail.xmlx */; };
+		00F495AA15D2B4E600277DA1 /* PAGE-catalog.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495A915D2B4E600277DA1 /* PAGE-catalog.xmlx */; };
+		00F495AB15D2B4E600277DA1 /* PAGE-catalog.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495A915D2B4E600277DA1 /* PAGE-catalog.xmlx */; };
+		00F495AC15D2B4E600277DA1 /* PAGE-catalog.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495A915D2B4E600277DA1 /* PAGE-catalog.xmlx */; };
+		00F495AD15D2B4E600277DA1 /* PAGE-catalog.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495A915D2B4E600277DA1 /* PAGE-catalog.xmlx */; };
+		00F495AF15D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495AE15D2B7C000277DA1 /* PAGE-customized-layout.xmlx */; };
+		00F495B015D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495AE15D2B7C000277DA1 /* PAGE-customized-layout.xmlx */; };
+		00F495B115D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495AE15D2B7C000277DA1 /* PAGE-customized-layout.xmlx */; };
+		00F495B215D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495AE15D2B7C000277DA1 /* PAGE-customized-layout.xmlx */; };
+		00F495F615D2BE4700277DA1 /* PAGE-page-with-xib.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495F515D2BE4600277DA1 /* PAGE-page-with-xib.xmlx */; };
+		00F495F715D2BE4700277DA1 /* PAGE-page-with-xib.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495F515D2BE4600277DA1 /* PAGE-page-with-xib.xmlx */; };
+		00F495F815D2BE4700277DA1 /* PAGE-page-with-xib.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495F515D2BE4600277DA1 /* PAGE-page-with-xib.xmlx */; };
+		00F495F915D2BE4700277DA1 /* PAGE-page-with-xib.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495F515D2BE4600277DA1 /* PAGE-page-with-xib.xmlx */; };
 		036F804F13C700D40082D901 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F239B513C6FFFB00E9BD32 /* UIKit.framework */; };
 		036F805013C700D40082D901 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F239B713C6FFFB00E9BD32 /* Foundation.framework */; };
 		036F805113C700D40082D901 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F239B913C6FFFB00E9BD32 /* CoreGraphics.framework */; };
@@ -541,10 +593,6 @@
 		BD0817FC146936B6006F0AA0 /* CustomPanelViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BD081799146936B6006F0AA0 /* CustomPanelViewBuilder.m */; };
 		BD0817FD146936B6006F0AA0 /* CustomPanelViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BD081799146936B6006F0AA0 /* CustomPanelViewBuilder.m */; };
 		BD0817FE146936B6006F0AA0 /* CustomPanelViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BD081799146936B6006F0AA0 /* CustomPanelViewBuilder.m */; };
-		BD0817FF146936B6006F0AA0 /* CustomBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08179C146936B6006F0AA0 /* CustomBasicViewController.m */; };
-		BD081800146936B6006F0AA0 /* CustomBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08179C146936B6006F0AA0 /* CustomBasicViewController.m */; };
-		BD081801146936B6006F0AA0 /* CustomBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08179C146936B6006F0AA0 /* CustomBasicViewController.m */; };
-		BD081802146936B6006F0AA0 /* CustomBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08179C146936B6006F0AA0 /* CustomBasicViewController.m */; };
 		BD081807146936B6006F0AA0 /* CustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0817A2146936B6006F0AA0 /* CustomColor.m */; };
 		BD081808146936B6006F0AA0 /* CustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0817A2146936B6006F0AA0 /* CustomColor.m */; };
 		BD081809146936B6006F0AA0 /* CustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0817A2146936B6006F0AA0 /* CustomColor.m */; };
@@ -735,6 +783,23 @@
 		00CB68EC15D152B0004F3697 /* CustomAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAction.m; sourceTree = "<group>"; };
 		00CB68F215D152CF004F3697 /* ExceptionExampleAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExceptionExampleAction.h; sourceTree = "<group>"; };
 		00CB68F315D152CF004F3697 /* ExceptionExampleAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExceptionExampleAction.m; sourceTree = "<group>"; };
+		00CB69A115D28D72004F3697 /* CustomizedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomizedLayout.h; sourceTree = "<group>"; };
+		00CB69A215D28D72004F3697 /* CustomizedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomizedLayout.m; sourceTree = "<group>"; };
+		00CB69A715D28D90004F3697 /* CustomizedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomizedList.h; sourceTree = "<group>"; };
+		00CB69A815D28D90004F3697 /* CustomizedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomizedList.m; sourceTree = "<group>"; };
+		00CB69AD15D28DBF004F3697 /* CustomizedViewLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomizedViewLogic.h; sourceTree = "<group>"; };
+		00CB69AE15D28DBF004F3697 /* CustomizedViewLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomizedViewLogic.m; sourceTree = "<group>"; };
+		00CB69B315D28DF6004F3697 /* PageWithXibFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageWithXibFileViewController.h; sourceTree = "<group>"; };
+		00CB69B415D28DF7004F3697 /* PageWithXibFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageWithXibFileViewController.m; sourceTree = "<group>"; };
+		00CB69B515D28DF7004F3697 /* PageWithXibFileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageWithXibFileViewController.xib; sourceTree = "<group>"; };
+		00CB6A0015D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-customized-view-logic.xmlx"; path = "Pages/PAGE-customized-view-logic.xmlx"; sourceTree = "<group>"; };
+		00F4959415D2B3F300277DA1 /* PAGE-field-types.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "PAGE-field-types.xmlx"; sourceTree = "<group>"; };
+		00F4959A15D2B43B00277DA1 /* PAGE-lists.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "PAGE-lists.xmlx"; sourceTree = "<group>"; };
+		00F4959F15D2B47900277DA1 /* PAGE-home.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "PAGE-home.xmlx"; sourceTree = "<group>"; };
+		00F495A415D2B4B900277DA1 /* PAGE-plant-detail.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "PAGE-plant-detail.xmlx"; sourceTree = "<group>"; };
+		00F495A915D2B4E600277DA1 /* PAGE-catalog.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "PAGE-catalog.xmlx"; sourceTree = "<group>"; };
+		00F495AE15D2B7C000277DA1 /* PAGE-customized-layout.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-customized-layout.xmlx"; path = "Pages/PAGE-customized-layout.xmlx"; sourceTree = "<group>"; };
+		00F495F515D2BE4600277DA1 /* PAGE-page-with-xib.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-page-with-xib.xmlx"; path = "Pages/PAGE-page-with-xib.xmlx"; sourceTree = "<group>"; };
 		036F805913C700D40082D901 /* itude-mobile-ios-app (Simulator).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "itude-mobile-ios-app (Simulator).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AE33DA13CB4C59004E2F95 /* MGSplitCornersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSplitCornersView.h; sourceTree = "<group>"; };
 		03AE33DB13CB4C59004E2F95 /* MGSplitCornersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSplitCornersView.m; sourceTree = "<group>"; };
@@ -744,7 +809,7 @@
 		03AE33DF13CB4C59004E2F95 /* MGSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSplitViewController.m; sourceTree = "<group>"; };
 		03C1DDC413CC64400070706E /* itude-mobile-iphone-core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "itude-mobile-iphone-core.framework"; sourceTree = "<group>"; };
 		03F0877813C7492B00A58AE7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		03F090F213C7550500A58AE7 /* Whitelabel app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whitelabel app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F090F213C7550500A58AE7 /* Kitchen sink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kitchen sink.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F0969913CB331600A58AE7 /* itude-mobile-iphone-core-i386.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "itude-mobile-iphone-core-i386.framework"; sourceTree = "<group>"; };
 		03F239B113C6FFFB00E9BD32 /* itude-mobile-ios-app (Device).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "itude-mobile-ios-app (Device).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F239B513C6FFFB00E9BD32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -1017,8 +1082,6 @@
 		BD081797146936B6006F0AA0 /* CustomFieldViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFieldViewBuilder.m; sourceTree = "<group>"; };
 		BD081798146936B6006F0AA0 /* CustomPanelViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPanelViewBuilder.h; sourceTree = "<group>"; };
 		BD081799146936B6006F0AA0 /* CustomPanelViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPanelViewBuilder.m; sourceTree = "<group>"; };
-		BD08179B146936B6006F0AA0 /* CustomBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBasicViewController.h; sourceTree = "<group>"; };
-		BD08179C146936B6006F0AA0 /* CustomBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBasicViewController.m; sourceTree = "<group>"; };
 		BD0817A1146936B6006F0AA0 /* CustomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomColor.h; sourceTree = "<group>"; };
 		BD0817A2146936B6006F0AA0 /* CustomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomColor.m; sourceTree = "<group>"; };
 		BD0817A3146936B6006F0AA0 /* CustomStyleConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomStyleConstants.h; sourceTree = "<group>"; };
@@ -1121,6 +1184,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00CB699A15D28BEF004F3697 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				00CB6A0015D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx */,
+				00F495AE15D2B7C000277DA1 /* PAGE-customized-layout.xmlx */,
+				00F495F515D2BE4600277DA1 /* PAGE-page-with-xib.xmlx */,
+				00F4959415D2B3F300277DA1 /* PAGE-field-types.xmlx */,
+				00F4959A15D2B43B00277DA1 /* PAGE-lists.xmlx */,
+				00F4959F15D2B47900277DA1 /* PAGE-home.xmlx */,
+				00F495A415D2B4B900277DA1 /* PAGE-plant-detail.xmlx */,
+				00F495A915D2B4E600277DA1 /* PAGE-catalog.xmlx */,
+			);
+			name = Pages;
+			sourceTree = "<group>";
+		};
 		03AE33D813CB4C3F004E2F95 /* External */ = {
 			isa = PBXGroup;
 			children = (
@@ -1177,7 +1255,7 @@
 				03F239B113C6FFFB00E9BD32 /* itude-mobile-ios-app (Device).app */,
 				03F239D513C6FFFC00E9BD32 /* itude-mobile-ios-appTests.octest */,
 				036F805913C700D40082D901 /* itude-mobile-ios-app (Simulator).app */,
-				03F090F213C7550500A58AE7 /* Whitelabel app.app */,
+				03F090F213C7550500A58AE7 /* Kitchen sink.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1713,8 +1791,15 @@
 		BD08179A146936B6006F0AA0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				BD08179B146936B6006F0AA0 /* CustomBasicViewController.h */,
-				BD08179C146936B6006F0AA0 /* CustomBasicViewController.m */,
+				00CB69A115D28D72004F3697 /* CustomizedLayout.h */,
+				00CB69A215D28D72004F3697 /* CustomizedLayout.m */,
+				00CB69A715D28D90004F3697 /* CustomizedList.h */,
+				00CB69A815D28D90004F3697 /* CustomizedList.m */,
+				00CB69AD15D28DBF004F3697 /* CustomizedViewLogic.h */,
+				00CB69AE15D28DBF004F3697 /* CustomizedViewLogic.m */,
+				00CB69B315D28DF6004F3697 /* PageWithXibFileViewController.h */,
+				00CB69B415D28DF7004F3697 /* PageWithXibFileViewController.m */,
+				00CB69B515D28DF7004F3697 /* PageWithXibFileViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -1754,6 +1839,7 @@
 		BD0817A8146936B6006F0AA0 /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				00CB699A15D28BEF004F3697 /* Pages */,
 				BD0817A9146936B6006F0AA0 /* actions.xmlx */,
 				BD0817AA146936B6006F0AA0 /* config.xmlx */,
 				BD0817AB146936B6006F0AA0 /* dialogs.xmlx */,
@@ -1912,7 +1998,7 @@
 			);
 			name = "itude-mobile-ios-app (Debug)";
 			productName = "itude-mobile-ios-pharmeon-pilservice";
-			productReference = 03F090F213C7550500A58AE7 /* Whitelabel app.app */;
+			productReference = 03F090F213C7550500A58AE7 /* Kitchen sink.app */;
 			productType = "com.apple.product-type.application";
 		};
 		03F239B013C6FFFB00E9BD32 /* itude-mobile-ios-app (Device) */ = {
@@ -2043,6 +2129,15 @@
 				1C0CC99A1505081F00766A49 /* MBDatePicker.xib in Resources */,
 				1C0CC99E1505081F00766A49 /* MBPicker.xib in Resources */,
 				00AD651B15D01B620076AC6A /* CATALOG.xmlx in Resources */,
+				00CB69BC15D28DF7004F3697 /* PageWithXibFileViewController.xib in Resources */,
+				00CB6A0315D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx in Resources */,
+				00F4959715D2B3F300277DA1 /* PAGE-field-types.xmlx in Resources */,
+				00F4959D15D2B43C00277DA1 /* PAGE-lists.xmlx in Resources */,
+				00F495A215D2B47900277DA1 /* PAGE-home.xmlx in Resources */,
+				00F495A715D2B4B900277DA1 /* PAGE-plant-detail.xmlx in Resources */,
+				00F495AC15D2B4E600277DA1 /* PAGE-catalog.xmlx in Resources */,
+				00F495B115D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */,
+				00F495F815D2BE4700277DA1 /* PAGE-page-with-xib.xmlx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2091,6 +2186,15 @@
 				1C0CC99B1505081F00766A49 /* MBDatePicker.xib in Resources */,
 				1C0CC99F1505081F00766A49 /* MBPicker.xib in Resources */,
 				00AD651C15D01B620076AC6A /* CATALOG.xmlx in Resources */,
+				00CB69BD15D28DF7004F3697 /* PageWithXibFileViewController.xib in Resources */,
+				00CB6A0415D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx in Resources */,
+				00F4959815D2B3F300277DA1 /* PAGE-field-types.xmlx in Resources */,
+				00F4959E15D2B43C00277DA1 /* PAGE-lists.xmlx in Resources */,
+				00F495A315D2B47900277DA1 /* PAGE-home.xmlx in Resources */,
+				00F495A815D2B4B900277DA1 /* PAGE-plant-detail.xmlx in Resources */,
+				00F495AD15D2B4E600277DA1 /* PAGE-catalog.xmlx in Resources */,
+				00F495B215D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */,
+				00F495F915D2BE4700277DA1 /* PAGE-page-with-xib.xmlx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2139,6 +2243,15 @@
 				1C0CC9981505081F00766A49 /* MBDatePicker.xib in Resources */,
 				1C0CC99C1505081F00766A49 /* MBPicker.xib in Resources */,
 				00AD651915D01B620076AC6A /* CATALOG.xmlx in Resources */,
+				00CB69BA15D28DF7004F3697 /* PageWithXibFileViewController.xib in Resources */,
+				00CB6A0115D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx in Resources */,
+				00F4959515D2B3F300277DA1 /* PAGE-field-types.xmlx in Resources */,
+				00F4959B15D2B43C00277DA1 /* PAGE-lists.xmlx in Resources */,
+				00F495A015D2B47900277DA1 /* PAGE-home.xmlx in Resources */,
+				00F495A515D2B4B900277DA1 /* PAGE-plant-detail.xmlx in Resources */,
+				00F495AA15D2B4E600277DA1 /* PAGE-catalog.xmlx in Resources */,
+				00F495AF15D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */,
+				00F495F615D2BE4700277DA1 /* PAGE-page-with-xib.xmlx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2189,6 +2302,15 @@
 				1C0CC9991505081F00766A49 /* MBDatePicker.xib in Resources */,
 				1C0CC99D1505081F00766A49 /* MBPicker.xib in Resources */,
 				00AD651A15D01B620076AC6A /* CATALOG.xmlx in Resources */,
+				00CB69BB15D28DF7004F3697 /* PageWithXibFileViewController.xib in Resources */,
+				00CB6A0215D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx in Resources */,
+				00F4959615D2B3F300277DA1 /* PAGE-field-types.xmlx in Resources */,
+				00F4959C15D2B43C00277DA1 /* PAGE-lists.xmlx in Resources */,
+				00F495A115D2B47900277DA1 /* PAGE-home.xmlx in Resources */,
+				00F495A615D2B4B900277DA1 /* PAGE-plant-detail.xmlx in Resources */,
+				00F495AB15D2B4E600277DA1 /* PAGE-catalog.xmlx in Resources */,
+				00F495B015D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */,
+				00F495F715D2BE4700277DA1 /* PAGE-page-with-xib.xmlx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2224,7 +2346,6 @@
 				BD0817F5146936B6006F0AA0 /* NSDateUtilities.m in Sources */,
 				BD0817F9146936B6006F0AA0 /* CustomFieldViewBuilder.m in Sources */,
 				BD0817FD146936B6006F0AA0 /* CustomPanelViewBuilder.m in Sources */,
-				BD081801146936B6006F0AA0 /* CustomBasicViewController.m in Sources */,
 				BD081809146936B6006F0AA0 /* CustomColor.m in Sources */,
 				BD08180D146936B6006F0AA0 /* CustomStyleConstants.m in Sources */,
 				BD081811146936B6006F0AA0 /* CustomStyleHandler.m in Sources */,
@@ -2346,6 +2467,10 @@
 				1C0CCAA21505082000766A49 /* MBTableViewController.m in Sources */,
 				00CB68EF15D152B0004F3697 /* CustomAction.m in Sources */,
 				00CB68F615D152CF004F3697 /* ExceptionExampleAction.m in Sources */,
+				00CB69A515D28D72004F3697 /* CustomizedLayout.m in Sources */,
+				00CB69AB15D28D90004F3697 /* CustomizedList.m in Sources */,
+				00CB69B115D28DBF004F3697 /* CustomizedViewLogic.m in Sources */,
+				00CB69B815D28DF7004F3697 /* PageWithXibFileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2365,7 +2490,6 @@
 				BD0817F6146936B6006F0AA0 /* NSDateUtilities.m in Sources */,
 				BD0817FA146936B6006F0AA0 /* CustomFieldViewBuilder.m in Sources */,
 				BD0817FE146936B6006F0AA0 /* CustomPanelViewBuilder.m in Sources */,
-				BD081802146936B6006F0AA0 /* CustomBasicViewController.m in Sources */,
 				BD08180A146936B6006F0AA0 /* CustomColor.m in Sources */,
 				BD08180E146936B6006F0AA0 /* CustomStyleConstants.m in Sources */,
 				BD081812146936B6006F0AA0 /* CustomStyleHandler.m in Sources */,
@@ -2484,6 +2608,10 @@
 				1C0CCAA31505082000766A49 /* MBTableViewController.m in Sources */,
 				00CB68F015D152B0004F3697 /* CustomAction.m in Sources */,
 				00CB68F715D152CF004F3697 /* ExceptionExampleAction.m in Sources */,
+				00CB69A615D28D72004F3697 /* CustomizedLayout.m in Sources */,
+				00CB69AC15D28D90004F3697 /* CustomizedList.m in Sources */,
+				00CB69B215D28DBF004F3697 /* CustomizedViewLogic.m in Sources */,
+				00CB69B915D28DF7004F3697 /* PageWithXibFileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2500,7 +2628,6 @@
 				BD0817F3146936B6006F0AA0 /* NSDateUtilities.m in Sources */,
 				BD0817F7146936B6006F0AA0 /* CustomFieldViewBuilder.m in Sources */,
 				BD0817FB146936B6006F0AA0 /* CustomPanelViewBuilder.m in Sources */,
-				BD0817FF146936B6006F0AA0 /* CustomBasicViewController.m in Sources */,
 				BD081807146936B6006F0AA0 /* CustomColor.m in Sources */,
 				BD08180B146936B6006F0AA0 /* CustomStyleConstants.m in Sources */,
 				BD08180F146936B6006F0AA0 /* CustomStyleHandler.m in Sources */,
@@ -2622,6 +2749,10 @@
 				1C0CCAA01505082000766A49 /* MBTableViewController.m in Sources */,
 				00CB68ED15D152B0004F3697 /* CustomAction.m in Sources */,
 				00CB68F415D152CF004F3697 /* ExceptionExampleAction.m in Sources */,
+				00CB69A315D28D72004F3697 /* CustomizedLayout.m in Sources */,
+				00CB69A915D28D90004F3697 /* CustomizedList.m in Sources */,
+				00CB69AF15D28DBF004F3697 /* CustomizedViewLogic.m in Sources */,
+				00CB69B615D28DF7004F3697 /* PageWithXibFileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2638,7 +2769,6 @@
 				BD0817F4146936B6006F0AA0 /* NSDateUtilities.m in Sources */,
 				BD0817F8146936B6006F0AA0 /* CustomFieldViewBuilder.m in Sources */,
 				BD0817FC146936B6006F0AA0 /* CustomPanelViewBuilder.m in Sources */,
-				BD081800146936B6006F0AA0 /* CustomBasicViewController.m in Sources */,
 				BD081808146936B6006F0AA0 /* CustomColor.m in Sources */,
 				BD08180C146936B6006F0AA0 /* CustomStyleConstants.m in Sources */,
 				BD081810146936B6006F0AA0 /* CustomStyleHandler.m in Sources */,
@@ -2761,6 +2891,10 @@
 				1C0CCAA11505082000766A49 /* MBTableViewController.m in Sources */,
 				00CB68EE15D152B0004F3697 /* CustomAction.m in Sources */,
 				00CB68F515D152CF004F3697 /* ExceptionExampleAction.m in Sources */,
+				00CB69A415D28D72004F3697 /* CustomizedLayout.m in Sources */,
+				00CB69AA15D28D90004F3697 /* CustomizedList.m in Sources */,
+				00CB69B015D28DBF004F3697 /* CustomizedViewLogic.m in Sources */,
+				00CB69B715D28DF7004F3697 /* PageWithXibFileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2869,7 +3003,7 @@
 					"-lz",
 					"-all_load",
 				);
-				PRODUCT_NAME = "Whitelabel app";
+				PRODUCT_NAME = "Kitchen sink";
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -2896,7 +3030,7 @@
 					"-licucore",
 					"-all_load",
 				);
-				PRODUCT_NAME = "Whitelabel app";
+				PRODUCT_NAME = "Kitchen sink";
 				USER_HEADER_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -2929,7 +3063,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				"OTHER_CFLAGS[arch=*]" = "-DDEBUG";
 				OTHER_LDFLAGS = "-lz";
-				PRODUCT_NAME = "";
+				PRODUCT_NAME = "Kitchen sink";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
@@ -2958,7 +3092,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-licucore";
-				PRODUCT_NAME = "";
+				PRODUCT_NAME = "Kitchen sink";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
@@ -3092,7 +3226,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-licucore";
-				PRODUCT_NAME = "";
+				PRODUCT_NAME = "Kitchen sink";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -3199,7 +3333,7 @@
 					"-licucore",
 					"-all_load",
 				);
-				PRODUCT_NAME = "Whitelabel app";
+				PRODUCT_NAME = "Kitchen sink";
 				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = YES;

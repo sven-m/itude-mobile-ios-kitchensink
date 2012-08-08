@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MBBasicViewController.h"
+#import "MBValueChangeListenerProtocol.h"
+#import "MBOutcomeListenerProtocol.h"
 
-@interface CustomizedViewLogic : NSObject
+@interface CustomizedViewLogic : MBBasicViewController <MBValueChangeListenerProtocol, MBOutcomeListenerProtocol>
+ 
 
 @end

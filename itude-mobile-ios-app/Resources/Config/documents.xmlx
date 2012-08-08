@@ -63,17 +63,22 @@
             <!-- created by application when first requested -->
             <Document name="FieldTypes" dataManager="MBFileDataHandler" autoCreate="TRUE">
                 <Element name="Form" minOccurs="1">
-                    <Attribute name="title" type="string" defaultValue="Default title" />
+                    <Attribute name="title" type="string" defaultValue="Lorem Ipsum" />
                     <Attribute name="date" type="string" />
                     <Attribute name="time" type="string" />
                     <Attribute name="user" type="string" />
                     <Attribute name="email" type="string" />
                     <Attribute name="password" type="string" />
+                    <Attribute name="raw" type="string" />
+                    <Attribute name="int" type="string" />
+                    <Attribute name="float" type="string" />
+                    <Attribute name="checkbox" type="string" />
+                    <Attribute name="dateTime" type="string" />
+                    <Attribute name="dateOfBirth" type="string" />
+                    <Attribute name="zipcode" type="string" />
+                    <Attribute name="comment" type="string" />
+                    
                     <Attribute name="gender" type="list_gender" /> <!-- Note the domain reference: see domains.xmlx -->
-                    <Attribute name="" type="string" />
-                    <Element name="Comment" minOccurs="1">
-                        <Attribute name="text()" type="string"/>
-                    </Element>
                 </Element>
             </Document>
             

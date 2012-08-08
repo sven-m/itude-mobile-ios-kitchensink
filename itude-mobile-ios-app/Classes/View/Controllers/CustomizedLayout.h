@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MBBasicViewController.h"
 
-@interface CustomizedLayout : NSObject
+@interface CustomizedLayout : MBBasicViewController 
 
 @end

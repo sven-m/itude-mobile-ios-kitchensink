@@ -38,7 +38,6 @@
                 </Panel>
             </Panel>
         </Page>
-        
     
         <!-- Info page (example) -->
         <Page name="PAGE-info" document="MBEmptyDoc" title="Info">
@@ -57,126 +56,6 @@
             </Panel>
         </Page>
         
-        <Page name="PAGE-home" document="MBEmptyDoc" title="MOBBL Examples">
-            <Panel type="LIST">
-                <Panel type="SECTION" title="Controller examples">
-                    <Panel type="ROW">
-                        <Field type="LABEL" label="Page navigation"/>
-                        <Field type="BUTTON" style="NAVIGATION" outcome="OUTCOME-empty-screen" />
-                    </Panel>
-                    <Panel type="ROW">
-                        <Field type="LABEL" label="Navigation via an action"/>
-                        <Field type="SUBLABEL" label="Objc class name is CustomAction"/>
-                        <Field type="BUTTON" style="NAVIGATION" outcome="OUTCOME-retrieve-device-info" />
-                    </Panel>
-                    <Panel type="ROW">
-                        <Field type="LABEL" label="Page transition on main thread"/>
-                        <Field type="SUBLABEL" label="No spinner or greyed out view"/>
-                        <Field type="BUTTON" style="NAVIGATION" outcome="OUTCOME-catalog-foreground" />
-                    </Panel>
-                </Panel>
-                <Panel type="SECTION" title="View layer examples">
-                    <Panel type="ROW">
-                        <Field type="LABEL" label="List to detail screen"/>
-                        <Field type="SUBLABEL" label="Newsheader to newsdetail style"/>
-                        <Field type="BUTTON" style="NAVIGATION" outcome="OUTCOME-catalog" />
-                    </Panel>
-                    <Panel type="ROW">
-                        <Field type="LABEL" label="Form fields"/>
-                        <Field type="BUTTON" style="NAVIGATION" outcome="OUTCOME-field-types" />
-                    </Panel>
-                    <Panel type="ROW">
-                        <Field type="LABEL" label="Modal screen"/>
-                        <Field type="BUTTON" style="NAVIGATION" outcome="OUTCOME-modal" />
-                    </Panel>
-                    <Panel type="ROW">
-                        <Field type="LABEL" label="List demo's"/>
-                        <Field type="BUTTON" style="NAVIGATION" outcome="OUTCOME-lists" />
-                    </Panel>
-                </Panel>
-                <Panel type="SECTION" title="Error handling">
-                    <Panel type="ROW">
-                        <Field type="LABEL" label="Simple list with detail screen"/>
-                    </Panel>
-                    <Panel type="ROW">
-                        <Field type="LABEL" label="Form fields"/>
-                    </Panel>
-                    <Panel type="ROW">
-                        <Field type="LABEL" label="Form fields with internal dependency"/>
-                    </Panel>
-                </Panel>
-            </Panel>
-        </Page>
-
-        <Page name="PAGE-catalog" document="CATALOG" title="Catalog">
-            <Panel type="LIST">
-                <Panel type="SECTION" title="Plants">
-                    <!-- the ForEach element creates a new for each element of type PLANT -->
-                    <ForEach value="/PLANT" suppressRowComponent="TRUE">
-                        <Panel type="ROW">
-                            <Field type="LABEL" path="COMMON[0]/@text()"/>
-                            <Field type="BUTTON" style="NAVIGATION" path="." outcome="OUTCOME-plant-detail"/>
-                        </Panel>
-                    </ForEach>
-                </Panel>
-            </Panel>
-        </Page>
-        
-        <Page name="PAGE-plant-detail" document="CATALOG/PLANT" title="Plant Detail">
-            <Panel type="LIST">
-                <Panel type="SECTION" title="Plants">
-                    <Panel type="ROW" >
-                        <Field type="LABEL" path="COMMON[0]/@text()"/>
-                        <Field type="SUBLABEL" label="Common name"/>
-                    </Panel>
-                    <Panel type="ROW">
-                        <Field type="LABEL" path="BOTANICAL[0]/@text()"/>
-                        <Field type="SUBLABEL" label="Botanical name"/>
-                    </Panel>
-                    <Panel type="ROW">
-                        <Field type="DROPDOWNLIST" path="LIGHT[0]/@text()"/>
-                        <Field type="LABEL" label="Light"/>
-                    </Panel>
-                </Panel>
-            </Panel>
-
-        </Page>
-        
-        <Page name="PAGE-lists" document="MBEmptyDoc" title="List layout">
-            <Panel type="LIST">
-                <Panel type="SECTION" title="Row types">
-                    <Panel type="ROW">
-                        <Field type="LABEL" label="Regular"/>
-                    </Panel>
-                    <Panel type="ROW">
-                        <Field type="LABEL" label="Title and "/>
-                        <Field type="SUBLABEL" label="Subtitle"/>
-                    </Panel>
-                    <Panel type="ROW">
-                        <Field type="TEXT" label="&lt;html&gt;Webview with &lt;b&gt;html&lt;/b&gt; markup and a whole bunch of text&lt;/html&gt;"/>
-                    </Panel>
-                    <Panel type="ROW">
-                        <Field type="TEXT" label="Text label with multiline text. Text label with multiline text. Text label with multiline text. Text label with multiline text."/>
-                    </Panel>
-                </Panel>
-                <Panel type="SECTION" title="Buttons">
-                    <Panel type="ROW">
-                        <Field type="LABEL" label="Navigation style row"/>
-                        <Field type="BUTTON" style="NAVIGATION" outcome="OUTCOME-empty-screen"/>
-                    </Panel>
-                    <Panel type="ROW">
-                        <Field type="LABEL" label="Button style row"/>
-                        <Field type="BUTTON" label="Press me" style="NETWORK" outcome="OUTCOME-empty-screen"/>
-                    </Panel>
-                    <Panel type="ROW">
-                        <Field type="SUBLABEL" label="Two buttons"/>
-                        <Field type="BUTTON" label="Button1" style="NETWORK" outcome="OUTCOME-empty-screen"/>
-                        <Field type="BUTTON" label="Button2" style="NETWORK" outcome="OUTCOME-empty-screen"/>
-                    </Panel>
-                </Panel>
-            </Panel>
-        </Page>
-        
         <Page name="PAGE-empty-screen" document="MBEmptyDoc" title="Hello World">
             <Panel type="LIST">
                 <Panel type="ROW">
@@ -185,73 +64,14 @@
             </Panel>
         </Page>
 
-        <Page name="PAGE-field-types" document="FieldTypes" title="Field types">
-            <Panel type="LIST">
-                <Panel type="ROW">
-                    <Field type="LABEL" label="Fields in a panel (type=LIST)" />
-                    <Field type="SUBLABEL" label="Best implementation of fields" />
-                </Panel>
-                <Panel type="ROW">
-                    <Field type="LABEL" path="Form[0]/@title" />
-                    <Field type="SUBLABEL" label="Sublabel" />
-                </Panel>
-                <Panel type="ROW">
-                    <Field type="INPUTFIELD" path="Form[0]/@user" />
-                    <Field type="LABEL" label="Unformatted input" />
-                </Panel>
-                <Panel type="ROW">
-                    <Field type="INPUTFIELD" path="Form[0]/@user" dataType="float" formatMask="numberWithTwoDecimals"/>
-                    <Field type="LABEL" label="Floating point" />
-                </Panel>
-                <Panel type="ROW">
-                    <Field type="INPUTFIELD" label="bla@test.nl" path="Form[0]/@user" dataType="email" />
-                    <Field type="LABEL" label="Email" />
-                </Panel>
-                <Panel type="ROW">
-                    <Field type="INPUTFIELD" label="1234AA" path="Form[0]/@user" dataType="zipcode" alignment="RIGHT"/>
-                    <Field type="LABEL" label="Zipcode" />
-                </Panel>
-                <Panel type="ROW">
-                    <Field type="INPUTFIELD" path="Form[0]/@user" dataType="int"/>
-                    <Field type="LABEL" label="Integer" />
-                </Panel>
-                <Panel type="ROW">
-                    <Field type="USERNAMEFIELD" path="Form[0]/@user" />
-                    <Field type="LABEL" label="Username" />
-                </Panel>
-                <Panel type="ROW">
-                    <Field type="PASSWORDFIELD" path="Form[0]/@password" />
-                    <Field type="LABEL" label="Password" />
-                </Panel>
-                <Panel type="ROW">
-                    <Field type="DROPDOWNLIST" path="Form[0]/@gender" />
-                    <Field type="LABEL" label="Dropdown list" />
-                </Panel>
-                <Panel type="ROW">
-                    <Field type="CHECKBOX" path="Form[0]/@gender" />
-                    <Field type="LABEL" label="Checkbox" />
-                </Panel>
-                <Panel type="ROW">
-                    <Field type="DATESELECTOR" path="Form[0]/@date" dataType="dateTime" formatMask="dd-MM-yyyy"/>
-                    <Field type="LABEL" label="DATE" />
-                </Panel>
-                <Panel type="ROW">
-                    <Field type="TIMESELECTOR" path="Form[0]/@time" dataType="dateTime" formatMask="HH:mm:ss"/>
-                    <Field type="LABEL" label="TIME" />
-                </Panel>
-                <Panel type="ROW">
-                    <Field type="DATETIMESELECTOR" path="Form[0]/@time" dataType="dateTime" formatMask="dateOrTimeDependingOnCurrentDate" />
-                    <Field type="LABEL" label="DATETIME" />
-                </Panel>
-                <Panel type="ROW">
-                    <Field type="BIRTHDATE" path="Form[0]/@date" dataType="dateTime" formatMask="dd-MM-yyyy"/>
-                    <Field type="LABEL" label="DATE OF BIRTH" />
-                </Panel>
-                <!-- dataType attribute can have values dateTime|int|double|float|email|zipcode -->
-                <!-- formatMask attribute can have values dateOrTimeDependingOnCurrentDate|numberWithTwoDecimals|numberWithThreeDecimals|priceWithTwoDecimals|priceWithThreeDecimals|formatPercentageWithTwoDecimals|volume|[any valid formatmask i.e. dd-MM-yyyy] -->
-                
-            </Panel>
-        </Page>
+        <Include name="PAGE-customized-view-logic"/>
+        <Include name="PAGE-customized-layout"/>
+        <Include name="PAGE-page-with-xib"/>
+        <Include name="PAGE-field-types"/>
+        <Include name="PAGE-lists"/>
+        <Include name="PAGE-plant-detail"/>
+        <Include name="PAGE-catalog"/>
+        <Include name="PAGE-home"/>
 
     </View>
 </Configuration>
