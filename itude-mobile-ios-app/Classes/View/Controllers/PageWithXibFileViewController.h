@@ -1,0 +1,13 @@
+//
+//  PageWithXibFileViewController.h
+//  itude-mobile-ios-app
+//
+//  Created by Robin Puthli on 08-08-2012.
+//  Copyright (c) 2012 Itude Mobile. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface PageWithXibFileViewController : UIViewController
+
+@end
