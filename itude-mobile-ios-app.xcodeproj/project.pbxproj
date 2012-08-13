@@ -561,6 +561,14 @@
 		1C0CCAA11505082000766A49 /* MBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC8D31505081F00766A49 /* MBTableViewController.m */; };
 		1C0CCAA21505082000766A49 /* MBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC8D31505081F00766A49 /* MBTableViewController.m */; };
 		1C0CCAA31505082000766A49 /* MBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC8D31505081F00766A49 /* MBTableViewController.m */; };
+		2C61DACD15D9033800FF1542 /* MBRESTGetServiceDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C61DACA15D9033800FF1542 /* MBRESTGetServiceDataHandler.m */; };
+		2C61DACE15D9033800FF1542 /* MBRESTGetServiceDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C61DACA15D9033800FF1542 /* MBRESTGetServiceDataHandler.m */; };
+		2C61DACF15D9033800FF1542 /* MBRESTGetServiceDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C61DACA15D9033800FF1542 /* MBRESTGetServiceDataHandler.m */; };
+		2C61DAD015D9033800FF1542 /* MBRESTGetServiceDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C61DACA15D9033800FF1542 /* MBRESTGetServiceDataHandler.m */; };
+		2C61DAD115D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C61DACC15D9033800FF1542 /* MBURLConnectionDataHandler.m */; };
+		2C61DAD215D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C61DACC15D9033800FF1542 /* MBURLConnectionDataHandler.m */; };
+		2C61DAD315D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C61DACC15D9033800FF1542 /* MBURLConnectionDataHandler.m */; };
+		2C61DAD415D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C61DACC15D9033800FF1542 /* MBURLConnectionDataHandler.m */; };
 		BD0817DB146936B6006F0AA0 /* FireInitialOutcomes.m in Sources */ = {isa = PBXBuildFile; fileRef = BD081782146936B6006F0AA0 /* FireInitialOutcomes.m */; };
 		BD0817DC146936B6006F0AA0 /* FireInitialOutcomes.m in Sources */ = {isa = PBXBuildFile; fileRef = BD081782146936B6006F0AA0 /* FireInitialOutcomes.m */; };
 		BD0817DD146936B6006F0AA0 /* FireInitialOutcomes.m in Sources */ = {isa = PBXBuildFile; fileRef = BD081782146936B6006F0AA0 /* FireInitialOutcomes.m */; };
@@ -759,7 +767,6 @@
 		BD0818B8146936E5006F0AA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD0818B0146936E5006F0AA0 /* InfoPlist.strings */; };
 		BD0818B9146936E5006F0AA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD0818B0146936E5006F0AA0 /* InfoPlist.strings */; };
 		BD0818BF146936E5006F0AA0 /* itude_mobile_ios_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0818B5146936E5006F0AA0 /* itude_mobile_ios_appTests.m */; };
-		BD2FAECC14693B6C001BC63C /* itude-mobile-ios-appTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD0818B2146936E5006F0AA0 /* itude-mobile-ios-appTests-Info.plist */; };
 		BD2FAF12146A93B3001BC63C /* MGSplitCornersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AE33DB13CB4C59004E2F95 /* MGSplitCornersView.m */; };
 		BD2FAF13146A93B3001BC63C /* MGSplitDividerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AE33DD13CB4C59004E2F95 /* MGSplitDividerView.m */; };
 		BD2FAF14146A93B3001BC63C /* MGSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AE33DF13CB4C59004E2F95 /* MGSplitViewController.m */; };
@@ -1068,6 +1075,10 @@
 		1C0CC8D01505081F00766A49 /* MBValueChangeListenerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBValueChangeListenerProtocol.h; sourceTree = "<group>"; };
 		1C0CC8D21505081F00766A49 /* MBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTableViewController.h; sourceTree = "<group>"; };
 		1C0CC8D31505081F00766A49 /* MBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTableViewController.m; sourceTree = "<group>"; };
+		2C61DAC915D9033800FF1542 /* MBRESTGetServiceDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBRESTGetServiceDataHandler.h; sourceTree = "<group>"; };
+		2C61DACA15D9033800FF1542 /* MBRESTGetServiceDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBRESTGetServiceDataHandler.m; sourceTree = "<group>"; };
+		2C61DACB15D9033800FF1542 /* MBURLConnectionDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBURLConnectionDataHandler.h; sourceTree = "<group>"; };
+		2C61DACC15D9033800FF1542 /* MBURLConnectionDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBURLConnectionDataHandler.m; sourceTree = "<group>"; };
 		BD081781146936B6006F0AA0 /* FireInitialOutcomes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireInitialOutcomes.h; sourceTree = "<group>"; };
 		BD081782146936B6006F0AA0 /* FireInitialOutcomes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireInitialOutcomes.m; sourceTree = "<group>"; };
 		BD081783146936B6006F0AA0 /* GenericAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericAction.h; sourceTree = "<group>"; };
@@ -1506,6 +1517,10 @@
 		1C0CC83B1505081F00766A49 /* Handlers */ = {
 			isa = PBXGroup;
 			children = (
+				2C61DAC915D9033800FF1542 /* MBRESTGetServiceDataHandler.h */,
+				2C61DACA15D9033800FF1542 /* MBRESTGetServiceDataHandler.m */,
+				2C61DACB15D9033800FF1542 /* MBURLConnectionDataHandler.h */,
+				2C61DACC15D9033800FF1542 /* MBURLConnectionDataHandler.m */,
 				1C0CC83C1505081F00766A49 /* MBDocumentOperation.h */,
 				1C0CC83D1505081F00766A49 /* MBDocumentOperation.m */,
 				1C0CC83E1505081F00766A49 /* MBFileDataHandler.h */,
@@ -2049,7 +2064,7 @@
 		03F239A813C6FFFA00E9BD32 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "Itude Mobile";
 			};
 			buildConfigurationList = 03F239AB13C6FFFB00E9BD32 /* Build configuration list for PBXProject "itude-mobile-ios-app" */;
@@ -2305,7 +2320,6 @@
 				BD0818A0146936B7006F0AA0 /* InfoPlist.strings in Resources */,
 				BD0818AC146936B7006F0AA0 /* itude-mobile-ios-app-Info.plist in Resources */,
 				BD0818B7146936E5006F0AA0 /* InfoPlist.strings in Resources */,
-				BD2FAECC14693B6C001BC63C /* itude-mobile-ios-appTests-Info.plist in Resources */,
 				1C0CC9911505081F00766A49 /* FontDown_Icon.png in Resources */,
 				1C0CC9951505081F00766A49 /* FontUp_Icon.png in Resources */,
 				1C0CC9991505081F00766A49 /* MBDatePicker.xib in Resources */,
@@ -2481,6 +2495,8 @@
 				00CB69AB15D28D90004F3697 /* CustomizedList.m in Sources */,
 				00CB69B115D28DBF004F3697 /* CustomizedViewLogic.m in Sources */,
 				00CB69B815D28DF7004F3697 /* PageWithXibFileViewController.m in Sources */,
+				2C61DACF15D9033800FF1542 /* MBRESTGetServiceDataHandler.m in Sources */,
+				2C61DAD315D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2622,6 +2638,8 @@
 				00CB69AC15D28D90004F3697 /* CustomizedList.m in Sources */,
 				00CB69B215D28DBF004F3697 /* CustomizedViewLogic.m in Sources */,
 				00CB69B915D28DF7004F3697 /* PageWithXibFileViewController.m in Sources */,
+				2C61DAD015D9033800FF1542 /* MBRESTGetServiceDataHandler.m in Sources */,
+				2C61DAD415D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2763,6 +2781,8 @@
 				00CB69A915D28D90004F3697 /* CustomizedList.m in Sources */,
 				00CB69AF15D28DBF004F3697 /* CustomizedViewLogic.m in Sources */,
 				00CB69B615D28DF7004F3697 /* PageWithXibFileViewController.m in Sources */,
+				2C61DACD15D9033800FF1542 /* MBRESTGetServiceDataHandler.m in Sources */,
+				2C61DAD115D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2905,6 +2925,8 @@
 				00CB69AA15D28D90004F3697 /* CustomizedList.m in Sources */,
 				00CB69B015D28DBF004F3697 /* CustomizedViewLogic.m in Sources */,
 				00CB69B715D28DF7004F3697 /* PageWithXibFileViewController.m in Sources */,
+				2C61DACE15D9033800FF1542 /* MBRESTGetServiceDataHandler.m in Sources */,
+				2C61DAD215D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2949,6 +2971,7 @@
 				GCC_PREFIX_HEADER = "itude-mobile-ios-app/Supporting Files/Pilservice-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = SIMULATOR;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"\\usr\\include/**",
@@ -2974,6 +2997,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "itude-mobile-ios-app/Supporting Files/Pilservice-Prefix.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = SIMULATOR;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"\\usr\\include/**",
@@ -3002,6 +3026,7 @@
 				GCC_PREFIX_HEADER = "itude-mobile-ios-app/Supporting Files/Pilservice-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = DEBUGMOBBL;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"\\usr\\include/**",
@@ -3028,6 +3053,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "itude-mobile-ios-app/Supporting Files/Pilservice-Prefix.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = DEBUGMOBBL;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"\\usr\\include/**",
@@ -3066,6 +3092,7 @@
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = 4.2;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -3095,6 +3122,7 @@
 					"\"$(inherited)\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = 4.2;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -3119,6 +3147,7 @@
 				GCC_PREFIX_HEADER = "itude-mobile-ios-app/Supporting Files/Pilservice-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = DEVICE;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"\\usr\\include/**",
@@ -3144,6 +3173,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "itude-mobile-ios-app/Supporting Files/Pilservice-Prefix.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = DEVICE;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"\\usr\\include/**",
@@ -3172,6 +3202,7 @@
 				GCC_PREFIX_HEADER = "itude-mobile-ios-appTests/itude-mobile-ios-appTests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = TEST;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"\\usr\\include/**",
@@ -3197,6 +3228,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "itude-mobile-ios-appTests/itude-mobile-ios-appTests-Prefix.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = TEST;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"\\usr\\include/**",
@@ -3229,6 +3261,7 @@
 					"\"$(inherited)\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = 4.2;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -3252,6 +3285,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "itude-mobile-ios-app/Supporting Files/Pilservice-Prefix.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = DEVICE;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"\\usr\\include/**",
@@ -3279,6 +3313,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "itude-mobile-ios-appTests/itude-mobile-ios-appTests-Prefix.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = TEST;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"\\usr\\include/**",
@@ -3304,6 +3339,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "itude-mobile-ios-app/Supporting Files/Pilservice-Prefix.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = SIMULATOR;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"\\usr\\include/**",
@@ -3331,6 +3367,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "itude-mobile-ios-app/Supporting Files/Pilservice-Prefix.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = DEBUGMOBBL;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"\\usr\\include/**",
