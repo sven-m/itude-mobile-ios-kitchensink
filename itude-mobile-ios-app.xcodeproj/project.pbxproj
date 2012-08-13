@@ -81,7 +81,6 @@
 		03AE33E013CB4C59004E2F95 /* MGSplitCornersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AE33DB13CB4C59004E2F95 /* MGSplitCornersView.m */; };
 		03AE33E113CB4C59004E2F95 /* MGSplitDividerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AE33DD13CB4C59004E2F95 /* MGSplitDividerView.m */; };
 		03AE33E213CB4C59004E2F95 /* MGSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AE33DF13CB4C59004E2F95 /* MGSplitViewController.m */; };
-		03C1DDC513CC64400070706E /* itude-mobile-iphone-core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C1DDC413CC64400070706E /* itude-mobile-iphone-core.framework */; };
 		03F0877913C7492B00A58AE7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0877813C7492B00A58AE7 /* SystemConfiguration.framework */; };
 		03F0877C13C7494E00A58AE7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0877813C7492B00A58AE7 /* SystemConfiguration.framework */; };
 		03F0877D13C7494F00A58AE7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0877813C7492B00A58AE7 /* SystemConfiguration.framework */; };
@@ -89,8 +88,6 @@
 		03F090E013C7550500A58AE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F239B513C6FFFB00E9BD32 /* UIKit.framework */; };
 		03F090E113C7550500A58AE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F239B713C6FFFB00E9BD32 /* Foundation.framework */; };
 		03F090E213C7550500A58AE7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F239B913C6FFFB00E9BD32 /* CoreGraphics.framework */; };
-		03F0969A13CB331600A58AE7 /* itude-mobile-iphone-core-i386.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0969913CB331600A58AE7 /* itude-mobile-iphone-core-i386.framework */; };
-		03F0969B13CB331600A58AE7 /* itude-mobile-iphone-core-i386.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0969913CB331600A58AE7 /* itude-mobile-iphone-core-i386.framework */; };
 		03F239B613C6FFFB00E9BD32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F239B513C6FFFB00E9BD32 /* UIKit.framework */; };
 		03F239B813C6FFFB00E9BD32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F239B713C6FFFB00E9BD32 /* Foundation.framework */; };
 		03F239BA13C6FFFB00E9BD32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F239B913C6FFFB00E9BD32 /* CoreGraphics.framework */; };
@@ -819,10 +816,8 @@
 		03AE33DD13CB4C59004E2F95 /* MGSplitDividerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSplitDividerView.m; sourceTree = "<group>"; };
 		03AE33DE13CB4C59004E2F95 /* MGSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSplitViewController.h; sourceTree = "<group>"; };
 		03AE33DF13CB4C59004E2F95 /* MGSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSplitViewController.m; sourceTree = "<group>"; };
-		03C1DDC413CC64400070706E /* itude-mobile-iphone-core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "itude-mobile-iphone-core.framework"; sourceTree = "<group>"; };
 		03F0877813C7492B00A58AE7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		03F090F213C7550500A58AE7 /* Kitchen sink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kitchen sink.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		03F0969913CB331600A58AE7 /* itude-mobile-iphone-core-i386.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "itude-mobile-iphone-core-i386.framework"; sourceTree = "<group>"; };
 		03F239B113C6FFFB00E9BD32 /* itude-mobile-ios-app (Device).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "itude-mobile-ios-app (Device).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F239B513C6FFFB00E9BD32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		03F239B713C6FFFB00E9BD32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -1159,7 +1154,6 @@
 				036F804F13C700D40082D901 /* UIKit.framework in Frameworks */,
 				036F805013C700D40082D901 /* Foundation.framework in Frameworks */,
 				036F805113C700D40082D901 /* CoreGraphics.framework in Frameworks */,
-				03F0969B13CB331600A58AE7 /* itude-mobile-iphone-core-i386.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1182,7 +1176,6 @@
 				03F239B813C6FFFB00E9BD32 /* Foundation.framework in Frameworks */,
 				03F239BA13C6FFFB00E9BD32 /* CoreGraphics.framework in Frameworks */,
 				03F0877D13C7494F00A58AE7 /* SystemConfiguration.framework in Frameworks */,
-				03C1DDC513CC64400070706E /* itude-mobile-iphone-core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1194,7 +1187,6 @@
 				03F239D713C6FFFC00E9BD32 /* Foundation.framework in Frameworks */,
 				03F239D813C6FFFC00E9BD32 /* CoreGraphics.framework in Frameworks */,
 				03F0877C13C7494E00A58AE7 /* SystemConfiguration.framework in Frameworks */,
-				03F0969A13CB331600A58AE7 /* itude-mobile-iphone-core-i386.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1281,8 +1273,6 @@
 		03F239B413C6FFFB00E9BD32 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				03C1DDC413CC64400070706E /* itude-mobile-iphone-core.framework */,
-				03F0969913CB331600A58AE7 /* itude-mobile-iphone-core-i386.framework */,
 				03F0877813C7492B00A58AE7 /* SystemConfiguration.framework */,
 				03F239B513C6FFFB00E9BD32 /* UIKit.framework */,
 				03F239B713C6FFFB00E9BD32 /* Foundation.framework */,

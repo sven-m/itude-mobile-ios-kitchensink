@@ -1,2 +1,0 @@
-#define SVN_REVISION @"2870"
-#define BUILD_DATE @"10/03/2011 13:56"
