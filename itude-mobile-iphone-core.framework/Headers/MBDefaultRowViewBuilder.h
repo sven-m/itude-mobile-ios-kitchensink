@@ -11,7 +11,7 @@
 
 @class MBRow;
 
-@interface MBRowViewBuilder : MBViewBuilder {
+@interface MBDefaultRowViewBuilder : MBViewBuilder {
 
 }
 

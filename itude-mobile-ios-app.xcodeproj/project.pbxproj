@@ -465,10 +465,10 @@
 		1C0CCA411505082000766A49 /* MBPanelViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89D1505081F00766A49 /* MBPanelViewBuilder.m */; };
 		1C0CCA421505082000766A49 /* MBPanelViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89D1505081F00766A49 /* MBPanelViewBuilder.m */; };
 		1C0CCA431505082000766A49 /* MBPanelViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89D1505081F00766A49 /* MBPanelViewBuilder.m */; };
-		1C0CCA441505082000766A49 /* MBRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89F1505081F00766A49 /* MBRowViewBuilder.m */; };
-		1C0CCA451505082000766A49 /* MBRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89F1505081F00766A49 /* MBRowViewBuilder.m */; };
-		1C0CCA461505082000766A49 /* MBRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89F1505081F00766A49 /* MBRowViewBuilder.m */; };
-		1C0CCA471505082000766A49 /* MBRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89F1505081F00766A49 /* MBRowViewBuilder.m */; };
+		1C0CCA441505082000766A49 /* MBDefaultRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89F1505081F00766A49 /* MBDefaultRowViewBuilder.m */; };
+		1C0CCA451505082000766A49 /* MBDefaultRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89F1505081F00766A49 /* MBDefaultRowViewBuilder.m */; };
+		1C0CCA461505082000766A49 /* MBDefaultRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89F1505081F00766A49 /* MBDefaultRowViewBuilder.m */; };
+		1C0CCA471505082000766A49 /* MBDefaultRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89F1505081F00766A49 /* MBDefaultRowViewBuilder.m */; };
 		1C0CCA481505082000766A49 /* MBStyleHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC8A11505081F00766A49 /* MBStyleHandler.m */; };
 		1C0CCA491505082000766A49 /* MBStyleHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC8A11505081F00766A49 /* MBStyleHandler.m */; };
 		1C0CCA4A1505082000766A49 /* MBStyleHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC8A11505081F00766A49 /* MBStyleHandler.m */; };
@@ -1024,8 +1024,8 @@
 		1C0CC89B1505081F00766A49 /* MBPageViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBPageViewBuilder.m; sourceTree = "<group>"; };
 		1C0CC89C1505081F00766A49 /* MBPanelViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBPanelViewBuilder.h; sourceTree = "<group>"; };
 		1C0CC89D1505081F00766A49 /* MBPanelViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBPanelViewBuilder.m; sourceTree = "<group>"; };
-		1C0CC89E1505081F00766A49 /* MBRowViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBRowViewBuilder.h; sourceTree = "<group>"; };
-		1C0CC89F1505081F00766A49 /* MBRowViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBRowViewBuilder.m; sourceTree = "<group>"; };
+		1C0CC89E1505081F00766A49 /* MBDefaultRowViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDefaultRowViewBuilder.h; sourceTree = "<group>"; };
+		1C0CC89F1505081F00766A49 /* MBDefaultRowViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDefaultRowViewBuilder.m; sourceTree = "<group>"; };
 		1C0CC8A01505081F00766A49 /* MBStyleHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBStyleHandler.h; sourceTree = "<group>"; };
 		1C0CC8A11505081F00766A49 /* MBStyleHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBStyleHandler.m; sourceTree = "<group>"; };
 		1C0CC8A21505081F00766A49 /* MBViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBViewBuilder.h; sourceTree = "<group>"; };
@@ -1147,6 +1147,7 @@
 		BD0818B3146936E5006F0AA0 /* itude-mobile-ios-appTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "itude-mobile-ios-appTests-Prefix.pch"; sourceTree = "<group>"; };
 		BD0818B4146936E5006F0AA0 /* itude_mobile_ios_appTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = itude_mobile_ios_appTests.h; sourceTree = "<group>"; };
 		BD0818B5146936E5006F0AA0 /* itude_mobile_ios_appTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = itude_mobile_ios_appTests.m; sourceTree = "<group>"; };
+		BD2FAF20146A93B5001BC63D /* MBRowViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBRowViewBuilder.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1652,6 +1653,7 @@
 		1C0CC8921505081F00766A49 /* Builders */ = {
 			isa = PBXGroup;
 			children = (
+				BD2FAF20146A93B5001BC63D /* MBRowViewBuilder.h */,
 				1C0CC8931505081F00766A49 /* MBFieldTypes.h */,
 				1C0CC8941505081F00766A49 /* MBFieldViewBuilder.h */,
 				1C0CC8951505081F00766A49 /* MBFieldViewBuilder.m */,
@@ -1663,8 +1665,8 @@
 				1C0CC89B1505081F00766A49 /* MBPageViewBuilder.m */,
 				1C0CC89C1505081F00766A49 /* MBPanelViewBuilder.h */,
 				1C0CC89D1505081F00766A49 /* MBPanelViewBuilder.m */,
-				1C0CC89E1505081F00766A49 /* MBRowViewBuilder.h */,
-				1C0CC89F1505081F00766A49 /* MBRowViewBuilder.m */,
+				1C0CC89E1505081F00766A49 /* MBDefaultRowViewBuilder.h */,
+				1C0CC89F1505081F00766A49 /* MBDefaultRowViewBuilder.m */,
 				1C0CC8A01505081F00766A49 /* MBStyleHandler.h */,
 				1C0CC8A11505081F00766A49 /* MBStyleHandler.m */,
 				1C0CC8A21505081F00766A49 /* MBViewBuilder.h */,
@@ -2465,7 +2467,7 @@
 				1C0CCA3A1505082000766A49 /* MBMatrixViewBuilder.m in Sources */,
 				1C0CCA3E1505082000766A49 /* MBPageViewBuilder.m in Sources */,
 				1C0CCA421505082000766A49 /* MBPanelViewBuilder.m in Sources */,
-				1C0CCA461505082000766A49 /* MBRowViewBuilder.m in Sources */,
+				1C0CCA461505082000766A49 /* MBDefaultRowViewBuilder.m in Sources */,
 				1C0CCA4A1505082000766A49 /* MBStyleHandler.m in Sources */,
 				1C0CCA4E1505082000766A49 /* MBViewBuilder.m in Sources */,
 				1C0CCA521505082000766A49 /* MBViewBuilderFactory.m in Sources */,
@@ -2608,7 +2610,7 @@
 				1C0CCA3B1505082000766A49 /* MBMatrixViewBuilder.m in Sources */,
 				1C0CCA3F1505082000766A49 /* MBPageViewBuilder.m in Sources */,
 				1C0CCA431505082000766A49 /* MBPanelViewBuilder.m in Sources */,
-				1C0CCA471505082000766A49 /* MBRowViewBuilder.m in Sources */,
+				1C0CCA471505082000766A49 /* MBDefaultRowViewBuilder.m in Sources */,
 				1C0CCA4B1505082000766A49 /* MBStyleHandler.m in Sources */,
 				1C0CCA4F1505082000766A49 /* MBViewBuilder.m in Sources */,
 				1C0CCA531505082000766A49 /* MBViewBuilderFactory.m in Sources */,
@@ -2751,7 +2753,7 @@
 				1C0CCA381505082000766A49 /* MBMatrixViewBuilder.m in Sources */,
 				1C0CCA3C1505082000766A49 /* MBPageViewBuilder.m in Sources */,
 				1C0CCA401505082000766A49 /* MBPanelViewBuilder.m in Sources */,
-				1C0CCA441505082000766A49 /* MBRowViewBuilder.m in Sources */,
+				1C0CCA441505082000766A49 /* MBDefaultRowViewBuilder.m in Sources */,
 				1C0CCA481505082000766A49 /* MBStyleHandler.m in Sources */,
 				1C0CCA4C1505082000766A49 /* MBViewBuilder.m in Sources */,
 				1C0CCA501505082000766A49 /* MBViewBuilderFactory.m in Sources */,
@@ -2895,7 +2897,7 @@
 				1C0CCA391505082000766A49 /* MBMatrixViewBuilder.m in Sources */,
 				1C0CCA3D1505082000766A49 /* MBPageViewBuilder.m in Sources */,
 				1C0CCA411505082000766A49 /* MBPanelViewBuilder.m in Sources */,
-				1C0CCA451505082000766A49 /* MBRowViewBuilder.m in Sources */,
+				1C0CCA451505082000766A49 /* MBDefaultRowViewBuilder.m in Sources */,
 				1C0CCA491505082000766A49 /* MBStyleHandler.m in Sources */,
 				1C0CCA4D1505082000766A49 /* MBViewBuilder.m in Sources */,
 				1C0CCA511505082000766A49 /* MBViewBuilderFactory.m in Sources */,
