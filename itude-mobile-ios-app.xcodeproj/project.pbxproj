@@ -1143,6 +1143,7 @@
 		BD0818B4146936E5006F0AA0 /* itude_mobile_ios_appTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = itude_mobile_ios_appTests.h; sourceTree = "<group>"; };
 		BD0818B5146936E5006F0AA0 /* itude_mobile_ios_appTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = itude_mobile_ios_appTests.m; sourceTree = "<group>"; };
 		BD2FAF20146A93B5001BC63D /* MBRowViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBRowViewBuilder.h; sourceTree = "<group>"; };
+		BD2FAF20146A93B5001BC63E /* MBViewBuilderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBViewBuilderDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1643,6 +1644,7 @@
 		1C0CC8921505081F00766A49 /* Builders */ = {
 			isa = PBXGroup;
 			children = (
+				BD2FAF20146A93B5001BC63E /* MBViewBuilderDelegate.h */,
 				BD2FAF20146A93B5001BC63D /* MBRowViewBuilder.h */,
 				1C0CC8931505081F00766A49 /* MBFieldTypes.h */,
 				1C0CC8941505081F00766A49 /* MBFieldViewBuilder.h */,
@@ -3135,6 +3137,7 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "itude-mobile-ios-app/Supporting Files/Pilservice-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "";
@@ -3162,6 +3165,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "itude-mobile-ios-app/Supporting Files/Pilservice-Prefix.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = DEVICE;
@@ -3274,6 +3278,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "itude-mobile-ios-app/Supporting Files/Pilservice-Prefix.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = DEVICE;
