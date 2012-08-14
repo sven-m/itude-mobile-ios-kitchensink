@@ -1151,7 +1151,6 @@
 		BD0818B4146936E5006F0AA0 /* itude_mobile_ios_appTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = itude_mobile_ios_appTests.h; sourceTree = "<group>"; };
 		BD0818B5146936E5006F0AA0 /* itude_mobile_ios_appTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = itude_mobile_ios_appTests.m; sourceTree = "<group>"; };
 		BD2FAF20146A93B5001BC63D /* MBRowViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBRowViewBuilder.h; sourceTree = "<group>"; };
-		BD2FAF20146A93B5001BC63E /* MBViewBuilderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBViewBuilderDelegate.h; sourceTree = "<group>"; };
 		BD2FAF20146A93B5001BC63F /* UIWebView+FontResizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+FontResizing.m"; sourceTree = "<group>"; };
 		BD2FAF20146A93B5001BC644 /* UIWebView+FontResizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+FontResizing.h"; sourceTree = "<group>"; };
 		BD2FAF20146A93B5001BC645 /* UIView+TreeWalker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TreeWalker.m"; sourceTree = "<group>"; };
@@ -1660,7 +1659,6 @@
 		1C0CC8921505081F00766A49 /* Builders */ = {
 			isa = PBXGroup;
 			children = (
-				BD2FAF20146A93B5001BC63E /* MBViewBuilderDelegate.h */,
 				BD2FAF20146A93B5001BC63D /* MBRowViewBuilder.h */,
 				1C0CC8931505081F00766A49 /* MBFieldTypes.h */,
 				1C0CC8941505081F00766A49 /* MBFieldViewBuilder.h */,
