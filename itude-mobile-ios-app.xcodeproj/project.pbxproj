@@ -773,6 +773,14 @@
 		BD2FAF1E146A93B5001BC63C /* MGSplitCornersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AE33DB13CB4C59004E2F95 /* MGSplitCornersView.m */; };
 		BD2FAF1F146A93B5001BC63C /* MGSplitDividerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AE33DD13CB4C59004E2F95 /* MGSplitDividerView.m */; };
 		BD2FAF20146A93B5001BC63C /* MGSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AE33DF13CB4C59004E2F95 /* MGSplitViewController.m */; };
+		BD2FAF20146A93B5001BC640 /* UIWebView+FontResizing.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC63F /* UIWebView+FontResizing.m */; };
+		BD2FAF20146A93B5001BC641 /* UIWebView+FontResizing.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC63F /* UIWebView+FontResizing.m */; };
+		BD2FAF20146A93B5001BC642 /* UIWebView+FontResizing.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC63F /* UIWebView+FontResizing.m */; };
+		BD2FAF20146A93B5001BC643 /* UIWebView+FontResizing.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC63F /* UIWebView+FontResizing.m */; };
+		BD2FAF20146A93B5001BC646 /* UIView+TreeWalker.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC645 /* UIView+TreeWalker.m */; };
+		BD2FAF20146A93B5001BC647 /* UIView+TreeWalker.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC645 /* UIView+TreeWalker.m */; };
+		BD2FAF20146A93B5001BC648 /* UIView+TreeWalker.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC645 /* UIView+TreeWalker.m */; };
+		BD2FAF20146A93B5001BC649 /* UIView+TreeWalker.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC645 /* UIView+TreeWalker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1144,6 +1152,10 @@
 		BD0818B5146936E5006F0AA0 /* itude_mobile_ios_appTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = itude_mobile_ios_appTests.m; sourceTree = "<group>"; };
 		BD2FAF20146A93B5001BC63D /* MBRowViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBRowViewBuilder.h; sourceTree = "<group>"; };
 		BD2FAF20146A93B5001BC63E /* MBViewBuilderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBViewBuilderDelegate.h; sourceTree = "<group>"; };
+		BD2FAF20146A93B5001BC63F /* UIWebView+FontResizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+FontResizing.m"; sourceTree = "<group>"; };
+		BD2FAF20146A93B5001BC644 /* UIWebView+FontResizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+FontResizing.h"; sourceTree = "<group>"; };
+		BD2FAF20146A93B5001BC645 /* UIView+TreeWalker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TreeWalker.m"; sourceTree = "<group>"; };
+		BD2FAF20146A93B5001BC64A /* UIView+TreeWalker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TreeWalker.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1534,6 +1546,10 @@
 		1C0CC8581505081F00766A49 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				BD2FAF20146A93B5001BC64A /* UIView+TreeWalker.h */,
+				BD2FAF20146A93B5001BC645 /* UIView+TreeWalker.m */,
+				BD2FAF20146A93B5001BC644 /* UIWebView+FontResizing.h */,
+				BD2FAF20146A93B5001BC63F /* UIWebView+FontResizing.m */,
 				1C0CC8591505081F00766A49 /* BinckUtilities.h */,
 				1C0CC85A1505081F00766A49 /* BinckUtilities.m */,
 				1C0CC85B1505081F00766A49 /* ColorUtilities.h */,
@@ -2491,6 +2507,8 @@
 				00CB69B815D28DF7004F3697 /* PageWithXibFileViewController.m in Sources */,
 				2C61DACF15D9033800FF1542 /* MBRESTGetServiceDataHandler.m in Sources */,
 				2C61DAD315D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */,
+				BD2FAF20146A93B5001BC642 /* UIWebView+FontResizing.m in Sources */,
+				BD2FAF20146A93B5001BC648 /* UIView+TreeWalker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2634,6 +2652,8 @@
 				00CB69B915D28DF7004F3697 /* PageWithXibFileViewController.m in Sources */,
 				2C61DAD015D9033800FF1542 /* MBRESTGetServiceDataHandler.m in Sources */,
 				2C61DAD415D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */,
+				BD2FAF20146A93B5001BC643 /* UIWebView+FontResizing.m in Sources */,
+				BD2FAF20146A93B5001BC649 /* UIView+TreeWalker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2777,6 +2797,8 @@
 				00CB69B615D28DF7004F3697 /* PageWithXibFileViewController.m in Sources */,
 				2C61DACD15D9033800FF1542 /* MBRESTGetServiceDataHandler.m in Sources */,
 				2C61DAD115D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */,
+				BD2FAF20146A93B5001BC640 /* UIWebView+FontResizing.m in Sources */,
+				BD2FAF20146A93B5001BC646 /* UIView+TreeWalker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2921,6 +2943,8 @@
 				00CB69B715D28DF7004F3697 /* PageWithXibFileViewController.m in Sources */,
 				2C61DACE15D9033800FF1542 /* MBRESTGetServiceDataHandler.m in Sources */,
 				2C61DAD215D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */,
+				BD2FAF20146A93B5001BC641 /* UIWebView+FontResizing.m in Sources */,
+				BD2FAF20146A93B5001BC647 /* UIView+TreeWalker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2961,6 +2985,7 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "itude-mobile-ios-app/Supporting Files/Pilservice-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "";
@@ -2988,6 +3013,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "itude-mobile-ios-app/Supporting Files/Pilservice-Prefix.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = SIMULATOR;
@@ -3016,6 +3042,7 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "itude-mobile-ios-app/Supporting Files/Pilservice-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "";
@@ -3044,6 +3071,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "itude-mobile-ios-app/Supporting Files/Pilservice-Prefix.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = DEBUGMOBBL;
@@ -3194,6 +3222,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_LOADER = "";
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "itude-mobile-ios-appTests/itude-mobile-ios-appTests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "";
@@ -3221,6 +3250,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_LOADER = "";
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "itude-mobile-ios-appTests/itude-mobile-ios-appTests-Prefix.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = TEST;
@@ -3307,6 +3337,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_LOADER = "";
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "itude-mobile-ios-appTests/itude-mobile-ios-appTests-Prefix.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = TEST;
@@ -3333,6 +3364,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "itude-mobile-ios-app/Supporting Files/Pilservice-Prefix.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = SIMULATOR;
@@ -3361,6 +3393,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "itude-mobile-ios-app/Supporting Files/Pilservice-Prefix.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = DEBUGMOBBL;
