@@ -24,8 +24,13 @@
     // You have access to the Document through row.document
     MBDocument *document = row.document;
     cell.textLabel.text = [document valueForPath:@"Form[0]/@title"];
-    cell.detailTextLabel.text = [document valueForPath:@"Form[0]/@gender"];
+    cell.detailTextLabel.text = @"CustomRowViewBuilder";
     return cell;
+}
+
+- (CGFloat)heightForRow:(MBRow *)row atIndexPath:(NSIndexPath *)indexPath forTableView:(UITableView *)tableView
+{
+    return [UIImage imageNamed:@"trololo.jpg"].size.height / 3;
 }
 
 
