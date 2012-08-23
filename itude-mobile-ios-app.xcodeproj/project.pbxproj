@@ -566,6 +566,18 @@
 		2C61DAD215D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C61DACC15D9033800FF1542 /* MBURLConnectionDataHandler.m */; };
 		2C61DAD315D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C61DACC15D9033800FF1542 /* MBURLConnectionDataHandler.m */; };
 		2C61DAD415D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C61DACC15D9033800FF1542 /* MBURLConnectionDataHandler.m */; };
+		3481208774990190C85D14DC /* trololo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3481286F417470DDE0F23AD6 /* trololo.jpg */; };
+		348123452F672C794EC38DB4 /* MBRowViewBuilderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 34812D6B7D04E8BE671524E2 /* MBRowViewBuilderFactory.m */; };
+		34812492226535E995B4E7A2 /* CustomRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3481256D97DF65AB2C5F7FD4 /* CustomRowViewBuilder.m */; };
+		348124E1F53B380BE2573DB9 /* trololo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3481286F417470DDE0F23AD6 /* trololo.jpg */; };
+		3481269D4D8A93313421AF78 /* MBRowViewBuilderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 34812D6B7D04E8BE671524E2 /* MBRowViewBuilderFactory.m */; };
+		348127B07961890B5BE745CF /* CustomRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3481256D97DF65AB2C5F7FD4 /* CustomRowViewBuilder.m */; };
+		34812847C65354CCAFDCFE8A /* MBRowViewBuilderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 34812D6B7D04E8BE671524E2 /* MBRowViewBuilderFactory.m */; };
+		3481297FBAC37C26D9BBE618 /* trololo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3481286F417470DDE0F23AD6 /* trololo.jpg */; };
+		34812C10C3724A22AC647E65 /* MBRowViewBuilderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 34812D6B7D04E8BE671524E2 /* MBRowViewBuilderFactory.m */; };
+		34812D9A0E074EBA5B8B55C4 /* CustomRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3481256D97DF65AB2C5F7FD4 /* CustomRowViewBuilder.m */; };
+		34812DEFF5F3592DD0ECB89B /* trololo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3481286F417470DDE0F23AD6 /* trololo.jpg */; };
+		34812F0DF59B3983BA3365D0 /* CustomRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3481256D97DF65AB2C5F7FD4 /* CustomRowViewBuilder.m */; };
 		BD0817DB146936B6006F0AA0 /* FireInitialOutcomes.m in Sources */ = {isa = PBXBuildFile; fileRef = BD081782146936B6006F0AA0 /* FireInitialOutcomes.m */; };
 		BD0817DC146936B6006F0AA0 /* FireInitialOutcomes.m in Sources */ = {isa = PBXBuildFile; fileRef = BD081782146936B6006F0AA0 /* FireInitialOutcomes.m */; };
 		BD0817DD146936B6006F0AA0 /* FireInitialOutcomes.m in Sources */ = {isa = PBXBuildFile; fileRef = BD081782146936B6006F0AA0 /* FireInitialOutcomes.m */; };
@@ -1118,6 +1130,11 @@
 		2C61DACA15D9033800FF1542 /* MBRESTGetServiceDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBRESTGetServiceDataHandler.m; sourceTree = "<group>"; };
 		2C61DACB15D9033800FF1542 /* MBURLConnectionDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBURLConnectionDataHandler.h; sourceTree = "<group>"; };
 		2C61DACC15D9033800FF1542 /* MBURLConnectionDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBURLConnectionDataHandler.m; sourceTree = "<group>"; };
+		3481234ED29B6C9AB028209C /* CustomRowViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRowViewBuilder.h; sourceTree = "<group>"; };
+		3481256D97DF65AB2C5F7FD4 /* CustomRowViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRowViewBuilder.m; sourceTree = "<group>"; };
+		3481286F417470DDE0F23AD6 /* trololo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trololo.jpg; sourceTree = "<group>"; };
+		348129E0ECAADF9C8DCCFDED /* MBRowViewBuilderFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBRowViewBuilderFactory.h; sourceTree = "<group>"; };
+		34812D6B7D04E8BE671524E2 /* MBRowViewBuilderFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBRowViewBuilderFactory.m; sourceTree = "<group>"; };
 		BD081781146936B6006F0AA0 /* FireInitialOutcomes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireInitialOutcomes.h; sourceTree = "<group>"; };
 		BD081782146936B6006F0AA0 /* FireInitialOutcomes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireInitialOutcomes.m; sourceTree = "<group>"; };
 		BD081783146936B6006F0AA0 /* GenericAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericAction.h; sourceTree = "<group>"; };
@@ -1713,6 +1730,8 @@
 		1C0CC8921505081F00766A49 /* Builders */ = {
 			isa = PBXGroup;
 			children = (
+				348129E0ECAADF9C8DCCFDED /* MBRowViewBuilderFactory.h */,
+				34812D6B7D04E8BE671524E2 /* MBRowViewBuilderFactory.m */,
 				1C0CC8931505081F00766A49 /* MBFieldTypes.h */,
 				1C0CC8941505081F00766A49 /* MBFieldViewBuilder.h */,
 				1C0CC8951505081F00766A49 /* MBFieldViewBuilder.m */,
@@ -1889,6 +1908,8 @@
 		BD081795146936B6006F0AA0 /* Builders */ = {
 			isa = PBXGroup;
 			children = (
+				3481234ED29B6C9AB028209C /* CustomRowViewBuilder.h */,
+				3481256D97DF65AB2C5F7FD4 /* CustomRowViewBuilder.m */,
 				BD081796146936B6006F0AA0 /* CustomFieldViewBuilder.h */,
 				BD081797146936B6006F0AA0 /* CustomFieldViewBuilder.m */,
 				BD081798146936B6006F0AA0 /* CustomPanelViewBuilder.h */,
@@ -1983,6 +2004,7 @@
 		BD0817B7146936B6006F0AA0 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3481286F417470DDE0F23AD6 /* trololo.jpg */,
 				BD0817B8146936B6006F0AA0 /* ApplicationIcons */,
 				BD0817BD146936B6006F0AA0 /* Backgrounds */,
 				BD0817C0146936B6006F0AA0 /* LaunchImages */,
@@ -2248,6 +2270,7 @@
 				00F495B115D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */,
 				00F495F815D2BE4700277DA1 /* PAGE-page-with-xib.xmlx in Resources */,
 				0041AD4015D2F8A700381ED2 /* PAGE-customized-components.xmlx in Resources */,
+				3481208774990190C85D14DC /* trololo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2306,6 +2329,7 @@
 				00F495B215D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */,
 				00F495F915D2BE4700277DA1 /* PAGE-page-with-xib.xmlx in Resources */,
 				0041AD4115D2F8A700381ED2 /* PAGE-customized-components.xmlx in Resources */,
+				3481297FBAC37C26D9BBE618 /* trololo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2364,6 +2388,7 @@
 				00F495AF15D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */,
 				00F495F615D2BE4700277DA1 /* PAGE-page-with-xib.xmlx in Resources */,
 				0041AD3E15D2F8A700381ED2 /* PAGE-customized-components.xmlx in Resources */,
+				348124E1F53B380BE2573DB9 /* trololo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2423,6 +2448,7 @@
 				00F495B015D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */,
 				00F495F715D2BE4700277DA1 /* PAGE-page-with-xib.xmlx in Resources */,
 				0041AD3F15D2F8A700381ED2 /* PAGE-customized-components.xmlx in Resources */,
+				34812DEFF5F3592DD0ECB89B /* trololo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2596,6 +2622,8 @@
 				BD2FAF20146A93B5001BC673 /* MBTableViewCellConfiguratorCheckbox.m in Sources */,
 				BD2FAF20146A93B5001BC679 /* MBTableViewCellConfiguratorInput.m in Sources */,
 				BD2FAF20146A93B5001BC67F /* MBTableViewCellConfiguratorText.m in Sources */,
+				34812C10C3724A22AC647E65 /* MBRowViewBuilderFactory.m in Sources */,
+				34812492226535E995B4E7A2 /* CustomRowViewBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2750,6 +2778,8 @@
 				BD2FAF20146A93B5001BC674 /* MBTableViewCellConfiguratorCheckbox.m in Sources */,
 				BD2FAF20146A93B5001BC67A /* MBTableViewCellConfiguratorInput.m in Sources */,
 				BD2FAF20146A93B5001BC680 /* MBTableViewCellConfiguratorText.m in Sources */,
+				348123452F672C794EC38DB4 /* MBRowViewBuilderFactory.m in Sources */,
+				348127B07961890B5BE745CF /* CustomRowViewBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2904,6 +2934,8 @@
 				BD2FAF20146A93B5001BC671 /* MBTableViewCellConfiguratorCheckbox.m in Sources */,
 				BD2FAF20146A93B5001BC677 /* MBTableViewCellConfiguratorInput.m in Sources */,
 				BD2FAF20146A93B5001BC67D /* MBTableViewCellConfiguratorText.m in Sources */,
+				34812847C65354CCAFDCFE8A /* MBRowViewBuilderFactory.m in Sources */,
+				34812D9A0E074EBA5B8B55C4 /* CustomRowViewBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3059,6 +3091,8 @@
 				BD2FAF20146A93B5001BC672 /* MBTableViewCellConfiguratorCheckbox.m in Sources */,
 				BD2FAF20146A93B5001BC678 /* MBTableViewCellConfiguratorInput.m in Sources */,
 				BD2FAF20146A93B5001BC67E /* MBTableViewCellConfiguratorText.m in Sources */,
+				3481269D4D8A93313421AF78 /* MBRowViewBuilderFactory.m in Sources */,
+				34812F0DF59B3983BA3365D0 /* CustomRowViewBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

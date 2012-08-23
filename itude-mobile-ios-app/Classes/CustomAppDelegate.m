@@ -11,7 +11,6 @@
 // Custom imports
 #import "CustomApplicationFactory.h"
 #import "CustomStyleHandler.h"
-#import "CustomStyleConstants.h"
 #import "CustomSoapServiceDataHandler.h"
 #import "CustomPanelViewBuilder.h"
 #import "CustomFieldViewBuilder.h"
@@ -20,17 +19,10 @@
 #import "MBCacheManager.h"
 #import "MBDataManagerService.h"
 #import "MBViewBuilderFactory.h"
-#import "MBCacheManager.h"
-#import "MBConfigurationDefinition.h"
-#import "MBDeviceType.h"
 #import "UncaughtExceptionHandler.h"
-#import "NSDateUtilities.h"
-#import "MBMacros.h"
-#import "MBLocalizationService.h"
+#import "MBRowViewBuilderFactory.h"
+#import "CustomRowViewBuilder.h"
 
-
-#define kAlertViewTakePill 1
-#define kAlertViewForgotPill 2
 
 @implementation CustomAppDelegate
 
@@ -49,8 +41,15 @@
 	
     // Set custom stylehandling
     [[MBViewBuilderFactory sharedInstance] setStyleHandler:[[CustomStyleHandler new] autorelease]];
-	
-	// set the Custom datahandlers
+
+    // Register custom RowViewBuilders
+    CustomRowViewBuilder *customBuilder = [[CustomRowViewBuilder alloc] init];
+    [[[MBViewBuilderFactory sharedInstance]
+                            rowViewBuilderFactory]
+                            registerRowViewBuilder:customBuilder forRowStyle:@"customRow"];
+    [customBuilder release];
+
+    // set the Custom datahandlers
 	[[MBDataManagerService sharedInstance] registerDataHandler:[[CustomSoapServiceDataHandler new] autorelease] withName:@"PPSoapServiceDataHandler"];
     
 	// Delete any cached documents at startup
