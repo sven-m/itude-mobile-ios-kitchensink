@@ -546,6 +546,18 @@
 		2C61DAD215D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C61DACC15D9033800FF1542 /* MBURLConnectionDataHandler.m */; };
 		2C61DAD315D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C61DACC15D9033800FF1542 /* MBURLConnectionDataHandler.m */; };
 		2C61DAD415D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C61DACC15D9033800FF1542 /* MBURLConnectionDataHandler.m */; };
+		3481208774990190C85D14DC /* trololo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3481286F417470DDE0F23AD6 /* trololo.jpg */; };
+		348123452F672C794EC38DB4 /* MBRowViewBuilderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 34812D6B7D04E8BE671524E2 /* MBRowViewBuilderFactory.m */; };
+		34812492226535E995B4E7A2 /* CustomRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3481256D97DF65AB2C5F7FD4 /* CustomRowViewBuilder.m */; };
+		348124E1F53B380BE2573DB9 /* trololo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3481286F417470DDE0F23AD6 /* trololo.jpg */; };
+		3481269D4D8A93313421AF78 /* MBRowViewBuilderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 34812D6B7D04E8BE671524E2 /* MBRowViewBuilderFactory.m */; };
+		348127B07961890B5BE745CF /* CustomRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3481256D97DF65AB2C5F7FD4 /* CustomRowViewBuilder.m */; };
+		34812847C65354CCAFDCFE8A /* MBRowViewBuilderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 34812D6B7D04E8BE671524E2 /* MBRowViewBuilderFactory.m */; };
+		3481297FBAC37C26D9BBE618 /* trololo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3481286F417470DDE0F23AD6 /* trololo.jpg */; };
+		34812C10C3724A22AC647E65 /* MBRowViewBuilderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 34812D6B7D04E8BE671524E2 /* MBRowViewBuilderFactory.m */; };
+		34812D9A0E074EBA5B8B55C4 /* CustomRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3481256D97DF65AB2C5F7FD4 /* CustomRowViewBuilder.m */; };
+		34812DEFF5F3592DD0ECB89B /* trololo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3481286F417470DDE0F23AD6 /* trololo.jpg */; };
+		34812F0DF59B3983BA3365D0 /* CustomRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3481256D97DF65AB2C5F7FD4 /* CustomRowViewBuilder.m */; };
 		BD0817DB146936B6006F0AA0 /* FireInitialOutcomes.m in Sources */ = {isa = PBXBuildFile; fileRef = BD081782146936B6006F0AA0 /* FireInitialOutcomes.m */; };
 		BD0817DC146936B6006F0AA0 /* FireInitialOutcomes.m in Sources */ = {isa = PBXBuildFile; fileRef = BD081782146936B6006F0AA0 /* FireInitialOutcomes.m */; };
 		BD0817DD146936B6006F0AA0 /* FireInitialOutcomes.m in Sources */ = {isa = PBXBuildFile; fileRef = BD081782146936B6006F0AA0 /* FireInitialOutcomes.m */; };
@@ -761,50 +773,62 @@
 		BD2FAF20146A93B5001BC647 /* UIView+TreeWalker.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC645 /* UIView+TreeWalker.m */; };
 		BD2FAF20146A93B5001BC648 /* UIView+TreeWalker.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC645 /* UIView+TreeWalker.m */; };
 		BD2FAF20146A93B5001BC649 /* UIView+TreeWalker.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC645 /* UIView+TreeWalker.m */; };
-		BDB04FE015E2930E00121548 /* MBAlertViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB04FDF15E2930E00121548 /* MBAlertViewBuilder.m */; };
-		BDB04FE115E2930E00121548 /* MBAlertViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB04FDF15E2930E00121548 /* MBAlertViewBuilder.m */; };
-		BDB04FE215E2930E00121548 /* MBAlertViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB04FDF15E2930E00121548 /* MBAlertViewBuilder.m */; };
-		BDB04FE315E2930E00121548 /* MBAlertViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB04FDF15E2930E00121548 /* MBAlertViewBuilder.m */; };
-		BDEA191A15E24F4A004CB2E7 /* PAGE-catalog.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191515E24F4A004CB2E7 /* PAGE-catalog.xmlx */; };
-		BDEA191B15E24F4A004CB2E7 /* PAGE-catalog.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191515E24F4A004CB2E7 /* PAGE-catalog.xmlx */; };
-		BDEA191C15E24F4A004CB2E7 /* PAGE-catalog.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191515E24F4A004CB2E7 /* PAGE-catalog.xmlx */; };
-		BDEA191D15E24F4A004CB2E7 /* PAGE-catalog.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191515E24F4A004CB2E7 /* PAGE-catalog.xmlx */; };
-		BDEA191E15E24F4A004CB2E7 /* PAGE-field-types.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191615E24F4A004CB2E7 /* PAGE-field-types.xmlx */; };
-		BDEA191F15E24F4A004CB2E7 /* PAGE-field-types.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191615E24F4A004CB2E7 /* PAGE-field-types.xmlx */; };
-		BDEA192015E24F4A004CB2E7 /* PAGE-field-types.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191615E24F4A004CB2E7 /* PAGE-field-types.xmlx */; };
-		BDEA192115E24F4A004CB2E7 /* PAGE-field-types.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191615E24F4A004CB2E7 /* PAGE-field-types.xmlx */; };
-		BDEA192215E24F4A004CB2E7 /* PAGE-home.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191715E24F4A004CB2E7 /* PAGE-home.xmlx */; };
-		BDEA192315E24F4A004CB2E7 /* PAGE-home.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191715E24F4A004CB2E7 /* PAGE-home.xmlx */; };
-		BDEA192415E24F4A004CB2E7 /* PAGE-home.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191715E24F4A004CB2E7 /* PAGE-home.xmlx */; };
-		BDEA192515E24F4A004CB2E7 /* PAGE-home.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191715E24F4A004CB2E7 /* PAGE-home.xmlx */; };
-		BDEA192615E24F4A004CB2E7 /* PAGE-lists.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191815E24F4A004CB2E7 /* PAGE-lists.xmlx */; };
-		BDEA192715E24F4A004CB2E7 /* PAGE-lists.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191815E24F4A004CB2E7 /* PAGE-lists.xmlx */; };
-		BDEA192815E24F4A004CB2E7 /* PAGE-lists.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191815E24F4A004CB2E7 /* PAGE-lists.xmlx */; };
-		BDEA192915E24F4A004CB2E7 /* PAGE-lists.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191815E24F4A004CB2E7 /* PAGE-lists.xmlx */; };
-		BDEA192A15E24F4A004CB2E7 /* PAGE-plant-detail.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191915E24F4A004CB2E7 /* PAGE-plant-detail.xmlx */; };
-		BDEA192B15E24F4A004CB2E7 /* PAGE-plant-detail.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191915E24F4A004CB2E7 /* PAGE-plant-detail.xmlx */; };
-		BDEA192C15E24F4A004CB2E7 /* PAGE-plant-detail.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191915E24F4A004CB2E7 /* PAGE-plant-detail.xmlx */; };
-		BDEA192D15E24F4A004CB2E7 /* PAGE-plant-detail.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191915E24F4A004CB2E7 /* PAGE-plant-detail.xmlx */; };
-		BDEA192F15E24F56004CB2E7 /* alerts.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA192E15E24F56004CB2E7 /* alerts.xmlx */; };
-		BDEA193015E24F56004CB2E7 /* alerts.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA192E15E24F56004CB2E7 /* alerts.xmlx */; };
-		BDEA193115E24F56004CB2E7 /* alerts.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA192E15E24F56004CB2E7 /* alerts.xmlx */; };
-		BDEA193215E24F56004CB2E7 /* alerts.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA192E15E24F56004CB2E7 /* alerts.xmlx */; };
-		BDEA193515E250BE004CB2E7 /* MBAlertDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEA193415E250BE004CB2E7 /* MBAlertDefinition.m */; };
-		BDEA193615E250BE004CB2E7 /* MBAlertDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEA193415E250BE004CB2E7 /* MBAlertDefinition.m */; };
-		BDEA193715E250BE004CB2E7 /* MBAlertDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEA193415E250BE004CB2E7 /* MBAlertDefinition.m */; };
-		BDEA193815E250BE004CB2E7 /* MBAlertDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEA193415E250BE004CB2E7 /* MBAlertDefinition.m */; };
-		BDEA193B15E259EF004CB2E7 /* MBAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEA193A15E259EF004CB2E7 /* MBAlert.m */; };
-		BDEA193C15E259EF004CB2E7 /* MBAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEA193A15E259EF004CB2E7 /* MBAlert.m */; };
-		BDEA193D15E259EF004CB2E7 /* MBAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEA193A15E259EF004CB2E7 /* MBAlert.m */; };
-		BDEA193E15E259EF004CB2E7 /* MBAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEA193A15E259EF004CB2E7 /* MBAlert.m */; };
-		BDEF116D15E635EC0034C700 /* MBAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF116C15E635EB0034C700 /* MBAlertController.m */; };
-		BDEF116E15E635EC0034C700 /* MBAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF116C15E635EB0034C700 /* MBAlertController.m */; };
-		BDEF116F15E635EC0034C700 /* MBAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF116C15E635EB0034C700 /* MBAlertController.m */; };
-		BDEF117015E635EC0034C700 /* MBAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF116C15E635EB0034C700 /* MBAlertController.m */; };
-		BDEF117C15E662C80034C700 /* MBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF117B15E662C70034C700 /* MBAlertView.m */; };
-		BDEF117D15E662C80034C700 /* MBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF117B15E662C70034C700 /* MBAlertView.m */; };
-		BDEF117E15E662C80034C700 /* MBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF117B15E662C70034C700 /* MBAlertView.m */; };
-		BDEF117F15E662C80034C700 /* MBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF117B15E662C70034C700 /* MBAlertView.m */; };
+		BD2FAF20146A93B5001BC64D /* MBTableViewCellConfiguratorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC64C /* MBTableViewCellConfiguratorFactory.m */; };
+		BD2FAF20146A93B5001BC64E /* MBTableViewCellConfiguratorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC64C /* MBTableViewCellConfiguratorFactory.m */; };
+		BD2FAF20146A93B5001BC64F /* MBTableViewCellConfiguratorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC64C /* MBTableViewCellConfiguratorFactory.m */; };
+		BD2FAF20146A93B5001BC650 /* MBTableViewCellConfiguratorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC64C /* MBTableViewCellConfiguratorFactory.m */; };
+		BD2FAF20146A93B5001BC653 /* MBTableViewCellConfiguratorLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC652 /* MBTableViewCellConfiguratorLabel.m */; };
+		BD2FAF20146A93B5001BC654 /* MBTableViewCellConfiguratorLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC652 /* MBTableViewCellConfiguratorLabel.m */; };
+		BD2FAF20146A93B5001BC655 /* MBTableViewCellConfiguratorLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC652 /* MBTableViewCellConfiguratorLabel.m */; };
+		BD2FAF20146A93B5001BC656 /* MBTableViewCellConfiguratorLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC652 /* MBTableViewCellConfiguratorLabel.m */; };
+		BD2FAF20146A93B5001BC659 /* MBTableViewCellConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC658 /* MBTableViewCellConfigurator.m */; };
+		BD2FAF20146A93B5001BC65A /* MBTableViewCellConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC658 /* MBTableViewCellConfigurator.m */; };
+		BD2FAF20146A93B5001BC65B /* MBTableViewCellConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC658 /* MBTableViewCellConfigurator.m */; };
+		BD2FAF20146A93B5001BC65C /* MBTableViewCellConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC658 /* MBTableViewCellConfigurator.m */; };
+		BD2FAF20146A93B5001BC65F /* MBTableViewCellConfiguratorDropDownList.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC65E /* MBTableViewCellConfiguratorDropDownList.m */; };
+		BD2FAF20146A93B5001BC660 /* MBTableViewCellConfiguratorDropDownList.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC65E /* MBTableViewCellConfiguratorDropDownList.m */; };
+		BD2FAF20146A93B5001BC661 /* MBTableViewCellConfiguratorDropDownList.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC65E /* MBTableViewCellConfiguratorDropDownList.m */; };
+		BD2FAF20146A93B5001BC662 /* MBTableViewCellConfiguratorDropDownList.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC65E /* MBTableViewCellConfiguratorDropDownList.m */; };
+		BD2FAF20146A93B5001BC665 /* MBTableViewCellConfiguratorDate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC664 /* MBTableViewCellConfiguratorDate.m */; };
+		BD2FAF20146A93B5001BC666 /* MBTableViewCellConfiguratorDate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC664 /* MBTableViewCellConfiguratorDate.m */; };
+		BD2FAF20146A93B5001BC667 /* MBTableViewCellConfiguratorDate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC664 /* MBTableViewCellConfiguratorDate.m */; };
+		BD2FAF20146A93B5001BC668 /* MBTableViewCellConfiguratorDate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC664 /* MBTableViewCellConfiguratorDate.m */; };
+		BD2FAF20146A93B5001BC66B /* MBTableViewCellConfiguratorSubLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC66A /* MBTableViewCellConfiguratorSubLabel.m */; };
+		BD2FAF20146A93B5001BC66C /* MBTableViewCellConfiguratorSubLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC66A /* MBTableViewCellConfiguratorSubLabel.m */; };
+		BD2FAF20146A93B5001BC66D /* MBTableViewCellConfiguratorSubLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC66A /* MBTableViewCellConfiguratorSubLabel.m */; };
+		BD2FAF20146A93B5001BC66E /* MBTableViewCellConfiguratorSubLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC66A /* MBTableViewCellConfiguratorSubLabel.m */; };
+		BD2FAF20146A93B5001BC671 /* MBTableViewCellConfiguratorCheckbox.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC670 /* MBTableViewCellConfiguratorCheckbox.m */; };
+		BD2FAF20146A93B5001BC672 /* MBTableViewCellConfiguratorCheckbox.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC670 /* MBTableViewCellConfiguratorCheckbox.m */; };
+		BD2FAF20146A93B5001BC673 /* MBTableViewCellConfiguratorCheckbox.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC670 /* MBTableViewCellConfiguratorCheckbox.m */; };
+		BD2FAF20146A93B5001BC674 /* MBTableViewCellConfiguratorCheckbox.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC670 /* MBTableViewCellConfiguratorCheckbox.m */; };
+		BD2FAF20146A93B5001BC677 /* MBTableViewCellConfiguratorInput.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC676 /* MBTableViewCellConfiguratorInput.m */; };
+		BD2FAF20146A93B5001BC678 /* MBTableViewCellConfiguratorInput.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC676 /* MBTableViewCellConfiguratorInput.m */; };
+		BD2FAF20146A93B5001BC679 /* MBTableViewCellConfiguratorInput.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC676 /* MBTableViewCellConfiguratorInput.m */; };
+		BD2FAF20146A93B5001BC67A /* MBTableViewCellConfiguratorInput.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC676 /* MBTableViewCellConfiguratorInput.m */; };
+		BD2FAF20146A93B5001BC67D /* MBTableViewCellConfiguratorText.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC67C /* MBTableViewCellConfiguratorText.m */; };
+		BD2FAF20146A93B5001BC67E /* MBTableViewCellConfiguratorText.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC67C /* MBTableViewCellConfiguratorText.m */; };
+		BD2FAF20146A93B5001BC67F /* MBTableViewCellConfiguratorText.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC67C /* MBTableViewCellConfiguratorText.m */; };
+		BD2FAF20146A93B5001BC680 /* MBTableViewCellConfiguratorText.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC67C /* MBTableViewCellConfiguratorText.m */; };
+		BDEF12AD15E6A9E90034C700 /* MBAlertDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF12AC15E6A9E90034C700 /* MBAlertDefinition.m */; };
+		BDEF12AE15E6A9E90034C700 /* MBAlertDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF12AC15E6A9E90034C700 /* MBAlertDefinition.m */; };
+		BDEF12AF15E6A9E90034C700 /* MBAlertDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF12AC15E6A9E90034C700 /* MBAlertDefinition.m */; };
+		BDEF12B015E6A9E90034C700 /* MBAlertDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF12AC15E6A9E90034C700 /* MBAlertDefinition.m */; };
+		BDEF12B415E6A9FC0034C700 /* MBAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF12B315E6A9FC0034C700 /* MBAlertController.m */; };
+		BDEF12B515E6A9FC0034C700 /* MBAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF12B315E6A9FC0034C700 /* MBAlertController.m */; };
+		BDEF12B615E6A9FC0034C700 /* MBAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF12B315E6A9FC0034C700 /* MBAlertController.m */; };
+		BDEF12B715E6A9FC0034C700 /* MBAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF12B315E6A9FC0034C700 /* MBAlertController.m */; };
+		BDEF12BA15E6AA380034C700 /* MBAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF12B915E6AA380034C700 /* MBAlert.m */; };
+		BDEF12BB15E6AA380034C700 /* MBAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF12B915E6AA380034C700 /* MBAlert.m */; };
+		BDEF12BC15E6AA380034C700 /* MBAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF12B915E6AA380034C700 /* MBAlert.m */; };
+		BDEF12BD15E6AA380034C700 /* MBAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF12B915E6AA380034C700 /* MBAlert.m */; };
+		BDEF12C015E6AA510034C700 /* MBAlertViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF12BF15E6AA510034C700 /* MBAlertViewBuilder.m */; };
+		BDEF12C115E6AA510034C700 /* MBAlertViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF12BF15E6AA510034C700 /* MBAlertViewBuilder.m */; };
+		BDEF12C215E6AA510034C700 /* MBAlertViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF12BF15E6AA510034C700 /* MBAlertViewBuilder.m */; };
+		BDEF12C315E6AA510034C700 /* MBAlertViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF12BF15E6AA510034C700 /* MBAlertViewBuilder.m */; };
+		BDEF12C615E6AA670034C700 /* MBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF12C515E6AA670034C700 /* MBAlertView.m */; };
+		BDEF12C715E6AA670034C700 /* MBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF12C515E6AA670034C700 /* MBAlertView.m */; };
+		BDEF12C815E6AA670034C700 /* MBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF12C515E6AA670034C700 /* MBAlertView.m */; };
+		BDEF12C915E6AA670034C700 /* MBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF12C515E6AA670034C700 /* MBAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1101,6 +1125,11 @@
 		2C61DACA15D9033800FF1542 /* MBRESTGetServiceDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBRESTGetServiceDataHandler.m; sourceTree = "<group>"; };
 		2C61DACB15D9033800FF1542 /* MBURLConnectionDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBURLConnectionDataHandler.h; sourceTree = "<group>"; };
 		2C61DACC15D9033800FF1542 /* MBURLConnectionDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBURLConnectionDataHandler.m; sourceTree = "<group>"; };
+		3481234ED29B6C9AB028209C /* CustomRowViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRowViewBuilder.h; sourceTree = "<group>"; };
+		3481256D97DF65AB2C5F7FD4 /* CustomRowViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRowViewBuilder.m; sourceTree = "<group>"; };
+		3481286F417470DDE0F23AD6 /* trololo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trololo.jpg; sourceTree = "<group>"; };
+		348129E0ECAADF9C8DCCFDED /* MBRowViewBuilderFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBRowViewBuilderFactory.h; sourceTree = "<group>"; };
+		34812D6B7D04E8BE671524E2 /* MBRowViewBuilderFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBRowViewBuilderFactory.m; sourceTree = "<group>"; };
 		BD081781146936B6006F0AA0 /* FireInitialOutcomes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireInitialOutcomes.h; sourceTree = "<group>"; };
 		BD081782146936B6006F0AA0 /* FireInitialOutcomes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireInitialOutcomes.m; sourceTree = "<group>"; };
 		BD081783146936B6006F0AA0 /* GenericAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericAction.h; sourceTree = "<group>"; };
@@ -1174,22 +1203,34 @@
 		BD2FAF20146A93B5001BC644 /* UIWebView+FontResizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+FontResizing.h"; sourceTree = "<group>"; };
 		BD2FAF20146A93B5001BC645 /* UIView+TreeWalker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TreeWalker.m"; sourceTree = "<group>"; };
 		BD2FAF20146A93B5001BC64A /* UIView+TreeWalker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TreeWalker.h"; sourceTree = "<group>"; };
-		BDB04FDE15E2930E00121548 /* MBAlertViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBAlertViewBuilder.h; sourceTree = "<group>"; };
-		BDB04FDF15E2930E00121548 /* MBAlertViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBAlertViewBuilder.m; sourceTree = "<group>"; };
-		BDEA191515E24F4A004CB2E7 /* PAGE-catalog.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-catalog.xmlx"; path = "Pages/PAGE-catalog.xmlx"; sourceTree = "<group>"; };
-		BDEA191615E24F4A004CB2E7 /* PAGE-field-types.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-field-types.xmlx"; path = "Pages/PAGE-field-types.xmlx"; sourceTree = "<group>"; };
-		BDEA191715E24F4A004CB2E7 /* PAGE-home.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-home.xmlx"; path = "Pages/PAGE-home.xmlx"; sourceTree = "<group>"; };
-		BDEA191815E24F4A004CB2E7 /* PAGE-lists.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-lists.xmlx"; path = "Pages/PAGE-lists.xmlx"; sourceTree = "<group>"; };
-		BDEA191915E24F4A004CB2E7 /* PAGE-plant-detail.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-plant-detail.xmlx"; path = "Pages/PAGE-plant-detail.xmlx"; sourceTree = "<group>"; };
-		BDEA192E15E24F56004CB2E7 /* alerts.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = alerts.xmlx; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xml; };
-		BDEA193315E250BE004CB2E7 /* MBAlertDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBAlertDefinition.h; sourceTree = "<group>"; };
-		BDEA193415E250BE004CB2E7 /* MBAlertDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBAlertDefinition.m; sourceTree = "<group>"; };
-		BDEA193915E259EF004CB2E7 /* MBAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBAlert.h; sourceTree = "<group>"; };
-		BDEA193A15E259EF004CB2E7 /* MBAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBAlert.m; sourceTree = "<group>"; };
-		BDEF116B15E635EB0034C700 /* MBAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBAlertController.h; sourceTree = "<group>"; };
-		BDEF116C15E635EB0034C700 /* MBAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBAlertController.m; sourceTree = "<group>"; };
-		BDEF117A15E662C70034C700 /* MBAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBAlertView.h; sourceTree = "<group>"; };
-		BDEF117B15E662C70034C700 /* MBAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBAlertView.m; sourceTree = "<group>"; };
+		BD2FAF20146A93B5001BC64C /* MBTableViewCellConfiguratorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTableViewCellConfiguratorFactory.m; sourceTree = "<group>"; };
+		BD2FAF20146A93B5001BC651 /* MBTableViewCellConfiguratorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTableViewCellConfiguratorFactory.h; sourceTree = "<group>"; };
+		BD2FAF20146A93B5001BC652 /* MBTableViewCellConfiguratorLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTableViewCellConfiguratorLabel.m; sourceTree = "<group>"; };
+		BD2FAF20146A93B5001BC657 /* MBTableViewCellConfiguratorLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTableViewCellConfiguratorLabel.h; sourceTree = "<group>"; };
+		BD2FAF20146A93B5001BC658 /* MBTableViewCellConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTableViewCellConfigurator.m; sourceTree = "<group>"; };
+		BD2FAF20146A93B5001BC65D /* MBTableViewCellConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTableViewCellConfigurator.h; sourceTree = "<group>"; };
+		BD2FAF20146A93B5001BC65E /* MBTableViewCellConfiguratorDropDownList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTableViewCellConfiguratorDropDownList.m; sourceTree = "<group>"; };
+		BD2FAF20146A93B5001BC663 /* MBTableViewCellConfiguratorDropDownList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTableViewCellConfiguratorDropDownList.h; sourceTree = "<group>"; };
+		BD2FAF20146A93B5001BC664 /* MBTableViewCellConfiguratorDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTableViewCellConfiguratorDate.m; sourceTree = "<group>"; };
+		BD2FAF20146A93B5001BC669 /* MBTableViewCellConfiguratorDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTableViewCellConfiguratorDate.h; sourceTree = "<group>"; };
+		BD2FAF20146A93B5001BC66A /* MBTableViewCellConfiguratorSubLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTableViewCellConfiguratorSubLabel.m; sourceTree = "<group>"; };
+		BD2FAF20146A93B5001BC66F /* MBTableViewCellConfiguratorSubLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTableViewCellConfiguratorSubLabel.h; sourceTree = "<group>"; };
+		BD2FAF20146A93B5001BC670 /* MBTableViewCellConfiguratorCheckbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTableViewCellConfiguratorCheckbox.m; sourceTree = "<group>"; };
+		BD2FAF20146A93B5001BC675 /* MBTableViewCellConfiguratorCheckbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTableViewCellConfiguratorCheckbox.h; sourceTree = "<group>"; };
+		BD2FAF20146A93B5001BC676 /* MBTableViewCellConfiguratorInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTableViewCellConfiguratorInput.m; sourceTree = "<group>"; };
+		BD2FAF20146A93B5001BC67B /* MBTableViewCellConfiguratorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTableViewCellConfiguratorInput.h; sourceTree = "<group>"; };
+		BD2FAF20146A93B5001BC67C /* MBTableViewCellConfiguratorText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTableViewCellConfiguratorText.m; sourceTree = "<group>"; };
+		BD2FAF20146A93B5001BC681 /* MBTableViewCellConfiguratorText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTableViewCellConfiguratorText.h; sourceTree = "<group>"; };
+		BDEF12AB15E6A9E90034C700 /* MBAlertDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBAlertDefinition.h; sourceTree = "<group>"; };
+		BDEF12AC15E6A9E90034C700 /* MBAlertDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBAlertDefinition.m; sourceTree = "<group>"; };
+		BDEF12B215E6A9FC0034C700 /* MBAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBAlertController.h; sourceTree = "<group>"; };
+		BDEF12B315E6A9FC0034C700 /* MBAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBAlertController.m; sourceTree = "<group>"; };
+		BDEF12B815E6AA380034C700 /* MBAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBAlert.h; sourceTree = "<group>"; };
+		BDEF12B915E6AA380034C700 /* MBAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBAlert.m; sourceTree = "<group>"; };
+		BDEF12BE15E6AA510034C700 /* MBAlertViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBAlertViewBuilder.h; sourceTree = "<group>"; };
+		BDEF12BF15E6AA510034C700 /* MBAlertViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBAlertViewBuilder.m; sourceTree = "<group>"; };
+		BDEF12C415E6AA670034C700 /* MBAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBAlertView.h; sourceTree = "<group>"; };
+		BDEF12C515E6AA670034C700 /* MBAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1243,11 +1284,6 @@
 		00CB699A15D28BEF004F3697 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
-				BDEA191515E24F4A004CB2E7 /* PAGE-catalog.xmlx */,
-				BDEA191615E24F4A004CB2E7 /* PAGE-field-types.xmlx */,
-				BDEA191715E24F4A004CB2E7 /* PAGE-home.xmlx */,
-				BDEA191815E24F4A004CB2E7 /* PAGE-lists.xmlx */,
-				BDEA191915E24F4A004CB2E7 /* PAGE-plant-detail.xmlx */,
 				00CB6A0015D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx */,
 				00F495AE15D2B7C000277DA1 /* PAGE-customized-layout.xmlx */,
 				0041AD3D15D2F8A700381ED2 /* PAGE-customized-components.xmlx */,
@@ -1360,6 +1396,8 @@
 		1C0CC7D01505081F00766A49 /* MVC */ = {
 			isa = PBXGroup;
 			children = (
+				BDEF12AB15E6A9E90034C700 /* MBAlertDefinition.h */,
+				BDEF12AC15E6A9E90034C700 /* MBAlertDefinition.m */,
 				1C0CC7D11505081F00766A49 /* MBActionDefinition.h */,
 				1C0CC7D21505081F00766A49 /* MBActionDefinition.m */,
 				1C0CC7D31505081F00766A49 /* MBAttributeDefinition.h */,
@@ -1392,8 +1430,6 @@
 				1C0CC7EE1505081F00766A49 /* MBPanelDefinition.m */,
 				1C0CC7EF1505081F00766A49 /* MBVariableDefinition.h */,
 				1C0CC7F01505081F00766A49 /* MBVariableDefinition.m */,
-				BDEA193315E250BE004CB2E7 /* MBAlertDefinition.h */,
-				BDEA193415E250BE004CB2E7 /* MBAlertDefinition.m */,
 			);
 			path = MVC;
 			sourceTree = "<group>";
@@ -1431,11 +1467,11 @@
 		1C0CC8031505081F00766A49 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BDEF12B215E6A9FC0034C700 /* MBAlertController.h */,
+				BDEF12B315E6A9FC0034C700 /* MBAlertController.m */,
 				1C0CC8041505081F00766A49 /* MBAction.h */,
 				1C0CC8051505081F00766A49 /* MBApplicationController.h */,
 				1C0CC8061505081F00766A49 /* MBApplicationController.m */,
-				BDEF116B15E635EB0034C700 /* MBAlertController.h */,
-				BDEF116C15E635EB0034C700 /* MBAlertController.m */,
 				1C0CC8071505081F00766A49 /* MBApplicationFactory.h */,
 				1C0CC8081505081F00766A49 /* MBApplicationFactory.m */,
 				1C0CC8091505081F00766A49 /* MBDialogController.h */,
@@ -1690,8 +1726,8 @@
 				1C0CC8CE1505081F00766A49 /* MBRow.h */,
 				1C0CC8CF1505081F00766A49 /* MBRow.m */,
 				1C0CC8D01505081F00766A49 /* MBValueChangeListenerProtocol.h */,
-				BDEA193915E259EF004CB2E7 /* MBAlert.h */,
-				BDEA193A15E259EF004CB2E7 /* MBAlert.m */,
+				BDEF12B815E6AA380034C700 /* MBAlert.h */,
+				BDEF12B915E6AA380034C700 /* MBAlert.m */,
 			);
 			name = View;
 			path = "itude-mobile-iphone-core/View";
@@ -1700,7 +1736,10 @@
 		1C0CC8921505081F00766A49 /* Builders */ = {
 			isa = PBXGroup;
 			children = (
-				BD2FAF20146A93B5001BC63D /* MBRowViewBuilder.h */,
+				BDEF12BE15E6AA510034C700 /* MBAlertViewBuilder.h */,
+				BDEF12BF15E6AA510034C700 /* MBAlertViewBuilder.m */,
+				348129E0ECAADF9C8DCCFDED /* MBRowViewBuilderFactory.h */,
+				34812D6B7D04E8BE671524E2 /* MBRowViewBuilderFactory.m */,
 				1C0CC8931505081F00766A49 /* MBFieldTypes.h */,
 				1C0CC8941505081F00766A49 /* MBFieldViewBuilder.h */,
 				1C0CC8951505081F00766A49 /* MBFieldViewBuilder.m */,
@@ -1712,16 +1751,13 @@
 				1C0CC89B1505081F00766A49 /* MBPageViewBuilder.m */,
 				1C0CC89C1505081F00766A49 /* MBPanelViewBuilder.h */,
 				1C0CC89D1505081F00766A49 /* MBPanelViewBuilder.m */,
-				BDB04FDE15E2930E00121548 /* MBAlertViewBuilder.h */,
-				BDB04FDF15E2930E00121548 /* MBAlertViewBuilder.m */,
-				1C0CC89E1505081F00766A49 /* MBDefaultRowViewBuilder.h */,
-				1C0CC89F1505081F00766A49 /* MBDefaultRowViewBuilder.m */,
 				1C0CC8A01505081F00766A49 /* MBStyleHandler.h */,
 				1C0CC8A11505081F00766A49 /* MBStyleHandler.m */,
 				1C0CC8A21505081F00766A49 /* MBViewBuilder.h */,
 				1C0CC8A31505081F00766A49 /* MBViewBuilder.m */,
 				1C0CC8A41505081F00766A49 /* MBViewBuilderFactory.h */,
 				1C0CC8A51505081F00766A49 /* MBViewBuilderFactory.m */,
+				34812F0200B83FD69686C345 /* RowView */,
 			);
 			path = Builders;
 			sourceTree = "<group>";
@@ -1729,6 +1765,8 @@
 		1C0CC8A61505081F00766A49 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				BDEF12C415E6AA670034C700 /* MBAlertView.h */,
+				BDEF12C515E6AA670034C700 /* MBAlertView.m */,
 				1C0CC8A71505081F00766A49 /* MBDatePickerController.h */,
 				1C0CC8A81505081F00766A49 /* MBDatePickerController.m */,
 				1C0CC8A91505081F00766A49 /* MBFontChangeListenerProtocol.h */,
@@ -1742,8 +1780,6 @@
 				1C0CC8B11505081F00766A49 /* MBPickerPopoverController.m */,
 				1C0CC8B21505081F00766A49 /* MBSpinner.h */,
 				1C0CC8B31505081F00766A49 /* MBSpinner.m */,
-				BDEF117A15E662C70034C700 /* MBAlertView.h */,
-				BDEF117B15E662C70034C700 /* MBAlertView.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -1770,6 +1806,34 @@
 				1C0CC8D31505081F00766A49 /* MBTableViewController.m */,
 			);
 			path = Tables;
+			sourceTree = "<group>";
+		};
+		34812F0200B83FD69686C345 /* RowView */ = {
+			isa = PBXGroup;
+			children = (
+				1C0CC89F1505081F00766A49 /* MBDefaultRowViewBuilder.m */,
+				1C0CC89E1505081F00766A49 /* MBDefaultRowViewBuilder.h */,
+				BD2FAF20146A93B5001BC63D /* MBRowViewBuilder.h */,
+				BD2FAF20146A93B5001BC67C /* MBTableViewCellConfiguratorText.m */,
+				BD2FAF20146A93B5001BC681 /* MBTableViewCellConfiguratorText.h */,
+				BD2FAF20146A93B5001BC66A /* MBTableViewCellConfiguratorSubLabel.m */,
+				BD2FAF20146A93B5001BC66F /* MBTableViewCellConfiguratorSubLabel.h */,
+				BD2FAF20146A93B5001BC652 /* MBTableViewCellConfiguratorLabel.m */,
+				BD2FAF20146A93B5001BC657 /* MBTableViewCellConfiguratorLabel.h */,
+				BD2FAF20146A93B5001BC676 /* MBTableViewCellConfiguratorInput.m */,
+				BD2FAF20146A93B5001BC67B /* MBTableViewCellConfiguratorInput.h */,
+				BD2FAF20146A93B5001BC64C /* MBTableViewCellConfiguratorFactory.m */,
+				BD2FAF20146A93B5001BC651 /* MBTableViewCellConfiguratorFactory.h */,
+				BD2FAF20146A93B5001BC65E /* MBTableViewCellConfiguratorDropDownList.m */,
+				BD2FAF20146A93B5001BC663 /* MBTableViewCellConfiguratorDropDownList.h */,
+				BD2FAF20146A93B5001BC664 /* MBTableViewCellConfiguratorDate.m */,
+				BD2FAF20146A93B5001BC669 /* MBTableViewCellConfiguratorDate.h */,
+				BD2FAF20146A93B5001BC670 /* MBTableViewCellConfiguratorCheckbox.m */,
+				BD2FAF20146A93B5001BC675 /* MBTableViewCellConfiguratorCheckbox.h */,
+				BD2FAF20146A93B5001BC658 /* MBTableViewCellConfigurator.m */,
+				BD2FAF20146A93B5001BC65D /* MBTableViewCellConfigurator.h */,
+			);
+			path = RowView;
 			sourceTree = "<group>";
 		};
 		BD08177F146936B6006F0AA0 /* Classes */ = {
@@ -1854,6 +1918,8 @@
 		BD081795146936B6006F0AA0 /* Builders */ = {
 			isa = PBXGroup;
 			children = (
+				3481234ED29B6C9AB028209C /* CustomRowViewBuilder.h */,
+				3481256D97DF65AB2C5F7FD4 /* CustomRowViewBuilder.m */,
 				BD081796146936B6006F0AA0 /* CustomFieldViewBuilder.h */,
 				BD081797146936B6006F0AA0 /* CustomFieldViewBuilder.m */,
 				BD081798146936B6006F0AA0 /* CustomPanelViewBuilder.h */,
@@ -1921,7 +1987,6 @@
 				BD0817AD146936B6006F0AA0 /* domains.xmlx */,
 				BD0817AE146936B6006F0AA0 /* outcomes.xmlx */,
 				BD0817AF146936B6006F0AA0 /* pages.xmlx */,
-				BDEA192E15E24F56004CB2E7 /* alerts.xmlx */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -1949,6 +2014,7 @@
 		BD0817B7146936B6006F0AA0 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3481286F417470DDE0F23AD6 /* trololo.jpg */,
 				BD0817B8146936B6006F0AA0 /* ApplicationIcons */,
 				BD0817BD146936B6006F0AA0 /* Backgrounds */,
 				BD0817C0146936B6006F0AA0 /* LaunchImages */,
@@ -2209,12 +2275,7 @@
 				00F495B115D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */,
 				00F495F815D2BE4700277DA1 /* PAGE-page-with-xib.xmlx in Resources */,
 				0041AD4015D2F8A700381ED2 /* PAGE-customized-components.xmlx in Resources */,
-				BDEA191C15E24F4A004CB2E7 /* PAGE-catalog.xmlx in Resources */,
-				BDEA192015E24F4A004CB2E7 /* PAGE-field-types.xmlx in Resources */,
-				BDEA192415E24F4A004CB2E7 /* PAGE-home.xmlx in Resources */,
-				BDEA192815E24F4A004CB2E7 /* PAGE-lists.xmlx in Resources */,
-				BDEA192C15E24F4A004CB2E7 /* PAGE-plant-detail.xmlx in Resources */,
-				BDEA193115E24F56004CB2E7 /* alerts.xmlx in Resources */,
+				3481208774990190C85D14DC /* trololo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2268,12 +2329,7 @@
 				00F495B215D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */,
 				00F495F915D2BE4700277DA1 /* PAGE-page-with-xib.xmlx in Resources */,
 				0041AD4115D2F8A700381ED2 /* PAGE-customized-components.xmlx in Resources */,
-				BDEA191D15E24F4A004CB2E7 /* PAGE-catalog.xmlx in Resources */,
-				BDEA192115E24F4A004CB2E7 /* PAGE-field-types.xmlx in Resources */,
-				BDEA192515E24F4A004CB2E7 /* PAGE-home.xmlx in Resources */,
-				BDEA192915E24F4A004CB2E7 /* PAGE-lists.xmlx in Resources */,
-				BDEA192D15E24F4A004CB2E7 /* PAGE-plant-detail.xmlx in Resources */,
-				BDEA193215E24F56004CB2E7 /* alerts.xmlx in Resources */,
+				3481297FBAC37C26D9BBE618 /* trololo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2327,12 +2383,7 @@
 				00F495AF15D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */,
 				00F495F615D2BE4700277DA1 /* PAGE-page-with-xib.xmlx in Resources */,
 				0041AD3E15D2F8A700381ED2 /* PAGE-customized-components.xmlx in Resources */,
-				BDEA191A15E24F4A004CB2E7 /* PAGE-catalog.xmlx in Resources */,
-				BDEA191E15E24F4A004CB2E7 /* PAGE-field-types.xmlx in Resources */,
-				BDEA192215E24F4A004CB2E7 /* PAGE-home.xmlx in Resources */,
-				BDEA192615E24F4A004CB2E7 /* PAGE-lists.xmlx in Resources */,
-				BDEA192A15E24F4A004CB2E7 /* PAGE-plant-detail.xmlx in Resources */,
-				BDEA192F15E24F56004CB2E7 /* alerts.xmlx in Resources */,
+				348124E1F53B380BE2573DB9 /* trololo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2387,12 +2438,7 @@
 				00F495B015D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */,
 				00F495F715D2BE4700277DA1 /* PAGE-page-with-xib.xmlx in Resources */,
 				0041AD3F15D2F8A700381ED2 /* PAGE-customized-components.xmlx in Resources */,
-				BDEA191B15E24F4A004CB2E7 /* PAGE-catalog.xmlx in Resources */,
-				BDEA191F15E24F4A004CB2E7 /* PAGE-field-types.xmlx in Resources */,
-				BDEA192315E24F4A004CB2E7 /* PAGE-home.xmlx in Resources */,
-				BDEA192715E24F4A004CB2E7 /* PAGE-lists.xmlx in Resources */,
-				BDEA192B15E24F4A004CB2E7 /* PAGE-plant-detail.xmlx in Resources */,
-				BDEA193015E24F56004CB2E7 /* alerts.xmlx in Resources */,
+				34812DEFF5F3592DD0ECB89B /* trololo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2557,11 +2603,22 @@
 				2C61DAD315D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */,
 				BD2FAF20146A93B5001BC642 /* UIWebView+FontResizing.m in Sources */,
 				BD2FAF20146A93B5001BC648 /* UIView+TreeWalker.m in Sources */,
-				BDEA193715E250BE004CB2E7 /* MBAlertDefinition.m in Sources */,
-				BDEA193D15E259EF004CB2E7 /* MBAlert.m in Sources */,
-				BDB04FE215E2930E00121548 /* MBAlertViewBuilder.m in Sources */,
-				BDEF116F15E635EC0034C700 /* MBAlertController.m in Sources */,
-				BDEF117E15E662C80034C700 /* MBAlertView.m in Sources */,
+				BD2FAF20146A93B5001BC64F /* MBTableViewCellConfiguratorFactory.m in Sources */,
+				BD2FAF20146A93B5001BC655 /* MBTableViewCellConfiguratorLabel.m in Sources */,
+				BD2FAF20146A93B5001BC65B /* MBTableViewCellConfigurator.m in Sources */,
+				BD2FAF20146A93B5001BC661 /* MBTableViewCellConfiguratorDropDownList.m in Sources */,
+				BD2FAF20146A93B5001BC667 /* MBTableViewCellConfiguratorDate.m in Sources */,
+				BD2FAF20146A93B5001BC66D /* MBTableViewCellConfiguratorSubLabel.m in Sources */,
+				BD2FAF20146A93B5001BC673 /* MBTableViewCellConfiguratorCheckbox.m in Sources */,
+				BD2FAF20146A93B5001BC679 /* MBTableViewCellConfiguratorInput.m in Sources */,
+				BD2FAF20146A93B5001BC67F /* MBTableViewCellConfiguratorText.m in Sources */,
+				34812C10C3724A22AC647E65 /* MBRowViewBuilderFactory.m in Sources */,
+				34812492226535E995B4E7A2 /* CustomRowViewBuilder.m in Sources */,
+				BDEF12AF15E6A9E90034C700 /* MBAlertDefinition.m in Sources */,
+				BDEF12B615E6A9FC0034C700 /* MBAlertController.m in Sources */,
+				BDEF12BC15E6AA380034C700 /* MBAlert.m in Sources */,
+				BDEF12C215E6AA510034C700 /* MBAlertViewBuilder.m in Sources */,
+				BDEF12C815E6AA670034C700 /* MBAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2707,11 +2764,22 @@
 				2C61DAD415D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */,
 				BD2FAF20146A93B5001BC643 /* UIWebView+FontResizing.m in Sources */,
 				BD2FAF20146A93B5001BC649 /* UIView+TreeWalker.m in Sources */,
-				BDEA193815E250BE004CB2E7 /* MBAlertDefinition.m in Sources */,
-				BDEA193E15E259EF004CB2E7 /* MBAlert.m in Sources */,
-				BDB04FE315E2930E00121548 /* MBAlertViewBuilder.m in Sources */,
-				BDEF117015E635EC0034C700 /* MBAlertController.m in Sources */,
-				BDEF117F15E662C80034C700 /* MBAlertView.m in Sources */,
+				BD2FAF20146A93B5001BC650 /* MBTableViewCellConfiguratorFactory.m in Sources */,
+				BD2FAF20146A93B5001BC656 /* MBTableViewCellConfiguratorLabel.m in Sources */,
+				BD2FAF20146A93B5001BC65C /* MBTableViewCellConfigurator.m in Sources */,
+				BD2FAF20146A93B5001BC662 /* MBTableViewCellConfiguratorDropDownList.m in Sources */,
+				BD2FAF20146A93B5001BC668 /* MBTableViewCellConfiguratorDate.m in Sources */,
+				BD2FAF20146A93B5001BC66E /* MBTableViewCellConfiguratorSubLabel.m in Sources */,
+				BD2FAF20146A93B5001BC674 /* MBTableViewCellConfiguratorCheckbox.m in Sources */,
+				BD2FAF20146A93B5001BC67A /* MBTableViewCellConfiguratorInput.m in Sources */,
+				BD2FAF20146A93B5001BC680 /* MBTableViewCellConfiguratorText.m in Sources */,
+				348123452F672C794EC38DB4 /* MBRowViewBuilderFactory.m in Sources */,
+				348127B07961890B5BE745CF /* CustomRowViewBuilder.m in Sources */,
+				BDEF12B015E6A9E90034C700 /* MBAlertDefinition.m in Sources */,
+				BDEF12B715E6A9FC0034C700 /* MBAlertController.m in Sources */,
+				BDEF12BD15E6AA380034C700 /* MBAlert.m in Sources */,
+				BDEF12C315E6AA510034C700 /* MBAlertViewBuilder.m in Sources */,
+				BDEF12C915E6AA670034C700 /* MBAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2857,11 +2925,22 @@
 				2C61DAD115D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */,
 				BD2FAF20146A93B5001BC640 /* UIWebView+FontResizing.m in Sources */,
 				BD2FAF20146A93B5001BC646 /* UIView+TreeWalker.m in Sources */,
-				BDEA193515E250BE004CB2E7 /* MBAlertDefinition.m in Sources */,
-				BDEA193B15E259EF004CB2E7 /* MBAlert.m in Sources */,
-				BDB04FE015E2930E00121548 /* MBAlertViewBuilder.m in Sources */,
-				BDEF116D15E635EC0034C700 /* MBAlertController.m in Sources */,
-				BDEF117C15E662C80034C700 /* MBAlertView.m in Sources */,
+				BD2FAF20146A93B5001BC64D /* MBTableViewCellConfiguratorFactory.m in Sources */,
+				BD2FAF20146A93B5001BC653 /* MBTableViewCellConfiguratorLabel.m in Sources */,
+				BD2FAF20146A93B5001BC659 /* MBTableViewCellConfigurator.m in Sources */,
+				BD2FAF20146A93B5001BC65F /* MBTableViewCellConfiguratorDropDownList.m in Sources */,
+				BD2FAF20146A93B5001BC665 /* MBTableViewCellConfiguratorDate.m in Sources */,
+				BD2FAF20146A93B5001BC66B /* MBTableViewCellConfiguratorSubLabel.m in Sources */,
+				BD2FAF20146A93B5001BC671 /* MBTableViewCellConfiguratorCheckbox.m in Sources */,
+				BD2FAF20146A93B5001BC677 /* MBTableViewCellConfiguratorInput.m in Sources */,
+				BD2FAF20146A93B5001BC67D /* MBTableViewCellConfiguratorText.m in Sources */,
+				34812847C65354CCAFDCFE8A /* MBRowViewBuilderFactory.m in Sources */,
+				34812D9A0E074EBA5B8B55C4 /* CustomRowViewBuilder.m in Sources */,
+				BDEF12AD15E6A9E90034C700 /* MBAlertDefinition.m in Sources */,
+				BDEF12B415E6A9FC0034C700 /* MBAlertController.m in Sources */,
+				BDEF12BA15E6AA380034C700 /* MBAlert.m in Sources */,
+				BDEF12C015E6AA510034C700 /* MBAlertViewBuilder.m in Sources */,
+				BDEF12C615E6AA670034C700 /* MBAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3008,11 +3087,22 @@
 				2C61DAD215D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */,
 				BD2FAF20146A93B5001BC641 /* UIWebView+FontResizing.m in Sources */,
 				BD2FAF20146A93B5001BC647 /* UIView+TreeWalker.m in Sources */,
-				BDEA193615E250BE004CB2E7 /* MBAlertDefinition.m in Sources */,
-				BDEA193C15E259EF004CB2E7 /* MBAlert.m in Sources */,
-				BDB04FE115E2930E00121548 /* MBAlertViewBuilder.m in Sources */,
-				BDEF116E15E635EC0034C700 /* MBAlertController.m in Sources */,
-				BDEF117D15E662C80034C700 /* MBAlertView.m in Sources */,
+				BD2FAF20146A93B5001BC64E /* MBTableViewCellConfiguratorFactory.m in Sources */,
+				BD2FAF20146A93B5001BC654 /* MBTableViewCellConfiguratorLabel.m in Sources */,
+				BD2FAF20146A93B5001BC65A /* MBTableViewCellConfigurator.m in Sources */,
+				BD2FAF20146A93B5001BC660 /* MBTableViewCellConfiguratorDropDownList.m in Sources */,
+				BD2FAF20146A93B5001BC666 /* MBTableViewCellConfiguratorDate.m in Sources */,
+				BD2FAF20146A93B5001BC66C /* MBTableViewCellConfiguratorSubLabel.m in Sources */,
+				BD2FAF20146A93B5001BC672 /* MBTableViewCellConfiguratorCheckbox.m in Sources */,
+				BD2FAF20146A93B5001BC678 /* MBTableViewCellConfiguratorInput.m in Sources */,
+				BD2FAF20146A93B5001BC67E /* MBTableViewCellConfiguratorText.m in Sources */,
+				3481269D4D8A93313421AF78 /* MBRowViewBuilderFactory.m in Sources */,
+				34812F0DF59B3983BA3365D0 /* CustomRowViewBuilder.m in Sources */,
+				BDEF12AE15E6A9E90034C700 /* MBAlertDefinition.m in Sources */,
+				BDEF12B515E6A9FC0034C700 /* MBAlertController.m in Sources */,
+				BDEF12BB15E6AA380034C700 /* MBAlert.m in Sources */,
+				BDEF12C115E6AA510034C700 /* MBAlertViewBuilder.m in Sources */,
+				BDEF12C715E6AA670034C700 /* MBAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3261,7 +3351,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "itude-mobile-ios-app/Supporting Files/Pilservice-Prefix.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = DEVICE;
@@ -3376,7 +3466,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "itude-mobile-ios-app/Supporting Files/Pilservice-Prefix.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = DEVICE;
