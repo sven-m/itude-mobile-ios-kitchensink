@@ -25,7 +25,8 @@
             <Include name="dialogs"/>
         </Dialogs>
 		<Include name="pages"/>
-        
-       
+        <Alerts>
+            <Include name="alerts"/>
+        </Alerts>
     </View>
 </Configuration>

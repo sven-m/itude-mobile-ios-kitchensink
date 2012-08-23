@@ -39,7 +39,7 @@
 	NSAutoreleasePool *pool = [NSAutoreleasePool new];
 	
 	// Uncomment this in development/test mode to get the stacktrace on-screen
-	InstallUncaughtExceptionHandler();
+	//InstallUncaughtExceptionHandler();
     
 	// set the custom PanelViewBuilder
 	[[MBViewBuilderFactory sharedInstance] setPanelViewBuilder:[[CustomPanelViewBuilder new] autorelease]];

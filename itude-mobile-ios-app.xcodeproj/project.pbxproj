@@ -47,26 +47,6 @@
 		00CB6A0215D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00CB6A0015D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx */; };
 		00CB6A0315D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00CB6A0015D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx */; };
 		00CB6A0415D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00CB6A0015D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx */; };
-		00F4959515D2B3F300277DA1 /* PAGE-field-types.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F4959415D2B3F300277DA1 /* PAGE-field-types.xmlx */; };
-		00F4959615D2B3F300277DA1 /* PAGE-field-types.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F4959415D2B3F300277DA1 /* PAGE-field-types.xmlx */; };
-		00F4959715D2B3F300277DA1 /* PAGE-field-types.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F4959415D2B3F300277DA1 /* PAGE-field-types.xmlx */; };
-		00F4959815D2B3F300277DA1 /* PAGE-field-types.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F4959415D2B3F300277DA1 /* PAGE-field-types.xmlx */; };
-		00F4959B15D2B43C00277DA1 /* PAGE-lists.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F4959A15D2B43B00277DA1 /* PAGE-lists.xmlx */; };
-		00F4959C15D2B43C00277DA1 /* PAGE-lists.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F4959A15D2B43B00277DA1 /* PAGE-lists.xmlx */; };
-		00F4959D15D2B43C00277DA1 /* PAGE-lists.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F4959A15D2B43B00277DA1 /* PAGE-lists.xmlx */; };
-		00F4959E15D2B43C00277DA1 /* PAGE-lists.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F4959A15D2B43B00277DA1 /* PAGE-lists.xmlx */; };
-		00F495A015D2B47900277DA1 /* PAGE-home.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F4959F15D2B47900277DA1 /* PAGE-home.xmlx */; };
-		00F495A115D2B47900277DA1 /* PAGE-home.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F4959F15D2B47900277DA1 /* PAGE-home.xmlx */; };
-		00F495A215D2B47900277DA1 /* PAGE-home.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F4959F15D2B47900277DA1 /* PAGE-home.xmlx */; };
-		00F495A315D2B47900277DA1 /* PAGE-home.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F4959F15D2B47900277DA1 /* PAGE-home.xmlx */; };
-		00F495A515D2B4B900277DA1 /* PAGE-plant-detail.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495A415D2B4B900277DA1 /* PAGE-plant-detail.xmlx */; };
-		00F495A615D2B4B900277DA1 /* PAGE-plant-detail.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495A415D2B4B900277DA1 /* PAGE-plant-detail.xmlx */; };
-		00F495A715D2B4B900277DA1 /* PAGE-plant-detail.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495A415D2B4B900277DA1 /* PAGE-plant-detail.xmlx */; };
-		00F495A815D2B4B900277DA1 /* PAGE-plant-detail.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495A415D2B4B900277DA1 /* PAGE-plant-detail.xmlx */; };
-		00F495AA15D2B4E600277DA1 /* PAGE-catalog.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495A915D2B4E600277DA1 /* PAGE-catalog.xmlx */; };
-		00F495AB15D2B4E600277DA1 /* PAGE-catalog.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495A915D2B4E600277DA1 /* PAGE-catalog.xmlx */; };
-		00F495AC15D2B4E600277DA1 /* PAGE-catalog.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495A915D2B4E600277DA1 /* PAGE-catalog.xmlx */; };
-		00F495AD15D2B4E600277DA1 /* PAGE-catalog.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495A915D2B4E600277DA1 /* PAGE-catalog.xmlx */; };
 		00F495AF15D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495AE15D2B7C000277DA1 /* PAGE-customized-layout.xmlx */; };
 		00F495B015D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495AE15D2B7C000277DA1 /* PAGE-customized-layout.xmlx */; };
 		00F495B115D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495AE15D2B7C000277DA1 /* PAGE-customized-layout.xmlx */; };
@@ -781,6 +761,50 @@
 		BD2FAF20146A93B5001BC647 /* UIView+TreeWalker.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC645 /* UIView+TreeWalker.m */; };
 		BD2FAF20146A93B5001BC648 /* UIView+TreeWalker.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC645 /* UIView+TreeWalker.m */; };
 		BD2FAF20146A93B5001BC649 /* UIView+TreeWalker.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC645 /* UIView+TreeWalker.m */; };
+		BDB04FE015E2930E00121548 /* MBAlertViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB04FDF15E2930E00121548 /* MBAlertViewBuilder.m */; };
+		BDB04FE115E2930E00121548 /* MBAlertViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB04FDF15E2930E00121548 /* MBAlertViewBuilder.m */; };
+		BDB04FE215E2930E00121548 /* MBAlertViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB04FDF15E2930E00121548 /* MBAlertViewBuilder.m */; };
+		BDB04FE315E2930E00121548 /* MBAlertViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB04FDF15E2930E00121548 /* MBAlertViewBuilder.m */; };
+		BDEA191A15E24F4A004CB2E7 /* PAGE-catalog.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191515E24F4A004CB2E7 /* PAGE-catalog.xmlx */; };
+		BDEA191B15E24F4A004CB2E7 /* PAGE-catalog.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191515E24F4A004CB2E7 /* PAGE-catalog.xmlx */; };
+		BDEA191C15E24F4A004CB2E7 /* PAGE-catalog.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191515E24F4A004CB2E7 /* PAGE-catalog.xmlx */; };
+		BDEA191D15E24F4A004CB2E7 /* PAGE-catalog.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191515E24F4A004CB2E7 /* PAGE-catalog.xmlx */; };
+		BDEA191E15E24F4A004CB2E7 /* PAGE-field-types.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191615E24F4A004CB2E7 /* PAGE-field-types.xmlx */; };
+		BDEA191F15E24F4A004CB2E7 /* PAGE-field-types.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191615E24F4A004CB2E7 /* PAGE-field-types.xmlx */; };
+		BDEA192015E24F4A004CB2E7 /* PAGE-field-types.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191615E24F4A004CB2E7 /* PAGE-field-types.xmlx */; };
+		BDEA192115E24F4A004CB2E7 /* PAGE-field-types.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191615E24F4A004CB2E7 /* PAGE-field-types.xmlx */; };
+		BDEA192215E24F4A004CB2E7 /* PAGE-home.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191715E24F4A004CB2E7 /* PAGE-home.xmlx */; };
+		BDEA192315E24F4A004CB2E7 /* PAGE-home.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191715E24F4A004CB2E7 /* PAGE-home.xmlx */; };
+		BDEA192415E24F4A004CB2E7 /* PAGE-home.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191715E24F4A004CB2E7 /* PAGE-home.xmlx */; };
+		BDEA192515E24F4A004CB2E7 /* PAGE-home.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191715E24F4A004CB2E7 /* PAGE-home.xmlx */; };
+		BDEA192615E24F4A004CB2E7 /* PAGE-lists.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191815E24F4A004CB2E7 /* PAGE-lists.xmlx */; };
+		BDEA192715E24F4A004CB2E7 /* PAGE-lists.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191815E24F4A004CB2E7 /* PAGE-lists.xmlx */; };
+		BDEA192815E24F4A004CB2E7 /* PAGE-lists.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191815E24F4A004CB2E7 /* PAGE-lists.xmlx */; };
+		BDEA192915E24F4A004CB2E7 /* PAGE-lists.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191815E24F4A004CB2E7 /* PAGE-lists.xmlx */; };
+		BDEA192A15E24F4A004CB2E7 /* PAGE-plant-detail.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191915E24F4A004CB2E7 /* PAGE-plant-detail.xmlx */; };
+		BDEA192B15E24F4A004CB2E7 /* PAGE-plant-detail.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191915E24F4A004CB2E7 /* PAGE-plant-detail.xmlx */; };
+		BDEA192C15E24F4A004CB2E7 /* PAGE-plant-detail.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191915E24F4A004CB2E7 /* PAGE-plant-detail.xmlx */; };
+		BDEA192D15E24F4A004CB2E7 /* PAGE-plant-detail.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA191915E24F4A004CB2E7 /* PAGE-plant-detail.xmlx */; };
+		BDEA192F15E24F56004CB2E7 /* alerts.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA192E15E24F56004CB2E7 /* alerts.xmlx */; };
+		BDEA193015E24F56004CB2E7 /* alerts.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA192E15E24F56004CB2E7 /* alerts.xmlx */; };
+		BDEA193115E24F56004CB2E7 /* alerts.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA192E15E24F56004CB2E7 /* alerts.xmlx */; };
+		BDEA193215E24F56004CB2E7 /* alerts.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEA192E15E24F56004CB2E7 /* alerts.xmlx */; };
+		BDEA193515E250BE004CB2E7 /* MBAlertDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEA193415E250BE004CB2E7 /* MBAlertDefinition.m */; };
+		BDEA193615E250BE004CB2E7 /* MBAlertDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEA193415E250BE004CB2E7 /* MBAlertDefinition.m */; };
+		BDEA193715E250BE004CB2E7 /* MBAlertDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEA193415E250BE004CB2E7 /* MBAlertDefinition.m */; };
+		BDEA193815E250BE004CB2E7 /* MBAlertDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEA193415E250BE004CB2E7 /* MBAlertDefinition.m */; };
+		BDEA193B15E259EF004CB2E7 /* MBAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEA193A15E259EF004CB2E7 /* MBAlert.m */; };
+		BDEA193C15E259EF004CB2E7 /* MBAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEA193A15E259EF004CB2E7 /* MBAlert.m */; };
+		BDEA193D15E259EF004CB2E7 /* MBAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEA193A15E259EF004CB2E7 /* MBAlert.m */; };
+		BDEA193E15E259EF004CB2E7 /* MBAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEA193A15E259EF004CB2E7 /* MBAlert.m */; };
+		BDEF116D15E635EC0034C700 /* MBAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF116C15E635EB0034C700 /* MBAlertController.m */; };
+		BDEF116E15E635EC0034C700 /* MBAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF116C15E635EB0034C700 /* MBAlertController.m */; };
+		BDEF116F15E635EC0034C700 /* MBAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF116C15E635EB0034C700 /* MBAlertController.m */; };
+		BDEF117015E635EC0034C700 /* MBAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF116C15E635EB0034C700 /* MBAlertController.m */; };
+		BDEF117C15E662C80034C700 /* MBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF117B15E662C70034C700 /* MBAlertView.m */; };
+		BDEF117D15E662C80034C700 /* MBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF117B15E662C70034C700 /* MBAlertView.m */; };
+		BDEF117E15E662C80034C700 /* MBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF117B15E662C70034C700 /* MBAlertView.m */; };
+		BDEF117F15E662C80034C700 /* MBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF117B15E662C70034C700 /* MBAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -810,11 +834,6 @@
 		00CB69B415D28DF7004F3697 /* PageWithXibFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageWithXibFileViewController.m; sourceTree = "<group>"; };
 		00CB69B515D28DF7004F3697 /* PageWithXibFileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageWithXibFileViewController.xib; sourceTree = "<group>"; };
 		00CB6A0015D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-customized-view-logic.xmlx"; path = "Pages/PAGE-customized-view-logic.xmlx"; sourceTree = "<group>"; };
-		00F4959415D2B3F300277DA1 /* PAGE-field-types.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "PAGE-field-types.xmlx"; sourceTree = "<group>"; };
-		00F4959A15D2B43B00277DA1 /* PAGE-lists.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "PAGE-lists.xmlx"; sourceTree = "<group>"; };
-		00F4959F15D2B47900277DA1 /* PAGE-home.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "PAGE-home.xmlx"; sourceTree = "<group>"; };
-		00F495A415D2B4B900277DA1 /* PAGE-plant-detail.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "PAGE-plant-detail.xmlx"; sourceTree = "<group>"; };
-		00F495A915D2B4E600277DA1 /* PAGE-catalog.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "PAGE-catalog.xmlx"; sourceTree = "<group>"; };
 		00F495AE15D2B7C000277DA1 /* PAGE-customized-layout.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-customized-layout.xmlx"; path = "Pages/PAGE-customized-layout.xmlx"; sourceTree = "<group>"; };
 		00F495F515D2BE4600277DA1 /* PAGE-page-with-xib.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-page-with-xib.xmlx"; path = "Pages/PAGE-page-with-xib.xmlx"; sourceTree = "<group>"; };
 		036F805913C700D40082D901 /* itude-mobile-ios-app (Simulator).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "itude-mobile-ios-app (Simulator).app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1108,12 +1127,12 @@
 		BD0817A5146936B6006F0AA0 /* CustomStyleHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomStyleHandler.h; sourceTree = "<group>"; };
 		BD0817A6146936B6006F0AA0 /* CustomStyleHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomStyleHandler.m; sourceTree = "<group>"; };
 		BD0817A9146936B6006F0AA0 /* actions.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = actions.xmlx; sourceTree = "<group>"; };
-		BD0817AA146936B6006F0AA0 /* config.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.xmlx; sourceTree = "<group>"; };
+		BD0817AA146936B6006F0AA0 /* config.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.xmlx; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xml; };
 		BD0817AB146936B6006F0AA0 /* dialogs.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dialogs.xmlx; sourceTree = "<group>"; };
 		BD0817AC146936B6006F0AA0 /* documents.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = documents.xmlx; sourceTree = "<group>"; };
 		BD0817AD146936B6006F0AA0 /* domains.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = domains.xmlx; sourceTree = "<group>"; };
-		BD0817AE146936B6006F0AA0 /* outcomes.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = outcomes.xmlx; sourceTree = "<group>"; };
-		BD0817AF146936B6006F0AA0 /* pages.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pages.xmlx; sourceTree = "<group>"; };
+		BD0817AE146936B6006F0AA0 /* outcomes.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = outcomes.xmlx; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xml; };
+		BD0817AF146936B6006F0AA0 /* pages.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pages.xmlx; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xml; };
 		BD0817B1146936B6006F0AA0 /* applicationproperties.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = applicationproperties.xmlx; sourceTree = "<group>"; };
 		BD0817B2146936B6006F0AA0 /* endpoints.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = endpoints.xmlx; sourceTree = "<group>"; };
 		BD0817B3146936B6006F0AA0 /* InitialOutcomes.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InitialOutcomes.xmlx; sourceTree = "<group>"; };
@@ -1155,6 +1174,22 @@
 		BD2FAF20146A93B5001BC644 /* UIWebView+FontResizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+FontResizing.h"; sourceTree = "<group>"; };
 		BD2FAF20146A93B5001BC645 /* UIView+TreeWalker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TreeWalker.m"; sourceTree = "<group>"; };
 		BD2FAF20146A93B5001BC64A /* UIView+TreeWalker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TreeWalker.h"; sourceTree = "<group>"; };
+		BDB04FDE15E2930E00121548 /* MBAlertViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBAlertViewBuilder.h; sourceTree = "<group>"; };
+		BDB04FDF15E2930E00121548 /* MBAlertViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBAlertViewBuilder.m; sourceTree = "<group>"; };
+		BDEA191515E24F4A004CB2E7 /* PAGE-catalog.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-catalog.xmlx"; path = "Pages/PAGE-catalog.xmlx"; sourceTree = "<group>"; };
+		BDEA191615E24F4A004CB2E7 /* PAGE-field-types.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-field-types.xmlx"; path = "Pages/PAGE-field-types.xmlx"; sourceTree = "<group>"; };
+		BDEA191715E24F4A004CB2E7 /* PAGE-home.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-home.xmlx"; path = "Pages/PAGE-home.xmlx"; sourceTree = "<group>"; };
+		BDEA191815E24F4A004CB2E7 /* PAGE-lists.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-lists.xmlx"; path = "Pages/PAGE-lists.xmlx"; sourceTree = "<group>"; };
+		BDEA191915E24F4A004CB2E7 /* PAGE-plant-detail.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-plant-detail.xmlx"; path = "Pages/PAGE-plant-detail.xmlx"; sourceTree = "<group>"; };
+		BDEA192E15E24F56004CB2E7 /* alerts.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = alerts.xmlx; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xml; };
+		BDEA193315E250BE004CB2E7 /* MBAlertDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBAlertDefinition.h; sourceTree = "<group>"; };
+		BDEA193415E250BE004CB2E7 /* MBAlertDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBAlertDefinition.m; sourceTree = "<group>"; };
+		BDEA193915E259EF004CB2E7 /* MBAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBAlert.h; sourceTree = "<group>"; };
+		BDEA193A15E259EF004CB2E7 /* MBAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBAlert.m; sourceTree = "<group>"; };
+		BDEF116B15E635EB0034C700 /* MBAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBAlertController.h; sourceTree = "<group>"; };
+		BDEF116C15E635EB0034C700 /* MBAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBAlertController.m; sourceTree = "<group>"; };
+		BDEF117A15E662C70034C700 /* MBAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBAlertView.h; sourceTree = "<group>"; };
+		BDEF117B15E662C70034C700 /* MBAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1208,15 +1243,15 @@
 		00CB699A15D28BEF004F3697 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				BDEA191515E24F4A004CB2E7 /* PAGE-catalog.xmlx */,
+				BDEA191615E24F4A004CB2E7 /* PAGE-field-types.xmlx */,
+				BDEA191715E24F4A004CB2E7 /* PAGE-home.xmlx */,
+				BDEA191815E24F4A004CB2E7 /* PAGE-lists.xmlx */,
+				BDEA191915E24F4A004CB2E7 /* PAGE-plant-detail.xmlx */,
 				00CB6A0015D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx */,
 				00F495AE15D2B7C000277DA1 /* PAGE-customized-layout.xmlx */,
 				0041AD3D15D2F8A700381ED2 /* PAGE-customized-components.xmlx */,
 				00F495F515D2BE4600277DA1 /* PAGE-page-with-xib.xmlx */,
-				00F4959415D2B3F300277DA1 /* PAGE-field-types.xmlx */,
-				00F4959A15D2B43B00277DA1 /* PAGE-lists.xmlx */,
-				00F4959F15D2B47900277DA1 /* PAGE-home.xmlx */,
-				00F495A415D2B4B900277DA1 /* PAGE-plant-detail.xmlx */,
-				00F495A915D2B4E600277DA1 /* PAGE-catalog.xmlx */,
 			);
 			name = Pages;
 			sourceTree = "<group>";
@@ -1357,6 +1392,8 @@
 				1C0CC7EE1505081F00766A49 /* MBPanelDefinition.m */,
 				1C0CC7EF1505081F00766A49 /* MBVariableDefinition.h */,
 				1C0CC7F01505081F00766A49 /* MBVariableDefinition.m */,
+				BDEA193315E250BE004CB2E7 /* MBAlertDefinition.h */,
+				BDEA193415E250BE004CB2E7 /* MBAlertDefinition.m */,
 			);
 			path = MVC;
 			sourceTree = "<group>";
@@ -1397,6 +1434,8 @@
 				1C0CC8041505081F00766A49 /* MBAction.h */,
 				1C0CC8051505081F00766A49 /* MBApplicationController.h */,
 				1C0CC8061505081F00766A49 /* MBApplicationController.m */,
+				BDEF116B15E635EB0034C700 /* MBAlertController.h */,
+				BDEF116C15E635EB0034C700 /* MBAlertController.m */,
 				1C0CC8071505081F00766A49 /* MBApplicationFactory.h */,
 				1C0CC8081505081F00766A49 /* MBApplicationFactory.m */,
 				1C0CC8091505081F00766A49 /* MBDialogController.h */,
@@ -1630,6 +1669,7 @@
 				1C0CC8921505081F00766A49 /* Builders */,
 				1C0CC8A61505081F00766A49 /* Helpers */,
 				1C0CC8B41505081F00766A49 /* Matrix */,
+				1C0CC8D11505081F00766A49 /* Tables */,
 				1C0CC8BD1505081F00766A49 /* MBComponent.h */,
 				1C0CC8BE1505081F00766A49 /* MBComponent.m */,
 				1C0CC8BF1505081F00766A49 /* MBComponentContainer.h */,
@@ -1650,7 +1690,8 @@
 				1C0CC8CE1505081F00766A49 /* MBRow.h */,
 				1C0CC8CF1505081F00766A49 /* MBRow.m */,
 				1C0CC8D01505081F00766A49 /* MBValueChangeListenerProtocol.h */,
-				1C0CC8D11505081F00766A49 /* Tables */,
+				BDEA193915E259EF004CB2E7 /* MBAlert.h */,
+				BDEA193A15E259EF004CB2E7 /* MBAlert.m */,
 			);
 			name = View;
 			path = "itude-mobile-iphone-core/View";
@@ -1671,6 +1712,8 @@
 				1C0CC89B1505081F00766A49 /* MBPageViewBuilder.m */,
 				1C0CC89C1505081F00766A49 /* MBPanelViewBuilder.h */,
 				1C0CC89D1505081F00766A49 /* MBPanelViewBuilder.m */,
+				BDB04FDE15E2930E00121548 /* MBAlertViewBuilder.h */,
+				BDB04FDF15E2930E00121548 /* MBAlertViewBuilder.m */,
 				1C0CC89E1505081F00766A49 /* MBDefaultRowViewBuilder.h */,
 				1C0CC89F1505081F00766A49 /* MBDefaultRowViewBuilder.m */,
 				1C0CC8A01505081F00766A49 /* MBStyleHandler.h */,
@@ -1699,6 +1742,8 @@
 				1C0CC8B11505081F00766A49 /* MBPickerPopoverController.m */,
 				1C0CC8B21505081F00766A49 /* MBSpinner.h */,
 				1C0CC8B31505081F00766A49 /* MBSpinner.m */,
+				BDEF117A15E662C70034C700 /* MBAlertView.h */,
+				BDEF117B15E662C70034C700 /* MBAlertView.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -1876,6 +1921,7 @@
 				BD0817AD146936B6006F0AA0 /* domains.xmlx */,
 				BD0817AE146936B6006F0AA0 /* outcomes.xmlx */,
 				BD0817AF146936B6006F0AA0 /* pages.xmlx */,
+				BDEA192E15E24F56004CB2E7 /* alerts.xmlx */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -2160,14 +2206,15 @@
 				00AD651B15D01B620076AC6A /* CATALOG.xmlx in Resources */,
 				00CB69BC15D28DF7004F3697 /* PageWithXibFileViewController.xib in Resources */,
 				00CB6A0315D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx in Resources */,
-				00F4959715D2B3F300277DA1 /* PAGE-field-types.xmlx in Resources */,
-				00F4959D15D2B43C00277DA1 /* PAGE-lists.xmlx in Resources */,
-				00F495A215D2B47900277DA1 /* PAGE-home.xmlx in Resources */,
-				00F495A715D2B4B900277DA1 /* PAGE-plant-detail.xmlx in Resources */,
-				00F495AC15D2B4E600277DA1 /* PAGE-catalog.xmlx in Resources */,
 				00F495B115D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */,
 				00F495F815D2BE4700277DA1 /* PAGE-page-with-xib.xmlx in Resources */,
 				0041AD4015D2F8A700381ED2 /* PAGE-customized-components.xmlx in Resources */,
+				BDEA191C15E24F4A004CB2E7 /* PAGE-catalog.xmlx in Resources */,
+				BDEA192015E24F4A004CB2E7 /* PAGE-field-types.xmlx in Resources */,
+				BDEA192415E24F4A004CB2E7 /* PAGE-home.xmlx in Resources */,
+				BDEA192815E24F4A004CB2E7 /* PAGE-lists.xmlx in Resources */,
+				BDEA192C15E24F4A004CB2E7 /* PAGE-plant-detail.xmlx in Resources */,
+				BDEA193115E24F56004CB2E7 /* alerts.xmlx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2218,14 +2265,15 @@
 				00AD651C15D01B620076AC6A /* CATALOG.xmlx in Resources */,
 				00CB69BD15D28DF7004F3697 /* PageWithXibFileViewController.xib in Resources */,
 				00CB6A0415D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx in Resources */,
-				00F4959815D2B3F300277DA1 /* PAGE-field-types.xmlx in Resources */,
-				00F4959E15D2B43C00277DA1 /* PAGE-lists.xmlx in Resources */,
-				00F495A315D2B47900277DA1 /* PAGE-home.xmlx in Resources */,
-				00F495A815D2B4B900277DA1 /* PAGE-plant-detail.xmlx in Resources */,
-				00F495AD15D2B4E600277DA1 /* PAGE-catalog.xmlx in Resources */,
 				00F495B215D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */,
 				00F495F915D2BE4700277DA1 /* PAGE-page-with-xib.xmlx in Resources */,
 				0041AD4115D2F8A700381ED2 /* PAGE-customized-components.xmlx in Resources */,
+				BDEA191D15E24F4A004CB2E7 /* PAGE-catalog.xmlx in Resources */,
+				BDEA192115E24F4A004CB2E7 /* PAGE-field-types.xmlx in Resources */,
+				BDEA192515E24F4A004CB2E7 /* PAGE-home.xmlx in Resources */,
+				BDEA192915E24F4A004CB2E7 /* PAGE-lists.xmlx in Resources */,
+				BDEA192D15E24F4A004CB2E7 /* PAGE-plant-detail.xmlx in Resources */,
+				BDEA193215E24F56004CB2E7 /* alerts.xmlx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2276,14 +2324,15 @@
 				00AD651915D01B620076AC6A /* CATALOG.xmlx in Resources */,
 				00CB69BA15D28DF7004F3697 /* PageWithXibFileViewController.xib in Resources */,
 				00CB6A0115D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx in Resources */,
-				00F4959515D2B3F300277DA1 /* PAGE-field-types.xmlx in Resources */,
-				00F4959B15D2B43C00277DA1 /* PAGE-lists.xmlx in Resources */,
-				00F495A015D2B47900277DA1 /* PAGE-home.xmlx in Resources */,
-				00F495A515D2B4B900277DA1 /* PAGE-plant-detail.xmlx in Resources */,
-				00F495AA15D2B4E600277DA1 /* PAGE-catalog.xmlx in Resources */,
 				00F495AF15D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */,
 				00F495F615D2BE4700277DA1 /* PAGE-page-with-xib.xmlx in Resources */,
 				0041AD3E15D2F8A700381ED2 /* PAGE-customized-components.xmlx in Resources */,
+				BDEA191A15E24F4A004CB2E7 /* PAGE-catalog.xmlx in Resources */,
+				BDEA191E15E24F4A004CB2E7 /* PAGE-field-types.xmlx in Resources */,
+				BDEA192215E24F4A004CB2E7 /* PAGE-home.xmlx in Resources */,
+				BDEA192615E24F4A004CB2E7 /* PAGE-lists.xmlx in Resources */,
+				BDEA192A15E24F4A004CB2E7 /* PAGE-plant-detail.xmlx in Resources */,
+				BDEA192F15E24F56004CB2E7 /* alerts.xmlx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2335,14 +2384,15 @@
 				00AD651A15D01B620076AC6A /* CATALOG.xmlx in Resources */,
 				00CB69BB15D28DF7004F3697 /* PageWithXibFileViewController.xib in Resources */,
 				00CB6A0215D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx in Resources */,
-				00F4959615D2B3F300277DA1 /* PAGE-field-types.xmlx in Resources */,
-				00F4959C15D2B43C00277DA1 /* PAGE-lists.xmlx in Resources */,
-				00F495A115D2B47900277DA1 /* PAGE-home.xmlx in Resources */,
-				00F495A615D2B4B900277DA1 /* PAGE-plant-detail.xmlx in Resources */,
-				00F495AB15D2B4E600277DA1 /* PAGE-catalog.xmlx in Resources */,
 				00F495B015D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */,
 				00F495F715D2BE4700277DA1 /* PAGE-page-with-xib.xmlx in Resources */,
 				0041AD3F15D2F8A700381ED2 /* PAGE-customized-components.xmlx in Resources */,
+				BDEA191B15E24F4A004CB2E7 /* PAGE-catalog.xmlx in Resources */,
+				BDEA191F15E24F4A004CB2E7 /* PAGE-field-types.xmlx in Resources */,
+				BDEA192315E24F4A004CB2E7 /* PAGE-home.xmlx in Resources */,
+				BDEA192715E24F4A004CB2E7 /* PAGE-lists.xmlx in Resources */,
+				BDEA192B15E24F4A004CB2E7 /* PAGE-plant-detail.xmlx in Resources */,
+				BDEA193015E24F56004CB2E7 /* alerts.xmlx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2507,6 +2557,11 @@
 				2C61DAD315D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */,
 				BD2FAF20146A93B5001BC642 /* UIWebView+FontResizing.m in Sources */,
 				BD2FAF20146A93B5001BC648 /* UIView+TreeWalker.m in Sources */,
+				BDEA193715E250BE004CB2E7 /* MBAlertDefinition.m in Sources */,
+				BDEA193D15E259EF004CB2E7 /* MBAlert.m in Sources */,
+				BDB04FE215E2930E00121548 /* MBAlertViewBuilder.m in Sources */,
+				BDEF116F15E635EC0034C700 /* MBAlertController.m in Sources */,
+				BDEF117E15E662C80034C700 /* MBAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2652,6 +2707,11 @@
 				2C61DAD415D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */,
 				BD2FAF20146A93B5001BC643 /* UIWebView+FontResizing.m in Sources */,
 				BD2FAF20146A93B5001BC649 /* UIView+TreeWalker.m in Sources */,
+				BDEA193815E250BE004CB2E7 /* MBAlertDefinition.m in Sources */,
+				BDEA193E15E259EF004CB2E7 /* MBAlert.m in Sources */,
+				BDB04FE315E2930E00121548 /* MBAlertViewBuilder.m in Sources */,
+				BDEF117015E635EC0034C700 /* MBAlertController.m in Sources */,
+				BDEF117F15E662C80034C700 /* MBAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2797,6 +2857,11 @@
 				2C61DAD115D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */,
 				BD2FAF20146A93B5001BC640 /* UIWebView+FontResizing.m in Sources */,
 				BD2FAF20146A93B5001BC646 /* UIView+TreeWalker.m in Sources */,
+				BDEA193515E250BE004CB2E7 /* MBAlertDefinition.m in Sources */,
+				BDEA193B15E259EF004CB2E7 /* MBAlert.m in Sources */,
+				BDB04FE015E2930E00121548 /* MBAlertViewBuilder.m in Sources */,
+				BDEF116D15E635EC0034C700 /* MBAlertController.m in Sources */,
+				BDEF117C15E662C80034C700 /* MBAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2943,6 +3008,11 @@
 				2C61DAD215D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */,
 				BD2FAF20146A93B5001BC641 /* UIWebView+FontResizing.m in Sources */,
 				BD2FAF20146A93B5001BC647 /* UIView+TreeWalker.m in Sources */,
+				BDEA193615E250BE004CB2E7 /* MBAlertDefinition.m in Sources */,
+				BDEA193C15E259EF004CB2E7 /* MBAlert.m in Sources */,
+				BDB04FE115E2930E00121548 /* MBAlertViewBuilder.m in Sources */,
+				BDEF116E15E635EC0034C700 /* MBAlertController.m in Sources */,
+				BDEF117D15E662C80034C700 /* MBAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

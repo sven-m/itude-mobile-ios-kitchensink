@@ -64,6 +64,16 @@
                         <Field type="BUTTON" style="NAVIGATION" outcome="OUTCOME-page-with-xib" />
                     </Panel>
                 </Panel>
+                <Panel type="SECTION" title="Alerts">
+                    <Panel type="ROW">
+                        <Field type="LABEL" label="Simple alert example"/>
+                        <Field type="BUTTON" style="NAVIGATION" outcome="OUTCOME-alert-simple-example"/>
+                    </Panel>
+                    <Panel type="ROW">
+                        <Field type="LABEL" label="Show a plant alert example"/>
+                        <Field type="BUTTON" style="NAVIGATION" outcome="OUTCOME-alert-plant-example"/>
+                    </Panel>
+                </Panel>
                 <Panel type="SECTION" title="Error handling">
                     <Panel type="ROW">
                         <Field type="LABEL" label="Throw Exception"/>
