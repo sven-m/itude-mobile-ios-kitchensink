@@ -49,6 +49,11 @@
             <Outcome origin="*" name="OUTCOME-retrieve-device-info" action="CustomAction"/>
             <Outcome origin="*" name="OUTCOME-field-types" action="PAGE-field-types" noBackgroundProcessing="TRUE"/>
             
+            <!-- Showing alerts -->
+            <Outcome origin="*" name="OUTCOME-alert-simple-example" action="ALERT-simple-example"/>
+            <Outcome origin="*" name="OUTCOME-alert-make-decision" action="ALERT-make-decision"/>
+            <Outcome origin="*" name="OUTCOME-alert-plant-example" action="ALERT-plant-example"/>
+            
             <!-- customization examples -->
             <Outcome origin="*" name="OUTCOME-customized-view-logic" action="PAGE-customized-view-logic" noBackgroundProcessing="TRUE"/>
             <Outcome origin="*" name="OUTCOME-customized-layout" action="PAGE-customized-layout" noBackgroundProcessing="TRUE"/>
