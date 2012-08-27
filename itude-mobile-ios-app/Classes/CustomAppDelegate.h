@@ -8,7 +8,7 @@
 
 #import "MBApplicationController.h"
 
-@interface CustomAppDelegate : MBApplicationController <UIApplicationDelegate, UIAlertViewDelegate> {
+@interface CustomAppDelegate : MBApplicationController <UIApplicationDelegate> {
     BOOL _handlingNotification;
 }
 

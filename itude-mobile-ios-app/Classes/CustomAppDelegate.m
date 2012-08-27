@@ -24,13 +24,7 @@
 #import "MBConfigurationDefinition.h"
 #import "MBDeviceType.h"
 #import "UncaughtExceptionHandler.h"
-#import "NSDateUtilities.h"
 #import "MBMacros.h"
-#import "MBLocalizationService.h"
-
-
-#define kAlertViewTakePill 1
-#define kAlertViewForgotPill 2
 
 @implementation CustomAppDelegate
 
