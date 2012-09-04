@@ -47,6 +47,10 @@
 		00CB6A0215D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00CB6A0015D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx */; };
 		00CB6A0315D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00CB6A0015D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx */; };
 		00CB6A0415D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00CB6A0015D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx */; };
+		00EAC7D715F6103100CF1E56 /* PAGE-manipulating-rows-in-a-list.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00EAC7D615F6103100CF1E56 /* PAGE-manipulating-rows-in-a-list.xmlx */; };
+		00EAC7D815F6103100CF1E56 /* PAGE-manipulating-rows-in-a-list.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00EAC7D615F6103100CF1E56 /* PAGE-manipulating-rows-in-a-list.xmlx */; };
+		00EAC7D915F6103100CF1E56 /* PAGE-manipulating-rows-in-a-list.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00EAC7D615F6103100CF1E56 /* PAGE-manipulating-rows-in-a-list.xmlx */; };
+		00EAC7DA15F6103100CF1E56 /* PAGE-manipulating-rows-in-a-list.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00EAC7D615F6103100CF1E56 /* PAGE-manipulating-rows-in-a-list.xmlx */; };
 		00F495AF15D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495AE15D2B7C000277DA1 /* PAGE-customized-layout.xmlx */; };
 		00F495B015D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495AE15D2B7C000277DA1 /* PAGE-customized-layout.xmlx */; };
 		00F495B115D2B7C000277DA1 /* PAGE-customized-layout.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = 00F495AE15D2B7C000277DA1 /* PAGE-customized-layout.xmlx */; };
@@ -882,6 +886,7 @@
 		00CB69B415D28DF7004F3697 /* PageWithXibFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageWithXibFileViewController.m; sourceTree = "<group>"; };
 		00CB69B515D28DF7004F3697 /* PageWithXibFileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageWithXibFileViewController.xib; sourceTree = "<group>"; };
 		00CB6A0015D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-customized-view-logic.xmlx"; path = "Pages/PAGE-customized-view-logic.xmlx"; sourceTree = "<group>"; };
+		00EAC7D615F6103100CF1E56 /* PAGE-manipulating-rows-in-a-list.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-manipulating-rows-in-a-list.xmlx"; path = "Pages/PAGE-manipulating-rows-in-a-list.xmlx"; sourceTree = "<group>"; };
 		00F495AE15D2B7C000277DA1 /* PAGE-customized-layout.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-customized-layout.xmlx"; path = "Pages/PAGE-customized-layout.xmlx"; sourceTree = "<group>"; };
 		00F495F515D2BE4600277DA1 /* PAGE-page-with-xib.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-page-with-xib.xmlx"; path = "Pages/PAGE-page-with-xib.xmlx"; sourceTree = "<group>"; };
 		036F805913C700D40082D901 /* itude-mobile-ios-app (Simulator).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "itude-mobile-ios-app (Simulator).app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1320,6 +1325,7 @@
 				BDEF12CD15E6AC0B0034C700 /* PAGE-lists.xmlx */,
 				BDEF12CE15E6AC0B0034C700 /* PAGE-plant-detail.xmlx */,
 				00CB6A0015D2B0C1004F3697 /* PAGE-customized-view-logic.xmlx */,
+				00EAC7D615F6103100CF1E56 /* PAGE-manipulating-rows-in-a-list.xmlx */,
 				00F495AE15D2B7C000277DA1 /* PAGE-customized-layout.xmlx */,
 				0041AD3D15D2F8A700381ED2 /* PAGE-customized-components.xmlx */,
 				00F495F515D2BE4600277DA1 /* PAGE-page-with-xib.xmlx */,
@@ -2318,6 +2324,7 @@
 				BDEF12DD15E6AC0B0034C700 /* PAGE-lists.xmlx in Resources */,
 				BDEF12E115E6AC0B0034C700 /* PAGE-plant-detail.xmlx in Resources */,
 				BDEF12E615E6AC1F0034C700 /* alerts.xmlx in Resources */,
+				00EAC7D915F6103100CF1E56 /* PAGE-manipulating-rows-in-a-list.xmlx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2378,6 +2385,7 @@
 				BDEF12DE15E6AC0B0034C700 /* PAGE-lists.xmlx in Resources */,
 				BDEF12E215E6AC0B0034C700 /* PAGE-plant-detail.xmlx in Resources */,
 				BDEF12E715E6AC1F0034C700 /* alerts.xmlx in Resources */,
+				00EAC7DA15F6103100CF1E56 /* PAGE-manipulating-rows-in-a-list.xmlx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2438,6 +2446,7 @@
 				BDEF12DB15E6AC0B0034C700 /* PAGE-lists.xmlx in Resources */,
 				BDEF12DF15E6AC0B0034C700 /* PAGE-plant-detail.xmlx in Resources */,
 				BDEF12E415E6AC1F0034C700 /* alerts.xmlx in Resources */,
+				00EAC7D715F6103100CF1E56 /* PAGE-manipulating-rows-in-a-list.xmlx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2499,6 +2508,7 @@
 				BDEF12DC15E6AC0B0034C700 /* PAGE-lists.xmlx in Resources */,
 				BDEF12E015E6AC0B0034C700 /* PAGE-plant-detail.xmlx in Resources */,
 				BDEF12E515E6AC1F0034C700 /* alerts.xmlx in Resources */,
+				00EAC7D815F6103100CF1E56 /* PAGE-manipulating-rows-in-a-list.xmlx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

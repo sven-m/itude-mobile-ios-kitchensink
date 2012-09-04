@@ -58,7 +58,7 @@
             <Outcome origin="*" name="OUTCOME-customized-view-logic" action="PAGE-customized-view-logic" noBackgroundProcessing="TRUE"/>
             <Outcome origin="*" name="OUTCOME-customized-layout" action="PAGE-customized-layout" noBackgroundProcessing="TRUE"/>
             <Outcome origin="*" name="OUTCOME-customized-components" action="PAGE-customized-components" noBackgroundProcessing="TRUE"/>
-            <Outcome origin="*" name="OUTCOME-customized-list" action="PAGE-customized-list" noBackgroundProcessing="TRUE"/>
+            <Outcome origin="*" name="OUTCOME-manipulating-rows-in-a-list" action="PAGE-manipulating-rows-in-a-list" noBackgroundProcessing="TRUE"/>
             <Outcome origin="*" name="OUTCOME-page-with-xib" action="PAGE-page-with-xib" noBackgroundProcessing="TRUE"/>
 
             

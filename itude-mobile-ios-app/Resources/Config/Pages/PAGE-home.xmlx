@@ -56,7 +56,7 @@
                     <Panel type="ROW">
                         <Field type="LABEL" label="Manipulating rows in a list"/>
                         <Field type="SUBLABEL" label="Layout of cells is changed"/>
-                        <Field type="BUTTON" style="NAVIGATION" outcome="OUTCOME-catalog-foreground" />
+                        <Field type="BUTTON" style="NAVIGATION" outcome="OUTCOME-manipulating-rows-in-a-list" />
                     </Panel>
                     <Panel type="ROW">
                         <Field type="LABEL" label="Using interface builder"/>

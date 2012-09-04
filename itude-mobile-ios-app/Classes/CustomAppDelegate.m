@@ -15,6 +15,7 @@
 #import "CustomSoapServiceDataHandler.h"
 #import "CustomPanelViewBuilder.h"
 #import "CustomFieldViewBuilder.h"
+#import "CustomRowViewBuilder.h"
 
 // Framework imports
 #import "MBCacheManager.h"
@@ -25,6 +26,8 @@
 #import "MBDeviceType.h"
 #import "UncaughtExceptionHandler.h"
 #import "MBMacros.h"
+#import "MBRowViewBuilderFactory.h"
+
 
 @implementation CustomAppDelegate
 
@@ -37,6 +40,15 @@
     
 	// set the custom PanelViewBuilder
 	[[MBViewBuilderFactory sharedInstance] setPanelViewBuilder:[[CustomPanelViewBuilder new] autorelease]];
+    
+    // Register custom RowViewBuilders
+    CustomRowViewBuilder *customBuilder = [[CustomRowViewBuilder alloc] init];
+    [[[MBViewBuilderFactory sharedInstance]
+      rowViewBuilderFactory]
+     registerRowViewBuilder:customBuilder forRowStyle:@"customRow"];
+    [customBuilder release];
+    
+    // set the Custom datahandlers
     
 	// set the custom FieldViewBuilder
 	[[MBViewBuilderFactory sharedInstance] setFieldViewBuilder:[[CustomFieldViewBuilder new] autorelease]];
