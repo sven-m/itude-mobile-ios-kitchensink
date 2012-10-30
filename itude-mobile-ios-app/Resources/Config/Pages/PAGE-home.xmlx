@@ -2,6 +2,17 @@
     <View>
 <Page name="PAGE-home" document="MBEmptyDoc" title="MOBBL Examples">
             <Panel type="LIST">
+                <Panel type="SECTION" title="Outcome examples">
+                    <Panel type="ROW" outcome="OUTCOME-empty-screen">
+                        <Field type="LABEL" label="Outcome on row"/>
+                    </Panel>
+                    <Panel type="ROW" outcome="OUTCOME-empty-screen">
+                        <Field type="BUTTON" label="Device info" style="NETWORK" name="button" outcome="OUTCOME-retrieve-device-info"/>
+                    </Panel>
+                    <Panel type="ROW" >
+                        <Field type="BUTTON" label="Device info" style="NETWORK" name="button" outcome="OUTCOME-retrieve-device-info"/>
+                    </Panel>
+                </Panel>
                 <Panel type="SECTION" title="Controller examples">
                     <Panel type="ROW">
                         <Field type="LABEL" label="Page navigation"/>

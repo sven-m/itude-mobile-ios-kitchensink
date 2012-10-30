@@ -6,13 +6,13 @@
 //
 
 #import "CustomRowViewBuilder.h"
-#import "MBRow.h"
+#import "MBForEachItem.h"
 
 
 @implementation CustomRowViewBuilder
 
-- (UITableViewCell *)buildRowView:(MBRow *)row forIndexPath:(NSIndexPath *)indexPath viewState:(MBViewState)viewState
-                     forTableView:(UITableView *)tableView
+
+- (UITableViewCell *)buildTableViewCellFor:(MBComponentContainer *)component forIndexPath:(NSIndexPath *)indexPath viewState:(MBViewState)viewState forTableView:(UITableView *)tableView
 {
     // Dequeue or create a UITableViewCell like you would in a standard UITableViewController
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier: @"customRowCell"];
@@ -21,17 +21,18 @@
         cell.imageView.image = [UIImage imageNamed:@"trololo.jpg"];
     }
 
-    // You have access to the Document through row.document
-    MBDocument *document = row.document;
+    // You have access to the Document through component.document
+    MBDocument *document = component.document;
     cell.textLabel.text = [document valueForPath:@"Form[0]/@title"];
     cell.detailTextLabel.text = @"CustomRowViewBuilder";
     return cell;
 }
 
-- (CGFloat)heightForRow:(MBRow *)row atIndexPath:(NSIndexPath *)indexPath forTableView:(UITableView *)tableView
+
+
+- (CGFloat)heightForComponent:(MBComponentContainer *)component atIndexPath:(NSIndexPath *)indexPath forTableView:(UITableView *)tableView
 {
     return [UIImage imageNamed:@"trololo.jpg"].size.height / 3;
 }
-
 
 @end

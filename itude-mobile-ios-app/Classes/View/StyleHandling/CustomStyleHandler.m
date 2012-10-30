@@ -17,8 +17,9 @@
 
 // Override to customize the main view
 - (void) applyStyle:(UIView *)contentView page:(MBPage *)page viewState:(MBViewState)viewState {
-    
+    [contentView setBackgroundColor:[UIColor lightGrayColor]];
 }
+
 -(void)styleLabel:(UIView *)view component:(MBField *)field{
     if ([@"style2" isEqualToString:field.style ]){
         view.backgroundColor = [UIColor redColor];
