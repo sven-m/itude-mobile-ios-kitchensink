@@ -2,21 +2,24 @@
     <View>
 <Page name="PAGE-home" document="MBEmptyDoc" title="MOBBL Examples">
             <Panel type="LIST">
-                <Panel type="SECTION" title="Outcome examples">
+                <Panel type="SECTION" title="Navigation examples">
                     <Panel type="ROW" outcome="OUTCOME-empty-screen">
-                        <Field type="LABEL" label="Outcome on row"/>
+                        <Field type="LABEL" label="Page navigation via row"/>
                     </Panel>
                     <Panel type="ROW" outcome="OUTCOME-empty-screen">
+                        <Field type="LABEL" label="Page navigation via row" />
+                        <Field type="SUBLABEL" label="with nested button"/>
                         <Field type="BUTTON" label="Device info" style="NETWORK" name="button" outcome="OUTCOME-retrieve-device-info"/>
+                    </Panel>
+                    <Panel type="ROW">
+                        <Field type="LABEL" label="Page navigation via button"/>
+                        <Field type="SUBLABEL" label="button style 'NAVIGATION'"/>
+                        <Field type="BUTTON" style="NAVIGATION" outcome="OUTCOME-empty-screen" />
                     </Panel>
                     <Panel type="ROW" >
+                        <Field type="LABEL" label="Page navigation via button" />
+                        <Field type="SUBLABEL" label="button style 'NETWORK'"/>
                         <Field type="BUTTON" label="Device info" style="NETWORK" name="button" outcome="OUTCOME-retrieve-device-info"/>
-                    </Panel>
-                </Panel>
-                <Panel type="SECTION" title="Controller examples">
-                    <Panel type="ROW">
-                        <Field type="LABEL" label="Page navigation"/>
-                        <Field type="BUTTON" style="NAVIGATION" outcome="OUTCOME-empty-screen" />
                     </Panel>
                     <Panel type="ROW">
                         <Field type="LABEL" label="Navigation via an action"/>
