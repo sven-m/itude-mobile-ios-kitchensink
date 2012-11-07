@@ -813,6 +813,10 @@
 		BD2FAF20146A93B5001BC67E /* MBTableViewCellConfiguratorText.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC67C /* MBTableViewCellConfiguratorText.m */; };
 		BD2FAF20146A93B5001BC67F /* MBTableViewCellConfiguratorText.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC67C /* MBTableViewCellConfiguratorText.m */; };
 		BD2FAF20146A93B5001BC680 /* MBTableViewCellConfiguratorText.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC67C /* MBTableViewCellConfiguratorText.m */; };
+		BD3368D3164AB64800CD56FD /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD3368D2164AB64800CD56FD /* LaunchImage-568h@2x.png */; };
+		BD3368D4164AB64800CD56FD /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD3368D2164AB64800CD56FD /* LaunchImage-568h@2x.png */; };
+		BD3368D5164AB64800CD56FD /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD3368D2164AB64800CD56FD /* LaunchImage-568h@2x.png */; };
+		BD3368D6164AB64800CD56FD /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD3368D2164AB64800CD56FD /* LaunchImage-568h@2x.png */; };
 		BDEF12AD15E6A9E90034C700 /* MBAlertDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF12AC15E6A9E90034C700 /* MBAlertDefinition.m */; };
 		BDEF12AE15E6A9E90034C700 /* MBAlertDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF12AC15E6A9E90034C700 /* MBAlertDefinition.m */; };
 		BDEF12AF15E6A9E90034C700 /* MBAlertDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF12AC15E6A9E90034C700 /* MBAlertDefinition.m */; };
@@ -1250,6 +1254,7 @@
 		BD2FAF20146A93B5001BC67B /* MBTableViewCellConfiguratorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTableViewCellConfiguratorInput.h; sourceTree = "<group>"; };
 		BD2FAF20146A93B5001BC67C /* MBTableViewCellConfiguratorText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTableViewCellConfiguratorText.m; sourceTree = "<group>"; };
 		BD2FAF20146A93B5001BC681 /* MBTableViewCellConfiguratorText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTableViewCellConfiguratorText.h; sourceTree = "<group>"; };
+		BD3368D2164AB64800CD56FD /* LaunchImage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-568h@2x.png"; sourceTree = "<group>"; };
 		BDEF12AB15E6A9E90034C700 /* MBAlertDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBAlertDefinition.h; sourceTree = "<group>"; };
 		BDEF12AC15E6A9E90034C700 /* MBAlertDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBAlertDefinition.m; sourceTree = "<group>"; };
 		BDEF12B215E6A9FC0034C700 /* MBAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBAlertController.h; sourceTree = "<group>"; };
@@ -2088,6 +2093,7 @@
 		BD0817C0146936B6006F0AA0 /* LaunchImages */ = {
 			isa = PBXGroup;
 			children = (
+				BD3368D2164AB64800CD56FD /* LaunchImage-568h@2x.png */,
 				BD0817C1146936B6006F0AA0 /* LaunchImage.png */,
 				BD0817C2146936B6006F0AA0 /* LaunchImage@2x.png */,
 			);
@@ -2325,6 +2331,7 @@
 				BDEF12E115E6AC0B0034C700 /* PAGE-plant-detail.xmlx in Resources */,
 				BDEF12E615E6AC1F0034C700 /* alerts.xmlx in Resources */,
 				00EAC7D915F6103100CF1E56 /* PAGE-manipulating-rows-in-a-list.xmlx in Resources */,
+				BD3368D5164AB64800CD56FD /* LaunchImage-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2386,6 +2393,7 @@
 				BDEF12E215E6AC0B0034C700 /* PAGE-plant-detail.xmlx in Resources */,
 				BDEF12E715E6AC1F0034C700 /* alerts.xmlx in Resources */,
 				00EAC7DA15F6103100CF1E56 /* PAGE-manipulating-rows-in-a-list.xmlx in Resources */,
+				BD3368D6164AB64800CD56FD /* LaunchImage-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2447,6 +2455,7 @@
 				BDEF12DF15E6AC0B0034C700 /* PAGE-plant-detail.xmlx in Resources */,
 				BDEF12E415E6AC1F0034C700 /* alerts.xmlx in Resources */,
 				00EAC7D715F6103100CF1E56 /* PAGE-manipulating-rows-in-a-list.xmlx in Resources */,
+				BD3368D3164AB64800CD56FD /* LaunchImage-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2509,6 +2518,7 @@
 				BDEF12E015E6AC0B0034C700 /* PAGE-plant-detail.xmlx in Resources */,
 				BDEF12E515E6AC1F0034C700 /* alerts.xmlx in Resources */,
 				00EAC7D815F6103100CF1E56 /* PAGE-manipulating-rows-in-a-list.xmlx in Resources */,
+				BD3368D4164AB64800CD56FD /* LaunchImage-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
