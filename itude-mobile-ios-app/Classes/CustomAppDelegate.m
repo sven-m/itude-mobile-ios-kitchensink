@@ -13,8 +13,6 @@
 #import "CustomStyleHandler.h"
 #import "CustomStyleConstants.h"
 #import "CustomSoapServiceDataHandler.h"
-#import "CustomPanelViewBuilder.h"
-#import "CustomFieldViewBuilder.h"
 #import "CustomRowViewBuilder.h"
 
 // Framework imports
@@ -38,8 +36,6 @@
 	// Uncomment this in development/test mode to get the stacktrace on-screen
 	InstallUncaughtExceptionHandler();
     
-	// set the custom PanelViewBuilder
-	[[MBViewBuilderFactory sharedInstance] setPanelViewBuilder:[[CustomPanelViewBuilder new] autorelease]];
     
     // Register custom RowViewBuilders
     CustomRowViewBuilder *customBuilder = [[CustomRowViewBuilder alloc] init];
@@ -50,9 +46,6 @@
     
     // set the Custom datahandlers
     
-	// set the custom FieldViewBuilder
-	[[MBViewBuilderFactory sharedInstance] setFieldViewBuilder:[[CustomFieldViewBuilder new] autorelease]];
-	
     // Set custom stylehandling
     [[MBViewBuilderFactory sharedInstance] setStyleHandler:[[CustomStyleHandler new] autorelease]];
 	
