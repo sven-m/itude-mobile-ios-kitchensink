@@ -426,10 +426,6 @@
 		1C0CCA2D1505082000766A49 /* ViewUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC8901505081F00766A49 /* ViewUtilities.m */; };
 		1C0CCA2E1505082000766A49 /* ViewUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC8901505081F00766A49 /* ViewUtilities.m */; };
 		1C0CCA2F1505082000766A49 /* ViewUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC8901505081F00766A49 /* ViewUtilities.m */; };
-		1C0CCA301505082000766A49 /* MBFieldViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC8951505081F00766A49 /* MBFieldViewBuilder.m */; };
-		1C0CCA311505082000766A49 /* MBFieldViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC8951505081F00766A49 /* MBFieldViewBuilder.m */; };
-		1C0CCA321505082000766A49 /* MBFieldViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC8951505081F00766A49 /* MBFieldViewBuilder.m */; };
-		1C0CCA331505082000766A49 /* MBFieldViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC8951505081F00766A49 /* MBFieldViewBuilder.m */; };
 		1C0CCA341505082000766A49 /* MBForEachViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC8971505081F00766A49 /* MBForEachViewBuilder.m */; };
 		1C0CCA351505082000766A49 /* MBForEachViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC8971505081F00766A49 /* MBForEachViewBuilder.m */; };
 		1C0CCA361505082000766A49 /* MBForEachViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC8971505081F00766A49 /* MBForEachViewBuilder.m */; };
@@ -442,10 +438,6 @@
 		1C0CCA3D1505082000766A49 /* MBPageViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89B1505081F00766A49 /* MBPageViewBuilder.m */; };
 		1C0CCA3E1505082000766A49 /* MBPageViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89B1505081F00766A49 /* MBPageViewBuilder.m */; };
 		1C0CCA3F1505082000766A49 /* MBPageViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89B1505081F00766A49 /* MBPageViewBuilder.m */; };
-		1C0CCA401505082000766A49 /* MBPanelViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89D1505081F00766A49 /* MBPanelViewBuilder.m */; };
-		1C0CCA411505082000766A49 /* MBPanelViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89D1505081F00766A49 /* MBPanelViewBuilder.m */; };
-		1C0CCA421505082000766A49 /* MBPanelViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89D1505081F00766A49 /* MBPanelViewBuilder.m */; };
-		1C0CCA431505082000766A49 /* MBPanelViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89D1505081F00766A49 /* MBPanelViewBuilder.m */; };
 		1C0CCA441505082000766A49 /* MBDefaultRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89F1505081F00766A49 /* MBDefaultRowViewBuilder.m */; };
 		1C0CCA451505082000766A49 /* MBDefaultRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89F1505081F00766A49 /* MBDefaultRowViewBuilder.m */; };
 		1C0CCA461505082000766A49 /* MBDefaultRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89F1505081F00766A49 /* MBDefaultRowViewBuilder.m */; };
@@ -590,14 +582,6 @@
 		BD0817F4146936B6006F0AA0 /* NSDateUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BD081793146936B6006F0AA0 /* NSDateUtilities.m */; };
 		BD0817F5146936B6006F0AA0 /* NSDateUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BD081793146936B6006F0AA0 /* NSDateUtilities.m */; };
 		BD0817F6146936B6006F0AA0 /* NSDateUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BD081793146936B6006F0AA0 /* NSDateUtilities.m */; };
-		BD0817F7146936B6006F0AA0 /* CustomFieldViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BD081797146936B6006F0AA0 /* CustomFieldViewBuilder.m */; };
-		BD0817F8146936B6006F0AA0 /* CustomFieldViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BD081797146936B6006F0AA0 /* CustomFieldViewBuilder.m */; };
-		BD0817F9146936B6006F0AA0 /* CustomFieldViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BD081797146936B6006F0AA0 /* CustomFieldViewBuilder.m */; };
-		BD0817FA146936B6006F0AA0 /* CustomFieldViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BD081797146936B6006F0AA0 /* CustomFieldViewBuilder.m */; };
-		BD0817FB146936B6006F0AA0 /* CustomPanelViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BD081799146936B6006F0AA0 /* CustomPanelViewBuilder.m */; };
-		BD0817FC146936B6006F0AA0 /* CustomPanelViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BD081799146936B6006F0AA0 /* CustomPanelViewBuilder.m */; };
-		BD0817FD146936B6006F0AA0 /* CustomPanelViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BD081799146936B6006F0AA0 /* CustomPanelViewBuilder.m */; };
-		BD0817FE146936B6006F0AA0 /* CustomPanelViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BD081799146936B6006F0AA0 /* CustomPanelViewBuilder.m */; };
 		BD081807146936B6006F0AA0 /* CustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0817A2146936B6006F0AA0 /* CustomColor.m */; };
 		BD081808146936B6006F0AA0 /* CustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0817A2146936B6006F0AA0 /* CustomColor.m */; };
 		BD081809146936B6006F0AA0 /* CustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0817A2146936B6006F0AA0 /* CustomColor.m */; };
@@ -861,6 +845,46 @@
 		BDEF12E515E6AC1F0034C700 /* alerts.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEF12E315E6AC1E0034C700 /* alerts.xmlx */; };
 		BDEF12E615E6AC1F0034C700 /* alerts.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEF12E315E6AC1E0034C700 /* alerts.xmlx */; };
 		BDEF12E715E6AC1F0034C700 /* alerts.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEF12E315E6AC1E0034C700 /* alerts.xmlx */; };
+		E2FDF7B01664D89F007ED4CA /* MBFieldViewBuilderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7AF1664D89F007ED4CA /* MBFieldViewBuilderFactory.m */; };
+		E2FDF7B11664D89F007ED4CA /* MBFieldViewBuilderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7AF1664D89F007ED4CA /* MBFieldViewBuilderFactory.m */; };
+		E2FDF7B21664D89F007ED4CA /* MBFieldViewBuilderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7AF1664D89F007ED4CA /* MBFieldViewBuilderFactory.m */; };
+		E2FDF7B31664D89F007ED4CA /* MBFieldViewBuilderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7AF1664D89F007ED4CA /* MBFieldViewBuilderFactory.m */; };
+		E2FDF7B71664E96B007ED4CA /* MBButtonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7B61664E96B007ED4CA /* MBButtonBuilder.m */; };
+		E2FDF7B81664E96B007ED4CA /* MBButtonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7B61664E96B007ED4CA /* MBButtonBuilder.m */; };
+		E2FDF7B91664E96B007ED4CA /* MBButtonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7B61664E96B007ED4CA /* MBButtonBuilder.m */; };
+		E2FDF7BA1664E96B007ED4CA /* MBButtonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7B61664E96B007ED4CA /* MBButtonBuilder.m */; };
+		E2FDF7BD1664EDAE007ED4CA /* MBTextBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7BC1664EDAE007ED4CA /* MBTextBuilder.m */; };
+		E2FDF7BE1664EDAE007ED4CA /* MBTextBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7BC1664EDAE007ED4CA /* MBTextBuilder.m */; };
+		E2FDF7BF1664EDAE007ED4CA /* MBTextBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7BC1664EDAE007ED4CA /* MBTextBuilder.m */; };
+		E2FDF7C01664EDAE007ED4CA /* MBTextBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7BC1664EDAE007ED4CA /* MBTextBuilder.m */; };
+		E2FDF7C31664EFC5007ED4CA /* MBLabelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7C21664EFC4007ED4CA /* MBLabelBuilder.m */; };
+		E2FDF7C41664EFC5007ED4CA /* MBLabelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7C21664EFC4007ED4CA /* MBLabelBuilder.m */; };
+		E2FDF7C51664EFC5007ED4CA /* MBLabelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7C21664EFC4007ED4CA /* MBLabelBuilder.m */; };
+		E2FDF7C61664EFC5007ED4CA /* MBLabelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7C21664EFC4007ED4CA /* MBLabelBuilder.m */; };
+		E2FDF7CB1664F60B007ED4CA /* MBPanelViewBuilderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7CA1664F60B007ED4CA /* MBPanelViewBuilderFactory.m */; };
+		E2FDF7CC1664F60B007ED4CA /* MBPanelViewBuilderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7CA1664F60B007ED4CA /* MBPanelViewBuilderFactory.m */; };
+		E2FDF7CD1664F60B007ED4CA /* MBPanelViewBuilderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7CA1664F60B007ED4CA /* MBPanelViewBuilderFactory.m */; };
+		E2FDF7CE1664F60B007ED4CA /* MBPanelViewBuilderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7CA1664F60B007ED4CA /* MBPanelViewBuilderFactory.m */; };
+		E2FDF7D11664FAC1007ED4CA /* MBPlainPanelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7D01664FAC0007ED4CA /* MBPlainPanelBuilder.m */; };
+		E2FDF7D21664FAC1007ED4CA /* MBPlainPanelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7D01664FAC0007ED4CA /* MBPlainPanelBuilder.m */; };
+		E2FDF7D31664FAC1007ED4CA /* MBPlainPanelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7D01664FAC0007ED4CA /* MBPlainPanelBuilder.m */; };
+		E2FDF7D41664FAC1007ED4CA /* MBPlainPanelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7D01664FAC0007ED4CA /* MBPlainPanelBuilder.m */; };
+		E2FDF7D71664FAF7007ED4CA /* MBBasicPanelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7D61664FAF7007ED4CA /* MBBasicPanelBuilder.m */; };
+		E2FDF7D81664FAF7007ED4CA /* MBBasicPanelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7D61664FAF7007ED4CA /* MBBasicPanelBuilder.m */; };
+		E2FDF7D91664FAF7007ED4CA /* MBBasicPanelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7D61664FAF7007ED4CA /* MBBasicPanelBuilder.m */; };
+		E2FDF7DA1664FAF7007ED4CA /* MBBasicPanelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7D61664FAF7007ED4CA /* MBBasicPanelBuilder.m */; };
+		E2FDF7E31664FC9E007ED4CA /* MBViewBuilder+PanelHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7E21664FC98007ED4CA /* MBViewBuilder+PanelHelper.m */; };
+		E2FDF7E41664FC9E007ED4CA /* MBViewBuilder+PanelHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7E21664FC98007ED4CA /* MBViewBuilder+PanelHelper.m */; };
+		E2FDF7E51664FC9E007ED4CA /* MBViewBuilder+PanelHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7E21664FC98007ED4CA /* MBViewBuilder+PanelHelper.m */; };
+		E2FDF7E61664FC9E007ED4CA /* MBViewBuilder+PanelHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7E21664FC98007ED4CA /* MBViewBuilder+PanelHelper.m */; };
+		E2FDF7EA1664FE5D007ED4CA /* MBMatrixBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7E91664FE5C007ED4CA /* MBMatrixBuilder.m */; };
+		E2FDF7EB1664FE5D007ED4CA /* MBMatrixBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7E91664FE5C007ED4CA /* MBMatrixBuilder.m */; };
+		E2FDF7EC1664FE5D007ED4CA /* MBMatrixBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7E91664FE5C007ED4CA /* MBMatrixBuilder.m */; };
+		E2FDF7ED1664FE5D007ED4CA /* MBMatrixBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7E91664FE5C007ED4CA /* MBMatrixBuilder.m */; };
+		E2FDF7F01664FF48007ED4CA /* MBListBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7EF1664FF45007ED4CA /* MBListBuilder.m */; };
+		E2FDF7F11664FF48007ED4CA /* MBListBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7EF1664FF45007ED4CA /* MBListBuilder.m */; };
+		E2FDF7F21664FF48007ED4CA /* MBListBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7EF1664FF45007ED4CA /* MBListBuilder.m */; };
+		E2FDF7F31664FF48007ED4CA /* MBListBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7EF1664FF45007ED4CA /* MBListBuilder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1094,15 +1118,12 @@
 		1C0CC8901505081F00766A49 /* ViewUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewUtilities.m; sourceTree = "<group>"; };
 		1C0CC8931505081F00766A49 /* MBFieldTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFieldTypes.h; sourceTree = "<group>"; };
 		1C0CC8941505081F00766A49 /* MBFieldViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFieldViewBuilder.h; sourceTree = "<group>"; };
-		1C0CC8951505081F00766A49 /* MBFieldViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFieldViewBuilder.m; sourceTree = "<group>"; };
 		1C0CC8961505081F00766A49 /* MBForEachViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBForEachViewBuilder.h; sourceTree = "<group>"; };
 		1C0CC8971505081F00766A49 /* MBForEachViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBForEachViewBuilder.m; sourceTree = "<group>"; };
 		1C0CC8981505081F00766A49 /* MBMatrixViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBMatrixViewBuilder.h; sourceTree = "<group>"; };
 		1C0CC8991505081F00766A49 /* MBMatrixViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBMatrixViewBuilder.m; sourceTree = "<group>"; };
 		1C0CC89A1505081F00766A49 /* MBPageViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBPageViewBuilder.h; sourceTree = "<group>"; };
 		1C0CC89B1505081F00766A49 /* MBPageViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBPageViewBuilder.m; sourceTree = "<group>"; };
-		1C0CC89C1505081F00766A49 /* MBPanelViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBPanelViewBuilder.h; sourceTree = "<group>"; };
-		1C0CC89D1505081F00766A49 /* MBPanelViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBPanelViewBuilder.m; sourceTree = "<group>"; };
 		1C0CC89E1505081F00766A49 /* MBDefaultRowViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDefaultRowViewBuilder.h; sourceTree = "<group>"; };
 		1C0CC89F1505081F00766A49 /* MBDefaultRowViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDefaultRowViewBuilder.m; sourceTree = "<group>"; };
 		1C0CC8A01505081F00766A49 /* MBStyleHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBStyleHandler.h; sourceTree = "<group>"; };
@@ -1178,10 +1199,6 @@
 		BD081790146936B6006F0AA0 /* CustomSoapServiceDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSoapServiceDataHandler.m; sourceTree = "<group>"; };
 		BD081792146936B6006F0AA0 /* NSDateUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateUtilities.h; sourceTree = "<group>"; };
 		BD081793146936B6006F0AA0 /* NSDateUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateUtilities.m; sourceTree = "<group>"; };
-		BD081796146936B6006F0AA0 /* CustomFieldViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFieldViewBuilder.h; sourceTree = "<group>"; };
-		BD081797146936B6006F0AA0 /* CustomFieldViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFieldViewBuilder.m; sourceTree = "<group>"; };
-		BD081798146936B6006F0AA0 /* CustomPanelViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPanelViewBuilder.h; sourceTree = "<group>"; };
-		BD081799146936B6006F0AA0 /* CustomPanelViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPanelViewBuilder.m; sourceTree = "<group>"; };
 		BD0817A1146936B6006F0AA0 /* CustomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomColor.h; sourceTree = "<group>"; };
 		BD0817A2146936B6006F0AA0 /* CustomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomColor.m; sourceTree = "<group>"; };
 		BD0817A3146936B6006F0AA0 /* CustomStyleConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomStyleConstants.h; sourceTree = "<group>"; };
@@ -1271,6 +1288,28 @@
 		BDEF12CD15E6AC0B0034C700 /* PAGE-lists.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-lists.xmlx"; path = "Pages/PAGE-lists.xmlx"; sourceTree = "<group>"; };
 		BDEF12CE15E6AC0B0034C700 /* PAGE-plant-detail.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-plant-detail.xmlx"; path = "Pages/PAGE-plant-detail.xmlx"; sourceTree = "<group>"; };
 		BDEF12E315E6AC1E0034C700 /* alerts.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = alerts.xmlx; sourceTree = "<group>"; };
+		E2FDF7AE1664D89F007ED4CA /* MBFieldViewBuilderFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFieldViewBuilderFactory.h; sourceTree = "<group>"; };
+		E2FDF7AF1664D89F007ED4CA /* MBFieldViewBuilderFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFieldViewBuilderFactory.m; sourceTree = "<group>"; };
+		E2FDF7B51664E96B007ED4CA /* MBButtonBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBButtonBuilder.h; sourceTree = "<group>"; };
+		E2FDF7B61664E96B007ED4CA /* MBButtonBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBButtonBuilder.m; sourceTree = "<group>"; };
+		E2FDF7BB1664EDAD007ED4CA /* MBTextBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTextBuilder.h; sourceTree = "<group>"; };
+		E2FDF7BC1664EDAE007ED4CA /* MBTextBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTextBuilder.m; sourceTree = "<group>"; };
+		E2FDF7C11664EFC4007ED4CA /* MBLabelBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBLabelBuilder.h; sourceTree = "<group>"; };
+		E2FDF7C21664EFC4007ED4CA /* MBLabelBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBLabelBuilder.m; sourceTree = "<group>"; };
+		E2FDF7C81664F57F007ED4CA /* MBPanelViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBPanelViewBuilder.h; sourceTree = "<group>"; };
+		E2FDF7C91664F60B007ED4CA /* MBPanelViewBuilderFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBPanelViewBuilderFactory.h; sourceTree = "<group>"; };
+		E2FDF7CA1664F60B007ED4CA /* MBPanelViewBuilderFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBPanelViewBuilderFactory.m; sourceTree = "<group>"; };
+		E2FDF7CF1664FAC0007ED4CA /* MBPlainPanelBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBPlainPanelBuilder.h; sourceTree = "<group>"; };
+		E2FDF7D01664FAC0007ED4CA /* MBPlainPanelBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBPlainPanelBuilder.m; sourceTree = "<group>"; };
+		E2FDF7D51664FAF6007ED4CA /* MBBasicPanelBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBBasicPanelBuilder.h; sourceTree = "<group>"; };
+		E2FDF7D61664FAF7007ED4CA /* MBBasicPanelBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBBasicPanelBuilder.m; sourceTree = "<group>"; };
+		E2FDF7E11664FC96007ED4CA /* MBViewBuilder+PanelHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBViewBuilder+PanelHelper.h"; sourceTree = "<group>"; };
+		E2FDF7E21664FC98007ED4CA /* MBViewBuilder+PanelHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBViewBuilder+PanelHelper.m"; sourceTree = "<group>"; };
+		E2FDF7E71664FD95007ED4CA /* MBPanelTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBPanelTypes.h; sourceTree = "<group>"; };
+		E2FDF7E81664FE5B007ED4CA /* MBMatrixBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBMatrixBuilder.h; sourceTree = "<group>"; };
+		E2FDF7E91664FE5C007ED4CA /* MBMatrixBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBMatrixBuilder.m; sourceTree = "<group>"; };
+		E2FDF7EE1664FF44007ED4CA /* MBListBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBListBuilder.h; sourceTree = "<group>"; };
+		E2FDF7EF1664FF45007ED4CA /* MBListBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBListBuilder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1782,21 +1821,19 @@
 		1C0CC8921505081F00766A49 /* Builders */ = {
 			isa = PBXGroup;
 			children = (
+				E2FDF7C71664F47C007ED4CA /* PanelView */,
+				E2FDF79F1664D2C7007ED4CA /* FieldView */,
 				BDEF12BE15E6AA510034C700 /* MBAlertViewBuilder.h */,
 				BDEF12BF15E6AA510034C700 /* MBAlertViewBuilder.m */,
 				348129E0ECAADF9C8DCCFDED /* MBRowViewBuilderFactory.h */,
 				34812D6B7D04E8BE671524E2 /* MBRowViewBuilderFactory.m */,
 				1C0CC8931505081F00766A49 /* MBFieldTypes.h */,
-				1C0CC8941505081F00766A49 /* MBFieldViewBuilder.h */,
-				1C0CC8951505081F00766A49 /* MBFieldViewBuilder.m */,
 				1C0CC8961505081F00766A49 /* MBForEachViewBuilder.h */,
 				1C0CC8971505081F00766A49 /* MBForEachViewBuilder.m */,
 				1C0CC8981505081F00766A49 /* MBMatrixViewBuilder.h */,
 				1C0CC8991505081F00766A49 /* MBMatrixViewBuilder.m */,
 				1C0CC89A1505081F00766A49 /* MBPageViewBuilder.h */,
 				1C0CC89B1505081F00766A49 /* MBPageViewBuilder.m */,
-				1C0CC89C1505081F00766A49 /* MBPanelViewBuilder.h */,
-				1C0CC89D1505081F00766A49 /* MBPanelViewBuilder.m */,
 				1C0CC8A01505081F00766A49 /* MBStyleHandler.h */,
 				1C0CC8A11505081F00766A49 /* MBStyleHandler.m */,
 				1C0CC8A21505081F00766A49 /* MBViewBuilder.h */,
@@ -1966,10 +2003,6 @@
 			children = (
 				3481234ED29B6C9AB028209C /* CustomRowViewBuilder.h */,
 				3481256D97DF65AB2C5F7FD4 /* CustomRowViewBuilder.m */,
-				BD081796146936B6006F0AA0 /* CustomFieldViewBuilder.h */,
-				BD081797146936B6006F0AA0 /* CustomFieldViewBuilder.m */,
-				BD081798146936B6006F0AA0 /* CustomPanelViewBuilder.h */,
-				BD081799146936B6006F0AA0 /* CustomPanelViewBuilder.m */,
 			);
 			path = Builders;
 			sourceTree = "<group>";
@@ -2151,6 +2184,43 @@
 				BD0818B5146936E5006F0AA0 /* itude_mobile_ios_appTests.m */,
 			);
 			path = "itude-mobile-ios-appTests";
+			sourceTree = "<group>";
+		};
+		E2FDF79F1664D2C7007ED4CA /* FieldView */ = {
+			isa = PBXGroup;
+			children = (
+				1C0CC8941505081F00766A49 /* MBFieldViewBuilder.h */,
+				E2FDF7AE1664D89F007ED4CA /* MBFieldViewBuilderFactory.h */,
+				E2FDF7AF1664D89F007ED4CA /* MBFieldViewBuilderFactory.m */,
+				E2FDF7B51664E96B007ED4CA /* MBButtonBuilder.h */,
+				E2FDF7B61664E96B007ED4CA /* MBButtonBuilder.m */,
+				E2FDF7BB1664EDAD007ED4CA /* MBTextBuilder.h */,
+				E2FDF7BC1664EDAE007ED4CA /* MBTextBuilder.m */,
+				E2FDF7C11664EFC4007ED4CA /* MBLabelBuilder.h */,
+				E2FDF7C21664EFC4007ED4CA /* MBLabelBuilder.m */,
+			);
+			name = FieldView;
+			sourceTree = "<group>";
+		};
+		E2FDF7C71664F47C007ED4CA /* PanelView */ = {
+			isa = PBXGroup;
+			children = (
+				E2FDF7C81664F57F007ED4CA /* MBPanelViewBuilder.h */,
+				E2FDF7C91664F60B007ED4CA /* MBPanelViewBuilderFactory.h */,
+				E2FDF7CA1664F60B007ED4CA /* MBPanelViewBuilderFactory.m */,
+				E2FDF7CF1664FAC0007ED4CA /* MBPlainPanelBuilder.h */,
+				E2FDF7D01664FAC0007ED4CA /* MBPlainPanelBuilder.m */,
+				E2FDF7D51664FAF6007ED4CA /* MBBasicPanelBuilder.h */,
+				E2FDF7D61664FAF7007ED4CA /* MBBasicPanelBuilder.m */,
+				E2FDF7E11664FC96007ED4CA /* MBViewBuilder+PanelHelper.h */,
+				E2FDF7E21664FC98007ED4CA /* MBViewBuilder+PanelHelper.m */,
+				E2FDF7E71664FD95007ED4CA /* MBPanelTypes.h */,
+				E2FDF7E81664FE5B007ED4CA /* MBMatrixBuilder.h */,
+				E2FDF7E91664FE5C007ED4CA /* MBMatrixBuilder.m */,
+				E2FDF7EE1664FF44007ED4CA /* MBListBuilder.h */,
+				E2FDF7EF1664FF45007ED4CA /* MBListBuilder.m */,
+			);
+			name = PanelView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2552,8 +2622,6 @@
 				BD0817ED146936B6006F0AA0 /* CustomApplicationFactory.m in Sources */,
 				BD0817F1146936B6006F0AA0 /* CustomSoapServiceDataHandler.m in Sources */,
 				BD0817F5146936B6006F0AA0 /* NSDateUtilities.m in Sources */,
-				BD0817F9146936B6006F0AA0 /* CustomFieldViewBuilder.m in Sources */,
-				BD0817FD146936B6006F0AA0 /* CustomPanelViewBuilder.m in Sources */,
 				BD081809146936B6006F0AA0 /* CustomColor.m in Sources */,
 				BD08180D146936B6006F0AA0 /* CustomStyleConstants.m in Sources */,
 				BD081811146936B6006F0AA0 /* CustomStyleHandler.m in Sources */,
@@ -2644,11 +2712,9 @@
 				1C0CCA261505082000766A49 /* StringUtilitiesHelper.m in Sources */,
 				1C0CCA2A1505082000766A49 /* UncaughtExceptionHandler.m in Sources */,
 				1C0CCA2E1505082000766A49 /* ViewUtilities.m in Sources */,
-				1C0CCA321505082000766A49 /* MBFieldViewBuilder.m in Sources */,
 				1C0CCA361505082000766A49 /* MBForEachViewBuilder.m in Sources */,
 				1C0CCA3A1505082000766A49 /* MBMatrixViewBuilder.m in Sources */,
 				1C0CCA3E1505082000766A49 /* MBPageViewBuilder.m in Sources */,
-				1C0CCA421505082000766A49 /* MBPanelViewBuilder.m in Sources */,
 				1C0CCA461505082000766A49 /* MBDefaultRowViewBuilder.m in Sources */,
 				1C0CCA4A1505082000766A49 /* MBStyleHandler.m in Sources */,
 				1C0CCA4E1505082000766A49 /* MBViewBuilder.m in Sources */,
@@ -2699,6 +2765,16 @@
 				BDEF12BC15E6AA380034C700 /* MBAlert.m in Sources */,
 				BDEF12C215E6AA510034C700 /* MBAlertViewBuilder.m in Sources */,
 				BDEF12C815E6AA670034C700 /* MBAlertView.m in Sources */,
+				E2FDF7B21664D89F007ED4CA /* MBFieldViewBuilderFactory.m in Sources */,
+				E2FDF7B91664E96B007ED4CA /* MBButtonBuilder.m in Sources */,
+				E2FDF7BF1664EDAE007ED4CA /* MBTextBuilder.m in Sources */,
+				E2FDF7C51664EFC5007ED4CA /* MBLabelBuilder.m in Sources */,
+				E2FDF7CD1664F60B007ED4CA /* MBPanelViewBuilderFactory.m in Sources */,
+				E2FDF7D31664FAC1007ED4CA /* MBPlainPanelBuilder.m in Sources */,
+				E2FDF7D91664FAF7007ED4CA /* MBBasicPanelBuilder.m in Sources */,
+				E2FDF7E51664FC9E007ED4CA /* MBViewBuilder+PanelHelper.m in Sources */,
+				E2FDF7EC1664FE5D007ED4CA /* MBMatrixBuilder.m in Sources */,
+				E2FDF7F21664FF48007ED4CA /* MBListBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2716,8 +2792,6 @@
 				BD0817EE146936B6006F0AA0 /* CustomApplicationFactory.m in Sources */,
 				BD0817F2146936B6006F0AA0 /* CustomSoapServiceDataHandler.m in Sources */,
 				BD0817F6146936B6006F0AA0 /* NSDateUtilities.m in Sources */,
-				BD0817FA146936B6006F0AA0 /* CustomFieldViewBuilder.m in Sources */,
-				BD0817FE146936B6006F0AA0 /* CustomPanelViewBuilder.m in Sources */,
 				BD08180A146936B6006F0AA0 /* CustomColor.m in Sources */,
 				BD08180E146936B6006F0AA0 /* CustomStyleConstants.m in Sources */,
 				BD081812146936B6006F0AA0 /* CustomStyleHandler.m in Sources */,
@@ -2805,11 +2879,9 @@
 				1C0CCA271505082000766A49 /* StringUtilitiesHelper.m in Sources */,
 				1C0CCA2B1505082000766A49 /* UncaughtExceptionHandler.m in Sources */,
 				1C0CCA2F1505082000766A49 /* ViewUtilities.m in Sources */,
-				1C0CCA331505082000766A49 /* MBFieldViewBuilder.m in Sources */,
 				1C0CCA371505082000766A49 /* MBForEachViewBuilder.m in Sources */,
 				1C0CCA3B1505082000766A49 /* MBMatrixViewBuilder.m in Sources */,
 				1C0CCA3F1505082000766A49 /* MBPageViewBuilder.m in Sources */,
-				1C0CCA431505082000766A49 /* MBPanelViewBuilder.m in Sources */,
 				1C0CCA471505082000766A49 /* MBDefaultRowViewBuilder.m in Sources */,
 				1C0CCA4B1505082000766A49 /* MBStyleHandler.m in Sources */,
 				1C0CCA4F1505082000766A49 /* MBViewBuilder.m in Sources */,
@@ -2860,6 +2932,16 @@
 				BDEF12BD15E6AA380034C700 /* MBAlert.m in Sources */,
 				BDEF12C315E6AA510034C700 /* MBAlertViewBuilder.m in Sources */,
 				BDEF12C915E6AA670034C700 /* MBAlertView.m in Sources */,
+				E2FDF7B31664D89F007ED4CA /* MBFieldViewBuilderFactory.m in Sources */,
+				E2FDF7BA1664E96B007ED4CA /* MBButtonBuilder.m in Sources */,
+				E2FDF7C01664EDAE007ED4CA /* MBTextBuilder.m in Sources */,
+				E2FDF7C61664EFC5007ED4CA /* MBLabelBuilder.m in Sources */,
+				E2FDF7CE1664F60B007ED4CA /* MBPanelViewBuilderFactory.m in Sources */,
+				E2FDF7D41664FAC1007ED4CA /* MBPlainPanelBuilder.m in Sources */,
+				E2FDF7DA1664FAF7007ED4CA /* MBBasicPanelBuilder.m in Sources */,
+				E2FDF7E61664FC9E007ED4CA /* MBViewBuilder+PanelHelper.m in Sources */,
+				E2FDF7ED1664FE5D007ED4CA /* MBMatrixBuilder.m in Sources */,
+				E2FDF7F31664FF48007ED4CA /* MBListBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2874,8 +2956,6 @@
 				BD0817EB146936B6006F0AA0 /* CustomApplicationFactory.m in Sources */,
 				BD0817EF146936B6006F0AA0 /* CustomSoapServiceDataHandler.m in Sources */,
 				BD0817F3146936B6006F0AA0 /* NSDateUtilities.m in Sources */,
-				BD0817F7146936B6006F0AA0 /* CustomFieldViewBuilder.m in Sources */,
-				BD0817FB146936B6006F0AA0 /* CustomPanelViewBuilder.m in Sources */,
 				BD081807146936B6006F0AA0 /* CustomColor.m in Sources */,
 				BD08180B146936B6006F0AA0 /* CustomStyleConstants.m in Sources */,
 				BD08180F146936B6006F0AA0 /* CustomStyleHandler.m in Sources */,
@@ -2966,11 +3046,9 @@
 				1C0CCA241505082000766A49 /* StringUtilitiesHelper.m in Sources */,
 				1C0CCA281505082000766A49 /* UncaughtExceptionHandler.m in Sources */,
 				1C0CCA2C1505082000766A49 /* ViewUtilities.m in Sources */,
-				1C0CCA301505082000766A49 /* MBFieldViewBuilder.m in Sources */,
 				1C0CCA341505082000766A49 /* MBForEachViewBuilder.m in Sources */,
 				1C0CCA381505082000766A49 /* MBMatrixViewBuilder.m in Sources */,
 				1C0CCA3C1505082000766A49 /* MBPageViewBuilder.m in Sources */,
-				1C0CCA401505082000766A49 /* MBPanelViewBuilder.m in Sources */,
 				1C0CCA441505082000766A49 /* MBDefaultRowViewBuilder.m in Sources */,
 				1C0CCA481505082000766A49 /* MBStyleHandler.m in Sources */,
 				1C0CCA4C1505082000766A49 /* MBViewBuilder.m in Sources */,
@@ -3021,6 +3099,16 @@
 				BDEF12BA15E6AA380034C700 /* MBAlert.m in Sources */,
 				BDEF12C015E6AA510034C700 /* MBAlertViewBuilder.m in Sources */,
 				BDEF12C615E6AA670034C700 /* MBAlertView.m in Sources */,
+				E2FDF7B01664D89F007ED4CA /* MBFieldViewBuilderFactory.m in Sources */,
+				E2FDF7B71664E96B007ED4CA /* MBButtonBuilder.m in Sources */,
+				E2FDF7BD1664EDAE007ED4CA /* MBTextBuilder.m in Sources */,
+				E2FDF7C31664EFC5007ED4CA /* MBLabelBuilder.m in Sources */,
+				E2FDF7CB1664F60B007ED4CA /* MBPanelViewBuilderFactory.m in Sources */,
+				E2FDF7D11664FAC1007ED4CA /* MBPlainPanelBuilder.m in Sources */,
+				E2FDF7D71664FAF7007ED4CA /* MBBasicPanelBuilder.m in Sources */,
+				E2FDF7E31664FC9E007ED4CA /* MBViewBuilder+PanelHelper.m in Sources */,
+				E2FDF7EA1664FE5D007ED4CA /* MBMatrixBuilder.m in Sources */,
+				E2FDF7F01664FF48007ED4CA /* MBListBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3035,8 +3123,6 @@
 				BD0817EC146936B6006F0AA0 /* CustomApplicationFactory.m in Sources */,
 				BD0817F0146936B6006F0AA0 /* CustomSoapServiceDataHandler.m in Sources */,
 				BD0817F4146936B6006F0AA0 /* NSDateUtilities.m in Sources */,
-				BD0817F8146936B6006F0AA0 /* CustomFieldViewBuilder.m in Sources */,
-				BD0817FC146936B6006F0AA0 /* CustomPanelViewBuilder.m in Sources */,
 				BD081808146936B6006F0AA0 /* CustomColor.m in Sources */,
 				BD08180C146936B6006F0AA0 /* CustomStyleConstants.m in Sources */,
 				BD081810146936B6006F0AA0 /* CustomStyleHandler.m in Sources */,
@@ -3128,11 +3214,9 @@
 				1C0CCA251505082000766A49 /* StringUtilitiesHelper.m in Sources */,
 				1C0CCA291505082000766A49 /* UncaughtExceptionHandler.m in Sources */,
 				1C0CCA2D1505082000766A49 /* ViewUtilities.m in Sources */,
-				1C0CCA311505082000766A49 /* MBFieldViewBuilder.m in Sources */,
 				1C0CCA351505082000766A49 /* MBForEachViewBuilder.m in Sources */,
 				1C0CCA391505082000766A49 /* MBMatrixViewBuilder.m in Sources */,
 				1C0CCA3D1505082000766A49 /* MBPageViewBuilder.m in Sources */,
-				1C0CCA411505082000766A49 /* MBPanelViewBuilder.m in Sources */,
 				1C0CCA451505082000766A49 /* MBDefaultRowViewBuilder.m in Sources */,
 				1C0CCA491505082000766A49 /* MBStyleHandler.m in Sources */,
 				1C0CCA4D1505082000766A49 /* MBViewBuilder.m in Sources */,
@@ -3183,6 +3267,16 @@
 				BDEF12BB15E6AA380034C700 /* MBAlert.m in Sources */,
 				BDEF12C115E6AA510034C700 /* MBAlertViewBuilder.m in Sources */,
 				BDEF12C715E6AA670034C700 /* MBAlertView.m in Sources */,
+				E2FDF7B11664D89F007ED4CA /* MBFieldViewBuilderFactory.m in Sources */,
+				E2FDF7B81664E96B007ED4CA /* MBButtonBuilder.m in Sources */,
+				E2FDF7BE1664EDAE007ED4CA /* MBTextBuilder.m in Sources */,
+				E2FDF7C41664EFC5007ED4CA /* MBLabelBuilder.m in Sources */,
+				E2FDF7CC1664F60B007ED4CA /* MBPanelViewBuilderFactory.m in Sources */,
+				E2FDF7D21664FAC1007ED4CA /* MBPlainPanelBuilder.m in Sources */,
+				E2FDF7D81664FAF7007ED4CA /* MBBasicPanelBuilder.m in Sources */,
+				E2FDF7E41664FC9E007ED4CA /* MBViewBuilder+PanelHelper.m in Sources */,
+				E2FDF7EB1664FE5D007ED4CA /* MBMatrixBuilder.m in Sources */,
+				E2FDF7F11664FF48007ED4CA /* MBListBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
