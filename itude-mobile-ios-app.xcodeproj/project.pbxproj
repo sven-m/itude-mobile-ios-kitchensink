@@ -845,6 +845,18 @@
 		BDEF12E515E6AC1F0034C700 /* alerts.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEF12E315E6AC1E0034C700 /* alerts.xmlx */; };
 		BDEF12E615E6AC1F0034C700 /* alerts.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEF12E315E6AC1E0034C700 /* alerts.xmlx */; };
 		BDEF12E715E6AC1F0034C700 /* alerts.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEF12E315E6AC1E0034C700 /* alerts.xmlx */; };
+		E2C62D0E166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D0D166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m */; };
+		E2C62D0F166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D0D166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m */; };
+		E2C62D10166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D0D166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m */; };
+		E2C62D11166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D0D166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m */; };
+		E2C62D15166FA89400A070EC /* MBCheckboxBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D14166FA89400A070EC /* MBCheckboxBuilder.m */; };
+		E2C62D16166FA89400A070EC /* MBCheckboxBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D14166FA89400A070EC /* MBCheckboxBuilder.m */; };
+		E2C62D17166FA89400A070EC /* MBCheckboxBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D14166FA89400A070EC /* MBCheckboxBuilder.m */; };
+		E2C62D18166FA89400A070EC /* MBCheckboxBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D14166FA89400A070EC /* MBCheckboxBuilder.m */; };
+		E2E2D10F166CC4AC008F6790 /* MBNewRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E2D10E166CC4AC008F6790 /* MBNewRowViewBuilder.m */; };
+		E2E2D110166CC4AC008F6790 /* MBNewRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E2D10E166CC4AC008F6790 /* MBNewRowViewBuilder.m */; };
+		E2E2D111166CC4AC008F6790 /* MBNewRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E2D10E166CC4AC008F6790 /* MBNewRowViewBuilder.m */; };
+		E2E2D112166CC4AC008F6790 /* MBNewRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E2D10E166CC4AC008F6790 /* MBNewRowViewBuilder.m */; };
 		E2FDF7B01664D89F007ED4CA /* MBFieldViewBuilderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7AF1664D89F007ED4CA /* MBFieldViewBuilderFactory.m */; };
 		E2FDF7B11664D89F007ED4CA /* MBFieldViewBuilderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7AF1664D89F007ED4CA /* MBFieldViewBuilderFactory.m */; };
 		E2FDF7B21664D89F007ED4CA /* MBFieldViewBuilderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7AF1664D89F007ED4CA /* MBFieldViewBuilderFactory.m */; };
@@ -885,6 +897,10 @@
 		E2FDF7F11664FF48007ED4CA /* MBListBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7EF1664FF45007ED4CA /* MBListBuilder.m */; };
 		E2FDF7F21664FF48007ED4CA /* MBListBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7EF1664FF45007ED4CA /* MBListBuilder.m */; };
 		E2FDF7F31664FF48007ED4CA /* MBListBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7EF1664FF45007ED4CA /* MBListBuilder.m */; };
+		E2FDF7F616664BC9007ED4CA /* MBSubLabelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7F516664BC6007ED4CA /* MBSubLabelBuilder.m */; };
+		E2FDF7F716664BC9007ED4CA /* MBSubLabelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7F516664BC6007ED4CA /* MBSubLabelBuilder.m */; };
+		E2FDF7F816664BC9007ED4CA /* MBSubLabelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7F516664BC6007ED4CA /* MBSubLabelBuilder.m */; };
+		E2FDF7F916664BC9007ED4CA /* MBSubLabelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7F516664BC6007ED4CA /* MBSubLabelBuilder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1288,6 +1304,12 @@
 		BDEF12CD15E6AC0B0034C700 /* PAGE-lists.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-lists.xmlx"; path = "Pages/PAGE-lists.xmlx"; sourceTree = "<group>"; };
 		BDEF12CE15E6AC0B0034C700 /* PAGE-plant-detail.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-plant-detail.xmlx"; path = "Pages/PAGE-plant-detail.xmlx"; sourceTree = "<group>"; };
 		BDEF12E315E6AC1E0034C700 /* alerts.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = alerts.xmlx; sourceTree = "<group>"; };
+		E2C62D0C166F900C00A070EC /* MBTableViewCellConfiguratorDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTableViewCellConfiguratorDefault.h; sourceTree = "<group>"; };
+		E2C62D0D166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTableViewCellConfiguratorDefault.m; sourceTree = "<group>"; };
+		E2C62D13166FA89400A070EC /* MBCheckboxBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCheckboxBuilder.h; sourceTree = "<group>"; };
+		E2C62D14166FA89400A070EC /* MBCheckboxBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCheckboxBuilder.m; sourceTree = "<group>"; };
+		E2E2D10D166CC4AC008F6790 /* MBNewRowViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBNewRowViewBuilder.h; sourceTree = "<group>"; };
+		E2E2D10E166CC4AC008F6790 /* MBNewRowViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBNewRowViewBuilder.m; sourceTree = "<group>"; };
 		E2FDF7AE1664D89F007ED4CA /* MBFieldViewBuilderFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFieldViewBuilderFactory.h; sourceTree = "<group>"; };
 		E2FDF7AF1664D89F007ED4CA /* MBFieldViewBuilderFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFieldViewBuilderFactory.m; sourceTree = "<group>"; };
 		E2FDF7B51664E96B007ED4CA /* MBButtonBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBButtonBuilder.h; sourceTree = "<group>"; };
@@ -1310,6 +1332,8 @@
 		E2FDF7E91664FE5C007ED4CA /* MBMatrixBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBMatrixBuilder.m; sourceTree = "<group>"; };
 		E2FDF7EE1664FF44007ED4CA /* MBListBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBListBuilder.h; sourceTree = "<group>"; };
 		E2FDF7EF1664FF45007ED4CA /* MBListBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBListBuilder.m; sourceTree = "<group>"; };
+		E2FDF7F416664BC5007ED4CA /* MBSubLabelBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBSubLabelBuilder.h; sourceTree = "<group>"; };
+		E2FDF7F516664BC6007ED4CA /* MBSubLabelBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBSubLabelBuilder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1894,8 +1918,7 @@
 		34812F0200B83FD69686C345 /* RowView */ = {
 			isa = PBXGroup;
 			children = (
-				1C0CC89F1505081F00766A49 /* MBDefaultRowViewBuilder.m */,
-				1C0CC89E1505081F00766A49 /* MBDefaultRowViewBuilder.h */,
+				E2C62D19166FB14700A070EC /* Deprecated */,
 				BD2FAF20146A93B5001BC63D /* MBRowViewBuilder.h */,
 				BD2FAF20146A93B5001BC67C /* MBTableViewCellConfiguratorText.m */,
 				BD2FAF20146A93B5001BC681 /* MBTableViewCellConfiguratorText.h */,
@@ -1903,18 +1926,18 @@
 				BD2FAF20146A93B5001BC66F /* MBTableViewCellConfiguratorSubLabel.h */,
 				BD2FAF20146A93B5001BC652 /* MBTableViewCellConfiguratorLabel.m */,
 				BD2FAF20146A93B5001BC657 /* MBTableViewCellConfiguratorLabel.h */,
-				BD2FAF20146A93B5001BC676 /* MBTableViewCellConfiguratorInput.m */,
-				BD2FAF20146A93B5001BC67B /* MBTableViewCellConfiguratorInput.h */,
 				BD2FAF20146A93B5001BC64C /* MBTableViewCellConfiguratorFactory.m */,
 				BD2FAF20146A93B5001BC651 /* MBTableViewCellConfiguratorFactory.h */,
 				BD2FAF20146A93B5001BC65E /* MBTableViewCellConfiguratorDropDownList.m */,
 				BD2FAF20146A93B5001BC663 /* MBTableViewCellConfiguratorDropDownList.h */,
 				BD2FAF20146A93B5001BC664 /* MBTableViewCellConfiguratorDate.m */,
 				BD2FAF20146A93B5001BC669 /* MBTableViewCellConfiguratorDate.h */,
-				BD2FAF20146A93B5001BC670 /* MBTableViewCellConfiguratorCheckbox.m */,
-				BD2FAF20146A93B5001BC675 /* MBTableViewCellConfiguratorCheckbox.h */,
 				BD2FAF20146A93B5001BC658 /* MBTableViewCellConfigurator.m */,
 				BD2FAF20146A93B5001BC65D /* MBTableViewCellConfigurator.h */,
+				E2E2D10D166CC4AC008F6790 /* MBNewRowViewBuilder.h */,
+				E2E2D10E166CC4AC008F6790 /* MBNewRowViewBuilder.m */,
+				E2C62D0C166F900C00A070EC /* MBTableViewCellConfiguratorDefault.h */,
+				E2C62D0D166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m */,
 			);
 			path = RowView;
 			sourceTree = "<group>";
@@ -2186,6 +2209,19 @@
 			path = "itude-mobile-ios-appTests";
 			sourceTree = "<group>";
 		};
+		E2C62D19166FB14700A070EC /* Deprecated */ = {
+			isa = PBXGroup;
+			children = (
+				1C0CC89F1505081F00766A49 /* MBDefaultRowViewBuilder.m */,
+				1C0CC89E1505081F00766A49 /* MBDefaultRowViewBuilder.h */,
+				BD2FAF20146A93B5001BC676 /* MBTableViewCellConfiguratorInput.m */,
+				BD2FAF20146A93B5001BC67B /* MBTableViewCellConfiguratorInput.h */,
+				BD2FAF20146A93B5001BC670 /* MBTableViewCellConfiguratorCheckbox.m */,
+				BD2FAF20146A93B5001BC675 /* MBTableViewCellConfiguratorCheckbox.h */,
+			);
+			name = Deprecated;
+			sourceTree = "<group>";
+		};
 		E2FDF79F1664D2C7007ED4CA /* FieldView */ = {
 			isa = PBXGroup;
 			children = (
@@ -2198,6 +2234,10 @@
 				E2FDF7BC1664EDAE007ED4CA /* MBTextBuilder.m */,
 				E2FDF7C11664EFC4007ED4CA /* MBLabelBuilder.h */,
 				E2FDF7C21664EFC4007ED4CA /* MBLabelBuilder.m */,
+				E2FDF7F416664BC5007ED4CA /* MBSubLabelBuilder.h */,
+				E2FDF7F516664BC6007ED4CA /* MBSubLabelBuilder.m */,
+				E2C62D13166FA89400A070EC /* MBCheckboxBuilder.h */,
+				E2C62D14166FA89400A070EC /* MBCheckboxBuilder.m */,
 			);
 			name = FieldView;
 			sourceTree = "<group>";
@@ -2775,6 +2815,10 @@
 				E2FDF7E51664FC9E007ED4CA /* MBViewBuilder+PanelHelper.m in Sources */,
 				E2FDF7EC1664FE5D007ED4CA /* MBMatrixBuilder.m in Sources */,
 				E2FDF7F21664FF48007ED4CA /* MBListBuilder.m in Sources */,
+				E2FDF7F816664BC9007ED4CA /* MBSubLabelBuilder.m in Sources */,
+				E2E2D111166CC4AC008F6790 /* MBNewRowViewBuilder.m in Sources */,
+				E2C62D10166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m in Sources */,
+				E2C62D17166FA89400A070EC /* MBCheckboxBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2942,6 +2986,10 @@
 				E2FDF7E61664FC9E007ED4CA /* MBViewBuilder+PanelHelper.m in Sources */,
 				E2FDF7ED1664FE5D007ED4CA /* MBMatrixBuilder.m in Sources */,
 				E2FDF7F31664FF48007ED4CA /* MBListBuilder.m in Sources */,
+				E2FDF7F916664BC9007ED4CA /* MBSubLabelBuilder.m in Sources */,
+				E2E2D112166CC4AC008F6790 /* MBNewRowViewBuilder.m in Sources */,
+				E2C62D11166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m in Sources */,
+				E2C62D18166FA89400A070EC /* MBCheckboxBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3109,6 +3157,10 @@
 				E2FDF7E31664FC9E007ED4CA /* MBViewBuilder+PanelHelper.m in Sources */,
 				E2FDF7EA1664FE5D007ED4CA /* MBMatrixBuilder.m in Sources */,
 				E2FDF7F01664FF48007ED4CA /* MBListBuilder.m in Sources */,
+				E2FDF7F616664BC9007ED4CA /* MBSubLabelBuilder.m in Sources */,
+				E2E2D10F166CC4AC008F6790 /* MBNewRowViewBuilder.m in Sources */,
+				E2C62D0E166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m in Sources */,
+				E2C62D15166FA89400A070EC /* MBCheckboxBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3277,6 +3329,10 @@
 				E2FDF7E41664FC9E007ED4CA /* MBViewBuilder+PanelHelper.m in Sources */,
 				E2FDF7EB1664FE5D007ED4CA /* MBMatrixBuilder.m in Sources */,
 				E2FDF7F11664FF48007ED4CA /* MBListBuilder.m in Sources */,
+				E2FDF7F716664BC9007ED4CA /* MBSubLabelBuilder.m in Sources */,
+				E2E2D110166CC4AC008F6790 /* MBNewRowViewBuilder.m in Sources */,
+				E2C62D0F166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m in Sources */,
+				E2C62D16166FA89400A070EC /* MBCheckboxBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

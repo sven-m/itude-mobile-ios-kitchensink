@@ -21,6 +21,8 @@
 }
 
 -(void)styleLabel:(UIView *)view component:(MBField *)field{
+    [super styleLabel:view component:field];
+    
     if ([@"style2" isEqualToString:field.style ]){
         view.backgroundColor = [UIColor redColor];
     }
