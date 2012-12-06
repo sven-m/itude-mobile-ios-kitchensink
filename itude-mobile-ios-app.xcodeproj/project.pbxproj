@@ -438,10 +438,6 @@
 		1C0CCA3D1505082000766A49 /* MBPageViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89B1505081F00766A49 /* MBPageViewBuilder.m */; };
 		1C0CCA3E1505082000766A49 /* MBPageViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89B1505081F00766A49 /* MBPageViewBuilder.m */; };
 		1C0CCA3F1505082000766A49 /* MBPageViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89B1505081F00766A49 /* MBPageViewBuilder.m */; };
-		1C0CCA441505082000766A49 /* MBDefaultRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89F1505081F00766A49 /* MBDefaultRowViewBuilder.m */; };
-		1C0CCA451505082000766A49 /* MBDefaultRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89F1505081F00766A49 /* MBDefaultRowViewBuilder.m */; };
-		1C0CCA461505082000766A49 /* MBDefaultRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89F1505081F00766A49 /* MBDefaultRowViewBuilder.m */; };
-		1C0CCA471505082000766A49 /* MBDefaultRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC89F1505081F00766A49 /* MBDefaultRowViewBuilder.m */; };
 		1C0CCA481505082000766A49 /* MBStyleHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC8A11505081F00766A49 /* MBStyleHandler.m */; };
 		1C0CCA491505082000766A49 /* MBStyleHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC8A11505081F00766A49 /* MBStyleHandler.m */; };
 		1C0CCA4A1505082000766A49 /* MBStyleHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0CC8A11505081F00766A49 /* MBStyleHandler.m */; };
@@ -761,42 +757,6 @@
 		BD2FAF20146A93B5001BC647 /* UIView+TreeWalker.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC645 /* UIView+TreeWalker.m */; };
 		BD2FAF20146A93B5001BC648 /* UIView+TreeWalker.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC645 /* UIView+TreeWalker.m */; };
 		BD2FAF20146A93B5001BC649 /* UIView+TreeWalker.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC645 /* UIView+TreeWalker.m */; };
-		BD2FAF20146A93B5001BC64D /* MBTableViewCellConfiguratorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC64C /* MBTableViewCellConfiguratorFactory.m */; };
-		BD2FAF20146A93B5001BC64E /* MBTableViewCellConfiguratorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC64C /* MBTableViewCellConfiguratorFactory.m */; };
-		BD2FAF20146A93B5001BC64F /* MBTableViewCellConfiguratorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC64C /* MBTableViewCellConfiguratorFactory.m */; };
-		BD2FAF20146A93B5001BC650 /* MBTableViewCellConfiguratorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC64C /* MBTableViewCellConfiguratorFactory.m */; };
-		BD2FAF20146A93B5001BC653 /* MBTableViewCellConfiguratorLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC652 /* MBTableViewCellConfiguratorLabel.m */; };
-		BD2FAF20146A93B5001BC654 /* MBTableViewCellConfiguratorLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC652 /* MBTableViewCellConfiguratorLabel.m */; };
-		BD2FAF20146A93B5001BC655 /* MBTableViewCellConfiguratorLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC652 /* MBTableViewCellConfiguratorLabel.m */; };
-		BD2FAF20146A93B5001BC656 /* MBTableViewCellConfiguratorLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC652 /* MBTableViewCellConfiguratorLabel.m */; };
-		BD2FAF20146A93B5001BC659 /* MBTableViewCellConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC658 /* MBTableViewCellConfigurator.m */; };
-		BD2FAF20146A93B5001BC65A /* MBTableViewCellConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC658 /* MBTableViewCellConfigurator.m */; };
-		BD2FAF20146A93B5001BC65B /* MBTableViewCellConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC658 /* MBTableViewCellConfigurator.m */; };
-		BD2FAF20146A93B5001BC65C /* MBTableViewCellConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC658 /* MBTableViewCellConfigurator.m */; };
-		BD2FAF20146A93B5001BC65F /* MBTableViewCellConfiguratorDropDownList.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC65E /* MBTableViewCellConfiguratorDropDownList.m */; };
-		BD2FAF20146A93B5001BC660 /* MBTableViewCellConfiguratorDropDownList.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC65E /* MBTableViewCellConfiguratorDropDownList.m */; };
-		BD2FAF20146A93B5001BC661 /* MBTableViewCellConfiguratorDropDownList.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC65E /* MBTableViewCellConfiguratorDropDownList.m */; };
-		BD2FAF20146A93B5001BC662 /* MBTableViewCellConfiguratorDropDownList.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC65E /* MBTableViewCellConfiguratorDropDownList.m */; };
-		BD2FAF20146A93B5001BC665 /* MBTableViewCellConfiguratorDate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC664 /* MBTableViewCellConfiguratorDate.m */; };
-		BD2FAF20146A93B5001BC666 /* MBTableViewCellConfiguratorDate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC664 /* MBTableViewCellConfiguratorDate.m */; };
-		BD2FAF20146A93B5001BC667 /* MBTableViewCellConfiguratorDate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC664 /* MBTableViewCellConfiguratorDate.m */; };
-		BD2FAF20146A93B5001BC668 /* MBTableViewCellConfiguratorDate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC664 /* MBTableViewCellConfiguratorDate.m */; };
-		BD2FAF20146A93B5001BC66B /* MBTableViewCellConfiguratorSubLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC66A /* MBTableViewCellConfiguratorSubLabel.m */; };
-		BD2FAF20146A93B5001BC66C /* MBTableViewCellConfiguratorSubLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC66A /* MBTableViewCellConfiguratorSubLabel.m */; };
-		BD2FAF20146A93B5001BC66D /* MBTableViewCellConfiguratorSubLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC66A /* MBTableViewCellConfiguratorSubLabel.m */; };
-		BD2FAF20146A93B5001BC66E /* MBTableViewCellConfiguratorSubLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC66A /* MBTableViewCellConfiguratorSubLabel.m */; };
-		BD2FAF20146A93B5001BC671 /* MBTableViewCellConfiguratorCheckbox.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC670 /* MBTableViewCellConfiguratorCheckbox.m */; };
-		BD2FAF20146A93B5001BC672 /* MBTableViewCellConfiguratorCheckbox.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC670 /* MBTableViewCellConfiguratorCheckbox.m */; };
-		BD2FAF20146A93B5001BC673 /* MBTableViewCellConfiguratorCheckbox.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC670 /* MBTableViewCellConfiguratorCheckbox.m */; };
-		BD2FAF20146A93B5001BC674 /* MBTableViewCellConfiguratorCheckbox.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC670 /* MBTableViewCellConfiguratorCheckbox.m */; };
-		BD2FAF20146A93B5001BC677 /* MBTableViewCellConfiguratorInput.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC676 /* MBTableViewCellConfiguratorInput.m */; };
-		BD2FAF20146A93B5001BC678 /* MBTableViewCellConfiguratorInput.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC676 /* MBTableViewCellConfiguratorInput.m */; };
-		BD2FAF20146A93B5001BC679 /* MBTableViewCellConfiguratorInput.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC676 /* MBTableViewCellConfiguratorInput.m */; };
-		BD2FAF20146A93B5001BC67A /* MBTableViewCellConfiguratorInput.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC676 /* MBTableViewCellConfiguratorInput.m */; };
-		BD2FAF20146A93B5001BC67D /* MBTableViewCellConfiguratorText.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC67C /* MBTableViewCellConfiguratorText.m */; };
-		BD2FAF20146A93B5001BC67E /* MBTableViewCellConfiguratorText.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC67C /* MBTableViewCellConfiguratorText.m */; };
-		BD2FAF20146A93B5001BC67F /* MBTableViewCellConfiguratorText.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC67C /* MBTableViewCellConfiguratorText.m */; };
-		BD2FAF20146A93B5001BC680 /* MBTableViewCellConfiguratorText.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FAF20146A93B5001BC67C /* MBTableViewCellConfiguratorText.m */; };
 		BD3368D3164AB64800CD56FD /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD3368D2164AB64800CD56FD /* LaunchImage-568h@2x.png */; };
 		BD3368D4164AB64800CD56FD /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD3368D2164AB64800CD56FD /* LaunchImage-568h@2x.png */; };
 		BD3368D5164AB64800CD56FD /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD3368D2164AB64800CD56FD /* LaunchImage-568h@2x.png */; };
@@ -845,14 +805,26 @@
 		BDEF12E515E6AC1F0034C700 /* alerts.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEF12E315E6AC1E0034C700 /* alerts.xmlx */; };
 		BDEF12E615E6AC1F0034C700 /* alerts.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEF12E315E6AC1E0034C700 /* alerts.xmlx */; };
 		BDEF12E715E6AC1F0034C700 /* alerts.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEF12E315E6AC1E0034C700 /* alerts.xmlx */; };
-		E2C62D0E166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D0D166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m */; };
-		E2C62D0F166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D0D166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m */; };
-		E2C62D10166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D0D166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m */; };
-		E2C62D11166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D0D166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m */; };
 		E2C62D15166FA89400A070EC /* MBCheckboxBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D14166FA89400A070EC /* MBCheckboxBuilder.m */; };
 		E2C62D16166FA89400A070EC /* MBCheckboxBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D14166FA89400A070EC /* MBCheckboxBuilder.m */; };
 		E2C62D17166FA89400A070EC /* MBCheckboxBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D14166FA89400A070EC /* MBCheckboxBuilder.m */; };
 		E2C62D18166FA89400A070EC /* MBCheckboxBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D14166FA89400A070EC /* MBCheckboxBuilder.m */; };
+		E2C62D1C1670C39A00A070EC /* MBFieldViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D1B1670C39A00A070EC /* MBFieldViewBuilder.m */; };
+		E2C62D1D1670C39A00A070EC /* MBFieldViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D1B1670C39A00A070EC /* MBFieldViewBuilder.m */; };
+		E2C62D1E1670C39A00A070EC /* MBFieldViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D1B1670C39A00A070EC /* MBFieldViewBuilder.m */; };
+		E2C62D1F1670C39A00A070EC /* MBFieldViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D1B1670C39A00A070EC /* MBFieldViewBuilder.m */; };
+		E2C62D231670D15300A070EC /* MBDropDownBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D221670D15100A070EC /* MBDropDownBuilder.m */; };
+		E2C62D241670D15300A070EC /* MBDropDownBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D221670D15100A070EC /* MBDropDownBuilder.m */; };
+		E2C62D251670D15300A070EC /* MBDropDownBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D221670D15100A070EC /* MBDropDownBuilder.m */; };
+		E2C62D261670D15300A070EC /* MBDropDownBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D221670D15100A070EC /* MBDropDownBuilder.m */; };
+		E2C62D291670D24B00A070EC /* MBDateBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D281670D24900A070EC /* MBDateBuilder.m */; };
+		E2C62D2A1670D24B00A070EC /* MBDateBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D281670D24900A070EC /* MBDateBuilder.m */; };
+		E2C62D2B1670D24B00A070EC /* MBDateBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D281670D24900A070EC /* MBDateBuilder.m */; };
+		E2C62D2C1670D24B00A070EC /* MBDateBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D281670D24900A070EC /* MBDateBuilder.m */; };
+		E2C62D2F1670D63F00A070EC /* MBTextBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D2E1670D63E00A070EC /* MBTextBuilder.m */; };
+		E2C62D301670D63F00A070EC /* MBTextBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D2E1670D63E00A070EC /* MBTextBuilder.m */; };
+		E2C62D311670D63F00A070EC /* MBTextBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D2E1670D63E00A070EC /* MBTextBuilder.m */; };
+		E2C62D321670D63F00A070EC /* MBTextBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C62D2E1670D63E00A070EC /* MBTextBuilder.m */; };
 		E2E2D10F166CC4AC008F6790 /* MBNewRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E2D10E166CC4AC008F6790 /* MBNewRowViewBuilder.m */; };
 		E2E2D110166CC4AC008F6790 /* MBNewRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E2D10E166CC4AC008F6790 /* MBNewRowViewBuilder.m */; };
 		E2E2D111166CC4AC008F6790 /* MBNewRowViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E2D10E166CC4AC008F6790 /* MBNewRowViewBuilder.m */; };
@@ -865,10 +837,10 @@
 		E2FDF7B81664E96B007ED4CA /* MBButtonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7B61664E96B007ED4CA /* MBButtonBuilder.m */; };
 		E2FDF7B91664E96B007ED4CA /* MBButtonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7B61664E96B007ED4CA /* MBButtonBuilder.m */; };
 		E2FDF7BA1664E96B007ED4CA /* MBButtonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7B61664E96B007ED4CA /* MBButtonBuilder.m */; };
-		E2FDF7BD1664EDAE007ED4CA /* MBTextBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7BC1664EDAE007ED4CA /* MBTextBuilder.m */; };
-		E2FDF7BE1664EDAE007ED4CA /* MBTextBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7BC1664EDAE007ED4CA /* MBTextBuilder.m */; };
-		E2FDF7BF1664EDAE007ED4CA /* MBTextBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7BC1664EDAE007ED4CA /* MBTextBuilder.m */; };
-		E2FDF7C01664EDAE007ED4CA /* MBTextBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7BC1664EDAE007ED4CA /* MBTextBuilder.m */; };
+		E2FDF7BD1664EDAE007ED4CA /* MBInputBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7BC1664EDAE007ED4CA /* MBInputBuilder.m */; };
+		E2FDF7BE1664EDAE007ED4CA /* MBInputBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7BC1664EDAE007ED4CA /* MBInputBuilder.m */; };
+		E2FDF7BF1664EDAE007ED4CA /* MBInputBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7BC1664EDAE007ED4CA /* MBInputBuilder.m */; };
+		E2FDF7C01664EDAE007ED4CA /* MBInputBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7BC1664EDAE007ED4CA /* MBInputBuilder.m */; };
 		E2FDF7C31664EFC5007ED4CA /* MBLabelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7C21664EFC4007ED4CA /* MBLabelBuilder.m */; };
 		E2FDF7C41664EFC5007ED4CA /* MBLabelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7C21664EFC4007ED4CA /* MBLabelBuilder.m */; };
 		E2FDF7C51664EFC5007ED4CA /* MBLabelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDF7C21664EFC4007ED4CA /* MBLabelBuilder.m */; };
@@ -1140,8 +1112,6 @@
 		1C0CC8991505081F00766A49 /* MBMatrixViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBMatrixViewBuilder.m; sourceTree = "<group>"; };
 		1C0CC89A1505081F00766A49 /* MBPageViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBPageViewBuilder.h; sourceTree = "<group>"; };
 		1C0CC89B1505081F00766A49 /* MBPageViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBPageViewBuilder.m; sourceTree = "<group>"; };
-		1C0CC89E1505081F00766A49 /* MBDefaultRowViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDefaultRowViewBuilder.h; sourceTree = "<group>"; };
-		1C0CC89F1505081F00766A49 /* MBDefaultRowViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDefaultRowViewBuilder.m; sourceTree = "<group>"; };
 		1C0CC8A01505081F00766A49 /* MBStyleHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBStyleHandler.h; sourceTree = "<group>"; };
 		1C0CC8A11505081F00766A49 /* MBStyleHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBStyleHandler.m; sourceTree = "<group>"; };
 		1C0CC8A21505081F00766A49 /* MBViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBViewBuilder.h; sourceTree = "<group>"; };
@@ -1269,24 +1239,6 @@
 		BD2FAF20146A93B5001BC644 /* UIWebView+FontResizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+FontResizing.h"; sourceTree = "<group>"; };
 		BD2FAF20146A93B5001BC645 /* UIView+TreeWalker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TreeWalker.m"; sourceTree = "<group>"; };
 		BD2FAF20146A93B5001BC64A /* UIView+TreeWalker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TreeWalker.h"; sourceTree = "<group>"; };
-		BD2FAF20146A93B5001BC64C /* MBTableViewCellConfiguratorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTableViewCellConfiguratorFactory.m; sourceTree = "<group>"; };
-		BD2FAF20146A93B5001BC651 /* MBTableViewCellConfiguratorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTableViewCellConfiguratorFactory.h; sourceTree = "<group>"; };
-		BD2FAF20146A93B5001BC652 /* MBTableViewCellConfiguratorLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTableViewCellConfiguratorLabel.m; sourceTree = "<group>"; };
-		BD2FAF20146A93B5001BC657 /* MBTableViewCellConfiguratorLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTableViewCellConfiguratorLabel.h; sourceTree = "<group>"; };
-		BD2FAF20146A93B5001BC658 /* MBTableViewCellConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTableViewCellConfigurator.m; sourceTree = "<group>"; };
-		BD2FAF20146A93B5001BC65D /* MBTableViewCellConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTableViewCellConfigurator.h; sourceTree = "<group>"; };
-		BD2FAF20146A93B5001BC65E /* MBTableViewCellConfiguratorDropDownList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTableViewCellConfiguratorDropDownList.m; sourceTree = "<group>"; };
-		BD2FAF20146A93B5001BC663 /* MBTableViewCellConfiguratorDropDownList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTableViewCellConfiguratorDropDownList.h; sourceTree = "<group>"; };
-		BD2FAF20146A93B5001BC664 /* MBTableViewCellConfiguratorDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTableViewCellConfiguratorDate.m; sourceTree = "<group>"; };
-		BD2FAF20146A93B5001BC669 /* MBTableViewCellConfiguratorDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTableViewCellConfiguratorDate.h; sourceTree = "<group>"; };
-		BD2FAF20146A93B5001BC66A /* MBTableViewCellConfiguratorSubLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTableViewCellConfiguratorSubLabel.m; sourceTree = "<group>"; };
-		BD2FAF20146A93B5001BC66F /* MBTableViewCellConfiguratorSubLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTableViewCellConfiguratorSubLabel.h; sourceTree = "<group>"; };
-		BD2FAF20146A93B5001BC670 /* MBTableViewCellConfiguratorCheckbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTableViewCellConfiguratorCheckbox.m; sourceTree = "<group>"; };
-		BD2FAF20146A93B5001BC675 /* MBTableViewCellConfiguratorCheckbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTableViewCellConfiguratorCheckbox.h; sourceTree = "<group>"; };
-		BD2FAF20146A93B5001BC676 /* MBTableViewCellConfiguratorInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTableViewCellConfiguratorInput.m; sourceTree = "<group>"; };
-		BD2FAF20146A93B5001BC67B /* MBTableViewCellConfiguratorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTableViewCellConfiguratorInput.h; sourceTree = "<group>"; };
-		BD2FAF20146A93B5001BC67C /* MBTableViewCellConfiguratorText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTableViewCellConfiguratorText.m; sourceTree = "<group>"; };
-		BD2FAF20146A93B5001BC681 /* MBTableViewCellConfiguratorText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTableViewCellConfiguratorText.h; sourceTree = "<group>"; };
 		BD3368D2164AB64800CD56FD /* LaunchImage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-568h@2x.png"; sourceTree = "<group>"; };
 		BDEF12AB15E6A9E90034C700 /* MBAlertDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBAlertDefinition.h; sourceTree = "<group>"; };
 		BDEF12AC15E6A9E90034C700 /* MBAlertDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBAlertDefinition.m; sourceTree = "<group>"; };
@@ -1304,18 +1256,24 @@
 		BDEF12CD15E6AC0B0034C700 /* PAGE-lists.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-lists.xmlx"; path = "Pages/PAGE-lists.xmlx"; sourceTree = "<group>"; };
 		BDEF12CE15E6AC0B0034C700 /* PAGE-plant-detail.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-plant-detail.xmlx"; path = "Pages/PAGE-plant-detail.xmlx"; sourceTree = "<group>"; };
 		BDEF12E315E6AC1E0034C700 /* alerts.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = alerts.xmlx; sourceTree = "<group>"; };
-		E2C62D0C166F900C00A070EC /* MBTableViewCellConfiguratorDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTableViewCellConfiguratorDefault.h; sourceTree = "<group>"; };
-		E2C62D0D166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTableViewCellConfiguratorDefault.m; sourceTree = "<group>"; };
 		E2C62D13166FA89400A070EC /* MBCheckboxBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCheckboxBuilder.h; sourceTree = "<group>"; };
 		E2C62D14166FA89400A070EC /* MBCheckboxBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCheckboxBuilder.m; sourceTree = "<group>"; };
+		E2C62D1B1670C39A00A070EC /* MBFieldViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFieldViewBuilder.m; sourceTree = "<group>"; };
+		E2C62D201670C40600A070EC /* MBUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBUtil.h; sourceTree = "<group>"; };
+		E2C62D211670D15000A070EC /* MBDropDownBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDropDownBuilder.h; sourceTree = "<group>"; };
+		E2C62D221670D15100A070EC /* MBDropDownBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDropDownBuilder.m; sourceTree = "<group>"; };
+		E2C62D271670D24800A070EC /* MBDateBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDateBuilder.h; sourceTree = "<group>"; };
+		E2C62D281670D24900A070EC /* MBDateBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDateBuilder.m; sourceTree = "<group>"; };
+		E2C62D2D1670D63D00A070EC /* MBTextBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTextBuilder.h; sourceTree = "<group>"; };
+		E2C62D2E1670D63E00A070EC /* MBTextBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTextBuilder.m; sourceTree = "<group>"; };
 		E2E2D10D166CC4AC008F6790 /* MBNewRowViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBNewRowViewBuilder.h; sourceTree = "<group>"; };
 		E2E2D10E166CC4AC008F6790 /* MBNewRowViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBNewRowViewBuilder.m; sourceTree = "<group>"; };
 		E2FDF7AE1664D89F007ED4CA /* MBFieldViewBuilderFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFieldViewBuilderFactory.h; sourceTree = "<group>"; };
 		E2FDF7AF1664D89F007ED4CA /* MBFieldViewBuilderFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFieldViewBuilderFactory.m; sourceTree = "<group>"; };
 		E2FDF7B51664E96B007ED4CA /* MBButtonBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBButtonBuilder.h; sourceTree = "<group>"; };
 		E2FDF7B61664E96B007ED4CA /* MBButtonBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBButtonBuilder.m; sourceTree = "<group>"; };
-		E2FDF7BB1664EDAD007ED4CA /* MBTextBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTextBuilder.h; sourceTree = "<group>"; };
-		E2FDF7BC1664EDAE007ED4CA /* MBTextBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTextBuilder.m; sourceTree = "<group>"; };
+		E2FDF7BB1664EDAD007ED4CA /* MBInputBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBInputBuilder.h; sourceTree = "<group>"; };
+		E2FDF7BC1664EDAE007ED4CA /* MBInputBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBInputBuilder.m; sourceTree = "<group>"; };
 		E2FDF7C11664EFC4007ED4CA /* MBLabelBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBLabelBuilder.h; sourceTree = "<group>"; };
 		E2FDF7C21664EFC4007ED4CA /* MBLabelBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBLabelBuilder.m; sourceTree = "<group>"; };
 		E2FDF7C81664F57F007ED4CA /* MBPanelViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBPanelViewBuilder.h; sourceTree = "<group>"; };
@@ -1773,6 +1731,7 @@
 				1C0CC88E1505081F00766A49 /* UncaughtExceptionHandler.m */,
 				1C0CC88F1505081F00766A49 /* ViewUtilities.h */,
 				1C0CC8901505081F00766A49 /* ViewUtilities.m */,
+				E2C62D201670C40600A070EC /* MBUtil.h */,
 			);
 			name = Util;
 			path = "itude-mobile-iphone-core/Util";
@@ -1918,26 +1877,9 @@
 		34812F0200B83FD69686C345 /* RowView */ = {
 			isa = PBXGroup;
 			children = (
-				E2C62D19166FB14700A070EC /* Deprecated */,
 				BD2FAF20146A93B5001BC63D /* MBRowViewBuilder.h */,
-				BD2FAF20146A93B5001BC67C /* MBTableViewCellConfiguratorText.m */,
-				BD2FAF20146A93B5001BC681 /* MBTableViewCellConfiguratorText.h */,
-				BD2FAF20146A93B5001BC66A /* MBTableViewCellConfiguratorSubLabel.m */,
-				BD2FAF20146A93B5001BC66F /* MBTableViewCellConfiguratorSubLabel.h */,
-				BD2FAF20146A93B5001BC652 /* MBTableViewCellConfiguratorLabel.m */,
-				BD2FAF20146A93B5001BC657 /* MBTableViewCellConfiguratorLabel.h */,
-				BD2FAF20146A93B5001BC64C /* MBTableViewCellConfiguratorFactory.m */,
-				BD2FAF20146A93B5001BC651 /* MBTableViewCellConfiguratorFactory.h */,
-				BD2FAF20146A93B5001BC65E /* MBTableViewCellConfiguratorDropDownList.m */,
-				BD2FAF20146A93B5001BC663 /* MBTableViewCellConfiguratorDropDownList.h */,
-				BD2FAF20146A93B5001BC664 /* MBTableViewCellConfiguratorDate.m */,
-				BD2FAF20146A93B5001BC669 /* MBTableViewCellConfiguratorDate.h */,
-				BD2FAF20146A93B5001BC658 /* MBTableViewCellConfigurator.m */,
-				BD2FAF20146A93B5001BC65D /* MBTableViewCellConfigurator.h */,
 				E2E2D10D166CC4AC008F6790 /* MBNewRowViewBuilder.h */,
 				E2E2D10E166CC4AC008F6790 /* MBNewRowViewBuilder.m */,
-				E2C62D0C166F900C00A070EC /* MBTableViewCellConfiguratorDefault.h */,
-				E2C62D0D166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m */,
 			);
 			path = RowView;
 			sourceTree = "<group>";
@@ -2209,19 +2151,6 @@
 			path = "itude-mobile-ios-appTests";
 			sourceTree = "<group>";
 		};
-		E2C62D19166FB14700A070EC /* Deprecated */ = {
-			isa = PBXGroup;
-			children = (
-				1C0CC89F1505081F00766A49 /* MBDefaultRowViewBuilder.m */,
-				1C0CC89E1505081F00766A49 /* MBDefaultRowViewBuilder.h */,
-				BD2FAF20146A93B5001BC676 /* MBTableViewCellConfiguratorInput.m */,
-				BD2FAF20146A93B5001BC67B /* MBTableViewCellConfiguratorInput.h */,
-				BD2FAF20146A93B5001BC670 /* MBTableViewCellConfiguratorCheckbox.m */,
-				BD2FAF20146A93B5001BC675 /* MBTableViewCellConfiguratorCheckbox.h */,
-			);
-			name = Deprecated;
-			sourceTree = "<group>";
-		};
 		E2FDF79F1664D2C7007ED4CA /* FieldView */ = {
 			isa = PBXGroup;
 			children = (
@@ -2230,14 +2159,21 @@
 				E2FDF7AF1664D89F007ED4CA /* MBFieldViewBuilderFactory.m */,
 				E2FDF7B51664E96B007ED4CA /* MBButtonBuilder.h */,
 				E2FDF7B61664E96B007ED4CA /* MBButtonBuilder.m */,
-				E2FDF7BB1664EDAD007ED4CA /* MBTextBuilder.h */,
-				E2FDF7BC1664EDAE007ED4CA /* MBTextBuilder.m */,
+				E2FDF7BB1664EDAD007ED4CA /* MBInputBuilder.h */,
+				E2FDF7BC1664EDAE007ED4CA /* MBInputBuilder.m */,
 				E2FDF7C11664EFC4007ED4CA /* MBLabelBuilder.h */,
 				E2FDF7C21664EFC4007ED4CA /* MBLabelBuilder.m */,
 				E2FDF7F416664BC5007ED4CA /* MBSubLabelBuilder.h */,
 				E2FDF7F516664BC6007ED4CA /* MBSubLabelBuilder.m */,
 				E2C62D13166FA89400A070EC /* MBCheckboxBuilder.h */,
 				E2C62D14166FA89400A070EC /* MBCheckboxBuilder.m */,
+				E2C62D1B1670C39A00A070EC /* MBFieldViewBuilder.m */,
+				E2C62D211670D15000A070EC /* MBDropDownBuilder.h */,
+				E2C62D221670D15100A070EC /* MBDropDownBuilder.m */,
+				E2C62D271670D24800A070EC /* MBDateBuilder.h */,
+				E2C62D281670D24900A070EC /* MBDateBuilder.m */,
+				E2C62D2D1670D63D00A070EC /* MBTextBuilder.h */,
+				E2C62D2E1670D63E00A070EC /* MBTextBuilder.m */,
 			);
 			name = FieldView;
 			sourceTree = "<group>";
@@ -2755,7 +2691,6 @@
 				1C0CCA361505082000766A49 /* MBForEachViewBuilder.m in Sources */,
 				1C0CCA3A1505082000766A49 /* MBMatrixViewBuilder.m in Sources */,
 				1C0CCA3E1505082000766A49 /* MBPageViewBuilder.m in Sources */,
-				1C0CCA461505082000766A49 /* MBDefaultRowViewBuilder.m in Sources */,
 				1C0CCA4A1505082000766A49 /* MBStyleHandler.m in Sources */,
 				1C0CCA4E1505082000766A49 /* MBViewBuilder.m in Sources */,
 				1C0CCA521505082000766A49 /* MBViewBuilderFactory.m in Sources */,
@@ -2789,15 +2724,6 @@
 				2C61DAD315D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */,
 				BD2FAF20146A93B5001BC642 /* UIWebView+FontResizing.m in Sources */,
 				BD2FAF20146A93B5001BC648 /* UIView+TreeWalker.m in Sources */,
-				BD2FAF20146A93B5001BC64F /* MBTableViewCellConfiguratorFactory.m in Sources */,
-				BD2FAF20146A93B5001BC655 /* MBTableViewCellConfiguratorLabel.m in Sources */,
-				BD2FAF20146A93B5001BC65B /* MBTableViewCellConfigurator.m in Sources */,
-				BD2FAF20146A93B5001BC661 /* MBTableViewCellConfiguratorDropDownList.m in Sources */,
-				BD2FAF20146A93B5001BC667 /* MBTableViewCellConfiguratorDate.m in Sources */,
-				BD2FAF20146A93B5001BC66D /* MBTableViewCellConfiguratorSubLabel.m in Sources */,
-				BD2FAF20146A93B5001BC673 /* MBTableViewCellConfiguratorCheckbox.m in Sources */,
-				BD2FAF20146A93B5001BC679 /* MBTableViewCellConfiguratorInput.m in Sources */,
-				BD2FAF20146A93B5001BC67F /* MBTableViewCellConfiguratorText.m in Sources */,
 				34812C10C3724A22AC647E65 /* MBRowViewBuilderFactory.m in Sources */,
 				34812492226535E995B4E7A2 /* CustomRowViewBuilder.m in Sources */,
 				BDEF12AF15E6A9E90034C700 /* MBAlertDefinition.m in Sources */,
@@ -2807,7 +2733,7 @@
 				BDEF12C815E6AA670034C700 /* MBAlertView.m in Sources */,
 				E2FDF7B21664D89F007ED4CA /* MBFieldViewBuilderFactory.m in Sources */,
 				E2FDF7B91664E96B007ED4CA /* MBButtonBuilder.m in Sources */,
-				E2FDF7BF1664EDAE007ED4CA /* MBTextBuilder.m in Sources */,
+				E2FDF7BF1664EDAE007ED4CA /* MBInputBuilder.m in Sources */,
 				E2FDF7C51664EFC5007ED4CA /* MBLabelBuilder.m in Sources */,
 				E2FDF7CD1664F60B007ED4CA /* MBPanelViewBuilderFactory.m in Sources */,
 				E2FDF7D31664FAC1007ED4CA /* MBPlainPanelBuilder.m in Sources */,
@@ -2817,8 +2743,11 @@
 				E2FDF7F21664FF48007ED4CA /* MBListBuilder.m in Sources */,
 				E2FDF7F816664BC9007ED4CA /* MBSubLabelBuilder.m in Sources */,
 				E2E2D111166CC4AC008F6790 /* MBNewRowViewBuilder.m in Sources */,
-				E2C62D10166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m in Sources */,
 				E2C62D17166FA89400A070EC /* MBCheckboxBuilder.m in Sources */,
+				E2C62D1E1670C39A00A070EC /* MBFieldViewBuilder.m in Sources */,
+				E2C62D251670D15300A070EC /* MBDropDownBuilder.m in Sources */,
+				E2C62D2B1670D24B00A070EC /* MBDateBuilder.m in Sources */,
+				E2C62D311670D63F00A070EC /* MBTextBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2926,7 +2855,6 @@
 				1C0CCA371505082000766A49 /* MBForEachViewBuilder.m in Sources */,
 				1C0CCA3B1505082000766A49 /* MBMatrixViewBuilder.m in Sources */,
 				1C0CCA3F1505082000766A49 /* MBPageViewBuilder.m in Sources */,
-				1C0CCA471505082000766A49 /* MBDefaultRowViewBuilder.m in Sources */,
 				1C0CCA4B1505082000766A49 /* MBStyleHandler.m in Sources */,
 				1C0CCA4F1505082000766A49 /* MBViewBuilder.m in Sources */,
 				1C0CCA531505082000766A49 /* MBViewBuilderFactory.m in Sources */,
@@ -2960,15 +2888,6 @@
 				2C61DAD415D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */,
 				BD2FAF20146A93B5001BC643 /* UIWebView+FontResizing.m in Sources */,
 				BD2FAF20146A93B5001BC649 /* UIView+TreeWalker.m in Sources */,
-				BD2FAF20146A93B5001BC650 /* MBTableViewCellConfiguratorFactory.m in Sources */,
-				BD2FAF20146A93B5001BC656 /* MBTableViewCellConfiguratorLabel.m in Sources */,
-				BD2FAF20146A93B5001BC65C /* MBTableViewCellConfigurator.m in Sources */,
-				BD2FAF20146A93B5001BC662 /* MBTableViewCellConfiguratorDropDownList.m in Sources */,
-				BD2FAF20146A93B5001BC668 /* MBTableViewCellConfiguratorDate.m in Sources */,
-				BD2FAF20146A93B5001BC66E /* MBTableViewCellConfiguratorSubLabel.m in Sources */,
-				BD2FAF20146A93B5001BC674 /* MBTableViewCellConfiguratorCheckbox.m in Sources */,
-				BD2FAF20146A93B5001BC67A /* MBTableViewCellConfiguratorInput.m in Sources */,
-				BD2FAF20146A93B5001BC680 /* MBTableViewCellConfiguratorText.m in Sources */,
 				348123452F672C794EC38DB4 /* MBRowViewBuilderFactory.m in Sources */,
 				348127B07961890B5BE745CF /* CustomRowViewBuilder.m in Sources */,
 				BDEF12B015E6A9E90034C700 /* MBAlertDefinition.m in Sources */,
@@ -2978,7 +2897,7 @@
 				BDEF12C915E6AA670034C700 /* MBAlertView.m in Sources */,
 				E2FDF7B31664D89F007ED4CA /* MBFieldViewBuilderFactory.m in Sources */,
 				E2FDF7BA1664E96B007ED4CA /* MBButtonBuilder.m in Sources */,
-				E2FDF7C01664EDAE007ED4CA /* MBTextBuilder.m in Sources */,
+				E2FDF7C01664EDAE007ED4CA /* MBInputBuilder.m in Sources */,
 				E2FDF7C61664EFC5007ED4CA /* MBLabelBuilder.m in Sources */,
 				E2FDF7CE1664F60B007ED4CA /* MBPanelViewBuilderFactory.m in Sources */,
 				E2FDF7D41664FAC1007ED4CA /* MBPlainPanelBuilder.m in Sources */,
@@ -2988,8 +2907,11 @@
 				E2FDF7F31664FF48007ED4CA /* MBListBuilder.m in Sources */,
 				E2FDF7F916664BC9007ED4CA /* MBSubLabelBuilder.m in Sources */,
 				E2E2D112166CC4AC008F6790 /* MBNewRowViewBuilder.m in Sources */,
-				E2C62D11166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m in Sources */,
 				E2C62D18166FA89400A070EC /* MBCheckboxBuilder.m in Sources */,
+				E2C62D1F1670C39A00A070EC /* MBFieldViewBuilder.m in Sources */,
+				E2C62D261670D15300A070EC /* MBDropDownBuilder.m in Sources */,
+				E2C62D2C1670D24B00A070EC /* MBDateBuilder.m in Sources */,
+				E2C62D321670D63F00A070EC /* MBTextBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3097,7 +3019,6 @@
 				1C0CCA341505082000766A49 /* MBForEachViewBuilder.m in Sources */,
 				1C0CCA381505082000766A49 /* MBMatrixViewBuilder.m in Sources */,
 				1C0CCA3C1505082000766A49 /* MBPageViewBuilder.m in Sources */,
-				1C0CCA441505082000766A49 /* MBDefaultRowViewBuilder.m in Sources */,
 				1C0CCA481505082000766A49 /* MBStyleHandler.m in Sources */,
 				1C0CCA4C1505082000766A49 /* MBViewBuilder.m in Sources */,
 				1C0CCA501505082000766A49 /* MBViewBuilderFactory.m in Sources */,
@@ -3131,15 +3052,6 @@
 				2C61DAD115D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */,
 				BD2FAF20146A93B5001BC640 /* UIWebView+FontResizing.m in Sources */,
 				BD2FAF20146A93B5001BC646 /* UIView+TreeWalker.m in Sources */,
-				BD2FAF20146A93B5001BC64D /* MBTableViewCellConfiguratorFactory.m in Sources */,
-				BD2FAF20146A93B5001BC653 /* MBTableViewCellConfiguratorLabel.m in Sources */,
-				BD2FAF20146A93B5001BC659 /* MBTableViewCellConfigurator.m in Sources */,
-				BD2FAF20146A93B5001BC65F /* MBTableViewCellConfiguratorDropDownList.m in Sources */,
-				BD2FAF20146A93B5001BC665 /* MBTableViewCellConfiguratorDate.m in Sources */,
-				BD2FAF20146A93B5001BC66B /* MBTableViewCellConfiguratorSubLabel.m in Sources */,
-				BD2FAF20146A93B5001BC671 /* MBTableViewCellConfiguratorCheckbox.m in Sources */,
-				BD2FAF20146A93B5001BC677 /* MBTableViewCellConfiguratorInput.m in Sources */,
-				BD2FAF20146A93B5001BC67D /* MBTableViewCellConfiguratorText.m in Sources */,
 				34812847C65354CCAFDCFE8A /* MBRowViewBuilderFactory.m in Sources */,
 				34812D9A0E074EBA5B8B55C4 /* CustomRowViewBuilder.m in Sources */,
 				BDEF12AD15E6A9E90034C700 /* MBAlertDefinition.m in Sources */,
@@ -3149,7 +3061,7 @@
 				BDEF12C615E6AA670034C700 /* MBAlertView.m in Sources */,
 				E2FDF7B01664D89F007ED4CA /* MBFieldViewBuilderFactory.m in Sources */,
 				E2FDF7B71664E96B007ED4CA /* MBButtonBuilder.m in Sources */,
-				E2FDF7BD1664EDAE007ED4CA /* MBTextBuilder.m in Sources */,
+				E2FDF7BD1664EDAE007ED4CA /* MBInputBuilder.m in Sources */,
 				E2FDF7C31664EFC5007ED4CA /* MBLabelBuilder.m in Sources */,
 				E2FDF7CB1664F60B007ED4CA /* MBPanelViewBuilderFactory.m in Sources */,
 				E2FDF7D11664FAC1007ED4CA /* MBPlainPanelBuilder.m in Sources */,
@@ -3159,8 +3071,11 @@
 				E2FDF7F01664FF48007ED4CA /* MBListBuilder.m in Sources */,
 				E2FDF7F616664BC9007ED4CA /* MBSubLabelBuilder.m in Sources */,
 				E2E2D10F166CC4AC008F6790 /* MBNewRowViewBuilder.m in Sources */,
-				E2C62D0E166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m in Sources */,
 				E2C62D15166FA89400A070EC /* MBCheckboxBuilder.m in Sources */,
+				E2C62D1C1670C39A00A070EC /* MBFieldViewBuilder.m in Sources */,
+				E2C62D231670D15300A070EC /* MBDropDownBuilder.m in Sources */,
+				E2C62D291670D24B00A070EC /* MBDateBuilder.m in Sources */,
+				E2C62D2F1670D63F00A070EC /* MBTextBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3269,7 +3184,6 @@
 				1C0CCA351505082000766A49 /* MBForEachViewBuilder.m in Sources */,
 				1C0CCA391505082000766A49 /* MBMatrixViewBuilder.m in Sources */,
 				1C0CCA3D1505082000766A49 /* MBPageViewBuilder.m in Sources */,
-				1C0CCA451505082000766A49 /* MBDefaultRowViewBuilder.m in Sources */,
 				1C0CCA491505082000766A49 /* MBStyleHandler.m in Sources */,
 				1C0CCA4D1505082000766A49 /* MBViewBuilder.m in Sources */,
 				1C0CCA511505082000766A49 /* MBViewBuilderFactory.m in Sources */,
@@ -3303,15 +3217,6 @@
 				2C61DAD215D9033800FF1542 /* MBURLConnectionDataHandler.m in Sources */,
 				BD2FAF20146A93B5001BC641 /* UIWebView+FontResizing.m in Sources */,
 				BD2FAF20146A93B5001BC647 /* UIView+TreeWalker.m in Sources */,
-				BD2FAF20146A93B5001BC64E /* MBTableViewCellConfiguratorFactory.m in Sources */,
-				BD2FAF20146A93B5001BC654 /* MBTableViewCellConfiguratorLabel.m in Sources */,
-				BD2FAF20146A93B5001BC65A /* MBTableViewCellConfigurator.m in Sources */,
-				BD2FAF20146A93B5001BC660 /* MBTableViewCellConfiguratorDropDownList.m in Sources */,
-				BD2FAF20146A93B5001BC666 /* MBTableViewCellConfiguratorDate.m in Sources */,
-				BD2FAF20146A93B5001BC66C /* MBTableViewCellConfiguratorSubLabel.m in Sources */,
-				BD2FAF20146A93B5001BC672 /* MBTableViewCellConfiguratorCheckbox.m in Sources */,
-				BD2FAF20146A93B5001BC678 /* MBTableViewCellConfiguratorInput.m in Sources */,
-				BD2FAF20146A93B5001BC67E /* MBTableViewCellConfiguratorText.m in Sources */,
 				3481269D4D8A93313421AF78 /* MBRowViewBuilderFactory.m in Sources */,
 				34812F0DF59B3983BA3365D0 /* CustomRowViewBuilder.m in Sources */,
 				BDEF12AE15E6A9E90034C700 /* MBAlertDefinition.m in Sources */,
@@ -3321,7 +3226,7 @@
 				BDEF12C715E6AA670034C700 /* MBAlertView.m in Sources */,
 				E2FDF7B11664D89F007ED4CA /* MBFieldViewBuilderFactory.m in Sources */,
 				E2FDF7B81664E96B007ED4CA /* MBButtonBuilder.m in Sources */,
-				E2FDF7BE1664EDAE007ED4CA /* MBTextBuilder.m in Sources */,
+				E2FDF7BE1664EDAE007ED4CA /* MBInputBuilder.m in Sources */,
 				E2FDF7C41664EFC5007ED4CA /* MBLabelBuilder.m in Sources */,
 				E2FDF7CC1664F60B007ED4CA /* MBPanelViewBuilderFactory.m in Sources */,
 				E2FDF7D21664FAC1007ED4CA /* MBPlainPanelBuilder.m in Sources */,
@@ -3331,8 +3236,11 @@
 				E2FDF7F11664FF48007ED4CA /* MBListBuilder.m in Sources */,
 				E2FDF7F716664BC9007ED4CA /* MBSubLabelBuilder.m in Sources */,
 				E2E2D110166CC4AC008F6790 /* MBNewRowViewBuilder.m in Sources */,
-				E2C62D0F166F900C00A070EC /* MBTableViewCellConfiguratorDefault.m in Sources */,
 				E2C62D16166FA89400A070EC /* MBCheckboxBuilder.m in Sources */,
+				E2C62D1D1670C39A00A070EC /* MBFieldViewBuilder.m in Sources */,
+				E2C62D241670D15300A070EC /* MBDropDownBuilder.m in Sources */,
+				E2C62D2A1670D24B00A070EC /* MBDateBuilder.m in Sources */,
+				E2C62D301670D63F00A070EC /* MBTextBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
