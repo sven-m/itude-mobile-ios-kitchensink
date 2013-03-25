@@ -17,7 +17,7 @@
 
 // Override to customize the main view
 - (void) applyStyle:(UIView *)contentView page:(MBPage *)page viewState:(MBViewState)viewState {
-    [contentView setBackgroundColor:[UIColor lightGrayColor]];
+    [contentView setBackgroundColor:[UIColor customViewBackgroundColor]];
 }
 
 -(void)styleLabel:(UIView *)view component:(MBField *)field{
@@ -38,6 +38,9 @@
         tableView.contentInset = UIEdgeInsetsMake(60.0f, 0.0f, 0.0f, 60.0f);
         tableView.bounces = NO;
     }
+    
+    // Default MOBBL there is no Separator
+    tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
 }
 
 - (void) styleNavigationBar:(UINavigationBar *)bar {

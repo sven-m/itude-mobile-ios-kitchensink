@@ -18,4 +18,8 @@
     return [UIColor colorWithRed:hexColorValueToFloat(0) green:hexColorValueToFloat(84) blue:hexColorValueToFloat(166) alpha:1.0];
 }
 
++ (UIColor *)customViewBackgroundColor {
+    return [UIColor colorWithRed:hexColorValueToFloat(255) green:hexColorValueToFloat(233) blue:hexColorValueToFloat(233) alpha:1.0];
+}
+
 @end

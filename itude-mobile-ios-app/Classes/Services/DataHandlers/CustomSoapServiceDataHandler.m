@@ -135,28 +135,28 @@
 							url = [NSURL URLWithString:endPointUri];
 						}
 						@catch (NSException * e) {
-							WLog(@"WARNING! PPSoapServiceDataHandler:Prevented a crash while creating an NSURL from the endpointUri while loading document %@. Exception: %@",documentName,e);
+							WLog(@"WARNING! CustomSoapServiceDataHandler:Prevented a crash while creating an NSURL from the endpointUri while loading document %@. Exception: %@",documentName,e);
 						}						
 					}else {
-						WLog(@"WARNING! PPSoapServiceDataHandler:The endpointUri (%@) could not be retrieved while loading document %@.",endPointUri,documentName);
+						WLog(@"WARNING! CustomSoapServiceDataHandler:The endpointUri (%@) could not be retrieved while loading document %@.",endPointUri,documentName);
 					}
 					
 					if (url) {
 						hostName = [url host];
 					}else {
-						WLog(@"WARNING! PPSoapServiceDataHandler:The url (%@) could not be retrieved while loading document %@.",url,documentName);
+						WLog(@"WARNING! CustomSoapServiceDataHandler:The url (%@) could not be retrieved while loading document %@.",url,documentName);
 					}
 					
 					if (hostName && ([hostName length]>0)) {
 						reachability = [Reachability reachabilityWithHostName:hostName];
 					} else {
-						WLog(@"WARNING! PPSoapServiceDataHandler:The hostName (%@) could not be retrieved while loading document %@.",hostName,documentName);
+						WLog(@"WARNING! CustomSoapServiceDataHandler:The hostName (%@) could not be retrieved while loading document %@.",hostName,documentName);
 					}
 					
 					if (reachability) {
 						networkStatus = [reachability currentReachabilityStatus];
 					} else {
-						WLog(@"WARNING! PPSoapServiceDataHandler:The reachability (%@) could not be retrieved while loading document %@.",reachability,documentName);
+						WLog(@"WARNING! CustomSoapServiceDataHandler:The reachability (%@) could not be retrieved while loading document %@.",reachability,documentName);
 					}	
                     
 					if (networkStatus == NotReachable) {
@@ -197,7 +197,7 @@
 			if (!serverErrorHandled && responseDoc == nil) {
 				NSString *msg = MBLocalizedString(@"The server returned an error. Please try again later");
 				if(delegate.err != nil) {
-					msg = [NSString stringWithFormat:@"%@ %@: %@", msg, delegate.err.domain, delegate.err.code];
+					msg = [NSString stringWithFormat:@"%@ %@: %i", msg, delegate.err.domain, delegate.err.code];
 				}
 				@throw [NSException exceptionWithName:@"Server Error" reason: msg userInfo:nil];
 			}

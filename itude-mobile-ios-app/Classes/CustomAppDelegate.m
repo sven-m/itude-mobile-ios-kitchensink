@@ -39,9 +39,7 @@
     
     // Register custom RowViewBuilders
     CustomRowViewBuilder *customBuilder = [[CustomRowViewBuilder alloc] init];
-    [[[MBViewBuilderFactory sharedInstance]
-      rowViewBuilderFactory]
-     registerRowViewBuilder:customBuilder forRowStyle:@"customRow"];
+    [[[MBViewBuilderFactory sharedInstance] rowViewBuilderFactory] registerRowViewBuilder:customBuilder forRowType:C_ROW forRowStyle:@"customRow"];
     [customBuilder release];
     
     // set the Custom datahandlers
@@ -50,7 +48,7 @@
     [[MBViewBuilderFactory sharedInstance] setStyleHandler:[[CustomStyleHandler new] autorelease]];
 	
 	// set the Custom datahandlers
-	[[MBDataManagerService sharedInstance] registerDataHandler:[[CustomSoapServiceDataHandler new] autorelease] withName:@"PPSoapServiceDataHandler"];
+	[[MBDataManagerService sharedInstance] registerDataHandler:[[CustomSoapServiceDataHandler new] autorelease] withName:@"CustomSoapServiceDataHandler"];
     
 	// Delete any cached documents at startup
 	[MBCacheManager expireAllDocuments];

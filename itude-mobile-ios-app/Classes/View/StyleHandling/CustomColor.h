@@ -25,4 +25,6 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 // Example of a custom color and how style should be used
 + (UIColor *) customNavigationBarColor;
 
++ (UIColor *) customViewBackgroundColor;
+
 @end
