@@ -25,6 +25,8 @@
 #import "UncaughtExceptionHandler.h"
 #import "MBMacros.h"
 #import "MBRowViewBuilderFactory.h"
+#import "MBOrientationManager.h"
+#import "MBDevice.h"
 
 
 @implementation CustomAppDelegate
@@ -67,6 +69,9 @@
 - (void)startApplication:(MBApplicationFactory *)_applicationFactory {
     // Start the application
     [super startApplication:_applicationFactory];
+    
+    // Example of how to set the orientationMask. Don't forget to update your plist as well. 
+    //[[MBOrientationManager sharedInstance] setOrientationMask:UIInterfaceOrientationMaskLandscape];
 }
 
 
@@ -75,7 +80,8 @@
     
     // set the device identifier
     if ([[applicationStateDoc valueForPath:@"/Device[0]/@deviceID"] length] < 1) {
-        [applicationStateDoc setValue:[[UIDevice currentDevice] uniqueIdentifier] forPath:@"/Device[0]/@deviceID"];
+        NSString *uniqueIdentifier = [MBDevice identifier];
+        [applicationStateDoc setValue:uniqueIdentifier forPath:@"/Device[0]/@deviceID"];
     
         // Set a different identifier for the simulator because the default uses special characters
 #if TARGET_IPHONE_SIMULATOR
@@ -112,7 +118,9 @@
 	return YES;
 }
 
-
+- (NSUInteger)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
+    return [[MBOrientationManager sharedInstance] orientationMask];
+}
 
 
 @end

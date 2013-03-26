@@ -28,20 +28,6 @@
 	return nil;
 }
 
--(id<MBAction>) createAction:(NSString *)actionClassName {
-	if ([actionClassName isEqualToString:@"FireInitialOutcomes"]) {
-		return [[FireInitialOutcomes new] autorelease];
-	}
-    else if ([actionClassName isEqualToString:@"CustomAction"]) {
-        return [[CustomAction new] autorelease];
-    }
-    else if ([actionClassName isEqualToString:@"ExceptionExampleAction"]) {
-        return [[ExceptionExampleAction new] autorelease];
-    }
-    
-	return nil;
-}
-
 -(MBPage *) createPage:(MBPageDefinition *)definition 
 			  document:(MBDocument*) document 
 			  rootPath:(NSString*) rootPath 

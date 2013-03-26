@@ -3348,12 +3348,13 @@
 					"\"$(SRCROOT)\"/**",
 				);
 				INFOPLIST_FILE = "itude-mobile-ios-app/Supporting Files/itude-mobile-ios-app-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-all_load",
 				);
 				PRODUCT_NAME = "Kitchen sink";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -3376,13 +3377,14 @@
 					"\"$(SRCROOT)\"/**",
 				);
 				INFOPLIST_FILE = "itude-mobile-ios-app/Supporting Files/itude-mobile-ios-app-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-licucore",
 					"-all_load",
 				);
 				PRODUCT_NAME = "Kitchen sink";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -3699,7 +3701,7 @@
 					"\"$(SRCROOT)\"/**",
 				);
 				INFOPLIST_FILE = "itude-mobile-ios-app/Supporting Files/itude-mobile-ios-app-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-licucore",
@@ -3707,6 +3709,7 @@
 				);
 				PRODUCT_NAME = "Kitchen sink";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
