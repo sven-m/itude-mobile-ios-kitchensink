@@ -74,6 +74,7 @@
         <Include name="PAGE-catalog"/>
         <Include name="PAGE-home"/>
         <Include name="PAGE-manipulating-rows-in-a-list"/>
+        <Include name="PAGE-zoomable-text"/>
 
     </View>
 </Configuration>

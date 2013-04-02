@@ -44,6 +44,9 @@
                     <Panel type="ROW"  outcome="OUTCOME-lists">
                         <Field type="LABEL" label="List layout demo's"/>
                     </Panel>
+                    <Panel type="ROW" outcome="OUTCOME-page-zoomable-text">
+                        <Field type="LABEL" label="Zoomable text example"/>
+                    </Panel>
                 </Panel>
                 <Panel type="SECTION" title="Customization">
                     <Panel type="ROW" outcome="OUTCOME-customized-view-logic">
