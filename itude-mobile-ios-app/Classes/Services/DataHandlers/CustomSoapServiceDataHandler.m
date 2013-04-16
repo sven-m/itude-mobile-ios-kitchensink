@@ -117,7 +117,7 @@
 			[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
 			
 			[[NSURLCache sharedURLCache] removeCachedResponseForRequest:request];
-			if (delegate.connection = [[NSURLConnection alloc] initWithRequest:request delegate:delegate]){
+			if ((delegate.connection = [[NSURLConnection alloc] initWithRequest:request delegate:delegate])){
 				while (!delegate.finished) {
 					if([[Reachability reachabilityForInternetConnection] currentReachabilityStatus] == NotReachable){
 						[delegate.connection cancel];
