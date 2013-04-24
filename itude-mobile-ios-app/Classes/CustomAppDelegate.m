@@ -28,6 +28,8 @@
 #import "MBOrientationManager.h"
 #import "MBDevice.h"
 
+#import "MBFadeTransitionStyle.h"
+
 
 @implementation CustomAppDelegate
 
@@ -44,6 +46,16 @@
     [[[MBViewBuilderFactory sharedInstance] rowViewBuilderFactory] registerRowViewBuilder:customBuilder forRowType:C_ROW forRowStyle:@"customRow"];
     [customBuilder release];
     
+    // Set our own applicationFactory. IMPORTANT: The applicationFactory needs to be set before [MBApplicationFactory sharedInstance] is called for the first time.
+    CustomApplicationFactory *applicationFactory = [[[CustomApplicationFactory alloc] init] autorelease];
+    [MBApplicationFactory setSharedInstance:applicationFactory];
+    
+    // Register transition styles
+//    MBFadeTransitionStyle *transitionStyle = [MBFadeTransitionStyle new];
+//    [[[MBApplicationFactory sharedInstance] transitionStyleFactory] setDefaultTransition:transitionStyle];
+//    [transitionStyle release];
+
+    
     // set the Custom datahandlers
     
     // Set custom stylehandling
@@ -55,12 +67,11 @@
 	// Delete any cached documents at startup
 	[MBCacheManager expireAllDocuments];
 	
-    CustomApplicationFactory *applicationFactory = [[[CustomApplicationFactory alloc] init] autorelease];
-    [MBApplicationFactory setSharedInstance:applicationFactory];
+
     
     [self initializeApplicationProperties];
     
-	[self performSelectorOnMainThread:@selector(startApplication:) withObject:applicationFactory waitUntilDone:YES];
+	[self performSelectorOnMainThread:@selector(startApplication:) withObject:[MBApplicationFactory sharedInstance] waitUntilDone:YES];
     
 	[pool drain];
     
