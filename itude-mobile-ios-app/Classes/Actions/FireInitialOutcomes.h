@@ -6,9 +6,9 @@
 //  Copyright 2011 Itude Mobile. All rights reserved.
 //
 
-#import "MBAction.h"
+#import "MBFireInitialOutcomes.h"
 
-@interface FireInitialOutcomes : NSObject <MBAction> {
+@interface FireInitialOutcomes : MBFireInitialOutcomes {
     
 }
 

@@ -2,5 +2,5 @@
     <Outcome action="OUTCOME-tab-catalog" dialog="DIALOG-tab-catalog"/>
     
     <!--Uncomment the below to create two tabs -->
-    <!--Outcome action="OUTCOME-tab-info" dialog="DIALOG-tab-info"/-->
+    <Outcome action="OUTCOME-tab-info" dialog="DIALOG-tab-info"/>
 </InitialOutcomes>
