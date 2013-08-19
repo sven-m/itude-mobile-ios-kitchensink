@@ -283,6 +283,18 @@
 		BD798204170B215600B446E1 /* PAGE-zoomable-text.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BD798200170B215600B446E1 /* PAGE-zoomable-text.xmlx */; };
 		BDD3D9361725500E002C88E6 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD3D9351725500E002C88E6 /* libsqlite3.0.dylib */; };
 		BDD3D93817255019002C88E6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD3D93717255019002C88E6 /* QuartzCore.framework */; };
+		BDEE9BB017C2217D0020BF1B /* UIViewController+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE9BAF17C2217D0020BF1B /* UIViewController+Rotation.m */; };
+		BDEE9BB117C2217D0020BF1B /* UIViewController+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE9BAF17C2217D0020BF1B /* UIViewController+Rotation.m */; };
+		BDEE9BB217C2217D0020BF1B /* UIViewController+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE9BAF17C2217D0020BF1B /* UIViewController+Rotation.m */; };
+		BDEE9BB317C2217D0020BF1B /* UIViewController+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE9BAF17C2217D0020BF1B /* UIViewController+Rotation.m */; };
+		BDEE9BB617C23C8C0020BF1B /* UINavigationController+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE9BB517C23C8C0020BF1B /* UINavigationController+Rotation.m */; };
+		BDEE9BB717C23C8C0020BF1B /* UINavigationController+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE9BB517C23C8C0020BF1B /* UINavigationController+Rotation.m */; };
+		BDEE9BB817C23C8C0020BF1B /* UINavigationController+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE9BB517C23C8C0020BF1B /* UINavigationController+Rotation.m */; };
+		BDEE9BB917C23C8C0020BF1B /* UINavigationController+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE9BB517C23C8C0020BF1B /* UINavigationController+Rotation.m */; };
+		BDEE9BBC17C23CC30020BF1B /* UITabBarController+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE9BBB17C23CC30020BF1B /* UITabBarController+Rotation.m */; };
+		BDEE9BBD17C23CC30020BF1B /* UITabBarController+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE9BBB17C23CC30020BF1B /* UITabBarController+Rotation.m */; };
+		BDEE9BBE17C23CC30020BF1B /* UITabBarController+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE9BBB17C23CC30020BF1B /* UITabBarController+Rotation.m */; };
+		BDEE9BBF17C23CC30020BF1B /* UITabBarController+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE9BBB17C23CC30020BF1B /* UITabBarController+Rotation.m */; };
 		BDEF12CF15E6AC0B0034C700 /* PAGE-catalog.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEF12CA15E6AC0A0034C700 /* PAGE-catalog.xmlx */; };
 		BDEF12D015E6AC0B0034C700 /* PAGE-catalog.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEF12CA15E6AC0A0034C700 /* PAGE-catalog.xmlx */; };
 		BDEF12D115E6AC0B0034C700 /* PAGE-catalog.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEF12CA15E6AC0A0034C700 /* PAGE-catalog.xmlx */; };
@@ -481,10 +493,6 @@
 		BDFC978317BE915F00F5278A /* UINavigationController+MBRebuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFC959E17BE915E00F5278A /* UINavigationController+MBRebuilder.m */; };
 		BDFC978417BE915F00F5278A /* UINavigationController+MBRebuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFC959E17BE915E00F5278A /* UINavigationController+MBRebuilder.m */; };
 		BDFC978517BE915F00F5278A /* UINavigationController+MBRebuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFC959E17BE915E00F5278A /* UINavigationController+MBRebuilder.m */; };
-		BDFC978617BE915F00F5278A /* UINavigationController+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFC95A017BE915E00F5278A /* UINavigationController+Rotation.m */; };
-		BDFC978717BE915F00F5278A /* UINavigationController+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFC95A017BE915E00F5278A /* UINavigationController+Rotation.m */; };
-		BDFC978817BE915F00F5278A /* UINavigationController+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFC95A017BE915E00F5278A /* UINavigationController+Rotation.m */; };
-		BDFC978917BE915F00F5278A /* UINavigationController+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFC95A017BE915E00F5278A /* UINavigationController+Rotation.m */; };
 		BDFC978A17BE915F00F5278A /* FMDatabase+InMemoryOnDiskIO.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFC95A417BE915E00F5278A /* FMDatabase+InMemoryOnDiskIO.m */; };
 		BDFC978B17BE915F00F5278A /* FMDatabase+InMemoryOnDiskIO.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFC95A417BE915E00F5278A /* FMDatabase+InMemoryOnDiskIO.m */; };
 		BDFC978C17BE915F00F5278A /* FMDatabase+InMemoryOnDiskIO.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFC95A417BE915E00F5278A /* FMDatabase+InMemoryOnDiskIO.m */; };
@@ -1144,6 +1152,12 @@
 		BD798200170B215600B446E1 /* PAGE-zoomable-text.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-zoomable-text.xmlx"; path = "Pages/PAGE-zoomable-text.xmlx"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xml; };
 		BDD3D9351725500E002C88E6 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		BDD3D93717255019002C88E6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BDEE9BAE17C2217D0020BF1B /* UIViewController+Rotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Rotation.h"; sourceTree = "<group>"; };
+		BDEE9BAF17C2217D0020BF1B /* UIViewController+Rotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Rotation.m"; sourceTree = "<group>"; };
+		BDEE9BB417C23C8C0020BF1B /* UINavigationController+Rotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Rotation.h"; sourceTree = "<group>"; };
+		BDEE9BB517C23C8C0020BF1B /* UINavigationController+Rotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Rotation.m"; sourceTree = "<group>"; };
+		BDEE9BBA17C23CC30020BF1B /* UITabBarController+Rotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+Rotation.h"; sourceTree = "<group>"; };
+		BDEE9BBB17C23CC30020BF1B /* UITabBarController+Rotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+Rotation.m"; sourceTree = "<group>"; };
 		BDEF12CA15E6AC0A0034C700 /* PAGE-catalog.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-catalog.xmlx"; path = "Pages/PAGE-catalog.xmlx"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xml; };
 		BDEF12CB15E6AC0B0034C700 /* PAGE-field-types.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-field-types.xmlx"; path = "Pages/PAGE-field-types.xmlx"; sourceTree = "<group>"; };
 		BDEF12CC15E6AC0B0034C700 /* PAGE-home.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-home.xmlx"; path = "Pages/PAGE-home.xmlx"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xml; };
@@ -1236,8 +1250,6 @@
 		BDFC959C17BE915E00F5278A /* MBViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBViewControllerProtocol.h; sourceTree = "<group>"; };
 		BDFC959D17BE915E00F5278A /* UINavigationController+MBRebuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+MBRebuilder.h"; sourceTree = "<group>"; };
 		BDFC959E17BE915E00F5278A /* UINavigationController+MBRebuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+MBRebuilder.m"; sourceTree = "<group>"; };
-		BDFC959F17BE915E00F5278A /* UINavigationController+Rotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Rotation.h"; sourceTree = "<group>"; };
-		BDFC95A017BE915E00F5278A /* UINavigationController+Rotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Rotation.m"; sourceTree = "<group>"; };
 		BDFC95A317BE915E00F5278A /* FMDatabase+InMemoryOnDiskIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+InMemoryOnDiskIO.h"; sourceTree = "<group>"; };
 		BDFC95A417BE915E00F5278A /* FMDatabase+InMemoryOnDiskIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+InMemoryOnDiskIO.m"; sourceTree = "<group>"; };
 		BDFC95A517BE915E00F5278A /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
@@ -2077,8 +2089,12 @@
 				BDFC959C17BE915E00F5278A /* MBViewControllerProtocol.h */,
 				BDFC959D17BE915E00F5278A /* UINavigationController+MBRebuilder.h */,
 				BDFC959E17BE915E00F5278A /* UINavigationController+MBRebuilder.m */,
-				BDFC959F17BE915E00F5278A /* UINavigationController+Rotation.h */,
-				BDFC95A017BE915E00F5278A /* UINavigationController+Rotation.m */,
+				BDEE9BB417C23C8C0020BF1B /* UINavigationController+Rotation.h */,
+				BDEE9BB517C23C8C0020BF1B /* UINavigationController+Rotation.m */,
+				BDEE9BAE17C2217D0020BF1B /* UIViewController+Rotation.h */,
+				BDEE9BAF17C2217D0020BF1B /* UIViewController+Rotation.m */,
+				BDEE9BBA17C23CC30020BF1B /* UITabBarController+Rotation.h */,
+				BDEE9BBB17C23CC30020BF1B /* UITabBarController+Rotation.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -3086,7 +3102,6 @@
 				BDFC977C17BE915F00F5278A /* MBFormSubmission.m in Sources */,
 				BDFC978017BE915F00F5278A /* MBSplitViewController.m in Sources */,
 				BDFC978417BE915F00F5278A /* UINavigationController+MBRebuilder.m in Sources */,
-				BDFC978817BE915F00F5278A /* UINavigationController+Rotation.m in Sources */,
 				BDFC978C17BE915F00F5278A /* FMDatabase+InMemoryOnDiskIO.m in Sources */,
 				BDFC979017BE915F00F5278A /* FMDatabase.m in Sources */,
 				BDFC979417BE915F00F5278A /* FMDatabaseAdditions.m in Sources */,
@@ -3212,6 +3227,9 @@
 				BDFC99A417BE915F00F5278A /* MBPageStack.m in Sources */,
 				BDFC99A817BE915F00F5278A /* MBPanel.m in Sources */,
 				BDFC99AC17BE915F00F5278A /* MBTableViewController.m in Sources */,
+				BDEE9BB217C2217D0020BF1B /* UIViewController+Rotation.m in Sources */,
+				BDEE9BB817C23C8C0020BF1B /* UINavigationController+Rotation.m in Sources */,
+				BDEE9BBE17C23CC30020BF1B /* UITabBarController+Rotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3278,7 +3296,6 @@
 				BDFC977D17BE915F00F5278A /* MBFormSubmission.m in Sources */,
 				BDFC978117BE915F00F5278A /* MBSplitViewController.m in Sources */,
 				BDFC978517BE915F00F5278A /* UINavigationController+MBRebuilder.m in Sources */,
-				BDFC978917BE915F00F5278A /* UINavigationController+Rotation.m in Sources */,
 				BDFC978D17BE915F00F5278A /* FMDatabase+InMemoryOnDiskIO.m in Sources */,
 				BDFC979117BE915F00F5278A /* FMDatabase.m in Sources */,
 				BDFC979517BE915F00F5278A /* FMDatabaseAdditions.m in Sources */,
@@ -3404,6 +3421,9 @@
 				BDFC99A517BE915F00F5278A /* MBPageStack.m in Sources */,
 				BDFC99A917BE915F00F5278A /* MBPanel.m in Sources */,
 				BDFC99AD17BE915F00F5278A /* MBTableViewController.m in Sources */,
+				BDEE9BB317C2217D0020BF1B /* UIViewController+Rotation.m in Sources */,
+				BDEE9BB917C23C8C0020BF1B /* UINavigationController+Rotation.m in Sources */,
+				BDEE9BBF17C23CC30020BF1B /* UITabBarController+Rotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3470,7 +3490,6 @@
 				BDFC977A17BE915F00F5278A /* MBFormSubmission.m in Sources */,
 				BDFC977E17BE915F00F5278A /* MBSplitViewController.m in Sources */,
 				BDFC978217BE915F00F5278A /* UINavigationController+MBRebuilder.m in Sources */,
-				BDFC978617BE915F00F5278A /* UINavigationController+Rotation.m in Sources */,
 				BDFC978A17BE915F00F5278A /* FMDatabase+InMemoryOnDiskIO.m in Sources */,
 				BDFC978E17BE915F00F5278A /* FMDatabase.m in Sources */,
 				BDFC979217BE915F00F5278A /* FMDatabaseAdditions.m in Sources */,
@@ -3596,6 +3615,9 @@
 				BDFC99A217BE915F00F5278A /* MBPageStack.m in Sources */,
 				BDFC99A617BE915F00F5278A /* MBPanel.m in Sources */,
 				BDFC99AA17BE915F00F5278A /* MBTableViewController.m in Sources */,
+				BDEE9BB017C2217D0020BF1B /* UIViewController+Rotation.m in Sources */,
+				BDEE9BB617C23C8C0020BF1B /* UINavigationController+Rotation.m in Sources */,
+				BDEE9BBC17C23CC30020BF1B /* UITabBarController+Rotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3663,7 +3685,6 @@
 				BDFC977B17BE915F00F5278A /* MBFormSubmission.m in Sources */,
 				BDFC977F17BE915F00F5278A /* MBSplitViewController.m in Sources */,
 				BDFC978317BE915F00F5278A /* UINavigationController+MBRebuilder.m in Sources */,
-				BDFC978717BE915F00F5278A /* UINavigationController+Rotation.m in Sources */,
 				BDFC978B17BE915F00F5278A /* FMDatabase+InMemoryOnDiskIO.m in Sources */,
 				BDFC978F17BE915F00F5278A /* FMDatabase.m in Sources */,
 				BDFC979317BE915F00F5278A /* FMDatabaseAdditions.m in Sources */,
@@ -3789,6 +3810,9 @@
 				BDFC99A317BE915F00F5278A /* MBPageStack.m in Sources */,
 				BDFC99A717BE915F00F5278A /* MBPanel.m in Sources */,
 				BDFC99AB17BE915F00F5278A /* MBTableViewController.m in Sources */,
+				BDEE9BB117C2217D0020BF1B /* UIViewController+Rotation.m in Sources */,
+				BDEE9BB717C23C8C0020BF1B /* UINavigationController+Rotation.m in Sources */,
+				BDEE9BBD17C23CC30020BF1B /* UITabBarController+Rotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3883,6 +3907,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -3904,6 +3930,8 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "Kitchen sink";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;

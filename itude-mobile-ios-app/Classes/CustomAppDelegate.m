@@ -78,11 +78,11 @@
 }
 
 - (void)startApplication:(MBApplicationFactory *)_applicationFactory {
-    // Start the application
-    [super startApplication:_applicationFactory];
-    
     // Example of how to set the orientationMask. Don't forget to update your plist as well. 
     //[[MBOrientationManager sharedInstance] setOrientationMask:UIInterfaceOrientationMaskLandscape];
+    
+    // Start the application
+    [super startApplication:_applicationFactory];
 }
 
 
