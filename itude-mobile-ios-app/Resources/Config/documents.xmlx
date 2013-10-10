@@ -10,6 +10,7 @@
                 <Element name="Outcome" minOccurs="1">
                     <Attribute name="action" type="string"/>
                     <Attribute name="dialog" type="string"/>
+                    <Attribute name="pageStack" type="string"/>
 				</Element>
 			</Document>		
             <Document name="MBGenericRequest" dataManager="MBMemoryDataHandler" autoCreate="TRUE">
