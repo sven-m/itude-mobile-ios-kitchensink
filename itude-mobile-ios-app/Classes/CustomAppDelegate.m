@@ -29,6 +29,7 @@
 #import "MBDevice.h"
 
 #import "MBFadeTransitionStyle.h"
+#import "MBArrowIconBackButtonBuilder.h"
 
 
 @implementation CustomAppDelegate
@@ -55,6 +56,8 @@
 //    [[[MBApplicationFactory sharedInstance] transitionStyleFactory] setDefaultTransition:transitionStyle];
 //    [transitionStyle release];
 
+    // Register a custom back button (a wish but disabled for now because of inconsistency and bugs).
+    //[[[MBViewBuilderFactory sharedInstance] backButtonBuilderFactory] setDefaultBuilder:[[MBArrowIconBackButtonBuilder new] autorelease]];
     
     // set the Custom datahandlers
     
