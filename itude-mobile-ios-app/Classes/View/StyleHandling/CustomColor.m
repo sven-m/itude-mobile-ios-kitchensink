@@ -19,7 +19,7 @@
 }
 
 + (UIColor *)customViewBackgroundColor {
-    return [UIColor colorWithRed:hexColorValueToFloat(255) green:hexColorValueToFloat(233) blue:hexColorValueToFloat(233) alpha:1.0];
+    return [UIColor colorWithRed:hexColorValueToFloat(233) green:hexColorValueToFloat(233) blue:hexColorValueToFloat(233) alpha:1.0];
 }
 
 @end

@@ -38,14 +38,30 @@
                     <Panel type="ROW" outcome="OUTCOME-field-types" >
                         <Field type="LABEL" label="Form fields"/>
                     </Panel>
-                    <Panel type="ROW"  outcome="OUTCOME-modal">
-                        <Field type="LABEL" label="Modal screen"/>
-                    </Panel>
                     <Panel type="ROW"  outcome="OUTCOME-lists">
                         <Field type="LABEL" label="List layout demo's"/>
                     </Panel>
                     <Panel type="ROW" outcome="OUTCOME-page-zoomable-text">
                         <Field type="LABEL" label="Zoomable text example"/>
+                    </Panel>
+                    <Panel type="ROW"  outcome="OUTCOME-modal">
+                        <Field type="LABEL" label="Modal screen"/>
+                    </Panel>
+                    <Panel type="ROW"  outcome="OUTCOME-modal-form-sheet">
+                        <Field type="LABEL" label="ModalFormSheet screen"/>
+                        <Field type="SUBLABEL" label="Will always appear fullScreen on iPhone. Only visually different on iPad."/>
+                    </Panel>
+                    <Panel type="ROW"  outcome="OUTCOME-modal-page-sheet">
+                        <Field type="LABEL" label="ModalPageSheet screen"/>
+                        <Field type="SUBLABEL" label="Will always appear fullScreen on iPhone. Only visually different on iPad."/>
+                    </Panel>
+                    <Panel type="ROW"  outcome="OUTCOME-modal-full-screen">
+                        <Field type="LABEL" label="ModalFullScreen screen"/>
+                        <Field type="SUBLABEL" label="Will always appear fullScreen on iPhone. Only visually different on iPad."/>
+                    </Panel>
+                    <Panel type="ROW"  outcome="OUTCOME-modal-current-context">
+                        <Field type="LABEL" label="ModalCurrentContext screen"/>
+                        <Field type="SUBLABEL" label="Will always appear fullScreen on iPhone. Only visually different on iPad."/>
                     </Panel>
                 </Panel>
                 <Panel type="SECTION" title="Customization">
