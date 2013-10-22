@@ -17,3 +17,6 @@ project.xcworkspace
 *.DS_Store
 *.swp
 *.out
+
+#build
+target

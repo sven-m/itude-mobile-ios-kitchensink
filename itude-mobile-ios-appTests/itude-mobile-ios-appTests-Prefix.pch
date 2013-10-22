@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'itude-mobile-ios-appTests' target in the 'itude-mobile-ios-appTests' project
-//
-
-#ifdef __OBJC__
-    #import <UIKit/UIKit.h>
-#endif

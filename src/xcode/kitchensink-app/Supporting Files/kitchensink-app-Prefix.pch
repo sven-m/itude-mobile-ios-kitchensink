@@ -1,0 +1,30 @@
+//
+// Prefix header for all source files of the 'itude-mobile-ios-app' target in the 'itude-mobile-ios-app' project
+// 
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#ifdef DEBUGMOBBL
+    //#import "itude-mobile-ios-core-headers.h"
+#endif
+
+#ifdef SIMULATOR
+    //#import <itude-mobile-iphone-core-i386/itude-mobile-ios-core-i386.h>
+#endif
+
+#ifdef TEST
+    //#import <itude-mobile-iphone-core-i386/itude-mobile-ios-core-i386.h>
+#endif
+
+#ifdef DEVICE
+    //#import <itude-mobile-iphone-core/itude-mobile-ios-core.h>
+#endif

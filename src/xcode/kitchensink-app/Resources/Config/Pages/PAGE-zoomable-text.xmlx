@@ -1,0 +1,11 @@
+<Configuration>
+    <View>
+       <Page name="PAGE-zoomable-text" document="FieldTypes" title="Zoomable text">
+            <Panel name="myPanel" type="LIST" zoomable="TRUE">
+                <Panel type="ROW" >
+                    <Field type="TEXT" label="By setting attribute zoomable to TRUE on a Panel of type LIST two buttons are added to the top right corner of the screen that allows the user to zoom any html text in a Field of type TEXT.&lt;br&gt;" />
+                </Panel>
+            </Panel>
+        </Page>
+    </View>
+</Configuration>
