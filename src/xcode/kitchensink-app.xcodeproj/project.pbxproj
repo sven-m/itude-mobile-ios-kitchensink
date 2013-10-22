@@ -235,6 +235,7 @@
 		BDFC953E17BE8D2900F5278A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD3D93717255019002C88E6 /* QuartzCore.framework */; };
 		BDFC953F17BE8D3500F5278A /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD3D9351725500E002C88E6 /* libsqlite3.0.dylib */; };
 		BDFC954117BE8D3700F5278A /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD3D9351725500E002C88E6 /* libsqlite3.0.dylib */; };
+		C79E82551816B3FD00FACE71 /* libmobbl-core-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C79E82541816B3FD00FACE71 /* libmobbl-core-lib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -337,6 +338,7 @@
 		BDEF12CE15E6AC0B0034C700 /* PAGE-plant-detail.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-plant-detail.xmlx"; path = "Pages/PAGE-plant-detail.xmlx"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xml; };
 		BDEF12E315E6AC1E0034C700 /* alerts.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = alerts.xmlx; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xml; };
 		BDFC953717BE8CF900F5278A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C79E82541816B3FD00FACE71 /* libmobbl-core-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmobbl-core-lib.a"; path = "../../target/libs/Release-iphonesimulator/com.itude.mobile.ios.mobbl/mobbl-core-lib/libmobbl-core-lib.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -358,6 +360,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C79E82551816B3FD00FACE71 /* libmobbl-core-lib.a in Frameworks */,
 				BDD3D93817255019002C88E6 /* QuartzCore.framework in Frameworks */,
 				BDFC953817BE8CF900F5278A /* AVFoundation.framework in Frameworks */,
 				BDD3D9361725500E002C88E6 /* libsqlite3.0.dylib in Frameworks */,
@@ -425,6 +428,7 @@
 		03F239B413C6FFFB00E9BD32 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C79E82541816B3FD00FACE71 /* libmobbl-core-lib.a */,
 				BDFC953717BE8CF900F5278A /* AVFoundation.framework */,
 				BDD3D9351725500E002C88E6 /* libsqlite3.0.dylib */,
 				03F0877813C7492B00A58AE7 /* SystemConfiguration.framework */,
@@ -760,6 +764,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Itude Mobile";
+				TargetAttributes = {
+					03F090D913C7550500A58AE7 = {
+						DevelopmentTeam = 6Q9GG32M8B;
+					};
+				};
 			};
 			buildConfigurationList = 03F239AB13C6FFFB00E9BD32 /* Build configuration list for PBXProject "kitchensink-app" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1083,7 +1092,7 @@
 					"\"$(SRCROOT)\"/**",
 				);
 				INFOPLIST_FILE = "kitchensink-app/Supporting Files/kitchensink-app-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-all_load",
@@ -1110,7 +1119,7 @@
 					"\"$(SRCROOT)\"/**",
 				);
 				INFOPLIST_FILE = "kitchensink-app/Supporting Files/kitchensink-app-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = (
 					"-licucore",
 					"-all_load",
@@ -1138,14 +1147,20 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/../../target/headers/${BUILD_STYLE}-${PLATFORM_NAME}/**",
 					"\\usr\\include/**",
 					"\"$(SRCROOT)\"/**",
 				);
 				INFOPLIST_FILE = "kitchensink-app/Supporting Files/kitchensink-app-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"${PROJECT_DIR}/../../target/libs/${BUILD_STYLE}-${PLATFORM_NAME}/**",
+					"$(inherited)",
+				);
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-all_load",
+					"-ObjC",
 				);
 				PRODUCT_NAME = "kitchensink-app";
 				PROVISIONING_PROFILE = "";
@@ -1160,6 +1175,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1169,15 +1185,21 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/../../target/headers/${BUILD_STYLE}-${PLATFORM_NAME}/**",
 					"\\usr\\include/**",
 					"\"$(SRCROOT)\"/**",
 				);
 				INFOPLIST_FILE = "kitchensink-app/Supporting Files/kitchensink-app-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"${PROJECT_DIR}/../../target/libs/${BUILD_STYLE}-${PLATFORM_NAME}/**",
+					"$(inherited)",
+				);
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-licucore",
 					"-all_load",
+					"-ObjC",
 				);
 				PRODUCT_NAME = "kitchensink-app";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1208,6 +1230,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\\usr\\include/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "/usr/local/include/**";
 				ONLY_ACTIVE_ARCH = YES;
 				"OTHER_CFLAGS[arch=*]" = "-DDEBUG";
 				OTHER_LDFLAGS = "-lz";
@@ -1236,6 +1259,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\\usr\\include/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "/usr/local/include/**";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-licucore";
 				PRODUCT_NAME = "Kitchen sink";
@@ -1321,6 +1345,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\\usr\\include/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "/usr/local/include/**";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-licucore";
 				PRODUCT_NAME = "Kitchen sink";
@@ -1376,7 +1401,7 @@
 					"\"$(SRCROOT)\"/**",
 				);
 				INFOPLIST_FILE = "kitchensink-app/Supporting Files/kitchensink-app-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = (
 					"-licucore",
 					"-all_load",
@@ -1391,7 +1416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1401,15 +1426,21 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/../../target/headers/${BUILD_STYLE}-${PLATFORM_NAME}/**",
 					"\\usr\\include/**",
 					"\"$(SRCROOT)\"/**",
 				);
 				INFOPLIST_FILE = "kitchensink-app/Supporting Files/kitchensink-app-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"${PROJECT_DIR}/../../target/libs/${BUILD_STYLE}-${PLATFORM_NAME}/**",
+					"$(inherited)",
+				);
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-licucore",
 					"-all_load",
+					"-ObjC",
 				);
 				PRODUCT_NAME = "kitchensink-app";
 				PROVISIONING_PROFILE = "";

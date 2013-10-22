@@ -61,14 +61,7 @@
 	        <version>1.13.0</version>
 	        <extensions>true</extensions>
 			<configuration>
-				<configurations>
-					<configuration>Release</configuration>
-				</configurations>
-				<sdks>
-					<sdk>iphonesimulator</sdk>
-		      	</sdks>
 				<skipVersionUpdate>true</skipVersionUpdate>
-				<target>kitchensink-app</target>
 			</configuration>
 	      </plugin>
 	    </plugins>
