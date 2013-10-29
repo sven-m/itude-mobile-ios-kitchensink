@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'itude-mobile-ios-app' target in the 'itude-mobile-ios-app' project
+// Prefix header for all source files of the 'kitchensink-app' target in the 'kitchensink-app' project
 // 
 
 #import <Availability.h>
@@ -18,13 +18,10 @@
 #endif
 
 #ifdef SIMULATOR
-    //#import <itude-mobile-iphone-core-i386/itude-mobile-ios-core-i386.h>
 #endif
 
 #ifdef TEST
-    //#import <itude-mobile-iphone-core-i386/itude-mobile-ios-core-i386.h>
 #endif
 
 #ifdef DEVICE
-    //#import <itude-mobile-iphone-core/itude-mobile-ios-core.h>
 #endif

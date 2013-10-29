@@ -34,12 +34,6 @@
 			 <version>${core.lib.version}</version>
 			<type>xcode-lib</type>
 		</dependency>
-		<!--dependency>
-			<groupId>com.apple.ios</groupId>
-			<artifactId>AssetsLibrary.framework</artifactId>
-			<version>${ios.version}</version>
-			<type>xcode-framework</type>
-		</dependency-->
 	</dependencies>
 	
 	<issueManagement>
@@ -54,13 +48,16 @@
 	</scm>
 
 	<build>
-	    <plugins>
+		<plugins>
 	      <plugin>
 	        <groupId>com.sap.prd.mobile.ios.mios</groupId>
 	        <artifactId>xcode-maven-plugin</artifactId>
 	        <version>1.13.0</version>
 	        <extensions>true</extensions>
 			<configuration>
+				<sdks>
+	            	<sdk>iphonesimulator</sdk>
+    	    	</sdks>
 				<skipVersionUpdate>true</skipVersionUpdate>
 			</configuration>
 	      </plugin>
@@ -70,6 +67,7 @@
 	  <properties>
         <ios.version>7.0</ios.version>
         <core.lib.version>0.0.1.0-SNAPSHOT</core.lib.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>  
 	  
 	  <repositories>
