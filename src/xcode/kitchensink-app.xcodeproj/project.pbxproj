@@ -81,8 +81,8 @@
 		C79AFA7D181EBCC100FA81E6 /* Tab_Info.png in Resources */ = {isa = PBXBuildFile; fileRef = BD0817D0146936B6006F0AA0 /* Tab_Info.png */; };
 		C79AFA7E181EBCC100FA81E6 /* Tab_Info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD0817D1146936B6006F0AA0 /* Tab_Info@2x.png */; };
 		C79AFA7F181EBCC100FA81E6 /* texts-nl.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BD0817D3146936B6006F0AA0 /* texts-nl.xmlx */; };
-		C7A1D7F0181E91AD00777CF9 /* libmobbl-core-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A1D7EF181E91AD00777CF9 /* libmobbl-core-lib.a */; };
 		C7A1D7F2181EA85800777CF9 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A1D7F1181EA85800777CF9 /* libz.1.2.5.dylib */; };
+		C7F9431C1821440F00DF0506 /* libmobbl-core-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F9431B1821440F00DF0506 /* libmobbl-core-lib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -183,8 +183,8 @@
 		BDEF12CE15E6AC0B0034C700 /* PAGE-plant-detail.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-plant-detail.xmlx"; path = "Pages/PAGE-plant-detail.xmlx"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xml; };
 		BDEF12E315E6AC1E0034C700 /* alerts.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = alerts.xmlx; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xml; };
 		BDFC953717BE8CF900F5278A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		C7A1D7EF181E91AD00777CF9 /* libmobbl-core-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmobbl-core-lib.a"; path = "../../target/libs/Debug-iphonesimulator/com.itude.mobile.ios.mobbl/mobbl-core-lib/libmobbl-core-lib.a"; sourceTree = "<group>"; };
 		C7A1D7F1181EA85800777CF9 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		C7F9431B1821440F00DF0506 /* libmobbl-core-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmobbl-core-lib.a"; path = "../../target/libs/Debug-iphonesimulator/com.itude.mobile.ios.mobbl/mobbl-core-lib/libmobbl-core-lib.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,8 +192,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7F9431C1821440F00DF0506 /* libmobbl-core-lib.a in Frameworks */,
 				C7A1D7F2181EA85800777CF9 /* libz.1.2.5.dylib in Frameworks */,
-				C7A1D7F0181E91AD00777CF9 /* libmobbl-core-lib.a in Frameworks */,
 				03F0877913C7492B00A58AE7 /* SystemConfiguration.framework in Frameworks */,
 				036F804F13C700D40082D901 /* UIKit.framework in Frameworks */,
 				036F805013C700D40082D901 /* Foundation.framework in Frameworks */,
@@ -245,8 +245,8 @@
 		03F239B413C6FFFB00E9BD32 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C7F9431B1821440F00DF0506 /* libmobbl-core-lib.a */,
 				C7A1D7F1181EA85800777CF9 /* libz.1.2.5.dylib */,
-				C7A1D7EF181E91AD00777CF9 /* libmobbl-core-lib.a */,
 				BDFC953717BE8CF900F5278A /* AVFoundation.framework */,
 				BDD3D9351725500E002C88E6 /* libsqlite3.0.dylib */,
 				03F0877813C7492B00A58AE7 /* SystemConfiguration.framework */,
@@ -705,6 +705,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
 					"/usr/local/include/**",
+					"/Users/Wiebe/Documents/workspaceJuno2/ItudeMobile/IOS/itude-mobile-ios-kitchensink/target/libs/Debug-iphonesimulator/com.itude.mobile.ios.mobbl/mobbl-core-lib",
 				);
 				OTHER_LDFLAGS = (
 					"-lz",
@@ -738,6 +739,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
 					"/usr/local/include/**",
+					"/Users/Wiebe/Documents/workspaceJuno2/ItudeMobile/IOS/itude-mobile-ios-kitchensink/target/libs/Debug-iphonesimulator/com.itude.mobile.ios.mobbl/mobbl-core-lib",
 				);
 				OTHER_LDFLAGS = (
 					"-licucore",
@@ -859,6 +861,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
 					"/usr/local/include/**",
+					"/Users/Wiebe/Documents/workspaceJuno2/ItudeMobile/IOS/itude-mobile-ios-kitchensink/target/libs/Debug-iphonesimulator/com.itude.mobile.ios.mobbl/mobbl-core-lib",
 				);
 				OTHER_LDFLAGS = (
 					"-licucore",
