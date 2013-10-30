@@ -705,7 +705,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
 					"/usr/local/include/**",
-					"/Users/Wiebe/Documents/workspaceJuno2/ItudeMobile/IOS/itude-mobile-ios-kitchensink/target/libs/Debug-iphonesimulator/com.itude.mobile.ios.mobbl/mobbl-core-lib",
 				);
 				OTHER_LDFLAGS = (
 					"-lz",
@@ -739,7 +738,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
 					"/usr/local/include/**",
-					"/Users/Wiebe/Documents/workspaceJuno2/ItudeMobile/IOS/itude-mobile-ios-kitchensink/target/libs/Debug-iphonesimulator/com.itude.mobile.ios.mobbl/mobbl-core-lib",
 				);
 				OTHER_LDFLAGS = (
 					"-licucore",
@@ -861,7 +859,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
 					"/usr/local/include/**",
-					"/Users/Wiebe/Documents/workspaceJuno2/ItudeMobile/IOS/itude-mobile-ios-kitchensink/target/libs/Debug-iphonesimulator/com.itude.mobile.ios.mobbl/mobbl-core-lib",
 				);
 				OTHER_LDFLAGS = (
 					"-licucore",
