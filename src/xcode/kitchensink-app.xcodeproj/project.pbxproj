@@ -698,7 +698,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"${PROJECT_DIR}/../../target/headers/${BUILD_STYLE}-${PLATFORM_NAME}/**",
-					"$(SRCROOT)/**",
+					"\"$(SRCROOT)\"",
 				);
 				INFOPLIST_FILE = "kitchensink-app/Supporting Files/kitchensink-app-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -732,8 +732,8 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					"${PROJECT_DIR}/../../target/headers/${BUILD_STYLE}-${PLATFORM_NAME}/**",
-					"$(SRCROOT)/**",
+					"${PROJECT_DIR}/../../target/headers/${BUILD_STYLE}-${PLATFORM_NAME}",
+					"\"$(SRCROOT)\"",
 				);
 				INFOPLIST_FILE = "kitchensink-app/Supporting Files/kitchensink-app-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -855,8 +855,8 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					"${PROJECT_DIR}/../../target/headers/${BUILD_STYLE}-${PLATFORM_NAME}/**",
-					"$(SRCROOT)/**",
+					"${PROJECT_DIR}/../../target/headers/${BUILD_STYLE}-${PLATFORM_NAME}",
+					"\"$(SRCROOT)\"",
 				);
 				INFOPLIST_FILE = "kitchensink-app/Supporting Files/kitchensink-app-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
