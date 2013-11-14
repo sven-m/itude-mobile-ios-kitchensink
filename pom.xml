@@ -55,9 +55,7 @@
 	        <version>1.13.0</version>
 	        <extensions>true</extensions>
 			<configuration>
-				<sdks>
-	            	<sdk>iphonesimulator</sdk>
-    	    	</sdks>
+				<preferFatLibs>true</preferFatLibs>
 				<skipVersionUpdate>true</skipVersionUpdate>
 			</configuration>
 	      </plugin>

@@ -32,6 +32,7 @@
 		BDFC953917BE8D0D00F5278A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFC953717BE8CF900F5278A /* AVFoundation.framework */; };
 		BDFC953C17BE8D2700F5278A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD3D93717255019002C88E6 /* QuartzCore.framework */; };
 		BDFC953F17BE8D3500F5278A /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD3D9351725500E002C88E6 /* libsqlite3.0.dylib */; };
+		C77B30AB1834DDBD00759F2F /* libmobbl-core-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C77B30AA1834DDBD00759F2F /* libmobbl-core-lib.a */; };
 		C79AFA4F181EBCC100FA81E6 /* PAGE-zoomable-text.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BD798200170B215600B446E1 /* PAGE-zoomable-text.xmlx */; };
 		C79AFA50181EBCC100FA81E6 /* PAGE-catalog.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEF12CA15E6AC0A0034C700 /* PAGE-catalog.xmlx */; };
 		C79AFA51181EBCC100FA81E6 /* PAGE-field-types.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEF12CB15E6AC0B0034C700 /* PAGE-field-types.xmlx */; };
@@ -82,7 +83,6 @@
 		C79AFA7E181EBCC100FA81E6 /* Tab_Info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD0817D1146936B6006F0AA0 /* Tab_Info@2x.png */; };
 		C79AFA7F181EBCC100FA81E6 /* texts-nl.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BD0817D3146936B6006F0AA0 /* texts-nl.xmlx */; };
 		C7A1D7F2181EA85800777CF9 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A1D7F1181EA85800777CF9 /* libz.1.2.5.dylib */; };
-		C7F9432018214B8000DF0506 /* libmobbl-core-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F9431F18214B8000DF0506 /* libmobbl-core-lib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -183,6 +183,8 @@
 		BDEF12CE15E6AC0B0034C700 /* PAGE-plant-detail.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "PAGE-plant-detail.xmlx"; path = "Pages/PAGE-plant-detail.xmlx"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xml; };
 		BDEF12E315E6AC1E0034C700 /* alerts.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = alerts.xmlx; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xml; };
 		BDFC953717BE8CF900F5278A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C77B30A81834D96E00759F2F /* libmobbl-core-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmobbl-core-lib.a"; path = "../../target/libs/Release-iphoneos/com.itude.mobile.ios.mobbl/mobbl-core-lib/libmobbl-core-lib.a"; sourceTree = "<group>"; };
+		C77B30AA1834DDBD00759F2F /* libmobbl-core-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmobbl-core-lib.a"; path = "../../target/libs/Debug-iphoneos/com.itude.mobile.ios.mobbl/mobbl-core-lib/libmobbl-core-lib.a"; sourceTree = "<group>"; };
 		C7A1D7F1181EA85800777CF9 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
 		C7F9431F18214B8000DF0506 /* libmobbl-core-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmobbl-core-lib.a"; path = "../../target/libs/Debug-iphonesimulator/com.itude.mobile.ios.mobbl/mobbl-core-lib/libmobbl-core-lib.a"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -192,7 +194,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7F9432018214B8000DF0506 /* libmobbl-core-lib.a in Frameworks */,
+				C77B30AB1834DDBD00759F2F /* libmobbl-core-lib.a in Frameworks */,
 				C7A1D7F2181EA85800777CF9 /* libz.1.2.5.dylib in Frameworks */,
 				03F0877913C7492B00A58AE7 /* SystemConfiguration.framework in Frameworks */,
 				036F804F13C700D40082D901 /* UIKit.framework in Frameworks */,
@@ -245,6 +247,8 @@
 		03F239B413C6FFFB00E9BD32 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C77B30AA1834DDBD00759F2F /* libmobbl-core-lib.a */,
+				C77B30A81834D96E00759F2F /* libmobbl-core-lib.a */,
 				C7F9431F18214B8000DF0506 /* libmobbl-core-lib.a */,
 				C7A1D7F1181EA85800777CF9 /* libz.1.2.5.dylib */,
 				BDFC953717BE8CF900F5278A /* AVFoundation.framework */,
@@ -700,17 +704,17 @@
 					"${PROJECT_DIR}/../../target/headers/${BUILD_STYLE}-${PLATFORM_NAME}/**",
 					"\"$(SRCROOT)\"",
 				);
-				INFOPLIST_FILE = "kitchensink-app/Supporting Files/kitchensink-app-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/kitchensink-app/Supporting Files/kitchensink-app-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
 					"/usr/local/include/**",
 					"${PROJECT_DIR}/../../target/libs/${BUILD_STYLE}-${PLATFORM_NAME}/com.itude.mobile.ios.mobbl/mobbl-core-lib",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-all_load",
-					"-ObjC",
 				);
 				PRODUCT_NAME = "kitchensink-app";
 				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
@@ -732,20 +736,20 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					"${PROJECT_DIR}/../../target/headers/${BUILD_STYLE}-${PLATFORM_NAME}",
+					"${PROJECT_DIR}/../../target/headers/${BUILD_STYLE}-${PLATFORM_NAME}/**",
 					"\"$(SRCROOT)\"",
 				);
-				INFOPLIST_FILE = "kitchensink-app/Supporting Files/kitchensink-app-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/kitchensink-app/Supporting Files/kitchensink-app-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
 					"/usr/local/include/**",
 					"${PROJECT_DIR}/../../target/libs/${BUILD_STYLE}-${PLATFORM_NAME}/com.itude.mobile.ios.mobbl/mobbl-core-lib",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-licucore",
 					"-all_load",
-					"-ObjC",
 				);
 				PRODUCT_NAME = "kitchensink-app";
 				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
@@ -855,20 +859,20 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					"${PROJECT_DIR}/../../target/headers/${BUILD_STYLE}-${PLATFORM_NAME}",
+					"${PROJECT_DIR}/../../target/headers/${BUILD_STYLE}-${PLATFORM_NAME}/**",
 					"\"$(SRCROOT)\"",
 				);
-				INFOPLIST_FILE = "kitchensink-app/Supporting Files/kitchensink-app-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/kitchensink-app/Supporting Files/kitchensink-app-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
 					"/usr/local/include/**",
 					"${PROJECT_DIR}/../../target/libs/${BUILD_STYLE}-${PLATFORM_NAME}/com.itude.mobile.ios.mobbl/mobbl-core-lib",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-licucore",
 					"-all_load",
-					"-ObjC",
 				);
 				PRODUCT_NAME = "kitchensink-app";
 				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
