@@ -16,14 +16,15 @@
 
 #import "CustomizedViewLogic.h"
 #import "MBPage.h"
+#import "MBDataManagerService.h"
 
 @implementation CustomizedViewLogic 
 
 -(void)viewDidLoad {
     [super viewDidLoad];
     [self rebuildView]; // create View out of page definition
-    [self.page registerValueChangeListener:self forPath:@"/Form[0]/@gender"];
-    [self.page registerOutcomeListener:self];
+						//[self.page registerValueChangeListener:self forPath:@"/Form[0]/@gender"];
+	    [self registerOutcomeListener:self];
 }
 
 // MBValueChangeListener methods
@@ -41,9 +42,22 @@
 
 // MBOutcomeListener methods. N.B. Outcomes are still handled by the ApplicationController
 - (void) outcomeProduced:(MBOutcome*) outcome{
-    UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Outcome name" message:outcome.description delegate:nil cancelButtonTitle:@"Done!" otherButtonTitles:nil, nil] autorelease];
-    [alert show];   
+	if ([outcome.outcomeName isEqualToString:@"LOCAL-OUTCOME1"]) {
+		MBDocument *doc = [[MBDataManagerService sharedInstance] loadDocument:@"OutcomeListenDoc"];
+		[doc setValue:@"Before" forPath:@"/Message[0]/@content"];
+
+		outcome.document = doc;
+
+		UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Outcome started!" message:[outcome.document valueForPath:@"/Message[0]/@content"] delegate:nil cancelButtonTitle:@"Done!" otherButtonTitles:nil, nil] autorelease];
+		[alert show];
+	}
 }
 
+-(void)outcomeHandled:(MBOutcome *)outcome {
+	if ([outcome.outcomeName isEqualToString:@"LOCAL-OUTCOME1"]) {
+		UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Outcome handled!" message:[outcome.document valueForPath:@"/Message[0]/@content"] delegate:nil cancelButtonTitle:@"Done!" otherButtonTitles:nil, nil] autorelease];
+		[alert show];
+	}
+}
 
 @end

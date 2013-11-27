@@ -23,6 +23,7 @@
     <View>	
         <Dialogs>
             <Include name="dialogs"/>
+            <Include name="dialogs_mobbl"/>
         </Dialogs>
 		<Include name="pages"/>
         <Alerts>

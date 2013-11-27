@@ -6,6 +6,7 @@
 			<Action name="FireInitialOutcomes" className="FireInitialOutcomes"/>
             <Action name="CustomAction" className="CustomAction"/>
             <Action name="ExceptionExampleAction" className="ExceptionExampleAction"/>
+			<Action name="ListenTestAction" className="ListenTestAction"/>
 		</Actions>
 	</Controller>
 </Configuration>
