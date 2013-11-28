@@ -83,6 +83,8 @@
 		C79AFA7E181EBCC100FA81E6 /* Tab_Info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD0817D1146936B6006F0AA0 /* Tab_Info@2x.png */; };
 		C79AFA7F181EBCC100FA81E6 /* texts-nl.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BD0817D3146936B6006F0AA0 /* texts-nl.xmlx */; };
 		C7A1D7F2181EA85800777CF9 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A1D7F1181EA85800777CF9 /* libz.1.2.5.dylib */; };
+		E21890C81846536E00DD5AD4 /* ListenTestAction.m in Sources */ = {isa = PBXBuildFile; fileRef = E21890C71846536E00DD5AD4 /* ListenTestAction.m */; };
+		E21895F01846574000DD5AD4 /* MBMenuDialogDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E21895EF1846574000DD5AD4 /* MBMenuDialogDecorator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -187,6 +189,10 @@
 		C77B30AA1834DDBD00759F2F /* libmobbl-core-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmobbl-core-lib.a"; path = "../../target/libs/Debug-iphoneos/com.itude.mobile.ios.mobbl/mobbl-core-lib/libmobbl-core-lib.a"; sourceTree = "<group>"; };
 		C7A1D7F1181EA85800777CF9 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
 		C7F9431F18214B8000DF0506 /* libmobbl-core-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmobbl-core-lib.a"; path = "../../target/libs/Debug-iphonesimulator/com.itude.mobile.ios.mobbl/mobbl-core-lib/libmobbl-core-lib.a"; sourceTree = SOURCE_ROOT; };
+		E21890C61846536E00DD5AD4 /* ListenTestAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListenTestAction.h; sourceTree = "<group>"; };
+		E21890C71846536E00DD5AD4 /* ListenTestAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListenTestAction.m; sourceTree = "<group>"; };
+		E21895EE1846574000DD5AD4 /* MBMenuDialogDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBMenuDialogDecorator.h; sourceTree = "<group>"; };
+		E21895EF1846574000DD5AD4 /* MBMenuDialogDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBMenuDialogDecorator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -291,6 +297,8 @@
 		BD081780146936B6006F0AA0 /* Actions */ = {
 			isa = PBXGroup;
 			children = (
+				E21890C61846536E00DD5AD4 /* ListenTestAction.h */,
+				E21890C71846536E00DD5AD4 /* ListenTestAction.m */,
 				BD081781146936B6006F0AA0 /* FireInitialOutcomes.h */,
 				BD081782146936B6006F0AA0 /* FireInitialOutcomes.m */,
 				BD081783146936B6006F0AA0 /* GenericAction.h */,
@@ -353,6 +361,8 @@
 		BD081795146936B6006F0AA0 /* Builders */ = {
 			isa = PBXGroup;
 			children = (
+				E21895EE1846574000DD5AD4 /* MBMenuDialogDecorator.h */,
+				E21895EF1846574000DD5AD4 /* MBMenuDialogDecorator.m */,
 				3481234ED29B6C9AB028209C /* CustomRowViewBuilder.h */,
 				3481256D97DF65AB2C5F7FD4 /* CustomRowViewBuilder.m */,
 			);
@@ -656,6 +666,7 @@
 				BD0817E5146936B6006F0AA0 /* CustomTemporaryAction.m in Sources */,
 				BD0817E9146936B6006F0AA0 /* CustomAppDelegate.m in Sources */,
 				BD0817ED146936B6006F0AA0 /* CustomApplicationFactory.m in Sources */,
+				E21895F01846574000DD5AD4 /* MBMenuDialogDecorator.m in Sources */,
 				BD0817F1146936B6006F0AA0 /* CustomSoapServiceDataHandler.m in Sources */,
 				BD0817F5146936B6006F0AA0 /* NSDateUtilities.m in Sources */,
 				BD081809146936B6006F0AA0 /* CustomColor.m in Sources */,
@@ -666,6 +677,7 @@
 				00CB68F615D152CF004F3697 /* ExceptionExampleAction.m in Sources */,
 				00CB69A515D28D72004F3697 /* CustomizedLayout.m in Sources */,
 				00CB69AB15D28D90004F3697 /* CustomizedList.m in Sources */,
+				E21890C81846536E00DD5AD4 /* ListenTestAction.m in Sources */,
 				00CB69B115D28DBF004F3697 /* CustomizedViewLogic.m in Sources */,
 				00CB69B815D28DF7004F3697 /* PageWithXibFileViewController.m in Sources */,
 				34812492226535E995B4E7A2 /* CustomRowViewBuilder.m in Sources */,
@@ -705,7 +717,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/kitchensink-app/Supporting Files/kitchensink-app-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
 					"/usr/local/include/**",
@@ -740,7 +752,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/kitchensink-app/Supporting Files/kitchensink-app-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
 					"/usr/local/include/**",
@@ -863,7 +875,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/kitchensink-app/Supporting Files/kitchensink-app-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
 					"/usr/local/include/**",

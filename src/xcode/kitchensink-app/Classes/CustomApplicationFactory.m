@@ -30,6 +30,9 @@
 #import "ExceptionExampleAction.h"
 #import "CustomAction.h"
 
+// Content view wrappers
+#import "MBSlidingMenuContentViewWrapper.h"
+
 @implementation CustomApplicationFactory
 
 -(id<MBResultListener>) createResultListener:(NSString *)listenerClassName {
@@ -69,5 +72,8 @@
     return [super createPage:definition document:document rootPath:rootPath viewState: viewState withMaxBounds: bounds];
 }
 
+-(id<MBContentViewWrapper>)createContentViewWrapper {
+	return [[[MBSlidingMenuContentViewWrapper alloc] init] autorelease];
+}
 
 @end

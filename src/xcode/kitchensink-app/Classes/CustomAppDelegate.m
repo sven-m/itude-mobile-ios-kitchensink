@@ -39,6 +39,7 @@
 #import "MBFadeTransitionStyle.h"
 #import "MBArrowIconBackButtonBuilder.h"
 
+#import "MBMenuDialogDecorator.h"
 
 @implementation CustomAppDelegate
 
@@ -66,6 +67,8 @@
 
     // Register a custom back button (a wish but disabled for now because of inconsistency and bugs).
     //[[[MBViewBuilderFactory sharedInstance] backButtonBuilderFactory] setDefaultBuilder:[[MBArrowIconBackButtonBuilder new] autorelease]];
+
+	[[[MBViewBuilderFactory sharedInstance]dialogDecoratorFactory] registerDialogDecorationBuilder:[[[MBMenuDialogDecorator alloc]init] autorelease] forType: @"MENU"];
     
     // set the Custom datahandlers
     

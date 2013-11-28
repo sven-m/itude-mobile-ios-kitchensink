@@ -71,6 +71,9 @@
             
             <Outcome origin="*" name="OUTCOME-throw-exception" action="ExceptionExampleAction" noBackgroundProcessing="TRUE" />
 
+			<!-- outcome listeners -->
+			<Outcome origin="PAGE-customized-view-logic" name="LOCAL-OUTCOME1" action="ListenTestAction" />
+
         </Wiring>
     </Controller>
 </Configuration>

@@ -26,8 +26,13 @@
                     </Element>
                 </Element>
             </Document>
-            
-            
+			
+			<Document name="OutcomeListenDoc" dataManager="MBMemoryDataHandler" autoCreate="TRUE">
+				<Element name="Message" minOccurs="1">
+					<Attribute name="content" type="string" />
+				</Element>
+            </Document>
+
             <Document name="ApplicationState" dataManager="MBFileDataHandler" autoCreate="TRUE">
                 <Element name="Device" minOccurs="1">
                     <Attribute name="deviceID" type="string" defaultValue=""/>
