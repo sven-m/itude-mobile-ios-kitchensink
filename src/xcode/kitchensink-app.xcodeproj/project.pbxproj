@@ -32,7 +32,6 @@
 		BDFC953917BE8D0D00F5278A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFC953717BE8CF900F5278A /* AVFoundation.framework */; };
 		BDFC953C17BE8D2700F5278A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD3D93717255019002C88E6 /* QuartzCore.framework */; };
 		BDFC953F17BE8D3500F5278A /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD3D9351725500E002C88E6 /* libsqlite3.0.dylib */; };
-		C77B30AB1834DDBD00759F2F /* libmobbl-core-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C77B30AA1834DDBD00759F2F /* libmobbl-core-lib.a */; };
 		C79AFA4F181EBCC100FA81E6 /* PAGE-zoomable-text.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BD798200170B215600B446E1 /* PAGE-zoomable-text.xmlx */; };
 		C79AFA50181EBCC100FA81E6 /* PAGE-catalog.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEF12CA15E6AC0A0034C700 /* PAGE-catalog.xmlx */; };
 		C79AFA51181EBCC100FA81E6 /* PAGE-field-types.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BDEF12CB15E6AC0B0034C700 /* PAGE-field-types.xmlx */; };
@@ -83,6 +82,8 @@
 		C79AFA7E181EBCC100FA81E6 /* Tab_Info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD0817D1146936B6006F0AA0 /* Tab_Info@2x.png */; };
 		C79AFA7F181EBCC100FA81E6 /* texts-nl.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = BD0817D3146936B6006F0AA0 /* texts-nl.xmlx */; };
 		C7A1D7F2181EA85800777CF9 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A1D7F1181EA85800777CF9 /* libz.1.2.5.dylib */; };
+		C7C6B7A918479E8D00EE2357 /* dialogs_mobbl.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = C7C6B7A818479E8D00EE2357 /* dialogs_mobbl.xmlx */; };
+		C7C6B7AB1847A01E00EE2357 /* libmobbl-core-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C6B7AA1847A01E00EE2357 /* libmobbl-core-lib.a */; };
 		E21890C81846536E00DD5AD4 /* ListenTestAction.m in Sources */ = {isa = PBXBuildFile; fileRef = E21890C71846536E00DD5AD4 /* ListenTestAction.m */; };
 		E21895F01846574000DD5AD4 /* MBMenuDialogDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E21895EF1846574000DD5AD4 /* MBMenuDialogDecorator.m */; };
 /* End PBXBuildFile section */
@@ -188,6 +189,8 @@
 		C77B30A81834D96E00759F2F /* libmobbl-core-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmobbl-core-lib.a"; path = "../../target/libs/Release-iphoneos/com.itude.mobile.ios.mobbl/mobbl-core-lib/libmobbl-core-lib.a"; sourceTree = "<group>"; };
 		C77B30AA1834DDBD00759F2F /* libmobbl-core-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmobbl-core-lib.a"; path = "../../target/libs/Debug-iphoneos/com.itude.mobile.ios.mobbl/mobbl-core-lib/libmobbl-core-lib.a"; sourceTree = "<group>"; };
 		C7A1D7F1181EA85800777CF9 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		C7C6B7A818479E8D00EE2357 /* dialogs_mobbl.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dialogs_mobbl.xmlx; sourceTree = "<group>"; };
+		C7C6B7AA1847A01E00EE2357 /* libmobbl-core-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmobbl-core-lib.a"; path = "../../target/xcode-deps/libs/Debug/com.itude.mobile.ios.mobbl/mobbl-core-lib/libmobbl-core-lib.a"; sourceTree = "<group>"; };
 		C7F9431F18214B8000DF0506 /* libmobbl-core-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmobbl-core-lib.a"; path = "../../target/libs/Debug-iphonesimulator/com.itude.mobile.ios.mobbl/mobbl-core-lib/libmobbl-core-lib.a"; sourceTree = SOURCE_ROOT; };
 		E21890C61846536E00DD5AD4 /* ListenTestAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListenTestAction.h; sourceTree = "<group>"; };
 		E21890C71846536E00DD5AD4 /* ListenTestAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListenTestAction.m; sourceTree = "<group>"; };
@@ -200,7 +203,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C77B30AB1834DDBD00759F2F /* libmobbl-core-lib.a in Frameworks */,
+				C7C6B7AB1847A01E00EE2357 /* libmobbl-core-lib.a in Frameworks */,
 				C7A1D7F2181EA85800777CF9 /* libz.1.2.5.dylib in Frameworks */,
 				03F0877913C7492B00A58AE7 /* SystemConfiguration.framework in Frameworks */,
 				036F804F13C700D40082D901 /* UIKit.framework in Frameworks */,
@@ -253,6 +256,7 @@
 		03F239B413C6FFFB00E9BD32 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C7C6B7AA1847A01E00EE2357 /* libmobbl-core-lib.a */,
 				C77B30AA1834DDBD00759F2F /* libmobbl-core-lib.a */,
 				C77B30A81834D96E00759F2F /* libmobbl-core-lib.a */,
 				C7F9431F18214B8000DF0506 /* libmobbl-core-lib.a */,
@@ -419,6 +423,7 @@
 		BD0817A8146936B6006F0AA0 /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				C7C6B7A818479E8D00EE2357 /* dialogs_mobbl.xmlx */,
 				00CB699A15D28BEF004F3697 /* Pages */,
 				BD0817A9146936B6006F0AA0 /* actions.xmlx */,
 				BD0817AA146936B6006F0AA0 /* config.xmlx */,
@@ -635,6 +640,7 @@
 				C79AFA6D181EBCC100FA81E6 /* Background-default@2x.png in Resources */,
 				C79AFA6E181EBCC100FA81E6 /* LaunchImage-568h@2x.png in Resources */,
 				C79AFA6F181EBCC100FA81E6 /* LaunchImage.png in Resources */,
+				C7C6B7A918479E8D00EE2357 /* dialogs_mobbl.xmlx in Resources */,
 				C79AFA70181EBCC100FA81E6 /* LaunchImage@2x.png in Resources */,
 				C79AFA71181EBCC100FA81E6 /* Icon_Tab_calendar.png in Resources */,
 				C79AFA72181EBCC100FA81E6 /* Icon_Tab_calendar@2x.png in Resources */,
@@ -722,6 +728,7 @@
 					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
 					"/usr/local/include/**",
 					"${PROJECT_DIR}/../../target/libs/${BUILD_STYLE}-${PLATFORM_NAME}/com.itude.mobile.ios.mobbl/mobbl-core-lib",
+					"/Users/Wiebe/Documents/workspaceJuno2/ItudeMobile/IOS/itude-mobile-ios-kitchensink/target/xcode-deps/libs/Debug/com.itude.mobile.ios.mobbl/mobbl-core-lib",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
@@ -757,6 +764,7 @@
 					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
 					"/usr/local/include/**",
 					"${PROJECT_DIR}/../../target/libs/${BUILD_STYLE}-${PLATFORM_NAME}/com.itude.mobile.ios.mobbl/mobbl-core-lib",
+					"/Users/Wiebe/Documents/workspaceJuno2/ItudeMobile/IOS/itude-mobile-ios-kitchensink/target/xcode-deps/libs/Debug/com.itude.mobile.ios.mobbl/mobbl-core-lib",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
@@ -778,9 +786,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
+					"${PROJECT_DIR}/../../target/headers/${BUILD_STYLE}-${PLATFORM_NAME}/**",
 					"\"$(SRCROOT)\"",
-					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
-					"\"$(inherited)\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = s;
@@ -790,8 +797,12 @@
 				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "\\usr\\include/**";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
+					"/usr/local/include/**",
+					"${PROJECT_DIR}/../../target/libs/${BUILD_STYLE}-${PLATFORM_NAME}/com.itude.mobile.ios.mobbl/mobbl-core-lib",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "/usr/local/include/**";
 				ONLY_ACTIVE_ARCH = YES;
 				"OTHER_CFLAGS[arch=*]" = "-DDEBUG";
@@ -810,17 +821,20 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
+					"${PROJECT_DIR}/../../target/headers/${BUILD_STYLE}-${PLATFORM_NAME}/**",
 					"\"$(SRCROOT)\"",
-					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
-					"\"$(inherited)\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "\\usr\\include/**";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
+					"/usr/local/include/**",
+					"${PROJECT_DIR}/../../target/libs/${BUILD_STYLE}-${PLATFORM_NAME}/com.itude.mobile.ios.mobbl/mobbl-core-lib",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "/usr/local/include/**";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-licucore";
@@ -837,17 +851,20 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				FRAMEWORK_SEARCH_PATHS = (
+					"${PROJECT_DIR}/../../target/headers/${BUILD_STYLE}-${PLATFORM_NAME}/**",
 					"\"$(SRCROOT)\"",
-					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
-					"\"$(inherited)\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "\\usr\\include/**";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
+					"/usr/local/include/**",
+					"${PROJECT_DIR}/../../target/libs/${BUILD_STYLE}-${PLATFORM_NAME}/com.itude.mobile.ios.mobbl/mobbl-core-lib",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "/usr/local/include/**";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-licucore";
@@ -880,6 +897,7 @@
 					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
 					"/usr/local/include/**",
 					"${PROJECT_DIR}/../../target/libs/${BUILD_STYLE}-${PLATFORM_NAME}/com.itude.mobile.ios.mobbl/mobbl-core-lib",
+					"/Users/Wiebe/Documents/workspaceJuno2/ItudeMobile/IOS/itude-mobile-ios-kitchensink/target/xcode-deps/libs/Debug/com.itude.mobile.ios.mobbl/mobbl-core-lib",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
