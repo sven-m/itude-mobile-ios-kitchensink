@@ -67,7 +67,7 @@
 	  
 	  <properties>
         <ios.version>7.0</ios.version>
-        <core.lib.version>0.0.1.2</core.lib.version>
+        <core.lib.version>0.0.1.3</core.lib.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>  
 	  
