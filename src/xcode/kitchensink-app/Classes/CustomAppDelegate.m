@@ -20,8 +20,8 @@
 #import "CustomApplicationFactory.h"
 #import "CustomStyleHandler.h"
 #import "CustomStyleConstants.h"
-#import "CustomSoapServiceDataHandler.h"
 #import "CustomRowViewBuilder.h"
+#import "PlantDataService.h"
 
 // Framework imports
 #import "MBCacheManager.h"
@@ -76,7 +76,7 @@
     [[MBViewBuilderFactory sharedInstance] setStyleHandler:[[CustomStyleHandler new] autorelease]];
 	
 	// set the Custom datahandlers
-	[[MBDataManagerService sharedInstance] registerDataHandler:[[CustomSoapServiceDataHandler new] autorelease] withName:@"CustomSoapServiceDataHandler"];
+    [[MBDataManagerService sharedInstance] registerDataHandler:[[PlantDataService new] autorelease] withName:@"PlantDataHandler"];
     
 	// Delete any cached documents at startup
 	[MBCacheManager expireAllDocuments];
