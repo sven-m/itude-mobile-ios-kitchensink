@@ -43,7 +43,7 @@
 
             <!-- App specific documents -->
 
-            <Document name="CATALOG" dataManager="MBFileDataHandler">
+            <Document name="CATALOG" dataManager="PlantDataHandler">
                 <Element name="PLANT">
                     <Element name="COMMON">
                         <Attribute name="text()" type="string" />
