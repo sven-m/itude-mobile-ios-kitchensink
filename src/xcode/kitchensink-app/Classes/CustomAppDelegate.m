@@ -23,19 +23,6 @@
 #import "CustomRowViewBuilder.h"
 #import "PlantDataService.h"
 
-// Framework imports
-#import "MBCacheManager.h"
-#import "MBDataManagerService.h"
-#import "MBViewBuilderFactory.h"
-#import "MBCacheManager.h"
-#import "MBConfigurationDefinition.h"
-#import "MBDeviceType.h"
-#import "UncaughtExceptionHandler.h"
-#import "MBMacros.h"
-#import "MBRowViewBuilderFactory.h"
-#import "MBOrientationManager.h"
-#import "MBDevice.h"
-
 #import "MBFadeTransitionStyle.h"
 #import "MBArrowIconBackButtonBuilder.h"
 

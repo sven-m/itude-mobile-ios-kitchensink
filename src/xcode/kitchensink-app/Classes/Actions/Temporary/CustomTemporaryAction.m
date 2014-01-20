@@ -16,11 +16,6 @@
 
 #import "CustomTemporaryAction.h"
 
-#import "MBOutcome.h"
-#import "MBDocument.h"
-#import "MBDataManagerService.h"
-#import "MBApplicationController.h"
-
 @implementation CustomTemporaryAction
 
 -(MBOutcome *) execute:(MBDocument *)document withPath:(NSString *)path {

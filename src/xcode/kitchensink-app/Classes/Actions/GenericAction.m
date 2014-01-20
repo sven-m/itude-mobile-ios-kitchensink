@@ -15,9 +15,6 @@
  */
 
 #import "GenericAction.h"
-#import "MBElement.h"
-#import "MBLocalizationService.h"
-#import "MBMacros.h"
 
 #define XMLNS_XSI       @"http://www.w3.org/2001/XMLSchema-instance"
 #define XMLNS_XSD       @"http://www.w3.org/2001/XMLSchema"

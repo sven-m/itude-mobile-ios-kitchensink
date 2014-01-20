@@ -14,10 +14,6 @@
  * limitations under the License.
  */
 
-#import "MBDialogDecorator.h"
-#import "MBSlidingMenuContentViewWrapper.h"
-#import <Foundation/Foundation.h>
-
 @interface MBDialogSlidingMenuContentWrapper : MBSlidingMenuContentViewWrapper
 
 @end

@@ -14,9 +14,6 @@
  * limitations under the License.
  */
 
-#import <Foundation/Foundation.h>
-#import "MBStyleHandler.h"
-
 @interface CustomStyleHandler : MBStyleHandler {
     
 }

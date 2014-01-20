@@ -14,8 +14,6 @@
  * limitations under the License.
  */
 
-#import "MBApplicationFactory.h"
-
 @interface CustomApplicationFactory : MBApplicationFactory {
 
 }

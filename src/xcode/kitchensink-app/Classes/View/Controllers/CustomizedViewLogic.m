@@ -15,8 +15,6 @@
  */
 
 #import "CustomizedViewLogic.h"
-#import "MBPage.h"
-#import "MBDataManagerService.h"
 
 @implementation CustomizedViewLogic 
 

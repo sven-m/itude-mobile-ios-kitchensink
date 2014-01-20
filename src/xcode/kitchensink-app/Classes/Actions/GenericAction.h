@@ -14,10 +14,6 @@
  * limitations under the License.
  */
 
-#import <Foundation/Foundation.h>
-
-#import "MBDocument.h"
-
 @interface GenericAction : NSObject {
     
 }

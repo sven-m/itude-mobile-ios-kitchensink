@@ -15,7 +15,6 @@
  */
 
 #import "CustomizedLayout.h"
-#import "MBPage.h"
 
 @implementation CustomizedLayout
 

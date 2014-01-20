@@ -15,9 +15,6 @@
  */
 
 #import "PageWithXibFileViewController.h"
-#import "MBPage.h"
-#import "MBField.h"
-#import "MBDataManagerService.h"
 
 @interface PageWithXibFileViewController ()
 

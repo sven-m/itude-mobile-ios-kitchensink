@@ -14,8 +14,6 @@
  * limitations under the License.
  */
 
-#import "MBApplicationController.h"
-
 @interface CustomAppDelegate : MBApplicationController <UIApplicationDelegate> {
     BOOL _handlingNotification;
 }

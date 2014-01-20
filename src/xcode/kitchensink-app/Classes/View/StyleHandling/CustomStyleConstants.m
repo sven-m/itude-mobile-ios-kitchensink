@@ -16,10 +16,6 @@
 
 #import "CustomStyleConstants.h"
 
-// Framework imports
-#import "MBMacros.h"
-#import "MBProperties.h"
-
 // Other imports
 #import "CustomColor.h"
 

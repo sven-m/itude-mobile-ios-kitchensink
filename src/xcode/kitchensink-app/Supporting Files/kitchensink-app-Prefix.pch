@@ -2,8 +2,6 @@
 // Prefix header for all source files of the 'kitchensink-app' target in the 'kitchensink-app' project
 // 
 
-#import <Availability.h>
-
 #ifndef __IPHONE_3_0
 #warning "This project uses features only available in iPhone SDK 3.0 and later."
 #endif
@@ -11,6 +9,8 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import <Availability.h>
+    #import <mobbl-core-framework/mobbl_core_framework.h>
 #endif
 
 #ifdef DEBUGMOBBL

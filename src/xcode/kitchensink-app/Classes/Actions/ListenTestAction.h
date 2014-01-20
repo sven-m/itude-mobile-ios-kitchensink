@@ -18,9 +18,6 @@
 //  kitchensink-app
 //  Created by Pjotter Tommassen on 2013/27/11.
 
-#import "MBAction.h"
-#import <Foundation/Foundation.h>
-
 @interface ListenTestAction : NSObject <MBAction>
 
 @end

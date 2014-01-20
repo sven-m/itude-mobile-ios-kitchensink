@@ -14,11 +14,6 @@
  * limitations under the License.
  */
 
-#import <Foundation/Foundation.h>
-#import "MBBasicViewController.h"
-#import "MBValueChangeListenerProtocol.h"
-#import "MBOutcomeListenerProtocol.h"
-
 @interface CustomizedViewLogic : MBBasicViewController <MBValueChangeListenerProtocol, MBOutcomeListenerProtocol>
  
 

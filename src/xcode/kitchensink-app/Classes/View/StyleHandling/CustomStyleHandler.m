@@ -18,9 +18,6 @@
 #import "CustomStyleConstants.h"
 #import "CustomColor.h"
 
-#import "MBFieldTypes.h"
-#import "MBPanel.h"
-
 @implementation CustomStyleHandler
 
 // Override to customize the main view

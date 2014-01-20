@@ -19,10 +19,6 @@
 //  Created by Pjotter Tommassen on 2013/26/11.
 
 #import "MBMenuDialogDecorator.h"
-#import "MBDialogController.h"
-#import "MBViewManager.h"
-#import "MBSlidingMenuContentViewWrapper.h"
-#import "MBApplicationController.h"
 
 @implementation MBMenuDialogDecorator
 

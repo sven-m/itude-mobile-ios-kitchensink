@@ -15,7 +15,6 @@
  */
 
 #import "FireInitialOutcomes.h"
-#import "MBDevice.h"
 
 @implementation FireInitialOutcomes
 

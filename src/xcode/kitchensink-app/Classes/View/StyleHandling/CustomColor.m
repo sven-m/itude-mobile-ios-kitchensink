@@ -15,8 +15,6 @@
  */
 
 #import "CustomColor.h"
-#import "MBProperties.h"
-
 
 @implementation UIColor (CustomColor) 
 

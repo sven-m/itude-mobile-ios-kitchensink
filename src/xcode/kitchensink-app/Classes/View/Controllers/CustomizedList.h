@@ -14,9 +14,6 @@
  * limitations under the License.
  */
 
-#import <Foundation/Foundation.h>
-#import "MBBasicViewController.h" 
-
 @interface CustomizedList : MBBasicViewController
 
 @end

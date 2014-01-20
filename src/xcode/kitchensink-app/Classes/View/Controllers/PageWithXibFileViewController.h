@@ -14,10 +14,6 @@
  * limitations under the License.
  */
 
-#import <UIKit/UIKit.h>
-#import "MBBasicViewController.h"
-#import "MBField.h"
-
 @interface PageWithXibFileViewController : MBBasicViewController {
     IBOutlet UILabel * _label;
     IBOutlet UITextField * _textField;

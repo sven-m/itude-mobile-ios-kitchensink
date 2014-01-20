@@ -792,7 +792,6 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					"/usr/include/**",
 					"\"$(SRCROOT)\"/**",
 					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Headers\"",
 					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/PrivateHeaders\"",
@@ -828,7 +827,6 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					"/usr/include/**",
 					"\"$(SRCROOT)\"/**",
 					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Headers\"",
 					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/PrivateHeaders\"",
@@ -954,7 +952,6 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					"/usr/include/**",
 					"\"$(SRCROOT)\"/**",
 					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Headers\"",
 					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/PrivateHeaders\"",

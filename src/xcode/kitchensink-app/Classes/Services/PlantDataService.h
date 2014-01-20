@@ -18,8 +18,6 @@
 //  kitchensink-app
 //  Created by Robin Puthli on 20-12-2013.
 
-#import "MBRESTServiceDataHandler.h"
-
 @interface PlantDataService : MBRESTServiceDataHandler
 
 @end
