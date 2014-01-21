@@ -30,7 +30,7 @@
     // You have access to the Document through component.document
     MBDocument *document = panel.document;
     cell.textLabel.text = [document valueForPath:@"Form[0]/@title"];
-    cell.detailTextLabel.text = @"CustomRowViewBuilder";
+    cell.detailTextLabel.text = [panel customAttributeForKey:@"ponies"];
     return cell;
 }
 
