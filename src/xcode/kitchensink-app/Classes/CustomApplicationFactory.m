@@ -27,9 +27,6 @@
 #import "ExceptionExampleAction.h"
 #import "CustomAction.h"
 
-// Content view wrappers
-#import "MBSlidingMenuContentViewWrapper.h"
-
 @implementation CustomApplicationFactory
 
 -(id<MBResultListener>) createResultListener:(NSString *)listenerClassName {
