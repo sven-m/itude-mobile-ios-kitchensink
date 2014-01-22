@@ -14,9 +14,6 @@
  * limitations under the License.
  */
 
-//  ListenTestAction.h
-//  kitchensink-app
-//  Created by Pjotter Tommassen on 2013/27/11.
 
 @interface ListenTestAction : NSObject <MBAction>
 

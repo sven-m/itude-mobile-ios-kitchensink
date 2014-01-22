@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-@interface MBDialogSlidingMenuContentWrapper : MBSlidingMenuContentViewWrapper
+@interface CustomDialogSlidingMenuContentWrapper : MBSlidingMenuContentViewWrapper
 
 @end
 
-@interface MBMenuDialogDecorator : NSObject <MBDialogDecorator>
+@interface CustomMenuDialogDecorator : NSObject <MBDialogDecorator>
 
 @end

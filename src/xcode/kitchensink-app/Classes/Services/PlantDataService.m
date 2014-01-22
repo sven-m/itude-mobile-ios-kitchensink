@@ -14,10 +14,6 @@
  * limitations under the License.
  */
 
-//  PlantDataService.m
-//  kitchensink-app
-//  Created by Robin Puthli on 20-12-2013.
-
 #import "PlantDataService.h"
 
 @implementation PlantDataService

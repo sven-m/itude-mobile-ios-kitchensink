@@ -13,14 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+#import "CustomMenuDialogDecorator.h"
 
-//  MBMenuDialogDecorator.m
-//  kitchensink-app
-//  Created by Pjotter Tommassen on 2013/26/11.
-
-#import "MBMenuDialogDecorator.h"
-
-@implementation MBMenuDialogDecorator
+@implementation CustomMenuDialogDecorator
 
 static UIViewController *controller;
 
@@ -39,7 +34,7 @@ static UIViewController *controller;
 
 @end
 
-@implementation MBDialogSlidingMenuContentWrapper
+@implementation CustomDialogSlidingMenuContentWrapper
 
 -(UIViewController*)createMenuController {
 	return controller;

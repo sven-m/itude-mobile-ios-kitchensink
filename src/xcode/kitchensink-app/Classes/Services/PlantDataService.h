@@ -14,10 +14,6 @@
  * limitations under the License.
  */
 
-//  PlantDataService.h
-//  kitchensink-app
-//  Created by Robin Puthli on 20-12-2013.
-
 @interface PlantDataService : MBRESTServiceDataHandler
 
 @end

@@ -14,10 +14,6 @@
  * limitations under the License.
  */
 
-//  ListenTestAction.m
-//  kitchensink-app
-//  Created by Pjotter Tommassen on 2013/27/11.
-
 #import "ListenTestAction.h"
 
 @implementation ListenTestAction
