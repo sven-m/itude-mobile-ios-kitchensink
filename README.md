@@ -1,4 +1,4 @@
-# iOS MOBBL Kitchensink
+# iOS Kitchensink
 
 Sample project that shows the possibilities of using [Mobbl](https://github.com/ItudeMobile/itude-mobile-ios-mobbl-framework).
 
