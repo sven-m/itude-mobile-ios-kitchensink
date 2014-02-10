@@ -34,6 +34,7 @@
 		C74DD060185A1F1C00DB5A50 /* MBDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = C74DD05E185A1F1C00DB5A50 /* MBDatePicker.xib */; };
 		C74DD061185A1F1C00DB5A50 /* MBPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = C74DD05F185A1F1C00DB5A50 /* MBPicker.xib */; };
 		C75A44E6187298A60014F708 /* PlantDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = C75A44E5187298A60014F708 /* PlantDataService.m */; };
+		C786C4BD18A90F9D00A6261F /* dialogs_mobbl.xml in Resources */ = {isa = PBXBuildFile; fileRef = C786C4BC18A90F9D00A6261F /* dialogs_mobbl.xml */; };
 		C79AFA4F181EBCC100FA81E6 /* PAGE-zoomable-text.xml in Resources */ = {isa = PBXBuildFile; fileRef = BD798200170B215600B446E1 /* PAGE-zoomable-text.xml */; };
 		C79AFA50181EBCC100FA81E6 /* PAGE-catalog.xml in Resources */ = {isa = PBXBuildFile; fileRef = BDEF12CA15E6AC0A0034C700 /* PAGE-catalog.xml */; };
 		C79AFA51181EBCC100FA81E6 /* PAGE-field-types.xml in Resources */ = {isa = PBXBuildFile; fileRef = BDEF12CB15E6AC0B0034C700 /* PAGE-field-types.xml */; };
@@ -94,7 +95,6 @@
 		C7D44557188D1F8200052D2C /* backButtonIconArrowWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D44547188D1F8200052D2C /* backButtonIconArrowWhite.png */; };
 		C7D44558188D1F8200052D2C /* backButtonIconArrowWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D44548188D1F8200052D2C /* backButtonIconArrowWhite@2x.png */; };
 		C7D44559188D1F8200052D2C /* database.db in Resources */ = {isa = PBXBuildFile; fileRef = C7D44549188D1F8200052D2C /* database.db */; };
-		C7D4455A188D1F8200052D2C /* dialogs_mobbl.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = C7D4454A188D1F8200052D2C /* dialogs_mobbl.xmlx */; };
 		C7D4455B188D1F8200052D2C /* icon_font_down.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D4454B188D1F8200052D2C /* icon_font_down.png */; };
 		C7D4455C188D1F8200052D2C /* icon_font_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D4454C188D1F8200052D2C /* icon_font_down@2x.png */; };
 		C7D4455D188D1F8200052D2C /* icon_font_up.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D4454D188D1F8200052D2C /* icon_font_up.png */; };
@@ -205,6 +205,7 @@
 		C74DD05F185A1F1C00DB5A50 /* MBPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBPicker.xib; sourceTree = "<group>"; };
 		C75A44E4187298A60014F708 /* PlantDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantDataService.h; sourceTree = "<group>"; };
 		C75A44E5187298A60014F708 /* PlantDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlantDataService.m; sourceTree = "<group>"; };
+		C786C4BC18A90F9D00A6261F /* dialogs_mobbl.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = dialogs_mobbl.xml; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/dialogs_mobbl.xml"; sourceTree = "<group>"; };
 		C7A1D7F1181EA85800777CF9 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
 		C7D4451F188D1BEB00052D2C /* mobbl-core-framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "mobbl-core-framework.framework"; path = "../../target/xcode-deps/frameworks/Debug/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework"; sourceTree = "<group>"; };
 		C7D44541188D1F8200052D2C /* backButtonArrowInverted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backButtonArrowInverted.png; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/backButtonArrowInverted.png"; sourceTree = "<group>"; };
@@ -270,6 +271,7 @@
 		03F239A613C6FFFA00E9BD32 = {
 			isa = PBXGroup;
 			children = (
+				C786C4BC18A90F9D00A6261F /* dialogs_mobbl.xml */,
 				03F239BB13C6FFFB00E9BD32 /* kitchensink-app */,
 				03F239B413C6FFFB00E9BD32 /* Frameworks */,
 				03F239B213C6FFFB00E9BD32 /* Products */,
@@ -660,6 +662,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C786C4BD18A90F9D00A6261F /* dialogs_mobbl.xml in Resources */,
 				C7D44551188D1F8200052D2C /* backButtonArrowInverted.png in Resources */,
 				C7D44552188D1F8200052D2C /* backButtonArrowInverted@2x.png in Resources */,
 				C7D44553188D1F8200052D2C /* backButtonCheveron.png in Resources */,
@@ -669,7 +672,6 @@
 				C7D44557188D1F8200052D2C /* backButtonIconArrowWhite.png in Resources */,
 				C7D44558188D1F8200052D2C /* backButtonIconArrowWhite@2x.png in Resources */,
 				C7D44559188D1F8200052D2C /* database.db in Resources */,
-				C7D4455A188D1F8200052D2C /* dialogs_mobbl.xmlx in Resources */,
 				C7D4455B188D1F8200052D2C /* icon_font_down.png in Resources */,
 				C7D4455C188D1F8200052D2C /* icon_font_down@2x.png in Resources */,
 				C7D4455D188D1F8200052D2C /* icon_font_up.png in Resources */,
