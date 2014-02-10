@@ -67,7 +67,7 @@
 	  </build>
 	  
 	  <properties>
-        <core.framework.version>0.0.2.3</core.framework.version>
+        <core.framework.version>0.0.2.5-SNAPSHOT</core.framework.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>  
 	  
