@@ -217,7 +217,6 @@
 		C7D44547188D1F8200052D2C /* backButtonIconArrowWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backButtonIconArrowWhite.png; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/backButtonIconArrowWhite.png"; sourceTree = "<group>"; };
 		C7D44548188D1F8200052D2C /* backButtonIconArrowWhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backButtonIconArrowWhite@2x.png"; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/backButtonIconArrowWhite@2x.png"; sourceTree = "<group>"; };
 		C7D44549188D1F8200052D2C /* database.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = database.db; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/database.db"; sourceTree = "<group>"; };
-		C7D4454A188D1F8200052D2C /* dialogs_mobbl.xmlx */ = {isa = PBXFileReference; lastKnownFileType = text; name = dialogs_mobbl.xmlx; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/dialogs_mobbl.xmlx"; sourceTree = "<group>"; };
 		C7D4454B188D1F8200052D2C /* icon_font_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_font_down.png; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/icon_font_down.png"; sourceTree = "<group>"; };
 		C7D4454C188D1F8200052D2C /* icon_font_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_font_down@2x.png"; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/icon_font_down@2x.png"; sourceTree = "<group>"; };
 		C7D4454D188D1F8200052D2C /* icon_font_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_font_up.png; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/icon_font_up.png"; sourceTree = "<group>"; };
@@ -583,7 +582,6 @@
 				C7D44547188D1F8200052D2C /* backButtonIconArrowWhite.png */,
 				C7D44548188D1F8200052D2C /* backButtonIconArrowWhite@2x.png */,
 				C7D44549188D1F8200052D2C /* database.db */,
-				C7D4454A188D1F8200052D2C /* dialogs_mobbl.xmlx */,
 				C7D4454B188D1F8200052D2C /* icon_font_down.png */,
 				C7D4454C188D1F8200052D2C /* icon_font_down@2x.png */,
 				C7D4454D188D1F8200052D2C /* icon_font_up.png */,
