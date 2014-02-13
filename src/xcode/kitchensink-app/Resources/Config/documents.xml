@@ -84,7 +84,7 @@
                     <Attribute name="zipcode" type="string" />
                     <Attribute name="comment" type="string" />
                     
-                    <Attribute name="gender" type="list_gender" /> <!-- Note the domain reference: see domains.xmlx -->
+                    <Attribute name="gender" type="list_gender" /> <!-- Note the domain reference: see domains.xml -->
                 </Element>
             </Document>
             

@@ -4,7 +4,7 @@
             
 			<!-- ********************* Startup sequence - Initial outcomes ********************* -->
             <!-- The init Outcome with origin=Controller is special. It defines whether to create a tabbar and starts the FireInitialOutcomes Action.
-            The FireInitialOutcomes actions reads the InitialOutcomes.xmlx document. This layering allows the startup sequence and first pages to be dynamically changed by the application. Most apps do not use this functionality. -->
+            The FireInitialOutcomes actions reads the InitialOutcomes.xml document. This layering allows the startup sequence and first pages to be dynamically changed by the application. Most apps do not use this functionality. -->
             <Outcome origin="Controller" name="init" action="FireInitialOutcomes" noBackgroundProcessing="TRUE"/>
             
             <!-- ********************* Generic outcomes ********************* -->
@@ -19,7 +19,7 @@
             
             <!-- ********************* Regular navigation ********************* -->
             
-            <!-- The InitialOutcomes.xmlx document points to this Outcome for the first page -->
+            <!-- The InitialOutcomes.xml document points to this Outcome for the first page -->
             <Outcome origin="*" name="OUTCOME-tab-catalog" action="PAGE-home"/>
             <Outcome origin="*" name="OUTCOME-tab-info" action="PAGE-catalog"/>
 
