@@ -4,8 +4,12 @@
 			<Dialog name="DIALOG-tab-catalog" mode="STACK" icon="ICON-tab_home" title="Home" showAs="TAB" />
             
             <!--Uncomment the below to create two tabs -->
-            <Dialog name="DIALOG-tab-info" mode="STACK" icon="ICON-tab_info" title="Info" showAs="TAB" />
-            
+            <Dialog name="DIALOG-tab-info" mode="STACK" icon="ICON-tab_info" title="Info" showAs="TAB" preCondition="1==1"/>
+
+			<!-- This tab shouldn't appear, due to the precondition -->
+			<Dialog name="DIALOG-tab-precondition-fail" mode="STACK" icon="ICON-tab_info" title="Non-existent" showAs="TAB" preCondition="1==0"/>
+
+
 		</Dialogs>
 	</View>
 </Configuration>
