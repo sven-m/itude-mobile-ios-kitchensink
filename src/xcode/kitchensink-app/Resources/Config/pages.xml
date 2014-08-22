@@ -64,17 +64,17 @@
             </Panel>
         </Page>
 
-        <Include name="PAGE-customized-view-logic"/>
-        <Include name="PAGE-customized-layout"/>
-        <Include name="PAGE-customized-components"/>
-        <Include name="PAGE-page-with-xib"/>
-        <Include name="PAGE-field-types"/>
-        <Include name="PAGE-lists"/>
-        <Include name="PAGE-plant-detail"/>
-        <Include name="PAGE-catalog"/>
-        <Include name="PAGE-home"/>
-        <Include name="PAGE-manipulating-rows-in-a-list"/>
-        <Include name="PAGE-zoomable-text"/>
+        <Include name="PAGE-customized-view-logic.xml"/>
+        <Include name="PAGE-customized-layout.xml"/>
+        <Include name="PAGE-customized-components.xml"/>
+        <Include name="PAGE-page-with-xib.xml"/>
+        <Include name="PAGE-field-types.xml"/>
+        <Include name="PAGE-lists.xml"/>
+        <Include name="PAGE-plant-detail.xml"/>
+        <Include name="PAGE-catalog.xml"/>
+        <Include name="PAGE-home.xml"/>
+        <Include name="PAGE-manipulating-rows-in-a-list.xml"/>
+        <Include name="PAGE-zoomable-text.xml"/>
 
     </View>
 </Configuration>

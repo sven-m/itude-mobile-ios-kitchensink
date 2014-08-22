@@ -1,7 +1,7 @@
 <Configuration xmlns="http://itude.com/schemas/MB/2.0">
     <Model>
         <Domains>
-            <Include name="domains"/>
+            <Include name="domains.xml"/>
         </Domains>
         <Documents>
             <!-- ********************* Documents for Webservice Requests ******************** -->
@@ -9,25 +9,25 @@
             <!-- ********************* Documents for Application Configuration ******************** -->
             <!--Include name="appDocuments"/-->
             <!-- ********************* Documents for 'Mobbl Applications ******************** -->
-            <Include name="documents"/>
+            <Include name="documents.xml"/>
         </Documents>
     </Model>
     <Controller>
         <Actions>
-            <Include name="actions"/>
+            <Include name="actions.xml"/>
         </Actions>
         <Wiring>
-            <Include name="outcomes"/>
+            <Include name="outcomes.xml"/>
         </Wiring>
     </Controller>
     <View>	
         <Dialogs>
-            <Include name="dialogs"/>
-            <Include name="dialogs_mobbl"/>
+            <Include name="dialogs.xml"/>
+            <Include name="dialogs_mobbl.xml"/>
         </Dialogs>
-		<Include name="pages"/>
+		<Include name="pages.xml"/>
         <Alerts>
-            <Include name="alerts"/>
+            <Include name="alerts.xml"/>
         </Alerts>
     </View>
 </Configuration>
