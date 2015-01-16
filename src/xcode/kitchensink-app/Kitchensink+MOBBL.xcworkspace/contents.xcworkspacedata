@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../../../../itude-mobile-ios-mobbl-framework/src/xcode/mobbl-core-framework.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../kitchensink-app.xcodeproj">
+   </FileRef>
+</Workspace>
