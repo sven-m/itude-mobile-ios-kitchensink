@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "MBViewBinder.h"
+// The following 2 imports are not directly used here, but are used by all subclasses. This prevents having to include them everywhere.
+#import "MBBuildState.h"
+#import "UIView+ViewBinding.h"
 
 @interface MBBaseViewBinder : NSObject <MBViewBinder>
 

@@ -8,7 +8,7 @@
 
 #import "MBBaseViewBinder.h"
 
-@interface MBTextBinder : MBBaseViewBinder
+@interface MBSimpleTextBinder : MBBaseViewBinder
 
 @property (nonatomic, assign) NSString *identifier;
 

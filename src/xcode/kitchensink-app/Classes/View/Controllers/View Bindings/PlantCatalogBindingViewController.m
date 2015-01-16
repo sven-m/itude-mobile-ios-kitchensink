@@ -9,7 +9,7 @@
 #import "PlantCatalogBindingViewController.h"
 #import "MBPageBinder.h"
 #import "MBTableViewBinder.h"
-#import "MBTextBinder.h"
+#import "MBSimpleTextBinder.h"
 
 @interface PlantCatalogBindingViewController ()
 
@@ -22,9 +22,9 @@
     MBPageBinder *binder = [MBPageBinder binderWithViewController:self];
     UINib *plantCellNib = [UINib nibWithNibName:@"PlantCatalogTableViewCell" bundle:nil];
     [binder registerBinder:[MBTableViewBinder binderWithIdentifier:@"PlantList" cellNib:plantCellNib]];
-    [binder registerBinder:[MBTextBinder      binderWithIdentifier:@"Light"]];
-    [binder registerBinder:[MBTextBinder      binderWithIdentifier:@"CommonName"]];
-    [binder registerBinder:[MBTextBinder      binderWithIdentifier:@"BotanicalName"]];
+    [binder registerBinder:[MBSimpleTextBinder      binderWithIdentifier:@"Light"]];
+    [binder registerBinder:[MBSimpleTextBinder      binderWithIdentifier:@"CommonName"]];
+    [binder registerBinder:[MBSimpleTextBinder      binderWithIdentifier:@"BotanicalName"]];
     [binder bind];
 }
 

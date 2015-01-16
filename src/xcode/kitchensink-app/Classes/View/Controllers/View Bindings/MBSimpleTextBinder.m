@@ -6,11 +6,11 @@
 //  Copyright (c) 2015 Itude Mobile. All rights reserved.
 //
 
-#import "MBTextBinder.h"
+#import "MBSimpleTextBinder.h"
 #import "MBBuildState.h"
 #import "UIView+ViewBinding.h"
 
-@implementation MBTextBinder
+@implementation MBSimpleTextBinder
 
 - (instancetype)initWithBindingIdentifier:(NSString *)identifier;
 {
@@ -23,7 +23,7 @@
 
 + (instancetype)binderWithIdentifier:(NSString *)identifier
 {
-    return [[[MBTextBinder alloc] initWithBindingIdentifier:identifier] autorelease];
+    return [[[MBSimpleTextBinder alloc] initWithBindingIdentifier:identifier] autorelease];
 }
 
 - (UIView *)bindSpecificView:(MBBuildState *)state
@@ -31,6 +31,7 @@
     //UIView *textView = [state.parent viewWithTag:self.identifier];
     UIView *textView = [state.parent viewWithBindingIdentifier:self.identifier]; // Can be a UITextView, UITextField or UILabel, anything that responds to setText
     if (textView) {
+        assert([state.component isKindOfClass:[MBField class]]);
         MBField *field = (MBField *)state.component;
         if ([textView respondsToSelector:@selector(setText:)]) {
             [(id)textView setText:field.formattedValue];
