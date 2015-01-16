@@ -63,6 +63,9 @@
                         <Field type="LABEL" label="ModalCurrentContext screen"/>
                         <Field type="SUBLABEL" label="Will always appear fullScreen on iPhone. Only visually different on iPad."/>
                     </Panel>
+                    <Panel type="ROW" outcome="OUTCOME-modern-catalog">
+                        <Field type="LABEL" label="New view bindings" />
+                    </Panel>
                 </Panel>
                 <Panel type="SECTION" title="Customization">
                     <Panel type="ROW" outcome="OUTCOME-customized-view-logic">

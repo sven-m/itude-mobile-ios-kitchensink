@@ -21,6 +21,7 @@
 #import "CustomizedList.h"
 #import "CustomizedLayout.h"
 #import "PageWithXibFileViewController.h"
+#import "PlantCatalogBindingViewController.h"
 
 // Actions
 #import "FireInitialOutcomes.h"
@@ -61,7 +62,12 @@
 		MBPage *page = [[[MBPage alloc] initWithDefinition:definition withViewController:myViewController document:document rootPath:rootPath viewState: viewState]autorelease];
 		return page;
 	}
-
+    if ([@"PAGE-modern-catalog" isEqualToString:definition.name]) {
+        PlantCatalogBindingViewController *controller = [[[PlantCatalogBindingViewController alloc] init] autorelease];
+        MBPage *page = [[[MBPage alloc] initWithDefinition:definition withViewController:controller document:document rootPath:rootPath viewState:viewState] autorelease];
+        [controller rebuildView];
+        return page;
+    }
     
     return [super createPage:definition document:document rootPath:rootPath viewState: viewState withMaxBounds: bounds];
 }
