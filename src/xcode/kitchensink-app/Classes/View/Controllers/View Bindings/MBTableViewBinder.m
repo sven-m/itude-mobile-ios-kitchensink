@@ -30,6 +30,11 @@
     return self;
 }
 
++ (instancetype)binderWithIdentifier:(NSString *)identifier cellNib:(UINib *)cellNib
+{
+    return [[[MBTableViewBinder alloc] initWithBindingIdentifier:identifier cellNib:cellNib] autorelease];
+}
+
 - (UIView *)bindView:(MBBuildState *)state
 {
     self.state = [[state copy] autorelease];

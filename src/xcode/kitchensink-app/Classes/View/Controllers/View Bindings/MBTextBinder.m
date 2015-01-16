@@ -21,6 +21,11 @@
     return self;
 }
 
++ (instancetype)binderWithIdentifier:(NSString *)identifier
+{
+    return [[[MBTextBinder alloc] initWithBindingIdentifier:identifier] autorelease];
+}
+
 - (UIView *)bindSpecificView:(MBBuildState *)state
 {
     //UIView *textView = [state.parent viewWithTag:self.identifier];

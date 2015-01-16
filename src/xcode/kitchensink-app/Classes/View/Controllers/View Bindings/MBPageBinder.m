@@ -47,6 +47,11 @@
     return self;
 }
 
++ (instancetype)binderWithViewController:(MBBasicViewController *)viewController
+{
+    return [[[MBPageBinder alloc] initWithViewController:viewController] autorelease];
+}
+
 - (void)bind
 {
     [self bindView:self.state];

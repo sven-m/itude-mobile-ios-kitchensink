@@ -19,12 +19,12 @@
 
 - (void)rebuildView
 {
-    MBPageBinder *binder = [[MBPageBinder alloc] initWithViewController:self];
+    MBPageBinder *binder = [MBPageBinder binderWithViewController:self];
     UINib *plantCellNib = [UINib nibWithNibName:@"PlantCatalogTableViewCell" bundle:nil];
-    [binder registerBinder:[[[MBTableViewBinder alloc] initWithBindingIdentifier:@"PlantList" cellNib:plantCellNib] autorelease]];
-    [binder registerBinder:[[[MBTextBinder alloc]      initWithBindingIdentifier:@"Light"] autorelease]];
-    [binder registerBinder:[[[MBTextBinder alloc]      initWithBindingIdentifier:@"CommonName"] autorelease]];
-    [binder registerBinder:[[[MBTextBinder alloc]      initWithBindingIdentifier:@"BotanicalName"] autorelease]];
+    [binder registerBinder:[MBTableViewBinder binderWithIdentifier:@"PlantList" cellNib:plantCellNib]];
+    [binder registerBinder:[MBTextBinder      binderWithIdentifier:@"Light"]];
+    [binder registerBinder:[MBTextBinder      binderWithIdentifier:@"CommonName"]];
+    [binder registerBinder:[MBTextBinder      binderWithIdentifier:@"BotanicalName"]];
     [binder bind];
 }
 
