@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 Itude Mobile. All rights reserved.
 //
 
-#import "PlantCatalogBindingViewController.h"
+#import "PlantCatalogViewBindingController.h"
 #import "MBPageBinder.h"
 #import "MBTableViewBinder.h"
 #import "MBSimpleTextBinder.h"
 #import "MBButtonBinder.h"
 
-@implementation PlantCatalogBindingViewController
+@implementation PlantCatalogViewBindingController
 
 - (void)rebuildView
 {

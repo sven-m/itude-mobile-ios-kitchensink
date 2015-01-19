@@ -8,7 +8,7 @@
 
 #import "MBBaseViewBinder.h"
 
-@interface MBTableViewBinder : MBBaseViewBinder <UITableViewDataSource>
+@interface MBTableViewBinder : MBBaseViewBinder <UITableViewDataSource, UITableViewDelegate>
 
 - (instancetype)initWithBindingIdentifier:(NSString *)identifier cellNib:(UINib *)cellNib;
 + (instancetype)binderWithIdentifier:(NSString *)identifier cellNib:(UINib *)cellNib;

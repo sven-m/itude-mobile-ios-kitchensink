@@ -34,6 +34,16 @@
     return [[[MBTableViewBinder alloc] initWithBindingIdentifier:identifier cellNib:cellNib] autorelease];
 }
 
+- (void)viewWillDisappear:(BOOL)animated
+{
+    // Fuck this shit
+}
+
+- (void)viewDidDisappear:(BOOL)animated
+{
+    // Fuck this shit!!!
+}
+
 - (UIView *)bindView:(MBBuildState *)state
 {
     self.state = [[state copy] autorelease];
@@ -44,6 +54,7 @@
     
     UITableView *tableView = (UITableView *)view;
     tableView.dataSource = self;
+    tableView.delegate = self;
     [tableView reloadData];
     
     return view;
@@ -71,6 +82,16 @@
     [state.mainViewBinder bindView:state];
     
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    MBComponent *component = self.components[indexPath.row];
+    assert([component isKindOfClass:[MBPanel class]]);
+    MBPanel *panel = (MBPanel *)component;
+    [panel handleOutcome:panel.outcomeName withPathArgument:panel.absoluteDataPath];
 }
 
 @end

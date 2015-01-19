@@ -6,6 +6,6 @@
 //  Copyright (c) 2015 Itude Mobile. All rights reserved.
 //
 
-@interface PlantCatalogBindingViewController : MBBasicViewController
+@interface PlantCatalogViewBindingController : MBBasicViewController
 
 @end
