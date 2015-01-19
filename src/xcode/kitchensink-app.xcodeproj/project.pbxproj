@@ -34,6 +34,7 @@
 		172867721A68279A00C170FE /* PlantCatalogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 172867701A68279A00C170FE /* PlantCatalogTableViewCell.m */; };
 		172867731A68279A00C170FE /* PlantCatalogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 172867711A68279A00C170FE /* PlantCatalogTableViewCell.xib */; };
 		172867751A682C7F00C170FE /* PAGE-modern-catalog.xml in Resources */ = {isa = PBXBuildFile; fileRef = 172867741A682C7F00C170FE /* PAGE-modern-catalog.xml */; };
+		17B052591A6D3F3B00071F0D /* MBButtonBinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B052581A6D3F3B00071F0D /* MBButtonBinder.m */; };
 		17C314A01A69528100A09989 /* UIView+ViewBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C3149F1A69528100A09989 /* UIView+ViewBinding.m */; };
 		17C314A31A69632700A09989 /* MBTextFieldBinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C314A21A69632700A09989 /* MBTextFieldBinder.m */; };
 		182e6aa3f58e20cc745b7f54 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD3D9351725500E002C88E6 /* libsqlite3.0.dylib */; };
@@ -258,6 +259,8 @@
 		172867701A68279A00C170FE /* PlantCatalogTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlantCatalogTableViewCell.m; path = "View Bindings/PlantCatalogTableViewCell.m"; sourceTree = "<group>"; };
 		172867711A68279A00C170FE /* PlantCatalogTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PlantCatalogTableViewCell.xib; path = "View Bindings/PlantCatalogTableViewCell.xib"; sourceTree = "<group>"; };
 		172867741A682C7F00C170FE /* PAGE-modern-catalog.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "PAGE-modern-catalog.xml"; path = "Pages/PAGE-modern-catalog.xml"; sourceTree = "<group>"; };
+		17B052571A6D3F3B00071F0D /* MBButtonBinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBButtonBinder.h; path = "View Bindings/MBButtonBinder.h"; sourceTree = "<group>"; };
+		17B052581A6D3F3B00071F0D /* MBButtonBinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBButtonBinder.m; path = "View Bindings/MBButtonBinder.m"; sourceTree = "<group>"; };
 		17C3149D1A69527600A09989 /* MBCategoryProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCategoryProperties.h; sourceTree = "<group>"; };
 		17C3149E1A69528100A09989 /* UIView+ViewBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+ViewBinding.h"; path = "View Bindings/UIView+ViewBinding.h"; sourceTree = "<group>"; };
 		17C3149F1A69528100A09989 /* UIView+ViewBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+ViewBinding.m"; path = "View Bindings/UIView+ViewBinding.m"; sourceTree = "<group>"; };
@@ -477,6 +480,8 @@
 				172867531A67D42700C170FE /* MBBaseViewBinder.m */,
 				1728674E1A67D09A00C170FE /* MBBuildState.h */,
 				1728674F1A67D09A00C170FE /* MBBuildState.m */,
+				17B052571A6D3F3B00071F0D /* MBButtonBinder.h */,
+				17B052581A6D3F3B00071F0D /* MBButtonBinder.m */,
 				17C3149D1A69527600A09989 /* MBCategoryProperties.h */,
 				172867581A67ECDE00C170FE /* MBPageBinder.h */,
 				172867591A67ECDE00C170FE /* MBPageBinder.m */,
@@ -1044,6 +1049,7 @@
 				1728675A1A67ECDE00C170FE /* MBPageBinder.m in Sources */,
 				C75A44E6187298A60014F708 /* PlantDataService.m in Sources */,
 				1728676A1A6823DD00C170FE /* PlantCatalogBindingViewController.m in Sources */,
+				17B052591A6D3F3B00071F0D /* MBButtonBinder.m in Sources */,
 				E21890C81846536E00DD5AD4 /* ListenTestAction.m in Sources */,
 				172867541A67D42700C170FE /* MBBaseViewBinder.m in Sources */,
 				00CB69B115D28DBF004F3697 /* CustomizedViewLogic.m in Sources */,

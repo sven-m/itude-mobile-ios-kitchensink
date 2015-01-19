@@ -22,11 +22,11 @@
 
 - (UIView *)bindView:(MBBuildState *)state
 {
-    UIView *view = [self bindSpecificView:state];
+    UIView *view = [self findSpecificView:state];
     
     if (view) {
         //[state.component attachView:view]; does not exist?
-        [self bindOutcome:state toView:view];
+        [self populateView:view withDataFromComponent:state.component];
     }
     
     for (MBComponent *child in [state.component childrenOfKind:[MBComponent class]]) {
@@ -40,15 +40,14 @@
     return view;
 }
 
-- (void)bindOutcome:(MBBuildState *)state toView:(UIView *)view
+- (void)populateView:(UIView *)view withDataFromComponent:(MBComponent *)component
 {
     
 }
 
-- (UIView *)bindSpecificView:(MBBuildState *)state
+- (UIView *)findSpecificView:(MBBuildState *)state
 {
-    assert(false); // This method should be overridden
-    return nil;
+    return [state.parent viewWithBindingIdentifier:self.identifier];
 }
 
 @end

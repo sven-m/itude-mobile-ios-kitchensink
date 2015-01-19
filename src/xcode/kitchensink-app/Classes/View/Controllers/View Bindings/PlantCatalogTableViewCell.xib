@@ -42,6 +42,12 @@
                             <userDefinedRuntimeAttribute type="string" keyPath="bindingIdentifier" value="BotanicalName"/>
                         </userDefinedRuntimeAttributes>
                     </label>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDV-vc-f3b">
+                        <rect key="frame" x="230" y="37" width="46" height="30"/>
+                        <state key="normal" title="Button">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
                 </subviews>
                 <constraints>
                     <constraint firstItem="ezH-jb-XQ4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="0Du-SD-lY7"/>

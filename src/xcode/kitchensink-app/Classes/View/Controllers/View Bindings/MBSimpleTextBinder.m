@@ -17,18 +17,19 @@
     return [[[MBSimpleTextBinder alloc] initWithBindingIdentifier:identifier] autorelease];
 }
 
-- (UIView *)bindSpecificView:(MBBuildState *)state
+- (void)populateView:(UIView *)view withDataFromComponent:(MBComponent *)component
 {
-    //UIView *textView = [state.parent viewWithTag:self.identifier];
-    UIView *textView = [state.parent viewWithBindingIdentifier:self.identifier]; // Can be a UITextView, UITextField or UILabel, anything that responds to setText
-    if (textView) {
-        assert([state.component isKindOfClass:[MBField class]]);
-        MBField *field = (MBField *)state.component;
-        if ([textView respondsToSelector:@selector(setText:)]) {
-            [(id)textView setText:field.formattedValue];
-        }
-    }
-    return textView;
+    [MBSimpleTextBinder populateView:view withDataFromComponent:component];
+}
+
++ (void)populateView:(UIView *)view withDataFromComponent:(MBComponent *)component
+{
+    // Can be a UITextView, UITextField or UILabel, anything that responds to setText
+    assert([component isKindOfClass:[MBField class]]);
+    assert([view respondsToSelector:@selector(setText:)]);
+    
+    MBField *field = (MBField *)component;
+    [(id)view setText:field.formattedValue];
 }
 
 @end

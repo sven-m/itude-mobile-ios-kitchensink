@@ -15,22 +15,17 @@
     return [[[MBTextFieldBinder alloc] initWithBindingIdentifier:identifier] autorelease];
 }
 
-- (UIView *)bindSpecificView:(MBBuildState *)state
+- (void)populateView:(UIView *)view withDataFromComponent:(MBComponent *)component
 {
-    //UIView *textView = [state.parent viewWithTag:self.identifier];
-    UIView *textView = [state.parent viewWithBindingIdentifier:self.identifier];
-    if (textView) {
-        assert([textView isKindOfClass:[UITextField class]]);
-        UITextField *textField = (UITextField *)textView;
-        MBField *field = (MBField *)state.component;
-        textField.text        = field.formattedValue;
-        textField.placeholder = field.hint;
-        textField.delegate    = field;
-        [textField addTarget:field
-                      action:@selector(textFieldDoneEditing:)
-            forControlEvents: UIControlEventEditingChanged | UIControlEventEditingDidEnd | UIControlEventEditingDidEndOnExit];
-    }
-    return textView;
+    assert([view isKindOfClass:[UITextField class]]);
+    UITextField *textField = (UITextField *)view;
+    MBField *field = (MBField *)component;
+    textField.text        = field.formattedValue;
+    textField.placeholder = field.hint;
+    textField.delegate    = field;
+    [textField addTarget:field
+                  action:@selector(textFieldDoneEditing:)
+        forControlEvents: UIControlEventEditingChanged | UIControlEventEditingDidEnd | UIControlEventEditingDidEndOnExit];
 }
 
 @end

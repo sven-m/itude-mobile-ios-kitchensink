@@ -40,8 +40,8 @@
     if (self) {
         self.state.mainViewBinder = self;
         self.state.parent         = viewController.view;
-        self.state.element        = viewController.page.document;
         self.state.component      = viewController.page;
+        self.state.element        = viewController.page.document;
         self.state.document       = viewController.page.document;
     }
     return self;
@@ -57,7 +57,7 @@
     [self bindView:self.state];
 }
 
-- (UIView *)bindSpecificView:(MBBuildState *)state
+- (UIView *)findSpecificView:(MBBuildState *)state
 {
     id<MBViewBinder> binder = self.childViewBinders[state.component.name];
     return [binder bindView:state];
