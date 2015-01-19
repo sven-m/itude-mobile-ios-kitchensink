@@ -10,15 +10,6 @@
 
 @implementation MBTextFieldBinder
 
-- (instancetype)initWithBindingIdentifier:(NSString *)identifier;
-{
-    self = [super init];
-    if (self) {
-        self.identifier = identifier;
-    }
-    return self;
-}
-
 + (instancetype)binderWithIdentifier:(NSString *)identifier
 {
     return [[[MBTextFieldBinder alloc] initWithBindingIdentifier:identifier] autorelease];

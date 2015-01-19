@@ -11,6 +11,15 @@
 
 @implementation MBBaseViewBinder
 
+- (instancetype)initWithBindingIdentifier:(NSString *)identifier
+{
+    self = [super init];
+    if (self) {
+        self.identifier = identifier;
+    }
+    return self;
+}
+
 - (UIView *)bindView:(MBBuildState *)state
 {
     UIView *view = [self bindSpecificView:state];

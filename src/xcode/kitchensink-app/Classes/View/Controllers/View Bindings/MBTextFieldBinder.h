@@ -10,9 +10,6 @@
 
 @interface MBTextFieldBinder : MBBaseViewBinder
 
-@property (nonatomic, assign) NSString *identifier;
-
-- (instancetype)initWithBindingIdentifier:(NSString *)identifier;
 + (instancetype)binderWithIdentifier:(NSString *)identifier;
 
 @end

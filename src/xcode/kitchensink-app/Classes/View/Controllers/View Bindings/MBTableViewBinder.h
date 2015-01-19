@@ -10,8 +10,6 @@
 
 @interface MBTableViewBinder : MBBaseViewBinder <UITableViewDataSource>
 
-@property (nonatomic, assign) NSString *identifier;
-
 - (instancetype)initWithBindingIdentifier:(NSString *)identifier cellNib:(UINib *)cellNib;
 + (instancetype)binderWithIdentifier:(NSString *)identifier cellNib:(UINib *)cellNib;
 

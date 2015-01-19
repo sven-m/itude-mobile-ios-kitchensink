@@ -14,6 +14,9 @@
 
 @interface MBBaseViewBinder : NSObject <MBViewBinder>
 
+@property (nonatomic, retain) NSString *identifier;
+
+- (instancetype)initWithBindingIdentifier:(NSString *)identifier;
 - (UIView *)bindView:(MBBuildState *)state;
 - (void)bindOutcome:(MBBuildState *)state toView:(UIView *)view;
 

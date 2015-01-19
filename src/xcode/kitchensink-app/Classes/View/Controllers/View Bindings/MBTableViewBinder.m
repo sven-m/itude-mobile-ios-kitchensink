@@ -22,9 +22,8 @@
 
 - (instancetype)initWithBindingIdentifier:(NSString *)identifier cellNib:(UINib *)cellNib
 {
-    self = [super init];
+    self = [super initWithBindingIdentifier:identifier];
     if (self) {
-        self.identifier = identifier;
         self.cellNib = cellNib;
     }
     return self;

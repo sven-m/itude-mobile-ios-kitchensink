@@ -36,7 +36,7 @@
 
 - (instancetype)initWithViewController:(MBBasicViewController *)viewController
 {
-    self = [super init];
+    self = [super initWithBindingIdentifier:nil];
     if (self) {
         self.state.mainViewBinder = self;
         self.state.parent         = viewController.view;
