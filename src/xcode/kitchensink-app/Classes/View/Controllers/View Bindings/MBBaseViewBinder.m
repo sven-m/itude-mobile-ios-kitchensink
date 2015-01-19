@@ -25,7 +25,7 @@
     UIView *view = [self findSpecificView:state];
     
     if (view) {
-        //[state.component attachView:view]; does not exist?
+        //[state.component attachView:view]; exists in MOBBL Android but not in iOS?
         [self populateView:view withDataFromComponent:state.component];
     }
     
@@ -42,7 +42,7 @@
 
 - (void)populateView:(UIView *)view withDataFromComponent:(MBComponent *)component
 {
-    
+    // Default empty implementation
 }
 
 - (UIView *)findSpecificView:(MBBuildState *)state

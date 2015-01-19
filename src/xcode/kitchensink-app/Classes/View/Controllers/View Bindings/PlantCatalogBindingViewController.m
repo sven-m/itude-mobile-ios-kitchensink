@@ -10,10 +10,7 @@
 #import "MBPageBinder.h"
 #import "MBTableViewBinder.h"
 #import "MBSimpleTextBinder.h"
-
-@interface PlantCatalogBindingViewController ()
-
-@end
+#import "MBButtonBinder.h"
 
 @implementation PlantCatalogBindingViewController
 
@@ -25,6 +22,7 @@
     [binder registerBinder:[MBSimpleTextBinder binderWithIdentifier:@"Light"]];
     [binder registerBinder:[MBSimpleTextBinder binderWithIdentifier:@"CommonName"]];
     [binder registerBinder:[MBSimpleTextBinder binderWithIdentifier:@"BotanicalName"]];
+    [binder registerBinder:[MBButtonBinder     binderWithIdentifier:@"Coolness"]];
     [binder bind];
 }
 

@@ -22,13 +22,13 @@
     assert([view isKindOfClass:[UIButton class]]);
     
     UIButton *button = (UIButton *)view;
-    [MBSimpleTextBinder populateView:button.titleLabel withDataFromComponent:component];
+    MBField  *field  = (MBField *)component;
+
+    [button setTitle:field.value forState:UIControlStateNormal];
     
-    MBField *field = (MBField *)component;
-    if (!field.outcomeName)
-        return;
-    
-    [(id)view addTarget:field action:@selector(buttonPressed:) forControlEvents:UIControlEventTouchUpInside];
+    if (field.outcomeName) {
+        [(id)view addTarget:field action:@selector(buttonPressed:) forControlEvents:UIControlEventTouchUpInside];
+    }
 }
 
 @end
