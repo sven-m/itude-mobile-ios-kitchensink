@@ -40,11 +40,13 @@
     self.state = [[state copy] autorelease];
     self.components = [self.state.component childrenOfKind:[MBComponent class]];
     UIView *view = [state.parent viewWithBindingIdentifier:self.identifier];
-    if ([view isKindOfClass:[UITableView class]]) {
-        UITableView *tableView = (UITableView *)view;
-        tableView.dataSource = self;
-        [tableView reloadData];
-    }
+    
+    assert ([view isKindOfClass:[UITableView class]]);
+    
+    UITableView *tableView = (UITableView *)view;
+    tableView.dataSource = self;
+    [tableView reloadData];
+    
     return view;
 }
 
