@@ -58,6 +58,7 @@
     UITableView *tableView = (UITableView *)view;
     tableView.dataSource = self;
     tableView.delegate = self;
+    [tableView registerNib:self.cellNib forCellReuseIdentifier:[self.components[0] name]];
     [tableView reloadData];
 }
 
@@ -70,16 +71,11 @@
 {
     MBBuildState *state = [[self.state copy] autorelease];
     state.component = self.components[indexPath.row];
-    state.element   = [state.component.document valueForPath:state.component.absoluteDataPath];
+    state.element   = [state.document valueForPath:state.component.absoluteDataPath];
  
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:state.component.name];
     
-    if (!cell) {
-        [tableView registerNib:self.cellNib forCellReuseIdentifier:state.component.name];
-        cell = [tableView dequeueReusableCellWithIdentifier:state.component.name];
-    }
-    
-    state.parent = cell;
+    state.view = cell;
     [state.mainViewBinder bindView:state];
     
     return cell;

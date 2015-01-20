@@ -12,6 +12,7 @@
 
 @property (nonatomic, retain) NSString *bindingIdentifier;
 
+- (UIView *)viewWithBindingIdentifier:(NSString *)identifier;
 - (UIView *)subviewWithBindingIdentifier:(NSString *)identifier;
 
 @end

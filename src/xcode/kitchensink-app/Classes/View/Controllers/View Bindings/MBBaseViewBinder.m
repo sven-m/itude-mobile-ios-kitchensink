@@ -33,7 +33,7 @@
         state.component = child;
         id element = [child.document valueForPath:child.absoluteDataPath];
         state.element = [element isKindOfClass:[MBElement class]] ? element : nil;
-        state.parent = (view) ? view : state.parent;
+        state.view = (view) ? view : state.view;
         [state.mainViewBinder bindView:state];
     }
     
@@ -47,7 +47,7 @@
 
 - (UIView *)findSpecificView:(MBBuildState *)state
 {
-    return [state.parent subviewWithBindingIdentifier:self.identifier];
+    return [state.view viewWithBindingIdentifier:self.identifier];
 }
 
 @end

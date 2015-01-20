@@ -496,6 +496,7 @@
 		172867471A67CE5300C170FE /* View Bindings */ = {
 			isa = PBXGroup;
 			children = (
+				172D37A91A6E9E7600A07F2D /* Plant Catalog */,
 				17B0526A1A6E8AFA00071F0D /* Table Bindings */,
 				172867521A67D42700C170FE /* MBBaseViewBinder.h */,
 				172867531A67D42700C170FE /* MBBaseViewBinder.m */,
@@ -513,6 +514,16 @@
 				17C314A11A69632700A09989 /* MBTextFieldBinder.h */,
 				17C314A21A69632700A09989 /* MBTextFieldBinder.m */,
 				172867511A67D14400C170FE /* MBViewBinder.h */,
+				17C3149E1A69528100A09989 /* UIView+ViewBinding.h */,
+				17C3149F1A69528100A09989 /* UIView+ViewBinding.m */,
+			);
+			name = "View Bindings";
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		172D37A91A6E9E7600A07F2D /* Plant Catalog */ = {
+			isa = PBXGroup;
+			children = (
 				1728676F1A68279A00C170FE /* PlantCatalogTableViewCell.h */,
 				172867701A68279A00C170FE /* PlantCatalogTableViewCell.m */,
 				172867711A68279A00C170FE /* PlantCatalogTableViewCell.xib */,
@@ -522,11 +533,8 @@
 				17B0525C1A6D5E8E00071F0D /* PlantDetailViewBindingController.h */,
 				17B0525D1A6D5E8E00071F0D /* PlantDetailViewBindingController.m */,
 				17B0525E1A6D5E8E00071F0D /* PlantDetailViewBindingController.xib */,
-				17C3149E1A69528100A09989 /* UIView+ViewBinding.h */,
-				17C3149F1A69528100A09989 /* UIView+ViewBinding.m */,
 			);
-			name = "View Bindings";
-			path = Controllers;
+			name = "Plant Catalog";
 			sourceTree = "<group>";
 		};
 		17B0526A1A6E8AFA00071F0D /* Table Bindings */ = {

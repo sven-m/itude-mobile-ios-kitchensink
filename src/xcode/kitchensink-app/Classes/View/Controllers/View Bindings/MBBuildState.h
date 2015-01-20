@@ -13,7 +13,7 @@
 
 @property (nonatomic, retain) id<MBViewBinder> mainViewBinder;
 
-@property (nonatomic, retain) UIView             *parent;
+@property (nonatomic, retain) UIView             *view;
 @property (nonatomic, retain) MBDocument         *document;
 @property (nonatomic, retain) MBElementContainer *element;
 @property (nonatomic, retain) MBComponent        *component;

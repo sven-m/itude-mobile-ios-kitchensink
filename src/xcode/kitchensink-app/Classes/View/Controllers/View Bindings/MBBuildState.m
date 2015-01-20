@@ -15,7 +15,7 @@
     // No autorelease according to Apple conventions of copying, same as with alloc or new
     MBBuildState *other = [[MBBuildState alloc] init];
     other.mainViewBinder = self.mainViewBinder;
-    other.parent         = self.parent;
+    other.view           = self.view;
     other.document       = self.document;
     other.element        = self.element;
     other.component      = self.component;

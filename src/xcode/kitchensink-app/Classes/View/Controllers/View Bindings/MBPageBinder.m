@@ -39,7 +39,7 @@
     self = [super initWithBindingIdentifier:nil];
     if (self) {
         self.state.mainViewBinder = self;
-        self.state.parent         = viewController.view;
+        self.state.view           = viewController.view;
         self.state.component      = viewController.page;
         self.state.element        = viewController.page.document;
         self.state.document       = viewController.page.document;

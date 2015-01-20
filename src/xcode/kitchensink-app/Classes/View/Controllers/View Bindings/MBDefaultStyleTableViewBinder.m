@@ -29,7 +29,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseIdentifier];
     }
     
-    state.parent = cell;
+    state.view = cell;
     
     cell.textLabel.bindingIdentifier = @"";
     
