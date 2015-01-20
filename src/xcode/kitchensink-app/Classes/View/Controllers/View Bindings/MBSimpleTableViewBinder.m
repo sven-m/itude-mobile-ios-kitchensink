@@ -6,19 +6,11 @@
 //  Copyright (c) 2015 Itude Mobile. All rights reserved.
 //
 
-#import "MBTableViewBinder.h"
+#import "MBSimpleTableViewBinder.h"
 #import "MBBuildState.h"
 #import "UIView+ViewBinding.h"
 
-@interface MBTableViewBinder()
-
-@property (nonatomic, retain) MBBuildState   *state;
-@property (nonatomic, retain) NSMutableArray *components;
-@property (nonatomic, retain) UINib          *cellNib;
-
-@end
-
-@implementation MBTableViewBinder
+@implementation MBSimpleTableViewBinder
 
 - (instancetype)initWithBindingIdentifier:(NSString *)identifier cellNib:(UINib *)cellNib
 {
@@ -31,7 +23,7 @@
 
 + (instancetype)binderWithIdentifier:(NSString *)identifier cellNib:(UINib *)cellNib
 {
-    return [[[MBTableViewBinder alloc] initWithBindingIdentifier:identifier cellNib:cellNib] autorelease];
+    return [[[MBSimpleTableViewBinder alloc] initWithBindingIdentifier:identifier cellNib:cellNib] autorelease];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -47,17 +39,26 @@
 - (UIView *)bindView:(MBBuildState *)state
 {
     self.state = [[state copy] autorelease];
-    self.components = [self.state.component childrenOfKind:[MBComponent class]];
-    UIView *view = [state.parent viewWithBindingIdentifier:self.identifier];
     
-    assert ([view isKindOfClass:[UITableView class]]);
+    UIView *view = [self findSpecificView:state];
+    
+    if (view) {
+        [self populateView:view withDataFromComponent:state.component];
+    }
+    
+    return view;
+}
+
+- (void)populateView:(UIView *)view withDataFromComponent:(MBComponent *)component
+{
+    assert([view isKindOfClass:[UITableView class]]);
+    
+    self.components = [component childrenOfKind:[MBComponent class]];
     
     UITableView *tableView = (UITableView *)view;
     tableView.dataSource = self;
     tableView.delegate = self;
     [tableView reloadData];
-    
-    return view;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

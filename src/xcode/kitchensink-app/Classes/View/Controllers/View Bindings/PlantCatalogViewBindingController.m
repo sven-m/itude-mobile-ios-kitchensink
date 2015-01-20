@@ -8,7 +8,7 @@
 
 #import "PlantCatalogViewBindingController.h"
 #import "MBPageBinder.h"
-#import "MBTableViewBinder.h"
+#import "MBSimpleTableViewBinder.h"
 #import "MBSimpleTextBinder.h"
 #import "MBButtonBinder.h"
 
@@ -18,11 +18,11 @@
 {
     MBPageBinder *binder = [MBPageBinder binderWithViewController:self];
     UINib *plantCellNib = [UINib nibWithNibName:@"PlantCatalogTableViewCell" bundle:nil];
-    [binder registerBinder:[MBTableViewBinder  binderWithIdentifier:@"PlantList" cellNib:plantCellNib]];
-    [binder registerBinder:[MBSimpleTextBinder binderWithIdentifier:@"Light"]];
-    [binder registerBinder:[MBSimpleTextBinder binderWithIdentifier:@"CommonName"]];
-    [binder registerBinder:[MBSimpleTextBinder binderWithIdentifier:@"BotanicalName"]];
-    [binder registerBinder:[MBButtonBinder     binderWithIdentifier:@"Coolness"]];
+    [binder registerBinder:[MBSimpleTableViewBinder binderWithIdentifier:@"PlantList" cellNib:plantCellNib]];
+    [binder registerBinder:[MBSimpleTextBinder      binderWithIdentifier:@"Light"]];
+    [binder registerBinder:[MBSimpleTextBinder      binderWithIdentifier:@"CommonName"]];
+    [binder registerBinder:[MBSimpleTextBinder      binderWithIdentifier:@"BotanicalName"]];
+    [binder registerBinder:[MBButtonBinder          binderWithIdentifier:@"Coolness"]];
     [binder bind];
 }
 

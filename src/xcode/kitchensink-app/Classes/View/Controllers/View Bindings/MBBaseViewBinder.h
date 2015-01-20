@@ -19,8 +19,9 @@
 - (instancetype)initWithBindingIdentifier:(NSString *)identifier;
 - (UIView *)bindView:(MBBuildState *)state;
 
-// This method has to be overridden by a subclass
+// This method may be overridden by a subclass
 - (UIView *)findSpecificView:(MBBuildState *)state;
+// This method may to be overwritten by a subclass
 - (void)populateView:(UIView *)view withDataFromComponent:(MBComponent *)component;
 
 @end

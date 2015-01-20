@@ -47,7 +47,7 @@
 
 - (UIView *)findSpecificView:(MBBuildState *)state
 {
-    return [state.parent viewWithBindingIdentifier:self.identifier];
+    return [state.parent subviewWithBindingIdentifier:self.identifier];
 }
 
 @end

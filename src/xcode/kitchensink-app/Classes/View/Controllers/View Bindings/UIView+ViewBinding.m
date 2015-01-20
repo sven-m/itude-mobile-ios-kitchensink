@@ -13,7 +13,7 @@
 
 JESynthesize(retain, NSString *, bindingIdentifier, setBindingIdentifier);
 
-- (UIView *)viewWithBindingIdentifier:(NSString *)identifier
+- (UIView *)subviewWithBindingIdentifier:(NSString *)identifier
 {
     for (UIView *subview in self.subviews) {
         if ([subview.bindingIdentifier isEqualToString:identifier]) {
@@ -21,7 +21,7 @@ JESynthesize(retain, NSString *, bindingIdentifier, setBindingIdentifier);
         }
     }
     for (UIView *subview in self.subviews) {
-        UIView *match = [subview viewWithBindingIdentifier:identifier];
+        UIView *match = [subview subviewWithBindingIdentifier:identifier];
         if (match) {
             return match;
         }
