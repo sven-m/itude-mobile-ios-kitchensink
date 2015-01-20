@@ -19,7 +19,7 @@
 - (void)populateView:(UIView *)view withDataFromComponent:(MBComponent *)component
 {
     assert([component isKindOfClass:[MBField class]]);
-    assert([view isKindOfClass:[UIButton class]]);
+    assert([view      isKindOfClass:[UIButton class]]);
     
     UIButton *button = (UIButton *)view;
     MBField  *field  = (MBField *)component;

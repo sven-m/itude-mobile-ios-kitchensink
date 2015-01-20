@@ -38,6 +38,7 @@
 		17B0525B1A6D57B900071F0D /* PAGE-modern-plant-detail.xml in Resources */ = {isa = PBXBuildFile; fileRef = 17B0525A1A6D57B900071F0D /* PAGE-modern-plant-detail.xml */; };
 		17B0525F1A6D5E8E00071F0D /* PlantDetailViewBindingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B0525D1A6D5E8E00071F0D /* PlantDetailViewBindingController.m */; };
 		17B052601A6D5E8E00071F0D /* PlantDetailViewBindingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17B0525E1A6D5E8E00071F0D /* PlantDetailViewBindingController.xib */; };
+		17B052631A6E5C9300071F0D /* MBSwitchBinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B052621A6E5C9300071F0D /* MBSwitchBinder.m */; };
 		17C314A01A69528100A09989 /* UIView+ViewBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C3149F1A69528100A09989 /* UIView+ViewBinding.m */; };
 		17C314A31A69632700A09989 /* MBTextFieldBinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C314A21A69632700A09989 /* MBTextFieldBinder.m */; };
 		182e6aa3f58e20cc745b7f54 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD3D9351725500E002C88E6 /* libsqlite3.0.dylib */; };
@@ -268,6 +269,8 @@
 		17B0525C1A6D5E8E00071F0D /* PlantDetailViewBindingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlantDetailViewBindingController.h; path = "View Bindings/PlantDetailViewBindingController.h"; sourceTree = "<group>"; };
 		17B0525D1A6D5E8E00071F0D /* PlantDetailViewBindingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlantDetailViewBindingController.m; path = "View Bindings/PlantDetailViewBindingController.m"; sourceTree = "<group>"; };
 		17B0525E1A6D5E8E00071F0D /* PlantDetailViewBindingController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PlantDetailViewBindingController.xib; path = "View Bindings/PlantDetailViewBindingController.xib"; sourceTree = "<group>"; };
+		17B052611A6E5C9300071F0D /* MBSwitchBinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBSwitchBinder.h; path = "View Bindings/MBSwitchBinder.h"; sourceTree = "<group>"; };
+		17B052621A6E5C9300071F0D /* MBSwitchBinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBSwitchBinder.m; path = "View Bindings/MBSwitchBinder.m"; sourceTree = "<group>"; };
 		17C3149D1A69527600A09989 /* MBCategoryProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCategoryProperties.h; sourceTree = "<group>"; };
 		17C3149E1A69528100A09989 /* UIView+ViewBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+ViewBinding.h"; path = "View Bindings/UIView+ViewBinding.h"; sourceTree = "<group>"; };
 		17C3149F1A69528100A09989 /* UIView+ViewBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+ViewBinding.m"; path = "View Bindings/UIView+ViewBinding.m"; sourceTree = "<group>"; };
@@ -495,6 +498,8 @@
 				172867591A67ECDE00C170FE /* MBPageBinder.m */,
 				172867551A67E1D800C170FE /* MBSimpleTextBinder.h */,
 				172867561A67E1D800C170FE /* MBSimpleTextBinder.m */,
+				17B052611A6E5C9300071F0D /* MBSwitchBinder.h */,
+				17B052621A6E5C9300071F0D /* MBSwitchBinder.m */,
 				172867641A67FFAB00C170FE /* MBTableViewBinder.h */,
 				172867651A67FFAB00C170FE /* MBTableViewBinder.m */,
 				17C314A11A69632700A09989 /* MBTextFieldBinder.h */,
@@ -1038,6 +1043,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17B052631A6E5C9300071F0D /* MBSwitchBinder.m in Sources */,
 				BD0817DD146936B6006F0AA0 /* FireInitialOutcomes.m in Sources */,
 				BD0817E1146936B6006F0AA0 /* GenericAction.m in Sources */,
 				BD0817E5146936B6006F0AA0 /* CustomTemporaryAction.m in Sources */,

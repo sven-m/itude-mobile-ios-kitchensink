@@ -11,6 +11,7 @@
 #import "MBTableViewBinder.h"
 #import "MBSimpleTextBinder.h"
 #import "MBButtonBinder.h"
+#import "MBSwitchBinder.h"
 
 @implementation PlantDetailViewBindingController
 
@@ -22,7 +23,7 @@
     [binder registerBinder:[MBSimpleTextBinder binderWithIdentifier:@"BotanicalName"]];
     [binder registerBinder:[MBSimpleTextBinder binderWithIdentifier:@"Availability"]];
     [binder registerBinder:[MBSimpleTextBinder binderWithIdentifier:@"Price"]];
-    //[binder registerBinder:[MBButtonBinder     binderWithIdentifier:@"Coolness"]];
+    [binder registerBinder:[MBSwitchBinder     binderWithIdentifier:@"Coolness"]];
     [binder bind];
 }
 

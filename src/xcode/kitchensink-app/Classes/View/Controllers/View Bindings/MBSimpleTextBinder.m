@@ -19,11 +19,6 @@
 
 - (void)populateView:(UIView *)view withDataFromComponent:(MBComponent *)component
 {
-    [MBSimpleTextBinder populateView:view withDataFromComponent:component];
-}
-
-+ (void)populateView:(UIView *)view withDataFromComponent:(MBComponent *)component
-{
     // Can be a UITextView, UITextField or UILabel, anything that responds to setText
     assert([component isKindOfClass:[MBField class]]);
     assert([view respondsToSelector:@selector(setText:)]);

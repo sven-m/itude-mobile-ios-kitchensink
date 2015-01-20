@@ -8,7 +8,7 @@
         <LIGHT>Mostly Shady</LIGHT>
         <PRICE>$2.44</PRICE>
         <AVAILABILITY>031599</AVAILABILITY>
-        <COOLNESS>no</COOLNESS>
+        <COOLNESS>false</COOLNESS>
     </PLANT>
     <PLANT>
         <COMMON>Columbine</COMMON>
@@ -26,7 +26,7 @@
         <LIGHT>Mostly Sunny</LIGHT>
         <PRICE>$6.81</PRICE>
         <AVAILABILITY>051799</AVAILABILITY>
-        <COOLNESS>true</COOLNESS>
+        <COOLNESS>false</COOLNESS>
     </PLANT>
     <PLANT>
         <COMMON>Cowslip</COMMON>
@@ -44,7 +44,7 @@
         <LIGHT>Mostly Shady</LIGHT>
         <PRICE>$6.44</PRICE>
         <AVAILABILITY>012099</AVAILABILITY>
-        <COOLNESS>true</COOLNESS>
+        <COOLNESS>false</COOLNESS>
     </PLANT>
     <PLANT>
         <COMMON>Ginger, Wild</COMMON>
@@ -53,7 +53,7 @@
         <LIGHT>Mostly Shady</LIGHT>
         <PRICE>$9.03</PRICE>
         <AVAILABILITY>041899</AVAILABILITY>
-        <COOLNESS>true</COOLNESS>
+        <COOLNESS>false</COOLNESS>
     </PLANT>
     <PLANT>
         <COMMON>Hepatica</COMMON>
