@@ -11,19 +11,30 @@
 #import "MBSimpleTableViewBinder.h"
 #import "MBSimpleTextBinder.h"
 #import "MBButtonBinder.h"
+#import "SpecialPlantBinder.h"
+#import "MBDefaultStyleTableViewBinder.h"
 
 @implementation PlantCatalogViewBindingController
 
 - (void)rebuildView
 {
     MBPageBinder *binder = [MBPageBinder binderWithViewController:self];
-    UINib *plantCellNib = [UINib nibWithNibName:@"PlantCatalogTableViewCell" bundle:nil];
+    UINib *plantCellNib = [UINib nibWithNibName:@"SpecialPlantCatalogTableViewCell" bundle:nil];
     [binder registerBinder:[MBSimpleTableViewBinder binderWithIdentifier:@"PlantList" cellNib:plantCellNib]];
+    [binder registerBinder:[SpecialPlantBinder      binderWithIdentifier:@"Plant"]];
     [binder registerBinder:[MBSimpleTextBinder      binderWithIdentifier:@"Light"]];
     [binder registerBinder:[MBSimpleTextBinder      binderWithIdentifier:@"CommonName"]];
     [binder registerBinder:[MBSimpleTextBinder      binderWithIdentifier:@"BotanicalName"]];
     [binder registerBinder:[MBButtonBinder          binderWithIdentifier:@"Coolness"]];
     [binder bind];
 }
+
+/*- (void)rebuildView
+{
+    MBPageBinder *binder = [MBPageBinder binderWithViewController:self];
+    [binder registerBinder:[MBDefaultStyleTableViewBinder binderWithIdentifier:@"PlantList" cellTitleBindingIdentifier:@"CommonName"]];
+    [binder registerBinder:[MBSimpleTextBinder            binderWithIdentifier:@"CommonName"]];
+    [binder bind];
+}*/
 
 @end

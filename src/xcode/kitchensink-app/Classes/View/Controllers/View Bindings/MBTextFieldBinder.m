@@ -18,6 +18,7 @@
 - (void)populateView:(UIView *)view withDataFromComponent:(MBComponent *)component
 {
     assert([view isKindOfClass:[UITextField class]]);
+    
     UITextField *textField = (UITextField *)view;
     MBField *field = (MBField *)component;
     textField.text        = field.formattedValue;
@@ -25,7 +26,7 @@
     textField.delegate    = field;
     [textField addTarget:field
                   action:@selector(textFieldDoneEditing:)
-        forControlEvents: UIControlEventEditingChanged | UIControlEventEditingDidEnd | UIControlEventEditingDidEndOnExit];
+        forControlEvents:UIControlEventEditingChanged | UIControlEventEditingDidEnd | UIControlEventEditingDidEndOnExit];
 }
 
 @end

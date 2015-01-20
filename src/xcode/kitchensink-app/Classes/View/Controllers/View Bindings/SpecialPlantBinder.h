@@ -1,5 +1,5 @@
 //
-//  MBSimpleTableViewCellBinder.h
+//  SpecialPlantBinder.h
 //  kitchensink-app
 //
 //  Created by Emiel Bon on 20-01-15.
@@ -8,8 +8,9 @@
 
 #import "MBBaseViewBinder.h"
 
-@interface MBSimpleTableViewCellBinder : MBBaseViewBinder
+@interface SpecialPlantBinder : MBBaseViewBinder
 
 + (instancetype)binderWithIdentifier:(NSString *)identifier;
+- (void)populateView:(UIView *)view withDataFromComponent:(MBComponent *)component;
 
 @end

@@ -8,11 +8,27 @@
 
 #import "MBDefaultStyleTableViewBinder.h"
 
+@interface MBDefaultStyleTableViewBinder ()
+
+@property (nonatomic, retain) NSString *cellTitleBindingIdentifier;
+
+@end
+
 @implementation MBDefaultStyleTableViewBinder
 
-+ (instancetype)binderWithIdentifier:(NSString *)identifier cellNib:(UINib *)cellNib
+- (instancetype)initWithBindingIdentifier:(NSString *)identifier cellTitleBindingIdentifier:(NSString *)cellTitleBindingIdentifier
 {
-    return [[[MBDefaultStyleTableViewBinder alloc] initWithBindingIdentifier:identifier cellNib:cellNib] autorelease];
+    self = [super initWithBindingIdentifier:identifier cellNib:nil];
+    if (self) {
+        self.cellTitleBindingIdentifier = cellTitleBindingIdentifier;
+    }
+    return self;
+}
+
++ (instancetype)binderWithIdentifier:(NSString *)identifier cellTitleBindingIdentifier:(NSString *)cellTitleBindingIdentifier
+{
+	return [[[MBDefaultStyleTableViewBinder alloc] initWithBindingIdentifier:identifier
+                                                  cellTitleBindingIdentifier:cellTitleBindingIdentifier] autorelease];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -26,26 +42,14 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseIdentifier];
     
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseIdentifier];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseIdentifier] autorelease];
     }
     
     state.view = cell;
-    
-    cell.textLabel.bindingIdentifier = @"";
-    
+    cell.textLabel.bindingIdentifier = self.cellTitleBindingIdentifier;
     [state.mainViewBinder bindView:state];
     
     return cell;
-}
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
-    MBComponent *component = self.components[indexPath.row];
-    assert([component isKindOfClass:[MBPanel class]]);
-    MBPanel *panel = (MBPanel *)component;
-    [panel handleOutcome:panel.outcomeName withPathArgument:panel.absoluteDataPath];
 }
 
 @end

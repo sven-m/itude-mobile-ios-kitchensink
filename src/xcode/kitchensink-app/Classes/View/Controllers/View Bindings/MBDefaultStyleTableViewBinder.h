@@ -10,6 +10,7 @@
 
 @interface MBDefaultStyleTableViewBinder : MBSimpleTableViewBinder
 
-+ (instancetype)binderWithIdentifier:(NSString *)identifier cellNib:(UINib *)cellNib;
+- (instancetype)initWithBindingIdentifier:(NSString *)identifier cellTitleBindingIdentifier:(NSString *)cellTitleBindingIdentifier;
++ (instancetype)binderWithIdentifier:(NSString *)identifier cellTitleBindingIdentifier:(NSString *)cellTitleBindingIdentifier;
 
 @end
