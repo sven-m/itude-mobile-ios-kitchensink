@@ -12,12 +12,19 @@
 
 - (MBComponent *)childWithName:(NSString *)name
 {
+    return [self childrenWithName:name][0];
+}
+
+- (NSArray *)childrenWithName:(NSString *)name
+{
+    NSMutableArray *children = [NSMutableArray array];
+    
     for (MBComponent *component in self.children) {
         if ([component.name isEqualToString:name]) {
-            return component;
+            [children addObject:component];
         }
     }
-    return nil;
+    return children;
 }
 
 @end

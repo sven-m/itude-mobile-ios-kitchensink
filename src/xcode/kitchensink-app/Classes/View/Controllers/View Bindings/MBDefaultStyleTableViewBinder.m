@@ -2,54 +2,22 @@
 //  MBDefaultStyleTableViewBinder.m
 //  kitchensink-app
 //
-//  Created by Emiel Bon on 20-01-15.
+//  Created by Emiel Bon on 21-01-15.
 //  Copyright (c) 2015 Itude Mobile. All rights reserved.
 //
 
 #import "MBDefaultStyleTableViewBinder.h"
 
-@interface MBDefaultStyleTableViewBinder ()
-
-@property (nonatomic, retain) NSString *cellTitleBindingIdentifier;
-
-@end
-
 @implementation MBDefaultStyleTableViewBinder
 
-- (instancetype)initWithBindingIdentifier:(NSString *)identifier cellTitleBindingIdentifier:(NSString *)cellTitleBindingIdentifier
+- (instancetype)initWithBindingIdentifier:(NSString *)identifier bindTitleTo:(NSString *)titleId
 {
-    self = [super initWithBindingIdentifier:identifier cellNib:nil];
-    if (self) {
-        self.cellTitleBindingIdentifier = cellTitleBindingIdentifier;
-    }
-    return self;
+    return [super initWithBindingIdentifier:identifier style:UITableViewCellStyleDefault bindTitleTo:titleId bindDetailTo:nil];
 }
 
-+ (instancetype)binderWithIdentifier:(NSString *)identifier cellTitleBindingIdentifier:(NSString *)cellTitleBindingIdentifier
++ (instancetype)binderWithIdentifier:(NSString *)identifier bindTitleTo:(NSString *)titleId
 {
-	return [[[MBDefaultStyleTableViewBinder alloc] initWithBindingIdentifier:identifier
-                                                  cellTitleBindingIdentifier:cellTitleBindingIdentifier] autorelease];
-}
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    MBBuildState *state = [[self.state copy] autorelease];
-    state.component = self.components[indexPath.row];
-    state.element   = [state.component.document valueForPath:state.component.absoluteDataPath];
-    
-    NSString *reuseIdentifier = state.component.name;
-    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseIdentifier];
-    
-    if (!cell) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseIdentifier] autorelease];
-    }
-    
-    state.view = cell;
-    cell.textLabel.bindingIdentifier = self.cellTitleBindingIdentifier;
-    [state.mainViewBinder bindView:state];
-    
-    return cell;
+    return [[[MBDefaultStyleTableViewBinder alloc] initWithBindingIdentifier:identifier bindTitleTo:titleId] autorelease];
 }
 
 @end

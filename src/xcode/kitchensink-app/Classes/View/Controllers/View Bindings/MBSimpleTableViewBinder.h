@@ -16,5 +16,7 @@
 
 - (instancetype)initWithBindingIdentifier:(NSString *)identifier cellNib:(UINib *)cellNib;
 + (instancetype)binderWithIdentifier:(NSString *)identifier cellNib:(UINib *)cellNib;
+- (UITableViewCell *)reusableCellForTableView:(UITableView *)tableView reuseIdentifier:(NSString *)reuseIdentifier;
+- (void)prepareCellForBinding:(UITableViewCell *)cell;
 
 @end

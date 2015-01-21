@@ -20,8 +20,12 @@
     assert([component isKindOfClass:[MBField class]]);
     assert([view isKindOfClass:[UISwitch class]]);
     
+    UISwitch *switchView = (UISwitch *)view;
     MBField *field = (MBField *)component;
-    ((UISwitch *)view).on = field.untranslatedValue.boolValue;
+    
+    switchView.on = field.untranslatedValue.boolValue;
+    switchView.accessibilityLabel = field.label;
+    [switchView addTarget:field action:@selector(switchToggled:) forControlEvents:UIControlEventValueChanged];
 }
 
 @end

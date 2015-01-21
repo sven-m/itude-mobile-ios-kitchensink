@@ -2,15 +2,15 @@
 //  MBDefaultStyleTableViewBinder.h
 //  kitchensink-app
 //
-//  Created by Emiel Bon on 20-01-15.
+//  Created by Emiel Bon on 21-01-15.
 //  Copyright (c) 2015 Itude Mobile. All rights reserved.
 //
 
-#import "MBSimpleTableViewBinder.h"
+#import "MBStandardStyleTableViewBinder.h"
 
-@interface MBDefaultStyleTableViewBinder : MBSimpleTableViewBinder
+@interface MBDefaultStyleTableViewBinder : MBStandardStyleTableViewBinder
 
-- (instancetype)initWithBindingIdentifier:(NSString *)identifier cellTitleBindingIdentifier:(NSString *)cellTitleBindingIdentifier;
-+ (instancetype)binderWithIdentifier:(NSString *)identifier cellTitleBindingIdentifier:(NSString *)cellTitleBindingIdentifier;
+- (instancetype)initWithBindingIdentifier:(NSString *)identifier bindTitleTo:(NSString *)titleId;
++ (instancetype)binderWithIdentifier:(NSString *)identifier bindTitleTo:(NSString *)titleId;
 
 @end

@@ -61,6 +61,20 @@
     [tableView reloadData];
 }
 
+- (UITableViewCell *)reusableCellForTableView:(UITableView *)tableView reuseIdentifier:(NSString *)reuseIdentifier
+{
+    [tableView registerNib:self.cellNib forCellReuseIdentifier:reuseIdentifier];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseIdentifier];
+    return cell;
+}
+
+- (void)prepareCellForBinding:(UITableViewCell *)cell
+{
+    // Default empty implementation
+}
+
+#pragma mark - UITableViewDataSource methods
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return self.components.count;
@@ -77,15 +91,17 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseIdentifier];
     
     if (!cell) {
-        [tableView registerNib:self.cellNib forCellReuseIdentifier:reuseIdentifier];
-        cell = [tableView dequeueReusableCellWithIdentifier:reuseIdentifier];
+        cell = [self reusableCellForTableView:tableView reuseIdentifier:reuseIdentifier];
     }
     
     state.view = cell;
+    [self prepareCellForBinding:cell];
     [state.mainViewBinder bindView:state];
     
     return cell;
 }
+
+#pragma mark - UITableViewDelegate methods
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {

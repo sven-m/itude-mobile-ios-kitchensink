@@ -9,5 +9,6 @@
 @interface MBComponentContainer (ViewBinding)
 
 - (MBComponent *)childWithName:(NSString *)name;
+- (NSArray *)childrenWithName:(NSString *)name;
 
 @end
