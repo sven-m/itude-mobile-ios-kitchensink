@@ -7,6 +7,11 @@
 //
 //  http://ios-blog.co.uk/tutorials/cleaner-properties-implementation-in-categories/
 //
+// <Incantation>
+//  Take heed, ye who entereth here.
+//  Turn back while thou still canst,
+//  if thou holdst thine sanity dear.
+// </Incantation>
 
 #define JESynthesize(ownership, type, getter, setter) \
     static const void *_JESynthesizeKey_##getter = &_JESynthesizeKey_##getter; \
