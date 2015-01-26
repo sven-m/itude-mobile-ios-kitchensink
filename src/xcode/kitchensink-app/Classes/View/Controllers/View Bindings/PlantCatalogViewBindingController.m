@@ -7,13 +7,7 @@
 //
 
 #import "PlantCatalogViewBindingController.h"
-#import "MBPageBinder.h"
-#import "MBSimpleTableViewBinder.h"
-#import "MBSimpleTextBinder.h"
-#import "MBButtonBinder.h"
 #import "SpecialPlantBinder.h"
-#import "MBStandardStyleTableViewBinder.h"
-#import "MBDefaultStyleTableViewBinder.h"
 
 @implementation PlantCatalogViewBindingController
 

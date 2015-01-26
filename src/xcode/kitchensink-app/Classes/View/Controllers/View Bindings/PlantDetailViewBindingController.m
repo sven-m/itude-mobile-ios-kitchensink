@@ -7,11 +7,6 @@
 //
 
 #import "PlantDetailViewBindingController.h"
-#import "MBPageBinder.h"
-#import "MBSimpleTableViewBinder.h"
-#import "MBSimpleTextBinder.h"
-#import "MBButtonBinder.h"
-#import "MBSwitchBinder.h"
 
 @implementation PlantDetailViewBindingController
 

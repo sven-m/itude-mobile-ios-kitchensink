@@ -8,7 +8,6 @@
 
 #import "SpecialPlantBinder.h"
 #import "SpecialPlantCatalogTableViewCell.h"
-#import "MBComponentContainer+ViewBinding.h"
 
 @implementation SpecialPlantBinder
 
