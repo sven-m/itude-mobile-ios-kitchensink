@@ -12,6 +12,13 @@
 
 - (void)rebuildView
 {
+    // Prevent default View Builder behavior
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
     MBPageBinder *binder = [MBPageBinder binderWithViewController:self];
     [binder registerBinder:[MBSimpleTextBinder binderWithIdentifier:@"Light"]];
     [binder registerBinder:[MBSimpleTextBinder binderWithIdentifier:@"CommonName"]];

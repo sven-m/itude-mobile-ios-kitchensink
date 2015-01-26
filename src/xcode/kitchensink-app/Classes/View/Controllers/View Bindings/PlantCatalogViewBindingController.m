@@ -1,46 +1,34 @@
 //
-//  PlantCatalogBindingViewController.m
+//  PlantCatalogViewBindingController.m
 //  kitchensink-app
 //
-//  Created by Emiel Bon on 15-01-15.
+//  Created by Emiel Bon on 26-01-15.
 //  Copyright (c) 2015 Itude Mobile. All rights reserved.
 //
 
 #import "PlantCatalogViewBindingController.h"
-#import "SpecialPlantBinder.h"
 
 @implementation PlantCatalogViewBindingController
 
-/*- (void)rebuildView
+- (void)rebuildView
 {
+    // Prevent default View Builder behavior
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+
+    // The following code creates a binder that binds the plant property elements to a custom UITableViewCell from a xib.
+    // If an outcome is present for the Coolness element, it will be fired when the button is tapped (not the case in
+    // this example).
     MBPageBinder *binder = [MBPageBinder binderWithViewController:self];
-    UINib *plantCellNib = [UINib nibWithNibName:@"SpecialPlantCatalogTableViewCell" bundle:nil];
+    UINib *plantCellNib = [UINib nibWithNibName:@"PlantCatalogTableViewCell" bundle:nil];
     [binder registerBinder:[MBSimpleTableViewBinder binderWithIdentifier:@"PlantList" cellNib:plantCellNib]];
-    [binder registerBinder:[SpecialPlantBinder      binderWithIdentifier:@"Plant"]];
     [binder registerBinder:[MBSimpleTextBinder      binderWithIdentifier:@"Light"]];
     [binder registerBinder:[MBSimpleTextBinder      binderWithIdentifier:@"CommonName"]];
     [binder registerBinder:[MBSimpleTextBinder      binderWithIdentifier:@"BotanicalName"]];
     [binder registerBinder:[MBButtonBinder          binderWithIdentifier:@"Coolness"]];
-    [binder bind];
-}*/
-
-/*- (void)rebuildView
-{
-    MBPageBinder *binder = [MBPageBinder binderWithViewController:self];
-    [binder registerBinder:[MBStandardStyleTableViewBinder binderWithIdentifier:@"PlantList"
-                                                                          style:UITableViewCellStyleSubtitle
-                                                                    bindTitleTo:@"CommonName"
-                                                                   bindDetailTo:@"BotanicalName"]];
-    [binder registerBinder:[MBSimpleTextBinder binderWithIdentifier:@"CommonName"]];
-    [binder registerBinder:[MBSimpleTextBinder binderWithIdentifier:@"BotanicalName"]];
-    [binder bind];
-}*/
-
-- (void)rebuildView
-{
-    MBPageBinder *binder = [MBPageBinder binderWithViewController:self];
-    [binder registerBinder:[MBDefaultStyleTableViewBinder binderWithIdentifier:@"PlantList" bindTitleTo:@"CommonName"]];
-    [binder registerBinder:[MBSimpleTextBinder binderWithIdentifier:@"CommonName"]];
     [binder bind];
 }
 

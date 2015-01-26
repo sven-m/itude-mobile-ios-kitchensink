@@ -46,9 +46,10 @@
 
 - (void)dealloc
 {
-    [_commonNameLabel release];
-    [_botanicalNameLabel release];
-    [_coolPlantLabel release];
+    self.commonNameLabel = nil;
+    self.botanicalNameLabel = nil;
+    self.coolPlantLabel = nil;
     [super dealloc];
 }
+
 @end

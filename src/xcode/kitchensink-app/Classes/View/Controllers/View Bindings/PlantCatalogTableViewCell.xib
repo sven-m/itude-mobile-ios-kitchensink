@@ -45,8 +45,7 @@
                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trololo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="pQZ-R9-Jmz">
                         <rect key="frame" x="8" y="11" width="78" height="78"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="78" id="oM0-Ca-a3z"/>
-                            <constraint firstAttribute="width" constant="78" id="uoS-XL-E5x"/>
+                            <constraint firstAttribute="width" constant="78" id="0Qr-EN-wWV"/>
                         </constraints>
                     </imageView>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xx1-BU-1jp">
@@ -60,20 +59,20 @@
                     </button>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="xx1-BU-1jp" firstAttribute="top" secondItem="ezH-jb-XQ4" secondAttribute="top" id="3K2-AR-xXQ"/>
-                    <constraint firstItem="pQZ-R9-Jmz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="4oO-Fq-yEi"/>
-                    <constraint firstItem="qN5-Um-ZFU" firstAttribute="centerY" secondItem="pQZ-R9-Jmz" secondAttribute="centerY" id="Dt8-VN-cih"/>
-                    <constraint firstItem="ezH-jb-XQ4" firstAttribute="leading" secondItem="qN5-Um-ZFU" secondAttribute="leading" id="GSr-w2-dbN"/>
-                    <constraint firstItem="pQZ-R9-Jmz" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="Nc4-X9-uF4"/>
-                    <constraint firstItem="xx1-BU-1jp" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="ZtA-7F-eVV"/>
-                    <constraint firstItem="ftF-Nh-a5r" firstAttribute="top" secondItem="qN5-Um-ZFU" secondAttribute="bottom" constant="8" symbolic="YES" id="cJj-S2-Y6U"/>
+                    <constraint firstItem="pQZ-R9-Jmz" firstAttribute="top" secondItem="ezH-jb-XQ4" secondAttribute="top" id="5nE-xC-tif"/>
+                    <constraint firstItem="qN5-Um-ZFU" firstAttribute="trailing" secondItem="ftF-Nh-a5r" secondAttribute="trailing" id="962-wU-IzI"/>
+                    <constraint firstItem="qN5-Um-ZFU" firstAttribute="leading" secondItem="ezH-jb-XQ4" secondAttribute="leading" id="Atb-8f-oh1"/>
+                    <constraint firstItem="ftF-Nh-a5r" firstAttribute="leading" secondItem="qN5-Um-ZFU" secondAttribute="leading" id="L1T-O5-Mx5"/>
+                    <constraint firstItem="pQZ-R9-Jmz" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="Stf-ud-T4Q"/>
+                    <constraint firstItem="pQZ-R9-Jmz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="WPN-h3-xah"/>
+                    <constraint firstItem="ftF-Nh-a5r" firstAttribute="top" secondItem="qN5-Um-ZFU" secondAttribute="bottom" constant="8" symbolic="YES" id="Y0E-62-30I"/>
+                    <constraint firstItem="xx1-BU-1jp" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="YOn-xG-CMX"/>
                     <constraint firstAttribute="trailingMargin" secondItem="ftF-Nh-a5r" secondAttribute="trailing" constant="66" id="dZ4-Tt-sLS"/>
-                    <constraint firstItem="ezH-jb-XQ4" firstAttribute="leading" secondItem="pQZ-R9-Jmz" secondAttribute="trailing" constant="7" id="eKn-he-aon"/>
-                    <constraint firstAttribute="trailingMargin" secondItem="qN5-Um-ZFU" secondAttribute="trailing" constant="8" id="fiU-6H-mbW"/>
-                    <constraint firstItem="ezH-jb-XQ4" firstAttribute="top" secondItem="pQZ-R9-Jmz" secondAttribute="top" id="hOo-CR-j2x"/>
-                    <constraint firstItem="qN5-Um-ZFU" firstAttribute="top" secondItem="ezH-jb-XQ4" secondAttribute="bottom" constant="8" symbolic="YES" id="nUx-Xa-WH3"/>
-                    <constraint firstAttribute="trailingMargin" secondItem="ftF-Nh-a5r" secondAttribute="trailing" constant="8" id="pa1-Dc-mKx"/>
-                    <constraint firstItem="qN5-Um-ZFU" firstAttribute="leading" secondItem="ftF-Nh-a5r" secondAttribute="leading" id="zWY-UE-tdx"/>
+                    <constraint firstItem="qN5-Um-ZFU" firstAttribute="top" secondItem="ezH-jb-XQ4" secondAttribute="bottom" constant="8" symbolic="YES" id="ehA-ua-tPg"/>
+                    <constraint firstItem="ezH-jb-XQ4" firstAttribute="leading" secondItem="pQZ-R9-Jmz" secondAttribute="trailing" constant="7" id="evb-eX-vOm"/>
+                    <constraint firstItem="pQZ-R9-Jmz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="3" id="iD9-eQ-uPQ"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="qN5-Um-ZFU" secondAttribute="trailing" constant="8" id="jFX-h5-79f"/>
+                    <constraint firstItem="xx1-BU-1jp" firstAttribute="top" secondItem="ezH-jb-XQ4" secondAttribute="top" id="kt1-Al-b6M"/>
                 </constraints>
                 <variation key="default">
                     <mask key="constraints">

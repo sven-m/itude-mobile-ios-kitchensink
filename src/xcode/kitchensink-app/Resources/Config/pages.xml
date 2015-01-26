@@ -77,6 +77,8 @@
         <Include name="PAGE-zoomable-text.xml"/>
         
         <Include name="PAGE-modern-catalog.xml"/>
+        <Include name="PAGE-modern-catalog-2.xml"/>
+        <Include name="PAGE-modern-catalog-3.xml"/>
         <Include name="PAGE-modern-plant-detail.xml"/>
 
     </View>
