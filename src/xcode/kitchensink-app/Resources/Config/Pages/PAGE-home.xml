@@ -63,6 +63,18 @@
                         <Field type="LABEL" label="ModalCurrentContext screen"/>
                         <Field type="SUBLABEL" label="Will always appear fullScreen on iPhone. Only visually different on iPad."/>
                     </Panel>
+                    <Panel type="ROW" outcome="OUTCOME-modern-catalog">
+                        <Field type="LABEL"    label="Simple list" />
+                        <Field type="SUBLABEL" label="Using View Bindings" />
+                    </Panel>
+                    <Panel type="ROW" outcome="OUTCOME-modern-catalog-2">
+                        <Field type="LABEL" label="List with cells from a xib" />
+                        <Field type="SUBLABEL" label="Using View Bindings" />
+                    </Panel>
+                    <Panel type="ROW" outcome="OUTCOME-modern-catalog-3">
+                        <Field type="LABEL" label="List with special cells" />
+                        <Field type="SUBLABEL" label="Using View Bindings" />
+                    </Panel>
                 </Panel>
                 <Panel type="SECTION" title="Customization">
                     <Panel type="ROW" outcome="OUTCOME-customized-view-logic">

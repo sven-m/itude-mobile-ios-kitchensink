@@ -38,6 +38,12 @@
             <Outcome origin="*" name="OUTCOME-lists" action="PAGE-lists" />
             <Outcome origin="*" name="OUTCOME-empty-screen" action="PAGE-empty-screen"/>
 
+            <!-- View Bindings -->
+            <Outcome origin="*" name="OUTCOME-modern-catalog"      action="PAGE-modern-catalog" />
+            <Outcome origin="*" name="OUTCOME-modern-catalog-2"    action="PAGE-modern-catalog-2" />
+            <Outcome origin="*" name="OUTCOME-modern-catalog-3"    action="PAGE-modern-catalog-3" />
+            <Outcome origin="*" name="OUTCOME-modern-plant-detail" action="PAGE-modern-plant-detail" transferDocument="TRUE" />
+            
             <!-- Modal screen types are displayMode = MODAL|MODALWITHCLOSEBUTTON
             for iPad: MODALFORMSHEET|MODALFORMSHEETWITHCLOSEBUTTON|MODALPAGESHEET|MODALPAGESHEETWITHCLOSEBUTTON|MODALFULLSCREEN|MODALFULLSCREENWITHCLOSEBUTTON|MODALCURRENTCONTEXT|MODALCURRENTCONTEXTWITHCLOSEBUTTON
             -->
