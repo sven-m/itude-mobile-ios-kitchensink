@@ -1,4 +1,4 @@
-<Configuration>
+<Configuration xmlns="http://itude.com/schemas/MB/2.0">
     <View>
        <Page name="PAGE-zoomable-text" document="FieldTypes" title="Zoomable text">
             <Panel name="myPanel" type="LIST" zoomable="TRUE">

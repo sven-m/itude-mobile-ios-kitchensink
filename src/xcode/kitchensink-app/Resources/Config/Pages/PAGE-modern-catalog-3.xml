@@ -1,6 +1,6 @@
 <!-- Clone of PAGE-modern-catalog, because it needs to create a different view controller. This will no longer be needed when proper page definitions have been implemented -->
 
-<Configuration>
+<Configuration xmlns="http://itude.com/schemas/MB/2.0">
     
     <View>
         
