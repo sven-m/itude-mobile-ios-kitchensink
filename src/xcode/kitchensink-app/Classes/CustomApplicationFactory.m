@@ -21,6 +21,10 @@
 #import "CustomizedList.h"
 #import "CustomizedLayout.h"
 #import "PageWithXibFileViewController.h"
+#import "SimplestPlantCatalogViewBindingController.h"
+#import "PlantCatalogViewBindingController.h"
+#import "SpecialPlantCatalogViewBindingController.h"
+#import "PlantDetailViewBindingController.h"
 
 // Actions
 #import "FireInitialOutcomes.h"
@@ -33,37 +37,28 @@
 	return nil;
 }
 
--(MBPage *) createPage:(MBPageDefinition *)definition 
-			  document:(MBDocument*) document 
-			  rootPath:(NSString*) rootPath 
-			 viewState:(MBViewState) viewState 
-		 withMaxBounds:(CGRect) bounds {
+-(UIViewController<MBViewControllerProtocol> *)viewControllerForPageWithName:(NSString *)pageName {
+    UIViewController<MBViewControllerProtocol>* viewController = nil;
     
-    if([@"PAGE-customized-view-logic" isEqualToString:definition.name]) {
-        CustomizedViewLogic *myViewController = [[[CustomizedViewLogic alloc] init] autorelease];
-		MBPage *page = [[[MBPage alloc] initWithDefinition:definition withViewController:myViewController document:document rootPath:rootPath viewState: viewState]autorelease];
-		return page;
-	}
-
-    if([@"PAGE-customized-list" isEqualToString:definition.name]) {
-		CustomizedList *myViewController = [[[CustomizedList alloc] init] autorelease];
-		MBPage *page = [[[MBPage alloc] initWithDefinition:definition withViewController:myViewController document:document rootPath:rootPath viewState: viewState]autorelease];
-		return page;
-	}
-
-    if([@"PAGE-customized-layout" isEqualToString:definition.name]) {
-		CustomizedLayout *myViewController = [[[CustomizedLayout alloc] init] autorelease];
-		MBPage *page = [[[MBPage alloc] initWithDefinition:definition withViewController:myViewController document:document rootPath:rootPath viewState: viewState]autorelease];
-		return page;
-	}
-    if([@"PAGE-page-with-xib" isEqualToString:definition.name]) {
-		PageWithXibFileViewController *myViewController = [[[PageWithXibFileViewController alloc] init] autorelease];
-		MBPage *page = [[[MBPage alloc] initWithDefinition:definition withViewController:myViewController document:document rootPath:rootPath viewState: viewState]autorelease];
-		return page;
-	}
-
-    
-    return [super createPage:definition document:document rootPath:rootPath viewState: viewState withMaxBounds: bounds];
+    if([@"PAGE-customized-view-logic" isEqualToString:pageName]) {
+        viewController = [[[CustomizedViewLogic alloc] init] autorelease];
+    } else if([@"PAGE-customized-list" isEqualToString:pageName]) {
+        viewController = [[[CustomizedList alloc] init] autorelease];
+    } else if([@"PAGE-customized-layout" isEqualToString:pageName]) {
+        viewController = [[[CustomizedLayout alloc] init] autorelease];
+    } else if([@"PAGE-page-with-xib" isEqualToString:pageName]) {
+        viewController = [[[PageWithXibFileViewController alloc] init] autorelease];
+    } else if ([@"PAGE-modern-catalog" isEqualToString:pageName]) {
+        viewController = [[[SimplestPlantCatalogViewBindingController alloc] init] autorelease];
+    } else if ([@"PAGE-modern-catalog-2" isEqualToString:pageName]) {
+        viewController = [[[PlantCatalogViewBindingController alloc] init] autorelease];
+    } else if ([@"PAGE-modern-catalog-3" isEqualToString:pageName]) {
+        viewController = [[[SpecialPlantCatalogViewBindingController alloc] init] autorelease];
+    } else if ([@"PAGE-modern-plant-detail" isEqualToString:pageName]) {
+        viewController = [[[PlantDetailViewBindingController alloc] init] autorelease];
+    }
+ 
+    return  viewController;
 }
 
 -(id<MBContentViewWrapper>)createContentViewWrapper {

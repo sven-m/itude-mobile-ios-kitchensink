@@ -43,7 +43,7 @@
 
             <!-- App specific documents -->
 
-            <Document name="CATALOG" dataManager="PlantDataHandler">
+            <Document name="CATALOG" dataManager="MBFileDataHandler" autoCreate="TRUE">
                 <Element name="PLANT">
                     <Element name="COMMON">
                         <Attribute name="text()" type="string" />
@@ -62,6 +62,9 @@
                     </Element>
                     <Element name="AVAILABILITY">
                         <Attribute name="text()" type="string" />
+                    </Element>
+                    <Element name="COOLNESS">
+                        <Attribute name="text()" type="boolean" />
                     </Element>
                 </Element>
             </Document>

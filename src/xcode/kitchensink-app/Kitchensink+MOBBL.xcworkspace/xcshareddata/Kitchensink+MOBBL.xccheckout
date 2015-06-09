@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8233E09E-0D1C-4A49-9DCE-D35C9C6351CE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Kitchensink+MOBBL</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3E9599C9417310E26CFA110D064170720AAAE95F</key>
+		<string>https://github.com/EmielBon/itude-mobile-ios-mobbl-framework.git</string>
+		<key>ED22203027DAAA7FF8FCD7A4D80366E899A40D98</key>
+		<string>https://github.com/EmielBon/itude-mobile-ios-kitchensink.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>src/xcode/kitchensink-app/Kitchensink+MOBBL.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3E9599C9417310E26CFA110D064170720AAAE95F</key>
+		<string>../../../../../itude-mobile-ios-mobbl-framework</string>
+		<key>ED22203027DAAA7FF8FCD7A4D80366E899A40D98</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/EmielBon/itude-mobile-ios-kitchensink.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ED22203027DAAA7FF8FCD7A4D80366E899A40D98</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ED22203027DAAA7FF8FCD7A4D80366E899A40D98</string>
+			<key>IDESourceControlWCCName</key>
+			<string>itude-mobile-ios-kitchensink</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3E9599C9417310E26CFA110D064170720AAAE95F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>itude-mobile-ios-mobbl-framework</string>
+		</dict>
+	</array>
+</dict>
+</plist>
